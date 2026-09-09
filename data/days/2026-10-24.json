@@ -2,54 +2,29 @@
   "date": "2026-10-24",
   "liturgical": {
     "status": "ok",
-    "titles": [
-      "Saturday of the 21st week after Pentecost"
-    ],
-    "summary_title": "Memorial (Demetrius) Saturday",
+    "source": "antiochian",
     "feasts": [
-      "Memorial (Demetrius) Saturday"
+      "Saturday of the 5Th Week"
     ],
     "saints": [
-      {
-        "name": "Martyr Arethas and Companions",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Martyr%20Arethas%20and%20Companions"
-      },
-      {
-        "name": "Sebastiane the Martyr",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Sebastiane%20the%20Martyr"
-      },
-      {
-        "name": "Maglorious of Sark",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Maglorious%20of%20Sark"
-      }
+      "Arethas the Great Martyr and His Fellow Martyrs",
+      "Sebastiane the Martyr",
+      "Maglorious of Sark"
     ],
+    "summary_title": "Arethas the Great Martyr and His Fellow Martyrs, Sebastiane the Martyr, Maglorious of Sark",
+    "stories": [],
     "fasting": null,
     "readings": [
       {
-        "source": "Epistle",
-        "display": "2 Corinthians 3.12-18",
-        "short_display": "2 Cor 3.12-18",
-        "text": "Seeing then that we have such hope, we use great plainness of speech: And not as Moses, which put a vail over his face, that the children of Israel could not stedfastly look to the end of that which is abolished: But their minds were blinded: for until this day remaineth the same vail untaken away in the reading of the old testament; which vail is done away in Christ. But even unto this day, when Moses is read, the vail is upon their heart. Nevertheless when it shall turn to the Lord, the vail shall be taken away. Now the Lord is that Spirit: and where the Spirit of the Lord is, there is liberty. But we all, with open face beholding as in a glass the glory of the Lord, are changed into the same image from glory to glory, even as by the Spirit of the Lord."
+        "display": "St. Paul's Second Letter to the Corinthians 3:12-18",
+        "text": "Brethren, since we have such a hope, we are very bold, not like Moses, who put a veil over his face so that the Israelites might not see the end of the fading splendor. But their minds were hardened; for to this day, when they read the old covenant, that same veil remains unlifted, because only through Christ is it taken away. Yes, to this day whenever Moses is read a veil lies over their minds; but when a man turns to the Lord the veil is removed. Now the Lord is the Spirit, and where the Spirit of the Lord is, there is freedom. And we all, with unveiled face, beholding the glory of the Lord, are being changed into his likeness from one degree of glory to another; for this comes from the Lord who is the Spirit."
       },
       {
-        "source": "Epistle",
-        "display": "1 Thessalonians 4.13-17",
-        "short_display": "1 Thess 4.13-17",
-        "text": "But I would not have you to be ignorant, brethren, concerning them which are asleep, that ye sorrow not, even as others which have no hope. For if we believe that Jesus died and rose again, even so them also which sleep in Jesus will God bring with him. For this we say unto you by the word of the Lord, that we which are alive and remain unto the coming of the Lord shall not prevent them which are asleep. For the Lord himself shall descend from heaven with a shout, with the voice of the archangel, and with the trump of God: and the dead in Christ shall rise first: Then we which are alive and remain shall be caught up together with them in the clouds, to meet the Lord in the air: and so shall we ever be with the Lord."
-      },
-      {
-        "source": "Gospel",
-        "display": "Luke 7.1-10",
-        "short_display": "Luke 7.1-10",
-        "text": "Now when he had ended all his sayings in the audience of the people, he entered into Capernaum. And a certain centurion\u2019s servant, who was dear unto him, was sick, and ready to die. And when he heard of Jesus, he sent unto him the elders of the Jews, beseeching him that he would come and heal his servant. And when they came to Jesus, they besought him instantly, saying, That he was worthy for whom he should do this: For he loveth our nation, and he hath built us a synagogue. Then Jesus went with them. And when he was now not far from the house, the centurion sent friends to him, saying unto him, Lord, trouble not thyself: for I am not worthy that thou shouldest enter under my roof: Wherefore neither thought I myself worthy to come unto thee: but say in a word, and my servant shall be healed. For I also am a man set under authority, having under me soldiers, and I say unto one, Go, and he goeth; and to another, Come, and he cometh; and to my servant, Do this, and he doeth it. When Jesus heard these things, he marvelled at him, and turned him about, and said unto the people that followed him, I say unto you, I have not found so great faith, no, not in Israel. And they that were sent, returning to the house, found the servant whole that had been sick."
-      },
-      {
-        "source": "Gospel",
-        "display": "John 5.24-30",
-        "short_display": "John 5.24-30",
-        "text": "Verily, verily, I say unto you, He that heareth my word, and believeth on him that sent me, hath everlasting life, and shall not come into condemnation; but is passed from death unto life. Verily, verily, I say unto you, The hour is coming, and now is, when the dead shall hear the voice of the Son of God: and they that hear shall live. For as the Father hath life in himself; so hath he given to the Son to have life in himself; And hath given him authority to execute judgment also, because he is the Son of man. Marvel not at this: for the hour is coming, in the which all that are in the graves shall hear his voice, And shall come forth; they that have done good, unto the resurrection of life; and they that have done evil, unto the resurrection of damnation. I can of mine own self do nothing: as I hear, I judge: and my judgment is just; because I seek not mine own will, but the will of the Father which hath sent me."
+        "display": "Luke 7:1-10",
+        "text": "At that time, Jesus entered Capernaum. Now a centurion had a slave who was dear to him, who was sick and at the point of death. When he heard of Jesus, he sent to him elders of the Jews, asking him to come and heal his slave. And when they came to Jesus, they besought him earnestly, saying, \"He is worthy to have you do this for him, for he loves our nation, and he built us our synagogue.\" And Jesus went with them. When he was not far from the house, the centurion sent friends to him, saying to him, \"Lord, do not trouble yourself, for I am not worthy to have you come under my roof; therefore I did not presume to come to you. But say the word, and let my servant be healed. For I am a man set under authority, with soldiers under me: and I say to one, 'Go, ' and he goes; and to another, 'Come, ' and he comes; and to my slave, 'Do this, ' and he does it.\" When Jesus heard this he marveled at him, and turned and said to the multitude that followed him, \"I tell you, not even in Israel have I found such faith.\" And when those who had been sent returned to the house, they found the slave well."
       }
-    ]
+    ],
+    "service_texts": []
   },
   "events": [
     {

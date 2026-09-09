@@ -2,62 +2,30 @@
   "date": "2026-11-01",
   "liturgical": {
     "status": "ok",
-    "titles": [
-      "22nd Sunday after Pentecost"
+    "source": "antiochian",
+    "feasts": [
+      "5Th Sunday of Luke"
     ],
-    "summary_title": "22nd Sunday after Pentecost",
-    "feasts": null,
     "saints": [
-      {
-        "name": "Unmercenaries and Wonderworkers Cosmas and Damian",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Unmercenaries%20and%20Wonderworkers%20Cosmas%20and%20Damian"
-      },
-      {
-        "name": "St Theodota, Mother of Cosmas and Damian",
-        "link": "https://orthodoxwiki.org/Special:Search?search=St%20Theodota%2C%20Mother%20of%20Cosmas%20and%20Damian"
-      },
-      {
-        "name": "David the Righteous of Evia",
-        "link": "https://orthodoxwiki.org/Special:Search?search=David%20the%20Righteous%20of%20Evia"
-      },
-      {
-        "name": "Holy New Martyr Helen of Sinope (18th c.)",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Holy%20New%20Martyr%20Helen%20of%20Sinope%20%2818th%20c.%29"
-      }
+      "5Th Sunday of Luke",
+      "Cosmas and Damian the Holy Unmercenaries of Asia",
+      "And Their Mother Theodota",
+      "David the Righteous of Evia"
     ],
+    "summary_title": "5Th Sunday of Luke, Cosmas and Damian the Holy Unmercenaries of Asia, And Their Mother Theodota, David the Righteous of Evia",
+    "stories": [],
     "fasting": null,
     "readings": [
       {
-        "source": "11th Matins Gospel",
-        "display": "John 21.15-25",
-        "short_display": "John 21.15-25",
-        "text": "So when they had dined, Jesus saith to Simon Peter, Simon, son of Jonas, lovest thou me more than these? He saith unto him, Yea, Lord; thou knowest that I love thee. He saith unto him, Feed my lambs. He saith to him again the second time, Simon, son of Jonas, lovest thou me? He saith unto him, Yea, Lord; thou knowest that I love thee. He saith unto him, Feed my sheep. He saith unto him the third time, Simon, son of Jonas, lovest thou me? Peter was grieved because he said unto him the third time, Lovest thou me? And he said unto him, Lord, thou knowest all things; thou knowest that I love thee. Jesus saith unto him, Feed my sheep. Verily, verily, I say unto thee, When thou wast young, thou girdedst thyself, and walkedst whither thou wouldest: but when thou shalt be old, thou shalt stretch forth thy hands, and another shall gird thee, and carry thee whither thou wouldest not. This spake he, signifying by what death he should glorify God. And when he had spoken this, he saith unto him, Follow me. Then Peter, turning about, seeth the disciple whom Jesus loved following; which also leaned on his breast at supper, and said, Lord, which is he that betrayeth thee? Peter seeing him saith to Jesus, Lord, and what shall this man do? Jesus saith unto him, If I will that he tarry till I come, what is that to thee? follow thou me. Then went this saying abroad among the brethren, that that disciple should not die: yet Jesus said not unto him, He shall not die; but, If I will that he tarry till I come, what is that to thee? This is the disciple which testifieth of these things, and wrote these things: and we know that his testimony is true. And there are also many other things which Jesus did, the which, if they should be written every one, I suppose that even the world itself could not contain the books that should be written. Amen."
+        "display": "St. Paul's First Letter to the Corinthians 12:27-31; 13:1-8",
+        "text": "Brethren, you are the body of Christ and individually members of it. And God has appointed in the church first apostles, second prophets, third teachers, then workers of miracles, then healers, helpers, administrators, speakers in various kinds of tongues. Are all apostles? Are all prophets? Are all teachers? Do all work miracles? Do all possess gifts of healing? Do all speak with tongues? Do all interpret? But earnestly desire the higher gifts. And I will show you a still more excellent way. If I speak in the tongues of men and of angels, but have not love, I am a noisy gong or a clanging cymbal. And if I have prophetic powers, and understand all mysteries and all knowledge, and if I have all faith, so as to remove mountains, but have not love, I am nothing. If I give away all I have, and if I deliver my body to be burned, but have not love, I gain nothing. Love is patient and kind; love is not jealous or boastful; it is not arrogant or rude. Love does not insist on its own way; it is not irritable or resentful; it does not rejoice at wrong, but rejoices in the right. Love bears all things, believes all things, hopes all things, endures all things. Love never ends."
       },
       {
-        "source": "Epistle",
-        "display": "Galatians 6.11-18",
-        "short_display": "Gal 6.11-18",
-        "text": "Ye see how large a letter I have written unto you with mine own hand. As many as desire to make a fair shew in the flesh, they constrain you to be circumcised; only lest they should suffer persecution for the cross of Christ. For neither they themselves who are circumcised keep the law; but desire to have you circumcised, that they may glory in your flesh. But God forbid that I should glory, save in the cross of our Lord Jesus Christ, by whom the world is crucified unto me, and I unto the world. For in Christ Jesus neither circumcision availeth any thing, nor uncircumcision, but a new creature. And as many as walk according to this rule, peace be on them, and mercy, and upon the Israel of God. From henceforth let no man trouble me: for I bear in my body the marks of the Lord Jesus. Brethren, the grace of our Lord Jesus Christ be with your spirit. Amen."
-      },
-      {
-        "source": "Epistle",
-        "display": "1 Corinthians 12.27-13.8",
-        "short_display": "1 Cor 12.27-13.8",
-        "text": "Now ye are the body of Christ, and members in particular. And God hath set some in the church, first apostles, secondarily prophets, thirdly teachers, after that miracles, then gifts of healings, helps, governments, diversities of tongues. Are all apostles? are all prophets? are all teachers? are all workers of miracles? Have all the gifts of healing? do all speak with tongues? do all interpret? But covet earnestly the best gifts: and yet shew I unto you a more excellent way. Though I speak with the tongues of men and of angels, and have not charity, I am become as sounding brass, or a tinkling cymbal. And though I have the gift of prophecy, and understand all mysteries, and all knowledge; and though I have all faith, so that I could remove mountains, and have not charity, I am nothing. And though I bestow all my goods to feed the poor, and though I give my body to be burned, and have not charity, it profiteth me nothing. Charity suffereth long, and is kind; charity envieth not; charity vaunteth not itself, is not puffed up, Doth not behave itself unseemly, seeketh not her own, is not easily provoked, thinketh no evil; Rejoiceth not in iniquity, but rejoiceth in the truth; Beareth all things, believeth all things, hopeth all things, endureth all things. Charity never faileth: but whether there be prophecies, they shall fail; whether there be tongues, they shall cease; whether there be knowledge, it shall vanish away."
-      },
-      {
-        "source": "Gospel",
-        "display": "Luke 16.19-31",
-        "short_display": "Luke 16.19-31",
-        "text": "There was a certain rich man, which was clothed in purple and fine linen, and fared sumptuously every day: And there was a certain beggar named Lazarus, which was laid at his gate, full of sores, And desiring to be fed with the crumbs which fell from the rich man\u2019s table: moreover the dogs came and licked his sores. And it came to pass, that the beggar died, and was carried by the angels into Abraham\u2019s bosom: the rich man also died, and was buried; And in hell he lift up his eyes, being in torments, and seeth Abraham afar off, and Lazarus in his bosom. And he cried and said, Father Abraham, have mercy on me, and send Lazarus, that he may dip the tip of his finger in water, and cool my tongue; for I am tormented in this flame. But Abraham said, Son, remember that thou in thy lifetime receivedst thy good things, and likewise Lazarus evil things: but now he is comforted, and thou art tormented. And beside all this, between us and you there is a great gulf fixed: so that they which would pass from hence to you cannot; neither can they pass to us, that would come from thence. Then he said, I pray thee therefore, father, that thou wouldest send him to my father\u2019s house: For I have five brethren; that he may testify unto them, lest they also come into this place of torment. Abraham saith unto him, They have Moses and the prophets; let them hear them. And he said, Nay, father Abraham: but if one went unto them from the dead, they will repent. And he said unto him, If they hear not Moses and the prophets, neither will they be persuaded, though one rose from the dead."
-      },
-      {
-        "source": "Gospel",
-        "display": "Matthew 10.1, 5-8",
-        "short_display": "Matt 10.1, 5-8",
-        "text": "And when he had called unto him his twelve disciples, he gave them power against unclean spirits, to cast them out, and to heal all manner of sickness and all manner of disease. These twelve Jesus sent forth, and commanded them, saying, Go not into the way of the Gentiles, and into any city of the Samaritans enter ye not: But go rather to the lost sheep of the house of Israel. And as ye go, preach, saying, The kingdom of heaven is at hand. Heal the sick, cleanse the lepers, raise the dead, cast out devils: freely ye have received, freely give."
+        "display": "Luke 16:19-31",
+        "text": "The Lord said, \"There was a rich man, who was clothed in purple and fine linen and who feasted sumptuously every day. And at his gate lay a poor man named Lazaros, full of sores, who desired to be fed with what fell from the rich man's table; moreover the dogs came and licked his sores. The poor man died and was carried by the angels to Abraham's bosom. The rich man also died and was buried; and in Hades, being in torment, he lifted up his eyes, and saw Abraham far off and Lazaros in his bosom. And he called out, 'Father Abraham, have mercy upon me, and send Lazaros to dip the end of his finger in water and cool my tongue; for I am in anguish in this flame.' But Abraham said, 'Son, remember that you in your lifetime received your good things, and Lazaros in like manner evil things; but now he is comforted here, and you are in anguish. And besides all this, between us and you a great chasm has been fixed, in order that those who would pass from here to you may not be able, and none may cross from there to us.' And he said, 'Then I beg you, father, to send him to my father's house, for I have five brothers, so that he may warn them, lest they also come into this place of torment.' But Abraham said, 'They have Moses, and the prophets; let them hear them.' And he said, 'No, father Abraham; but if some one goes to them from the dead, they will repent.' He said to them, 'If they do not hear Moses and the prophets, neither will they be convinced if some one should rise from the dead.'"
       }
-    ]
+    ],
+    "service_texts": []
   },
   "events": [
     {

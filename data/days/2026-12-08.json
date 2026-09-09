@@ -2,24 +2,27 @@
   "date": "2026-12-08",
   "liturgical": {
     "status": "ok",
-    "titles": [
-      "Tuesday of the 28th week after Pentecost"
+    "source": "antiochian",
+    "feasts": [
+      "Tuesday of the 12Th Week"
     ],
-    "summary_title": "Ven. Patapius of Thebes; Holy Apostles Sosthenes, Apollos, Tychicus and Epaphroditus, Cephas and Caesar",
-    "feasts": null,
     "saints": [
-      {
-        "name": "Ven. Patapius of Thebes",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Ven.%20Patapius%20of%20Thebes"
-      },
-      {
-        "name": "Holy Apostles Sosthenes, Apollos, Tychicus and Epaphroditus, Cephas and Caesar",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Holy%20Apostles%20Sosthenes%2C%20Apollos%2C%20Tychicus%20and%20Epaphroditus%2C%20Cephas%20and%20Caesar"
-      }
+      "Forefeast of the Conception by St. Anna of the Most Holy Theotokos",
+      "Patapius the Righteous of Thebes",
+      "Sosthenes",
+      "Apollo",
+      "Cephas",
+      "Tychikos",
+      "Epaphroditos",
+      "Caesar",
+      "& Onesiphoros",
+      "Apostles of the 70",
+      "Parthenios the Venerable of Chios"
     ],
+    "summary_title": "Forefeast of the Conception by St. Anna of the Most Holy Theotokos, Patapius the Righteous of Thebes, Sosthenes, Apollo, Cephas, Tychikos, Epaphroditos, Caesar, & Onesiphoros, Apostles of the 70, Parthenios the Venerable of Chios",
+    "stories": [],
     "fasting": {
-      "level": 5,
-      "description": "Nativity Fast",
+      "description": "Abstain From Meat, Dairy, Eggs",
       "abstentions": [
         "meat",
         "dairy",
@@ -28,18 +31,15 @@
     },
     "readings": [
       {
-        "source": "Epistle",
-        "display": "2 Timothy 3.16-4.4",
-        "short_display": "2 Tim 3.16-4.4",
-        "text": "All scripture is given by inspiration of God, and is profitable for doctrine, for reproof, for correction, for instruction in righteousness: That the man of God may be perfect, throughly furnished unto all good works. I charge thee therefore before God, and the Lord Jesus Christ, who shall judge the quick and the dead at his appearing and his kingdom; Preach the word; be instant in season, out of season; reprove, rebuke, exhort with all longsuffering and doctrine. For the time will come when they will not endure sound doctrine; but after their own lusts shall they heap to themselves teachers, having itching ears; And they shall turn away their ears from the truth, and shall be turned unto fables."
+        "display": "St. Paul's Second Letter to Timothy 3:16-17; 4:1-4",
+        "text": "Timothy, my son, all scripture is inspired by God and profitable for teaching, for reproof, for correction, and for training in righteousness, that the man of God may be complete, equipped for every good work. I charge you in the presence of God and of Christ Jesus who is to judge the living and the dead, and by his appearing and his kingdom: preach the word, be urgent in season and out of season, convince, rebuke, and exhort, be unfailing in patience and in teaching. For the time is coming when people will not endure sound teaching, but having itching ears they will accumulate for themselves teachers to suit their own likings, and will turn away from listening to the truth and wander into myths."
       },
       {
-        "source": "Gospel",
-        "display": "Luke 21.12-19",
-        "short_display": "Luke 21.12-19",
-        "text": "But before all these, they shall lay their hands on you, and persecute you, delivering you up to the synagogues, and into prisons, being brought before kings and rulers for my name\u2019s sake. And it shall turn to you for a testimony. Settle it therefore in your hearts, not to meditate before what ye shall answer: For I will give you a mouth and wisdom, which all your adversaries shall not be able to gainsay nor resist. And ye shall be betrayed both by parents, and brethren, and kinsfolks, and friends; and some of you shall they cause to be put to death. And ye shall be hated of all men for my name\u2019s sake. But there shall not an hair of your head perish. In your patience possess ye your souls."
+        "display": "Luke 21:12-19",
+        "text": "The Lord said to his disciples, \"Beware of men who will lay their hands on you and persecute you, delivering you up to the synagogues and prisons, and you will be brought before kings and governors for my name's sake. This will be a time for you to bear testimony. Settle it therefore in your minds, not to meditate beforehand how to answer; for I will give you a mouth and wisdom, which none of your adversaries will be able to withstand or contradict. You will be delivered up even by parents and brothers and kinsmen and friends, and some of you they will put to death; you will be hated by all for my name's sake. But not a hair of your head will perish. By your endurance you will gain your lives."
       }
-    ]
+    ],
+    "service_texts": []
   },
   "events": [
     {

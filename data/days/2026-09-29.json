@@ -2,66 +2,32 @@
   "date": "2026-09-29",
   "liturgical": {
     "status": "ok",
-    "titles": [
-      "Tuesday of the 18th week after Pentecost"
+    "source": "antiochian",
+    "feasts": [
+      "Tuesday of the 2Nd Week"
     ],
-    "summary_title": "Ven. Cyriacos, Hermit of Palestine; Martyr Petronius; Malachi the New Righteous Martyr of Lindos",
-    "feasts": null,
     "saints": [
-      {
-        "name": "Ven. Cyriacos, Hermit of Palestine",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Ven.%20Cyriacos%2C%20Hermit%20of%20Palestine"
-      },
-      {
-        "name": "Martyr Petronius",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Martyr%20Petronius"
-      },
-      {
-        "name": "Malachi the New Righteous Martyr of Lindos",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Malachi%20the%20New%20Righteous%20Martyr%20of%20Lindos"
-      },
-      {
-        "name": "Theophanes the Merciful of Gaza",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Theophanes%20the%20Merciful%20of%20Gaza"
-      },
-      {
-        "name": "Dionysios I, Patriarch of Constantinople",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Dionysios%20I%2C%20Patriarch%20of%20Constantinople"
-      },
-      {
-        "name": "St Mary of Palestine (6th c.)",
-        "link": "https://orthodoxwiki.org/Special:Search?search=St%20Mary%20of%20Palestine%20%286th%20c.%29"
-      },
-      {
-        "name": "Holy Martyrs Dada and those with them (4th c.)",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Holy%20Martyrs%20Dada%20and%20those%20with%20them%20%284th%20c.%29"
-      },
-      {
-        "name": "Venerable Cyprian of Ustiug (1276)",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Venerable%20Cyprian%20of%20Ustiug%20%281276%29"
-      }
+      "Cyriacus the Hermit of Palestine",
+      "Martyr Petronius",
+      "Malachi the New Righteous Martyr of Lindos",
+      "Theophanes the Merciful of Gaza",
+      "Dionysios I",
+      "Patriarch of Constantinople"
     ],
+    "summary_title": "Cyriacus the Hermit of Palestine, Martyr Petronius, Malachi the New Righteous Martyr of Lindos, Theophanes the Merciful of Gaza, Dionysios I, Patriarch of Constantinople",
+    "stories": [],
     "fasting": null,
     "readings": [
       {
-        "source": "Epistle",
-        "display": "Galatians 5.22-6.2",
-        "short_display": "Gal 5.22-6.2",
-        "text": "But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, Meekness, temperance: against such there is no law. And they that are Christ\u2019s have crucified the flesh with the affections and lusts. If we live in the Spirit, let us also walk in the Spirit. Let us not be desirous of vain glory, provoking one another, envying one another. Brethren, if a man be overtaken in a fault, ye which are spiritual, restore such an one in the spirit of meekness; considering thyself, lest thou also be tempted. Bear ye one another\u2019s burdens, and so fulfil the law of Christ."
+        "display": "St. Paul's Letter to the Galatians 5:22-26; 6:1-2",
+        "text": "Brethren, the fruit of the Spirit is love, joy, peace, patience, kindness, goodness, faithfulness, gentleness, self-control; against such there is no law. And those who belong to Christ Jesus have crucified the flesh with its passions and desires. If we live by the Spirit, let us also walk by the Spirit. Let us have no self-conceit, no provoking of one another, no envy of one another. Brethren, if a man is overtaken in any trespass, you who are spiritual should restore him in a spirit of gentleness. Look to yourself, lest you too be tempted. Bear one another's burdens, and so fulfill the law of Christ."
       },
       {
-        "source": "Gospel",
-        "display": "Luke 5.12-16",
-        "short_display": "Luke 5.12-16",
-        "text": "And it came to pass, when he was in a certain city, behold a man full of leprosy: who seeing Jesus fell on his face, and besought him, saying, Lord, if thou wilt, thou canst make me clean. And he put forth his hand, and touched him, saying, I will: be thou clean. And immediately the leprosy departed from him. And he charged him to tell no man: but go, and shew thyself to the priest, and offer for thy cleansing, according as Moses commanded, for a testimony unto them. But so much the more went there a fame abroad of him: and great multitudes came together to hear, and to be healed by him of their infirmities. And he withdrew himself into the wilderness, and prayed."
-      },
-      {
-        "source": "Epistle",
-        "display": "Ephesians 5.20-26",
-        "short_display": "Eph 5.20-26",
-        "text": "Giving thanks always for all things unto God and the Father in the name of our Lord Jesus Christ; Submitting yourselves one to another in the fear of God. Wives, submit yourselves unto your own husbands, as unto the Lord. For the husband is the head of the wife, even as Christ is the head of the church: and he is the saviour of the body. Therefore as the church is subject unto Christ, so let the wives be to their own husbands in every thing. Husbands, love your wives, even as Christ also loved the church, and gave himself for it; That he might sanctify and cleanse it with the washing of water by the word,"
+        "display": "Luke 5:12-16",
+        "text": "At that time, Jesus was in one of the cities, and there came a man full of leprosy; and when he saw Jesus, he fell on his face and besought him, \"Lord, if you will, you can make me clean.\" And he stretched out his hand, and touched him, saying, \"I will; be clean.\" And immediately the leprosy left him. And he charged him to tell no one; but \"go and show yourself to the priest, and make an offering for your cleansing, as Moses commanded, for a proof to the people.\" But so much the more the report went abroad concerning him; and great multitudes gathered to hear and to be healed of their infirmities. But he withdrew to the wilderness and prayed."
       }
-    ]
+    ],
+    "service_texts": []
   },
   "events": [
     {

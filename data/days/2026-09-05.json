@@ -2,48 +2,40 @@
   "date": "2026-09-05",
   "liturgical": {
     "status": "ok",
-    "titles": [
-      "Saturday of the 14th week after Pentecost"
+    "source": "antiochian",
+    "feasts": [
+      "Holy Prophet Zacharias, Father of the Venerable Forerunner"
     ],
-    "summary_title": "Prophet Zachariah and Elizabeth; Urban, Theodore, & Medimnos the Hieromartyrs and the 77 Companions at Nicomedea; Holy Hieromartyr Athanasius of Brest-Litovsk (1649)",
-    "feasts": null,
     "saints": [
-      {
-        "name": "Prophet Zachariah and Elizabeth",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Prophet%20Zachariah%20and%20Elizabeth"
-      },
-      {
-        "name": "Urban, Theodore, & Medimnos the Hieromartyrs and the 77 Companions at Nicomedea",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Urban%2C%20Theodore%2C%20%26%20Medimnos%20the%20Hieromartyrs%20and%20the%2077%20Companions%20at%20Nicomedea"
-      },
-      {
-        "name": "Holy Hieromartyr Athanasius of Brest-Litovsk (1649)",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Holy%20Hieromartyr%20Athanasius%20of%20Brest-Litovsk%20%281649%29"
-      },
-      {
-        "name": "Holy Martyrs Abda the bishop, Hormizd and Sunin of Persia (4th c)",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Holy%20Martyrs%20Abda%20the%20bishop%2C%20Hormizd%20and%20Sunin%20of%20Persia%20%284th%20c%29"
-      }
+      "Holy Prophet Zacharias",
+      "Father of the Venerable Forerunner",
+      "Elizabeth",
+      "Mother of the Forerunner",
+      "Urban",
+      "Theodore",
+      "& Medimnos the Hieromartyrs and the 77 Companions at Nicomedea"
     ],
+    "summary_title": "Holy Prophet Zacharias, Father of the Venerable Forerunner, Elizabeth, Mother of the Forerunner, Urban, Theodore, & Medimnos the Hieromartyrs and the 77 Companions at Nicomedea",
+    "stories": [],
     "fasting": null,
     "readings": [
       {
-        "source": "Epistle",
-        "display": "1 Corinthians 4.1-5",
-        "short_display": "1 Cor 4.1-5",
-        "text": "Let a man so account of us, as of the ministers of Christ, and stewards of the mysteries of God. Moreover it is required in stewards, that a man be found faithful. But with me it is a very small thing that I should be judged of you, or of man\u2019s judgment: yea, I judge not mine own self. For I know nothing by myself; yet am I not hereby justified: but he that judgeth me is the Lord. Therefore judge nothing before the time, until the Lord come, who both will bring to light the hidden things of darkness, and will make manifest the counsels of the hearts: and then shall every man have praise of God."
+        "display": "St. Paul's First Letter to the Corinthians 4:1-5",
+        "text": "Brethren, this is how one should regard us, as servants of Christ and stewards of the mysteries of God. Moreover it is required of stewards that they be found trustworthy. But with me it is a very small thing that I should be judged by you or by any human court. I do not even judge myself. I am not aware of anything against myself, but I am not thereby acquitted. It is the Lord who judges me. Therefore do not pronounce judgment before the time, before the Lord comes, who will bring to light the things now hidden in darkness and will disclose the purposes of the heart. Then every man will receive his commendation from God."
       },
       {
-        "source": "Gospel",
-        "display": "Matthew 23.1-12",
-        "short_display": "Matt 23.1-12",
-        "text": "Then spake Jesus to the multitude, and to his disciples, Saying, The scribes and the Pharisees sit in Moses\u2019 seat: All therefore whatsoever they bid you observe, that observe and do; but do not ye after their works: for they say, and do not. For they bind heavy burdens and grievous to be borne, and lay them on men\u2019s shoulders; but they themselves will not move them with one of their fingers. But all their works they do for to be seen of men: they make broad their phylacteries, and enlarge the borders of their garments, And love the uppermost rooms at feasts, and the chief seats in the synagogues, And greetings in the markets, and to be called of men, Rabbi, Rabbi. But be not ye called Rabbi: for one is your Master, even Christ; and all ye are brethren. And call no man your father upon the earth: for one is your Father, which is in heaven. Neither be ye called masters: for one is your Master, even Christ. But he that is greatest among you shall be your servant. And whosoever shall exalt himself shall be abased; and he that shall humble himself shall be exalted."
+        "display": "Matthew 23:29-39",
+        "text": "The Lord said to the Jews who had come to him, \"Woe to you, scribes and Pharisees, hypocrites! for you build the tombs of the prophets and adorn the monuments of the righteous, saying, 'If we had lived in the days of our fathers, we would not have taken part with them in shedding the blood of the prophets.' Thus you witness against yourselves, that you are sons of those who murdered the prophets. Fill up, then, the measure of your fathers. You serpents, you brood of vipers, how are you to escape being sentenced to hell? Therefore I send you prophets and wise men and scribes, some of whom you will kill and crucify, and some you will scourge in your synagogues and persecute from town to town, that upon you may come all the righteous blood shed on earth, from the blood of innocent Abel to the blood of Zacharias the son of Barachiah, whom you murdered between the sanctuary and the altar. Truly, I say to you, all this will come upon this generation. O Jerusalem, Jerusalem, killing the prophets and stoning those who are sent to you! How often would I have gathered your children together as a hen gathers her brood under her wings, and you would not! Behold, your house is forsaken and desolate. For I tell you, you will not see me again, until you say, 'Blessed is he who comes in the name of the Lord.'"
+      }
+    ],
+    "service_texts": [
+      {
+        "label": "Bilingual - Great Vespers",
+        "url": "https://www.antiochian.org/servicetexts/Sep%2005%202026%20Bilingual%20VESP.pdf"
       },
       {
-        "source": "Gospel",
-        "display": "Matthew 23.29-39",
-        "short_display": "Matt 23.29-39",
-        "text": "Woe unto you, scribes and Pharisees, hypocrites! because ye build the tombs of the prophets, and garnish the sepulchres of the righteous, And say, If we had been in the days of our fathers, we would not have been partakers with them in the blood of the prophets. Wherefore ye be witnesses unto yourselves, that ye are the children of them which killed the prophets. Fill ye up then the measure of your fathers. Ye serpents, ye generation of vipers, how can ye escape the damnation of hell? Wherefore, behold, I send unto you prophets, and wise men, and scribes: and some of them ye shall kill and crucify; and some of them shall ye scourge in your synagogues, and persecute them from city to city: That upon you may come all the righteous blood shed upon the earth, from the blood of righteous Abel unto the blood of Zacharias son of Barachias, whom ye slew between the temple and the altar. Verily I say unto you, All these things shall come upon this generation. O Jerusalem, Jerusalem, thou that killest the prophets, and stonest them which are sent unto thee, how often would I have gathered thy children together, even as a hen gathereth her chickens under her wings, and ye would not! Behold, your house is left unto you desolate. For I say unto you, Ye shall not see me henceforth, till ye shall say, Blessed is he that cometh in the name of the Lord."
+        "label": "Great Vespers",
+        "url": "https://www.antiochian.org/servicetexts/Sep%2005%202026%20VESP.pdf"
       }
     ]
   },

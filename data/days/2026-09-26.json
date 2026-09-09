@@ -2,32 +2,35 @@
   "date": "2026-09-26",
   "liturgical": {
     "status": "ok",
-    "titles": [
-      "Saturday of the 17th week after Pentecost"
-    ],
-    "summary_title": "Repose of St John the Theologian",
+    "source": "antiochian",
     "feasts": [
-      "Repose of St John the Theologian"
+      "The Falling Asleep of St. John the Evangelist and Theologian"
     ],
     "saints": [
-      {
-        "name": "Removal of the Honorable Head of Apostle Andrew the First-Called",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Removal%20of%20the%20Honorable%20Head%20of%20Apostle%20Andrew%20the%20First-Called"
-      }
+      "The Falling Asleep of St. John the Evangelist and Theologian",
+      "Removal of the Honorable Head of Apostle Andrew the First-Called"
     ],
+    "summary_title": "The Falling Asleep of St. John the Evangelist and Theologian, Removal of the Honorable Head of Apostle Andrew the First-Called",
+    "stories": [],
     "fasting": null,
     "readings": [
       {
-        "source": "Epistle",
-        "display": "1 Corinthians 14.20-25",
-        "short_display": "1 Cor 14.20-25",
-        "text": "Brethren, be not children in understanding: howbeit in malice be ye children, but in understanding be men. In the law it is written, With men of other tongues and other lips will I speak unto this people; and yet for all that will they not hear me, saith the Lord. Wherefore tongues are for a sign, not to them that believe, but to them that believe not: but prophesying serveth not for them that believe not, but for them which believe. If therefore the whole church be come together into one place, and all speak with tongues, and there come in those that are unlearned, or unbelievers, will they not say that ye are mad? But if all prophesy, and there come in one that believeth not, or one unlearned, he is convinced of all, he is judged of all: And thus are the secrets of his heart made manifest; and so falling down on his face he will worship God, and report that God is in you of a truth."
+        "display": "St. John's First Universal Letter 4:12-19",
+        "text": "No man has ever seen God; if we love one another, God abides in us and his love is perfected in us. By this we know that we abide in him and he in us, because he has given us of his own Spirit. And we have seen and testify that the Father has sent his Son as the Savior of the world. Whoever confesses that Jesus is the Son of God, God abides in him, and he in God. So we know and believe the love God has for us. God is love, and he who abides in love abides in God, and God abides in him. In this is love perfected with us, that we may have confidence for the day of judgment, because as he is so are we in this world. There is no fear in love, but perfect love casts out fear. For fear has to do with punishment, and he who fears is not perfected in love. We love, because he first loved us."
       },
       {
-        "source": "Gospel",
-        "display": "Luke 4.31-36",
-        "short_display": "Luke 4.31-36",
-        "text": "And came down to Capernaum, a city of Galilee, and taught them on the sabbath days. And they were astonished at his doctrine: for his word was with power. And in the synagogue there was a man, which had a spirit of an unclean devil, and cried out with a loud voice, Saying, Let us alone; what have we to do with thee, thou Jesus of Nazareth? art thou come to destroy us? I know thee who thou art; the Holy One of God. And Jesus rebuked him, saying, Hold thy peace, and come out of him. And when the devil had thrown him in the midst, he came out of him, and hurt him not. And they were all amazed, and spake among themselves, saying, What a word is this! for with authority and power he commandeth the unclean spirits, and they come out."
+        "display": "John 19:25-27; 21:24-25",
+        "text": "At that time, standing by the cross of Jesus were his mother, and his mother's sister, Mary the wife of Clopas, and Mary Magdalene. When Jesus saw his mother, and the disciple whom he loved standing near, he said to his mother, \"Woman, behold, your son!\" Then he said to the disciple, \"Behold, your mother!\" And from that hour the disciple took her to his own home. This is the disciple who is bearing witness to these things, and who has written these things; and we know that his testimony is true. But there are also many other things which Jesus did; were every one of them to be written, I suppose that the world itself could not contain the books that would be written."
+      }
+    ],
+    "service_texts": [
+      {
+        "label": "Bilingual - Great Vespers",
+        "url": "https://www.antiochian.org/servicetexts/Sep%2026%202026%20Bilingual%20VESP.pdf"
+      },
+      {
+        "label": "Great Vespers",
+        "url": "https://www.antiochian.org/servicetexts/Sep%2026%202026%20VESP.pdf"
       }
     ]
   },

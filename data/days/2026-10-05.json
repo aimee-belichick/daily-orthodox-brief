@@ -2,44 +2,34 @@
   "date": "2026-10-05",
   "liturgical": {
     "status": "ok",
-    "titles": [
-      "Monday of the 19th week after Pentecost"
+    "source": "antiochian",
+    "feasts": [
+      "Monday of the 3Rd Week"
     ],
-    "summary_title": "Ss Peter, Aleksy, Jonah, Philip, Germogen, Metrs. Moscow; Eudokimos the Unknown of Mount Athos; Holy Martyr Charitina of Amissos (304)",
-    "feasts": null,
     "saints": [
-      {
-        "name": "Ss Peter, Aleksy, Jonah, Philip, Germogen, Metrs. Moscow",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Ss%20Peter%2C%20Aleksy%2C%20Jonah%2C%20Philip%2C%20Germogen%2C%20Metrs.%20Moscow"
-      },
-      {
-        "name": "Eudokimos the Unknown of Mount Athos",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Eudokimos%20the%20Unknown%20of%20Mount%20Athos"
-      },
-      {
-        "name": "Holy Martyr Charitina of Amissos (304)",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Holy%20Martyr%20Charitina%20of%20Amissos%20%28304%29"
-      },
-      {
-        "name": "Our Holy Mother Methodia of Kimolos (1865)",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Our%20Holy%20Mother%20Methodia%20of%20Kimolos%20%281865%29"
-      }
+      "Charitina the Martyr",
+      "Methodia the Righteous of Kimolos",
+      "Eudokimos the Unknown of Mount Athos",
+      "Peter",
+      "Alexis",
+      "Jonah",
+      "Hermogenes & Tikhon",
+      "Metropolitans of Moscow"
     ],
+    "summary_title": "Charitina the Martyr, Methodia the Righteous of Kimolos, Eudokimos the Unknown of Mount Athos, Peter, Alexis, Jonah, Hermogenes & Tikhon, Metropolitans of Moscow",
+    "stories": [],
     "fasting": null,
     "readings": [
       {
-        "source": "Epistle",
-        "display": "Philippians 1.1-7",
-        "short_display": "Phil 1.1-7",
-        "text": "Paul and Timotheus, the servants of Jesus Christ, to all the saints in Christ Jesus which are at Philippi, with the bishops and deacons: Grace be unto you, and peace, from God our Father, and from the Lord Jesus Christ. I thank my God upon every remembrance of you, Always in every prayer of mine for you all making request with joy, For your fellowship in the gospel from the first day until now; Being confident of this very thing, that he which hath begun a good work in you will perform it until the day of Jesus Christ: Even as it is meet for me to think this of you all, because I have you in my heart; inasmuch as both in my bonds, and in the defence and confirmation of the gospel, ye all are partakers of my grace."
+        "display": "St. Paul's Letter to the Philippians 1:1-7",
+        "text": "Paul and Timothy, servants of Christ Jesus, to all the saints in Christ Jesus who are at Philippi, with the bishops and deacons: Grace to you and peace from God our Father and the Lord Jesus Christ. I thank my God in all my remembrance of you, always in every prayer of mine for you all making my prayer with joy, thankful for your partnership in the gospel from the first day until now. And I am sure that he who began a good work in you will bring it to completion at the day of Jesus Christ. It is right for me to feel thus about you all, because I hold you in my heart, for you are all partakers with me of grace, both in my imprisonment and in the defense and confirmation of the gospel."
       },
       {
-        "source": "Gospel",
-        "display": "Luke 6.24-30",
-        "short_display": "Luke 6.24-30",
-        "text": "But woe unto you that are rich! for ye have received your consolation. Woe unto you that are full! for ye shall hunger. Woe unto you that laugh now! for ye shall mourn and weep. Woe unto you, when all men shall speak well of you! for so did their fathers to the false prophets. But I say unto you which hear, Love your enemies, do good to them which hate you, Bless them that curse you, and pray for them which despitefully use you. And unto him that smiteth thee on the one cheek offer also the other; and him that taketh away thy cloke forbid not to take thy coat also. Give to every man that asketh of thee; and of him that taketh away thy goods ask them not again."
+        "display": "Luke 6:24-30",
+        "text": "The Lord said to the Jews who had come to him, \"Woe to you that are rich, for you have received your consolation. Woe to you that are full now, for you shall hunger. Woe to you that laugh now, for you shall mourn and weep. Woe to you, when all men speak well of you, for so their fathers did to the false prophets. But I say to you that hear, Love your enemies, do good to those who hate you, bless those who curse you, pray for those who abuse you. To him who strikes you on the cheek, offer the other also; and from him who takes away your coat do not withhold even your shirt. Give to every one who begs from you; and of him who takes away your goods do not ask them again."
       }
-    ]
+    ],
+    "service_texts": []
   },
   "events": [
     {

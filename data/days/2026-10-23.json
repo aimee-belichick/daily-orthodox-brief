@@ -2,61 +2,38 @@
   "date": "2026-10-23",
   "liturgical": {
     "status": "ok",
-    "titles": [
-      "Friday of the 21st week after Pentecost"
-    ],
-    "summary_title": "Holy Apostle James, Brother of the Lord",
+    "source": "antiochian",
     "feasts": [
-      "Holy Apostle James, Brother of the Lord"
+      "James (Iakovos) the Apostle, Brother of Our Lord"
     ],
     "saints": [
-      {
-        "name": "Our Righteous Father Ignatius, Patriarch of Constantinople",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Our%20Righteous%20Father%20Ignatius%2C%20Patriarch%20of%20Constantinople"
-      },
-      {
-        "name": "Saint Macarius the Roman of Mesopotamia (?)",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Saint%20Macarius%20the%20Roman%20of%20Mesopotamia%20%28%3F%29"
-      }
+      "James (Iakovos) the Apostle",
+      "Brother of Our Lord",
+      "Our Righteous Father Ignatius",
+      "Patriarch of Constantinople"
     ],
+    "summary_title": "James (Iakovos) the Apostle, Brother of Our Lord, Our Righteous Father Ignatius, Patriarch of Constantinople",
+    "stories": [],
     "fasting": {
-      "level": 1,
-      "description": "Fast",
+      "description": "Abstain From Meat, Fish, Dairy, Eggs",
       "abstentions": [
         "meat",
         "fish",
         "dairy",
-        "eggs",
-        "wine",
-        "oil"
+        "eggs"
       ]
     },
     "readings": [
       {
-        "source": "Epistle",
-        "display": "Colossians 2.1-7",
-        "short_display": "Col 2.1-7",
-        "text": "For I would that ye knew what great conflict I have for you, and for them at Laodicea, and for as many as have not seen my face in the flesh; That their hearts might be comforted, being knit together in love, and unto all riches of the full assurance of understanding, to the acknowledgement of the mystery of God, and of the Father, and of Christ; In whom are hid all the treasures of wisdom and knowledge. And this I say, lest any man should beguile you with enticing words. For though I be absent in the flesh, yet am I with you in the spirit, joying and beholding your order, and the stedfastness of your faith in Christ. As ye have therefore received Christ Jesus the Lord, so walk ye in him: Rooted and built up in him, and stablished in the faith, as ye have been taught, abounding therein with thanksgiving."
+        "display": "St. Paul's Letter to the Galatians 1:11-19",
+        "text": "Brethren, I would have you know that the gospel which was preached by me is not man's gospel. For I did not receive it from man, nor was I taught it, but it came through a revelation of Jesus Christ. For you have heard of my former life in Judaism, how I persecuted the church of God violently and tried to destroy it; and I advanced in Judaism beyond many of my own age among my people, so extremely zealous was I for the traditions of my fathers. But when he who had set me apart before I was born, and had called me through his grace, was pleased to reveal his Son to me, in order that I might preach him among the Gentiles, I did not confer with flesh and blood, nor did I go up to Jerusalem to those who were apostles before me, but I went away into Arabia; and again I returned to Damascus. Then after three years I went up to Jerusalem to visit Cephas, and remained with him fifteen days. But I saw none of the other apostles except James the Lord's brother."
       },
       {
-        "source": "Epistle",
-        "display": "Galatians 1.11-19",
-        "short_display": "Gal 1.11-19",
-        "text": "But I certify you, brethren, that the gospel which was preached of me is not after man. For I neither received it of man, neither was I taught it, but by the revelation of Jesus Christ. For ye have heard of my conversation in time past in the Jews\u2019 religion, how that beyond measure I persecuted the church of God, and wasted it: And profited in the Jews\u2019 religion above many my equals in mine own nation, being more exceedingly zealous of the traditions of my fathers. But when it pleased God, who separated me from my mother\u2019s womb, and called me by his grace, To reveal his Son in me, that I might preach him among the heathen; immediately I conferred not with flesh and blood: Neither went I up to Jerusalem to them which were apostles before me; but I went into Arabia, and returned again unto Damascus. Then after three years I went up to Jerusalem to see Peter, and abode with him fifteen days. But other of the apostles saw I none, save James the Lord\u2019s brother."
-      },
-      {
-        "source": "Gospel",
-        "display": "Luke 10.1-15",
-        "short_display": "Luke 10.1-15",
-        "text": "After these things the Lord appointed other seventy also, and sent them two and two before his face into every city and place, whither he himself would come. Therefore said he unto them, The harvest truly is great, but the labourers are few: pray ye therefore the Lord of the harvest, that he would send forth labourers into his harvest. Go your ways: behold, I send you forth as lambs among wolves. Carry neither purse, nor scrip, nor shoes: and salute no man by the way. And into whatsoever house ye enter, first say, Peace be to this house. And if the son of peace be there, your peace shall rest upon it: if not, it shall turn to you again. And in the same house remain, eating and drinking such things as they give: for the labourer is worthy of his hire. Go not from house to house. And into whatsoever city ye enter, and they receive you, eat such things as are set before you: And heal the sick that are therein, and say unto them, The kingdom of God is come nigh unto you. But into whatsoever city ye enter, and they receive you not, go your ways out into the streets of the same, and say, Even the very dust of your city, which cleaveth on us, we do wipe off against you: notwithstanding be ye sure of this, that the kingdom of God is come nigh unto you. But I say unto you, that it shall be more tolerable in that day for Sodom, than for that city. Woe unto thee, Chorazin! woe unto thee, Bethsaida! for if the mighty works had been done in Tyre and Sidon, which have been done in you, they had a great while ago repented, sitting in sackcloth and ashes. But it shall be more tolerable for Tyre and Sidon at the judgment, than for you. And thou, Capernaum, which art exalted to heaven, shalt be thrust down to hell."
-      },
-      {
-        "source": "Gospel",
-        "display": "Matthew 13.54-58",
-        "short_display": "Matt 13.54-58",
-        "text": "And when he was come into his own country, he taught them in their synagogue, insomuch that they were astonished, and said, Whence hath this man this wisdom, and these mighty works? Is not this the carpenter\u2019s son? is not his mother called Mary? and his brethren, James, and Joses, and Simon, and Judas? And his sisters, are they not all with us? Whence then hath this man all these things? And they were offended in him. But Jesus said unto them, A prophet is not without honour, save in his own country, and in his own house. And he did not many mighty works there because of their unbelief."
+        "display": "Matthew 13:54-58",
+        "text": "At that time, Jesus came to his own country, and taught the people in their synagogue so that they were astonished, and said, \"Where did this man get this wisdom and these mighty works? Is not this the carpenter's son? Is not his mother called Mary? And are not his brothers James and Joseph and Simon and Judas? And are not all his sisters with us? Where then did this man get all this?\" And they took offense at him. But Jesus said to them, \"A prophet is not without honor except in his own country and in his own house.\" And he did not do many mighty works there, because of their unbelief."
       }
-    ]
+    ],
+    "service_texts": []
   },
   "events": []
 }

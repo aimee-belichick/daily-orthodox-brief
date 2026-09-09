@@ -2,76 +2,48 @@
   "date": "2026-09-08",
   "liturgical": {
     "status": "ok",
-    "titles": [
-      "Tuesday of the 15th week after Pentecost"
-    ],
-    "summary_title": "Nativity of the Most-Holy Theotokos",
+    "source": "antiochian",
     "feasts": [
-      "Nativity of the Most-Holy Theotokos"
+      "The Nativity of Our Most Holy Lady the Theotokos and Ever-Virgin Mary"
     ],
     "saints": [
-      {
-        "name": "Sophronios, Bishop of Iberia",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Sophronios%2C%20Bishop%20of%20Iberia"
-      },
-      {
-        "name": "New Martyr Athanasius of Thessalonika (1774)",
-        "link": "https://orthodoxwiki.org/Special:Search?search=New%20Martyr%20Athanasius%20of%20Thessalonika%20%281774%29"
-      },
-      {
-        "name": "Our Venerable Father Serapion of Pskov (1481)",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Our%20Venerable%20Father%20Serapion%20of%20Pskov%20%281481%29"
-      }
+      "The Nativity of Our Most Holy Lady the Theotokos and Ever-Virgin Mary",
+      "Sophronios",
+      "Bishop of Iberia"
     ],
+    "summary_title": "The Nativity of Our Most Holy Lady the Theotokos and Ever-Virgin Mary, Sophronios, Bishop of Iberia",
+    "stories": [],
     "fasting": null,
     "readings": [
       {
-        "source": "Vespers",
-        "display": "Genesis 28.10-17",
-        "short_display": "Gen 28.10-17",
-        "text": "And Jacob went out from Beer-sheba, and went toward Haran. And he lighted upon a certain place, and tarried there all night, because the sun was set; and he took of the stones of that place, and put them for his pillows, and lay down in that place to sleep. And he dreamed, and behold a ladder set up on the earth, and the top of it reached to heaven: and behold the angels of God ascending and descending on it. And, behold, the LORD stood above it, and said, I am the LORD God of Abraham thy father, and the God of Isaac: the land whereon thou liest, to thee will I give it, and to thy seed; And thy seed shall be as the dust of the earth, and thou shalt spread abroad to the west, and to the east, and to the north, and to the south: and in thee and in thy seed shall all the families of the earth be blessed. And, behold, I am with thee, and will keep thee in all places whither thou goest, and will bring thee again into this land; for I will not leave thee, until I have done that which I have spoken to thee of. And Jacob awaked out of his sleep, and he said, Surely the LORD is in this place; and I knew it not. And he was afraid, and said, How dreadful is this place! this is none other but the house of God, and this is the gate of heaven."
+        "display": "St. Paul's Letter to the Philippians 2:5-11",
+        "text": "Brethren, have this mind among yourselves, which is yours in Christ Jesus, who, though he was in the form of God, did not count equality with God a thing to be grasped, but emptied himself, taking the form of a servant, being born in the likeness of men. And being found in human form he humbled himself and became obedient unto death, even death on a cross. Therefore God has highly exalted him and bestowed on him the name which is above every name, that at the name of Jesus every knee should bow, in heaven and on earth and under the earth, and every tongue confess that Jesus Christ is Lord, to the glory of God the Father."
       },
       {
-        "source": "Vespers",
-        "display": "Ezekiel 43.27-44.4",
-        "short_display": "Ezek 43.27-44.4",
-        "text": "And when these days are expired, it shall be, that upon the eighth day, and so forward, the priests shall make your burnt offerings upon the altar, and your peace offerings; and I will accept you, saith the Lord GOD. Then he brought me back the way of the gate of the outward sanctuary which looketh toward the east; and it was shut. Then said the LORD unto me; This gate shall be shut, it shall not be opened, and no man shall enter in by it; because the LORD, the God of Israel, hath entered in by it, therefore it shall be shut. It is for the prince; the prince, he shall sit in it to eat bread before the LORD; he shall enter by the way of the porch of that gate, and shall go out by the way of the same. Then brought he me the way of the north gate before the house: and I looked, and, behold, the glory of the LORD filled the house of the LORD: and I fell upon my face."
+        "display": "Luke 10:38-42, 11:27-28",
+        "text": "At that time, Jesus entered a village; and a woman called Martha received him into her house. And she had a sister called Mary, who sat at the Lord's feet and listened to his teaching. But Martha was distracted with much serving; and she went to him and said, \"Lord, do you not care that my sister has left me to serve you alone? Tell her then to help me.\" But the Lord answered her, \"Martha, Martha, you are anxious and troubled about many things; one thing is needful. Mary has chosen the good portion, which shall not be taken away from her.\" As he said this, a woman in the crowd raised her voice and said to him, \"Blessed is the womb that bore you, and the breasts that you sucked!\" But he said, \"Blessed rather are those who hear the word of God and keep it!\""
+      }
+    ],
+    "service_texts": [
+      {
+        "label": "Daily Vespers",
+        "url": "https://www.antiochian.org/servicetexts/Sep%2008%20VESP.pdf"
       },
       {
-        "source": "Vespers",
-        "display": "Proverbs 9.1-11",
-        "short_display": "Prov 9.1-11",
-        "text": "Wisdom hath builded her house, she hath hewn out her seven pillars: She hath killed her beasts; she hath mingled her wine; she hath also furnished her table. She hath sent forth her maidens: she crieth upon the highest places of the city, Whoso is simple, let him turn in hither: as for him that wanteth understanding, she saith to him, Come, eat of my bread, and drink of the wine which I have mingled. Forsake the foolish, and live; and go in the way of understanding. He that reproveth a scorner getteth to himself shame: and he that rebuketh a wicked man getteth himself a blot. Reprove not a scorner, lest he hate thee: rebuke a wise man, and he will love thee. Give instruction to a wise man, and he will be yet wiser: teach a just man, and he will increase in learning. The fear of the LORD is the beginning of wisdom: and the knowledge of the holy is understanding. For by me thy days shall be multiplied, and the years of thy life shall be increased."
+        "label": "Bilingual - Festal Orthros",
+        "url": "https://www.antiochian.org/servicetexts/Sept%2008%20Bilingual%20ORTHROS.pdf"
       },
       {
-        "source": "Matins Gospel",
-        "display": "Luke 1.39-49, 56",
-        "short_display": "Luke 1.39-49, 56",
-        "text": "And Mary arose in those days, and went into the hill country with haste, into a city of Juda; And entered into the house of Zacharias, and saluted Elisabeth. And it came to pass, that, when Elisabeth heard the salutation of Mary, the babe leaped in her womb; and Elisabeth was filled with the Holy Ghost: And she spake out with a loud voice, and said, Blessed art thou among women, and blessed is the fruit of thy womb. And whence is this to me, that the mother of my Lord should come to me? For, lo, as soon as the voice of thy salutation sounded in mine ears, the babe leaped in my womb for joy. And blessed is she that believed: for there shall be a performance of those things which were told her from the Lord. And Mary said, My soul doth magnify the Lord, And my spirit hath rejoiced in God my Saviour. For he hath regarded the low estate of his handmaiden: for, behold, from henceforth all generations shall call me blessed. For he that is mighty hath done to me great things; and holy is his name. And Mary abode with her about three months, and returned to her own house."
+        "label": "Bilingual - Divine Liturgy Variables",
+        "url": "https://www.antiochian.org/servicetexts/Sept%2008%20Bilingual%20READ.pdf"
       },
       {
-        "source": "Epistle",
-        "display": "Philippians 2.5-11",
-        "short_display": "Phil 2.5-11",
-        "text": "Let this mind be in you, which was also in Christ Jesus: Who, being in the form of God, thought it not robbery to be equal with God: But made himself of no reputation, and took upon him the form of a servant, and was made in the likeness of men: And being found in fashion as a man, he humbled himself, and became obedient unto death, even the death of the cross. Wherefore God also hath highly exalted him, and given him a name which is above every name: That at the name of Jesus every knee should bow, of things in heaven, and things in earth, and things under the earth; And that every tongue should confess that Jesus Christ is Lord, to the glory of God the Father."
+        "label": "Festal Orthros",
+        "url": "https://www.antiochian.org/servicetexts/Sept%2008%20ORTHROS.pdf"
       },
       {
-        "source": "Epistle",
-        "display": "Galatians 2.21-3.7",
-        "short_display": "Gal 2.21-3.7",
-        "text": "I do not frustrate the grace of God: for if righteousness come by the law, then Christ is dead in vain. O foolish Galatians, who hath bewitched you, that ye should not obey the truth, before whose eyes Jesus Christ hath been evidently set forth, crucified among you? This only would I learn of you, Received ye the Spirit by the works of the law, or by the hearing of faith? Are ye so foolish? having begun in the Spirit, are ye now made perfect by the flesh? Have ye suffered so many things in vain? if it be yet in vain. He therefore that ministereth to you the Spirit, and worketh miracles among you, doeth he it by the works of the law, or by the hearing of faith? Even as Abraham believed God, and it was accounted to him for righteousness. Know ye therefore that they which are of faith, the same are the children of Abraham."
-      },
-      {
-        "source": "Gospel",
-        "display": "Luke 10.38-42, 11.27-28",
-        "short_display": "Luke 10.38-42, 11.27-28",
-        "text": "Now it came to pass, as they went, that he entered into a certain village: and a certain woman named Martha received him into her house. And she had a sister called Mary, which also sat at Jesus\u2019 feet, and heard his word. But Martha was cumbered about much serving, and came to him, and said, Lord, dost thou not care that my sister hath left me to serve alone? bid her therefore that she help me. And Jesus answered and said unto her, Martha, Martha, thou art careful and troubled about many things: But one thing is needful: and Mary hath chosen that good part, which shall not be taken away from her. And it came to pass, as he spake these things, a certain woman of the company lifted up her voice, and said unto him, Blessed is the womb that bare thee, and the paps which thou hast sucked. But he said, Yea rather, blessed are they that hear the word of God, and keep it."
-      },
-      {
-        "source": "Gospel",
-        "display": "Mark 6.1-7",
-        "short_display": "Mark 6.1-7",
-        "text": "And he went out from thence, and came into his own country; and his disciples follow him. And when the sabbath day was come, he began to teach in the synagogue: and many hearing him were astonished, saying, From whence hath this man these things? and what wisdom is this which is given unto him, that even such mighty works are wrought by his hands? Is not this the carpenter, the son of Mary, the brother of James, and Joses, and of Juda, and Simon? and are not his sisters here with us? And they were offended at him. But Jesus said unto them, A prophet is not without honour, but in his own country, and among his own kin, and in his own house. And he could there do no mighty work, save that he laid his hands upon a few sick folk, and healed them. And he marvelled because of their unbelief. And he went round about the villages, teaching. And he called unto him the twelve, and began to send them forth by two and two; and gave them power over unclean spirits;"
+        "label": "Divine Liturgy Variables",
+        "url": "https://www.antiochian.org/servicetexts/Sept%2008%20READ.pdf"
       }
     ]
   },

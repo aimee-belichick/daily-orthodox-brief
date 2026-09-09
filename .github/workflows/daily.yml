@@ -14,6 +14,7 @@ permissions:
 jobs:
   fetch:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
 
@@ -22,6 +23,8 @@ jobs:
           python-version: "3.12"
 
       - run: pip install -r requirements.txt
+
+      - run: playwright install --with-deps chromium
 
       - run: python fetch.py
 

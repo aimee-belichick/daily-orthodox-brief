@@ -2,58 +2,28 @@
   "date": "2026-10-18",
   "liturgical": {
     "status": "ok",
-    "titles": [
-      "20th Sunday after Pentecost"
-    ],
-    "summary_title": "20th Sunday after Pentecost",
+    "source": "antiochian",
     "feasts": [
-      "Holy Apostle and Evangelist Luke"
+      "Luke the Evangelist"
     ],
     "saints": [
-      {
-        "name": "Marinos the Martyr",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Marinos%20the%20Martyr"
-      }
+      "Luke the Evangelist",
+      "Marinos the Martyr"
     ],
+    "summary_title": "Luke the Evangelist, Marinos the Martyr",
+    "stories": [],
     "fasting": null,
     "readings": [
       {
-        "source": "Vespers",
-        "display": "1 John 1.1-7",
-        "short_display": "1 John 1.1-7",
-        "text": "That which was from the beginning, which we have heard, which we have seen with our eyes, which we have looked upon, and our hands have handled, of the Word of life; (For the life was manifested, and we have seen it, and bear witness, and shew unto you that eternal life, which was with the Father, and was manifested unto us;) That which we have seen and heard declare we unto you, that ye also may have fellowship with us: and truly our fellowship is with the Father, and with his Son Jesus Christ. And these things write we unto you, that your joy may be full. This then is the message which we have heard of him, and declare unto you, that God is light, and in him is no darkness at all. If we say that we have fellowship with him, and walk in darkness, we lie, and do not the truth: But if we walk in the light, as he is in the light, we have fellowship one with another, and the blood of Jesus Christ his Son cleanseth us from all sin."
+        "display": "St. Paul's Letter to the Colossians 4:5-11, 14-18",
+        "text": "Brethren, conduct yourselves wisely toward outsiders, making the most of the time. Let your speech always be gracious, seasoned with salt, so that you may know how you ought to answer every one. Tychicos will tell you all about my affairs; he is a beloved brother and faithful minister and fellow servant in the Lord. I have sent him to you for this very purpose, that you may know how we are and that he may encourage your hearts, and with him Onesimos, the faithful and beloved brother, who is one of yourselves. They will tell you of everything that has taken place. Aristarchos my fellow prisoner greets you, and Mark the cousin of Barnabas (concerning whom you have received instructions if he comes to you, receive him), and Jesus who is called Justos. These are the only men of the circumcision among my fellow workers for the kingdom of God, and they have been a comfort to me. Luke the beloved physician and Demas greet you. Give my greetings to the brethren at Laodicea, and to Nympha and the church in her house. And when this letter has been read among you, have it read also in the church of the Laodiceans; and see that you read also the letter from Laodicea. And say to Archippos, \"See that you fulfill the ministry which you have received in the Lord.\" I, Paul, write this greeting with my own hand. Remember my fetters. Grace be with you. Amen."
       },
       {
-        "source": "Vespers",
-        "display": "James 1.1-12",
-        "short_display": "Jas 1.1-12",
-        "text": "James, a servant of God and of the Lord Jesus Christ, to the twelve tribes which are scattered abroad, greeting. My brethren, count it all joy when ye fall into divers temptations; Knowing this, that the trying of your faith worketh patience. But let patience have her perfect work, that ye may be perfect and entire, wanting nothing. If any of you lack wisdom, let him ask of God, that giveth to all men liberally, and upbraideth not; and it shall be given him. But let him ask in faith, nothing wavering. For he that wavereth is like a wave of the sea driven with the wind and tossed. For let not that man think that he shall receive any thing of the Lord. A double minded man is unstable in all his ways. Let the brother of low degree rejoice in that he is exalted: But the rich, in that he is made low: because as the flower of the grass he shall pass away. For the sun is no sooner risen with a burning heat, but it withereth the grass, and the flower thereof falleth, and the grace of the fashion of it perisheth: so also shall the rich man fade away in his ways. Blessed is the man that endureth temptation: for when he is tried, he shall receive the crown of life, which the Lord hath promised to them that love him."
-      },
-      {
-        "source": "Vespers",
-        "display": "Jude 1-7, 17-25",
-        "short_display": "Jude 1-7, 17-25",
-        "text": "Jude, the servant of Jesus Christ, and brother of James, to them that are sanctified by God the Father, and preserved in Jesus Christ, and called: Mercy unto you, and peace, and love, be multiplied. Beloved, when I gave all diligence to write unto you of the common salvation, it was needful for me to write unto you, and exhort you that ye should earnestly contend for the faith which was once delivered unto the saints. For there are certain men crept in unawares, who were before of old ordained to this condemnation, ungodly men, turning the grace of our God into lasciviousness, and denying the only Lord God, and our Lord Jesus Christ. I will therefore put you in remembrance, though ye once knew this, how that the Lord, having saved the people out of the land of Egypt, afterward destroyed them that believed not. And the angels which kept not their first estate, but left their own habitation, he hath reserved in everlasting chains under darkness unto the judgment of the great day. Even as Sodom and Gomorrha, and the cities about them in like manner, giving themselves over to fornication, and going after strange flesh, are set forth for an example, suffering the vengeance of eternal fire. But, beloved, remember ye the words which were spoken before of the apostles of our Lord Jesus Christ; How that they told you there should be mockers in the last time, who should walk after their own ungodly lusts. These be they who separate themselves, sensual, having not the Spirit. But ye, beloved, building up yourselves on your most holy faith, praying in the Holy Ghost, Keep yourselves in the love of God, looking for the mercy of our Lord Jesus Christ unto eternal life. And of some have compassion, making a difference: And others save with fear, pulling them out of the fire; hating even the garment spotted by the flesh. Now unto him that is able to keep you from falling, and to present you faultless before the presence of his glory with exceeding joy, To the only wise God our Saviour, be glory and majesty, dominion and power, both now and ever. Amen."
-      },
-      {
-        "source": "9th Matins Gospel",
-        "display": "John 20.19-31",
-        "short_display": "John 20.19-31",
-        "text": "Then the same day at evening, being the first day of the week, when the doors were shut where the disciples were assembled for fear of the Jews, came Jesus and stood in the midst, and saith unto them, Peace be unto you. And when he had so said, he shewed unto them his hands and his side. Then were the disciples glad, when they saw the Lord. Then said Jesus to them again, Peace be unto you: as my Father hath sent me, even so send I you. And when he had said this, he breathed on them, and saith unto them, Receive ye the Holy Ghost: Whose soever sins ye remit, they are remitted unto them; and whose soever sins ye retain, they are retained. But Thomas, one of the twelve, called Didymus, was not with them when Jesus came. The other disciples therefore said unto him, We have seen the Lord. But he said unto them, Except I shall see in his hands the print of the nails, and put my finger into the print of the nails, and thrust my hand into his side, I will not believe. And after eight days again his disciples were within, and Thomas with them: then came Jesus, the doors being shut, and stood in the midst, and said, Peace be unto you. Then saith he to Thomas, Reach hither thy finger, and behold my hands; and reach hither thy hand, and thrust it into my side: and be not faithless, but believing. And Thomas answered and said unto him, My Lord and my God. Jesus saith unto him, Thomas, because thou hast seen me, thou hast believed: blessed are they that have not seen, and yet have believed. And many other signs truly did Jesus in the presence of his disciples, which are not written in this book: But these are written, that ye might believe that Jesus is the Christ, the Son of God; and that believing ye might have life through his name."
-      },
-      {
-        "source": "Epistle",
-        "display": "Colossians 4.5-9, 14, 18",
-        "short_display": "Col 4.5-9, 14, 18",
-        "text": "Walk in wisdom toward them that are without, redeeming the time. Let your speech be alway with grace, seasoned with salt, that ye may know how ye ought to answer every man. All my state shall Tychicus declare unto you, who is a beloved brother, and a faithful minister and fellowservant in the Lord: Whom I have sent unto you for the same purpose, that he might know your estate, and comfort your hearts; With Onesimus, a faithful and beloved brother, who is one of you. They shall make known unto you all things which are done here. Luke, the beloved physician, and Demas, greet you. The salutation by the hand of me Paul. Remember my bonds. Grace be with you. Amen."
-      },
-      {
-        "source": "Gospel",
-        "display": "Luke 10.16-21",
-        "short_display": "Luke 10.16-21",
-        "text": "He that heareth you heareth me; and he that despiseth you despiseth me; and he that despiseth me despiseth him that sent me. And the seventy returned again with joy, saying, Lord, even the devils are subject unto us through thy name. And he said unto them, I beheld Satan as lightning fall from heaven. Behold, I give unto you power to tread on serpents and scorpions, and over all the power of the enemy: and nothing shall by any means hurt you. Notwithstanding in this rejoice not, that the spirits are subject unto you; but rather rejoice, because your names are written in heaven. In that hour Jesus rejoiced in spirit, and said, I thank thee, O Father, Lord of heaven and earth, that thou hast hid these things from the wise and prudent, and hast revealed them unto babes: even so, Father; for so it seemed good in thy sight."
+        "display": "Luke 10:16-21",
+        "text": "The Lord said to his disciples, \"He who hears you hears me, and he who rejects you rejects me, and he who rejects me rejects him who sent me.\" The seventy returned with joy, saying, \"Lord, even the demons are subject to us in your name!\" And he said to them, \"I saw Satan fall like lightning from heaven. Behold, I have given you authority to tread upon serpents and scorpions, and over all the power of the enemy; and nothing shall hurt you. Nevertheless do not rejoice in this, that the spirits are subject to you; but rejoice that your names are written in heaven.\" In that same hour he rejoiced in the Holy Spirit and said, \"I thank you, Father, Lord of heaven and earth, that you have hidden these things from the wise and understanding and revealed them to babes; yes, Father, for such was your gracious will.\""
       }
-    ]
+    ],
+    "service_texts": []
   },
   "events": [
     {

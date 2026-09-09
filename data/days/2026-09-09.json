@@ -2,73 +2,51 @@
   "date": "2026-09-09",
   "liturgical": {
     "status": "ok",
-    "titles": [
-      "Wednesday of the 15th week after Pentecost"
+    "source": "antiochian",
+    "feasts": [
+      "The Holy & Righteous Ancestors of God, Joachim and Anna"
     ],
-    "summary_title": "Righteous Joachim and Anna; Ven. Joseph of Volotsk; Theophanes the Confessor",
-    "feasts": null,
     "saints": [
-      {
-        "name": "Righteous Joachim and Anna",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Righteous%20Joachim%20and%20Anna"
-      },
-      {
-        "name": "Ven. Joseph of Volotsk",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Ven.%20Joseph%20of%20Volotsk"
-      },
-      {
-        "name": "Theophanes the Confessor",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Theophanes%20the%20Confessor"
-      },
-      {
-        "name": "Commemoration of the Third Ecumenical Council (431)",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Commemoration%20of%20the%20Third%20Ecumenical%20Council%20%28431%29"
-      },
-      {
-        "name": "Holy Martyr Severian of Sebaste (320)",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Holy%20Martyr%20Severian%20of%20Sebaste%20%28320%29"
-      },
-      {
-        "name": "Our Holy Father Ciaran of Clonmacnoise (549)",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Our%20Holy%20Father%20Ciaran%20of%20Clonmacnoise%20%28549%29"
-      }
+      "The Holy & Righteous Ancestors of God",
+      "Joachim and Anna",
+      "Severian the Martyr of Sebastia",
+      "Theophanes the Confessor",
+      "Afterfeast of the Nativity of the Theotokos",
+      "Memory of the Third Holy Ecumenical Council in Ephesus"
     ],
+    "summary_title": "The Holy & Righteous Ancestors of God, Joachim and Anna, Severian the Martyr of Sebastia, Theophanes the Confessor, Afterfeast of the Nativity of the Theotokos, Memory of the Third Holy Ecumenical Council in Ephesus",
+    "stories": [],
     "fasting": {
-      "level": 1,
-      "description": "Fast",
+      "description": "Abstain From Meat, Fish, Dairy, Eggs",
       "abstentions": [
         "meat",
         "fish",
         "dairy",
-        "eggs",
-        "wine",
-        "oil"
+        "eggs"
       ]
     },
     "readings": [
       {
-        "source": "Epistle",
-        "display": "Galatians 3.15-22",
-        "short_display": "Gal 3.15-22",
-        "text": "Brethren, I speak after the manner of men; Though it be but a man\u2019s covenant, yet if it be confirmed, no man disannulleth, or addeth thereto. Now to Abraham and his seed were the promises made. He saith not, And to seeds, as of many; but as of one, And to thy seed, which is Christ. And this I say, that the covenant, that was confirmed before of God in Christ, the law, which was four hundred and thirty years after, cannot disannul, that it should make the promise of none effect. For if the inheritance be of the law, it is no more of promise: but God gave it to Abraham by promise. Wherefore then serveth the law? It was added because of transgressions, till the seed should come to whom the promise was made; and it was ordained by angels in the hand of a mediator. Now a mediator is not a mediator of one, but God is one. Is the law then against the promises of God? God forbid: for if there had been a law given which could have given life, verily righteousness should have been by the law. But the scripture hath concluded all under sin, that the promise by faith of Jesus Christ might be given to them that believe."
+        "display": "St. Paul's Letter to the Galatians 4:22-27",
+        "text": "Brethren, Abraham had two sons, one by a slave and one by a free woman. But the son of the slave was born according to the flesh, the son of the free woman through promise. Now this is an allegory: these women are two covenants. One is from Mount Sinai, bearing children for slavery; she is Hagar. Now Hagar is Mount Sinai in Arabia; she corresponds to the present Jerusalem, for she is in slavery with her children. But the Jerusalem above is free, and she is our mother. For it is written, \"Rejoice, O barren one who does not bear; break forth and shout, you who are not in travail; for the children of the desolate one are many more than the children of her that is married.\""
       },
       {
-        "source": "Epistle",
-        "display": "Galatians 4.22-27",
-        "short_display": "Gal 4.22-27",
-        "text": "For it is written, that Abraham had two sons, the one by a bondmaid, the other by a freewoman. But he who was of the bondwoman was born after the flesh; but he of the freewoman was by promise. Which things are an allegory: for these are the two covenants; the one from the mount Sinai, which gendereth to bondage, which is Agar. For this Agar is mount Sinai in Arabia, and answereth to Jerusalem which now is, and is in bondage with her children. But Jerusalem which is above is free, which is the mother of us all. For it is written, Rejoice, thou barren that bearest not; break forth and cry, thou that travailest not: for the desolate hath many more children than she which hath an husband."
+        "display": "Luke 8:16-21",
+        "text": "The Lord said, \"No one after lighting a lamp covers it with a vessel, or puts it under a bed, but puts it on a stand, that those who enter may see the light. For nothing is hid that shall not be made manifest, nor anything secret that shall not be known and come to light. Take heed then how you hear; for to him who has will more be given, and from him who has not, even what he thinks that he has will be taken away. Then his mother and his brothers came to him, but they could not reach him for the crowd. And he was told, \"Your mother and your brothers are standing outside, desiring to see you.\" But he said to them, \"My mother and my brothers are those who hear the word of God and do it."
+      }
+    ],
+    "service_texts": [
+      {
+        "label": "Daily Vespers",
+        "url": "https://www.antiochian.org/servicetexts/Sep%2009%202026%20VESP.pdf"
       },
       {
-        "source": "Gospel",
-        "display": "Mark 6.7-13",
-        "short_display": "Mark 6.7-13",
-        "text": "And he called unto him the twelve, and began to send them forth by two and two; and gave them power over unclean spirits; And commanded them that they should take nothing for their journey, save a staff only; no scrip, no bread, no money in their purse: But be shod with sandals; and not put on two coats. And he said unto them, In what place soever ye enter into an house, there abide till ye depart from that place. And whosoever shall not receive you, nor hear you, when ye depart thence, shake off the dust under your feet for a testimony against them. Verily I say unto you, It shall be more tolerable for Sodom and Gomorrha in the day of judgment, than for that city. And they went out, and preached that men should repent. And they cast out many devils, and anointed with oil many that were sick, and healed them."
+        "label": "Daily Orthros",
+        "url": "https://www.antiochian.org/servicetexts/Sep%2009%20ORTHROS.pdf"
       },
       {
-        "source": "Gospel",
-        "display": "Luke 8.16-21",
-        "short_display": "Luke 8.16-21",
-        "text": "No man, when he hath lighted a candle, covereth it with a vessel, or putteth it under a bed; but setteth it on a candlestick, that they which enter in may see the light. For nothing is secret, that shall not be made manifest; neither any thing hid, that shall not be known and come abroad. Take heed therefore how ye hear: for whosoever hath, to him shall be given; and whosoever hath not, from him shall be taken even that which he seemeth to have. Then came to him his mother and his brethren, and could not come at him for the press. And it was told him by certain which said, Thy mother and thy brethren stand without, desiring to see thee. And he answered and said unto them, My mother and my brethren are these which hear the word of God, and do it."
+        "label": "Divine Liturgy Variables",
+        "url": "https://www.antiochian.org/servicetexts/Sep%2009%20READ.pdf"
       }
     ]
   },

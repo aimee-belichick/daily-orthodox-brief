@@ -2,49 +2,40 @@
   "date": "2026-11-20",
   "liturgical": {
     "status": "ok",
-    "titles": [
-      "Friday of the 25th week after Pentecost"
-    ],
-    "summary_title": "Forefeast of Entry",
+    "source": "antiochian",
     "feasts": [
-      "Forefeast of Entry"
+      "Friday of the 9Th Week"
     ],
     "saints": [
-      {
-        "name": "Ven. Gregory Decapolites",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Ven.%20Gregory%20Decapolites"
-      },
-      {
-        "name": "Our Holy Father Proclus, Archbishop of Constantinople (447)",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Our%20Holy%20Father%20Proclus%2C%20Archbishop%20of%20Constantinople%20%28447%29"
-      }
+      "The Forefeast of the Presentation of the Theotokos Into the Temple",
+      "Gregory the Righteous of Decapolis",
+      "Proclus",
+      "Archbishop of Constantinople"
     ],
+    "summary_title": "The Forefeast of the Presentation of the Theotokos Into the Temple, Gregory the Righteous of Decapolis, Proclus, Archbishop of Constantinople",
+    "stories": [],
     "fasting": {
-      "level": 5,
-      "description": "Nativity Fast",
+      "description": "Abstain From Meat, Fish, Dairy, Eggs, Wine, Olive Oil",
       "abstentions": [
         "meat",
         "fish",
         "dairy",
         "eggs",
         "wine",
-        "oil"
+        "olive oil"
       ]
     },
     "readings": [
       {
-        "source": "Epistle",
-        "display": "2 Thessalonians 3.6-18",
-        "short_display": "2 Thess 3.6-18",
-        "text": "Now we command you, brethren, in the name of our Lord Jesus Christ, that ye withdraw yourselves from every brother that walketh disorderly, and not after the tradition which he received of us. For yourselves know how ye ought to follow us: for we behaved not ourselves disorderly among you; Neither did we eat any man\u2019s bread for nought; but wrought with labour and travail night and day, that we might not be chargeable to any of you: Not because we have not power, but to make ourselves an ensample unto you to follow us. For even when we were with you, this we commanded you, that if any would not work, neither should he eat. For we hear that there are some which walk among you disorderly, working not at all, but are busybodies. Now them that are such we command and exhort by our Lord Jesus Christ, that with quietness they work, and eat their own bread. But ye, brethren, be not weary in well doing. And if any man obey not our word by this epistle, note that man, and have no company with him, that he may be ashamed. Yet count him not as an enemy, but admonish him as a brother. Now the Lord of peace himself give you peace always by all means. The Lord be with you all. The salutation of Paul with mine own hand, which is the token in every epistle: so I write. The grace of our Lord Jesus Christ be with you all. Amen."
+        "display": "St. Paul's Second Letter to the Thessalonians 3:6-18",
+        "text": "Brethren, we command you in the name of our Lord Jesus Christ, that you keep away from any brother who is living in idleness and not in accord with the tradition that you received from us. For you yourselves know how you ought to imitate us; we were not idle when we were with you, we did not eat any one's bread without paying, but with toil and labor we worked night and day, that we might not burden any of you. It was not because we have not that right, but to give you in our conduct an example to imitate. For even when we were with you, we gave you this command: If any one will not work, let him not eat. For we hear that some of you are living in idleness, mere busybodies, not doing any work. Now such persons we command and exhort in the Lord Jesus Christ to do their work in quietness and to earn their own living. Brethren, do not be weary in well-doing. If any one refuses to obey what we say in this letter, note that man, and have nothing to do with him, that he may be ashamed. Do not look on him as an enemy, but warn him as a brother. Now may the Lord of peace himself give you peace at all times in all ways. The Lord be with you all. I, Paul, write this greeting with my own hand. This is the mark in every letter of mine; it is the way I write. The grace of our Lord Jesus Christ be with you all. Amen."
       },
       {
-        "source": "Gospel",
-        "display": "Luke 16.15-18, 17.1-4",
-        "short_display": "Luke 16.15-18, 17.1-4",
-        "text": "And he said unto them, Ye are they which justify yourselves before men; but God knoweth your hearts: for that which is highly esteemed among men is abomination in the sight of God. The law and the prophets were until John: since that time the kingdom of God is preached, and every man presseth into it. And it is easier for heaven and earth to pass, than one tittle of the law to fail. Whosoever putteth away his wife, and marrieth another, committeth adultery: and whosoever marrieth her that is put away from her husband committeth adultery. Then said he unto the disciples, It is impossible but that offences will come: but woe unto him, through whom they come! It were better for him that a millstone were hanged about his neck, and he cast into the sea, than that he should offend one of these little ones. Take heed to yourselves: If thy brother trespass against thee, rebuke him; and if he repent, forgive him. And if he trespass against thee seven times in a day, and seven times in a day turn again to thee, saying, I repent; thou shalt forgive him."
+        "display": "Luke 16:15-18; 17:1-4",
+        "text": "The Lord said to the Jews who came to him, \"You are those who justify yourselves before men, but God knows your hearts; for what is exalted among men is an abomination in the sight of God. The law and the prophets were until John; since then the good news of the kingdom of God is preached, and every one enters it violently. But it is easier for heaven and earth to pass away, than for one dot of the law to become void. Every one who divorces his wife and marries another commits adultery, and he who marries a woman divorced from her husband commits adultery.\" And he said to his disciples, \"Temptations to sin are sure to come; but woe to him by whom they come! It would be better for him if a millstone were hung round his neck and he were cast into the sea, than that he should cause one of these little ones to sin. Take heed to yourselves; if your brother sins, rebuke him, and if he repents, forgive him; and if he sins against you seven times in the day, and turns to you seven times, and says, 'I repent, ' you must forgive him."
       }
-    ]
+    ],
+    "service_texts": []
   },
   "events": []
 }

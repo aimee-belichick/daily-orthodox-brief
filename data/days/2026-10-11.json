@@ -2,94 +2,40 @@
   "date": "2026-10-11",
   "liturgical": {
     "status": "ok",
-    "titles": [
-      "19th Sunday after Pentecost"
-    ],
-    "summary_title": "19th Sunday after Pentecost",
+    "source": "antiochian",
     "feasts": [
-      "Fathers of the Seventh Ecumenical Council"
+      "Sunday of the 7Th Ecumenical Council"
     ],
     "saints": [
-      {
-        "name": "Apostle Philip of the Seventy",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Apostle%20Philip%20of%20the%20Seventy"
-      },
-      {
-        "name": "Holy Martyrs Zenais and Philonilla",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Holy%20Martyrs%20Zenais%20and%20Philonilla"
-      },
-      {
-        "name": "Ethelburga, Abbess of Barking",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Ethelburga%2C%20Abbess%20of%20Barking"
-      },
-      {
-        "name": "Our righteous Father Kenneth, Founder of the Monastery of Aghaboe in Ireland",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Our%20righteous%20Father%20Kenneth%2C%20Founder%20of%20the%20Monastery%20of%20Aghaboe%20in%20Ireland"
-      },
-      {
-        "name": "Synaxis of the Holy Startsi of Optina Monastery",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Synaxis%20of%20the%20Holy%20Startsi%20of%20Optina%20Monastery"
-      },
-      {
-        "name": "Saint Theophanes the Hymnographer (the Branded) (847)",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Saint%20Theophanes%20the%20Hymnographer%20%28the%20Branded%29%20%28847%29"
-      },
-      {
-        "name": "Our Holy Father Philotheos Kokkinos,Patriarch of Constantinople (1379)",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Our%20Holy%20Father%20Philotheos%20Kokkinos%2CPatriarch%20of%20Constantinople%20%281379%29"
-      }
+      "Sunday of the 7Th Ecumenical Council",
+      "Philip the Apostle of the 70",
+      "One of the 7 Deacons",
+      "Theophanes the Confessor",
+      "Bishop of Nicaea",
+      "Holy Martyrs Zenais and Philonilla",
+      "Nectarios",
+      "Arsakios",
+      "Sisinios and Philotheos Kokkinos",
+      "Patriarchs of Constantinople",
+      "Ethelburga",
+      "Abbess of Barking",
+      "Our Righteous Father Kenneth",
+      "Founder of the Monastery of Aghaboe in Ireland."
     ],
+    "summary_title": "Sunday of the 7Th Ecumenical Council, Philip the Apostle of the 70, One of the 7 Deacons, Theophanes the Confessor, Bishop of Nicaea, Holy Martyrs Zenais and Philonilla, Nectarios, Arsakios, Sisinios and Philotheos Kokkinos, Patriarchs of Constantinople, Ethelburga, Abbess of Barking, Our Righteous Father Kenneth, Founder of the Monastery of Aghaboe in Ireland.",
+    "stories": [],
     "fasting": null,
     "readings": [
       {
-        "source": "Vespers",
-        "display": "Genesis 14.14-20",
-        "short_display": "Gen 14.14-20",
-        "text": "And when Abram heard that his brother was taken captive, he armed his trained servants, born in his own house, three hundred and eighteen, and pursued them unto Dan. And he divided himself against them, he and his servants, by night, and smote them, and pursued them unto Hobah, which is on the left hand of Damascus. And he brought back all the goods, and also brought again his brother Lot, and his goods, and the women also, and the people. And the king of Sodom went out to meet him after his return from the slaughter of Chedorlaomer, and of the kings that were with him, at the valley of Shaveh, which is the king\u2019s dale. And Melchizedek king of Salem brought forth bread and wine: and he was the priest of the most high God. And he blessed him, and said, Blessed be Abram of the most high God, possessor of heaven and earth: And blessed be the most high God, which hath delivered thine enemies into thy hand. And he gave him tithes of all."
+        "display": "St. Paul's Letter to Titus 3:8-15",
+        "text": "Titus, my son, the saying is sure. I desire you to insist on these things, so that those who have believed in God may be careful to apply themselves to good deeds; these are excellent and profitable to men. But avoid stupid controversies, genealogies, dissensions, and quarrels over the law, for they are unprofitable and futile. As for a man who is factious, after admonishing him once or twice, have nothing more to do with him, knowing that such a person is perverted and sinful; he is self-condemned. When I send Artemas or Tychicos to you, do your best to come to me at Nicopolis, for I have decided to spend the winter there. Do your best to speed Zenas the lawyer and Apollos on their way; see that they lack nothing. And let our people learn to apply themselves to good deeds, so as to help cases of urgent need, and not to be unfruitful. All who are with me send greeting to you. Greet those who love us in the faith. Grace be with you all. Amen."
       },
       {
-        "source": "Vespers",
-        "display": "Deuteronomy 1.8-11, 15-17",
-        "short_display": "Deut 1.8-11, 15-17",
-        "text": "Behold, I have set the land before you: go in and possess the land which the LORD sware unto your fathers, Abraham, Isaac, and Jacob, to give unto them and to their seed after them. And I spake unto you at that time, saying, I am not able to bear you myself alone: The LORD your God hath multiplied you, and, behold, ye are this day as the stars of heaven for multitude. (The LORD God of your fathers make you a thousand times so many more as ye are, and bless you, as he hath promised you!) So I took the chief of your tribes, wise men, and known, and made them heads over you, captains over thousands, and captains over hundreds, and captains over fifties, and captains over tens, and officers among your tribes. And I charged your judges at that time, saying, Hear the causes between your brethren, and judge righteously between every man and his brother, and the stranger that is with him. Ye shall not respect persons in judgment; but ye shall hear the small as well as the great; ye shall not be afraid of the face of man; for the judgment is God\u2019s: and the cause that is too hard for you, bring it unto me, and I will hear it."
-      },
-      {
-        "source": "Vespers",
-        "display": "Deuteronomy 10.14-21",
-        "short_display": "Deut 10.14-21",
-        "text": "Behold, the heaven and the heaven of heavens is the LORD\u2019s thy God, the earth also, with all that therein is. Only the LORD had a delight in thy fathers to love them, and he chose their seed after them, even you above all people, as it is this day. Circumcise therefore the foreskin of your heart, and be no more stiffnecked. For the LORD your God is God of gods, and Lord of lords, a great God, a mighty, and a terrible, which regardeth not persons, nor taketh reward: He doth execute the judgment of the fatherless and widow, and loveth the stranger, in giving him food and raiment. Love ye therefore the stranger: for ye were strangers in the land of Egypt. Thou shalt fear the LORD thy God; him shalt thou serve, and to him shalt thou cleave, and swear by his name. He is thy praise, and he is thy God, that hath done for thee these great and terrible things, which thine eyes have seen."
-      },
-      {
-        "source": "8th Matins Gospel",
-        "display": "John 20.11-18",
-        "short_display": "John 20.11-18",
-        "text": "But Mary stood without at the sepulchre weeping: and as she wept, she stooped down, and looked into the sepulchre, And seeth two angels in white sitting, the one at the head, and the other at the feet, where the body of Jesus had lain. And they say unto her, Woman, why weepest thou? She saith unto them, Because they have taken away my Lord, and I know not where they have laid him. And when she had thus said, she turned herself back, and saw Jesus standing, and knew not that it was Jesus. Jesus saith unto her, Woman, why weepest thou? whom seekest thou? She, supposing him to be the gardener, saith unto him, Sir, if thou have borne him hence, tell me where thou hast laid him, and I will take him away. Jesus saith unto her, Mary. She turned herself, and saith unto him, Rabboni; which is to say, Master. Jesus saith unto her, Touch me not; for I am not yet ascended to my Father: but go to my brethren, and say unto them, I ascend unto my Father, and your Father; and to my God, and your God. Mary Magdalene came and told the disciples that she had seen the Lord, and that he had spoken these things unto her."
-      },
-      {
-        "source": "Epistle",
-        "display": "2 Corinthians 11.31-12.9",
-        "short_display": "2 Cor 11.31-12.9",
-        "text": "The God and Father of our Lord Jesus Christ, which is blessed for evermore, knoweth that I lie not. In Damascus the governor under Aretas the king kept the city of the Damascenes with a garrison, desirous to apprehend me: And through a window in a basket was I let down by the wall, and escaped his hands. It is not expedient for me doubtless to glory. I will come to visions and revelations of the Lord. I knew a man in Christ above fourteen years ago, (whether in the body, I cannot tell; or whether out of the body, I cannot tell: God knoweth;) such an one caught up to the third heaven. And I knew such a man, (whether in the body, or out of the body, I cannot tell: God knoweth;) How that he was caught up into paradise, and heard unspeakable words, which it is not lawful for a man to utter. Of such an one will I glory: yet of myself I will not glory, but in mine infirmities. For though I would desire to glory, I shall not be a fool; for I will say the truth: but now I forbear, lest any man should think of me above that which he seeth me to be, or that he heareth of me. And lest I should be exalted above measure through the abundance of the revelations, there was given to me a thorn in the flesh, the messenger of Satan to buffet me, lest I should be exalted above measure. For this thing I besought the Lord thrice, that it might depart from me. And he said unto me, My grace is sufficient for thee: for my strength is made perfect in weakness. Most gladly therefore will I rather glory in my infirmities, that the power of Christ may rest upon me."
-      },
-      {
-        "source": "Epistle",
-        "display": "Titus 3.8-15",
-        "short_display": "Titus 3.8-15",
-        "text": "This is a faithful saying, and these things I will that thou affirm constantly, that they which have believed in God might be careful to maintain good works. These things are good and profitable unto men. But avoid foolish questions, and genealogies, and contentions, and strivings about the law; for they are unprofitable and vain. A man that is an heretick after the first and second admonition reject; Knowing that he that is such is subverted, and sinneth, being condemned of himself. When I shall send Artemas unto thee, or Tychicus, be diligent to come unto me to Nicopolis: for I have determined there to winter. Bring Zenas the lawyer and Apollos on their journey diligently, that nothing be wanting unto them. And let ours also learn to maintain good works for necessary uses, that they be not unfruitful. All that are with me salute thee. Greet them that love us in the faith. Grace be with you all. Amen."
-      },
-      {
-        "source": "Gospel",
-        "display": "Luke 8.5-15",
-        "short_display": "Luke 8.5-15",
-        "text": "A sower went out to sow his seed: and as he sowed, some fell by the way side; and it was trodden down, and the fowls of the air devoured it. And some fell upon a rock; and as soon as it was sprung up, it withered away, because it lacked moisture. And some fell among thorns; and the thorns sprang up with it, and choked it. And other fell on good ground, and sprang up, and bare fruit an hundredfold. And when he had said these things, he cried, He that hath ears to hear, let him hear. And his disciples asked him, saying, What might this parable be? And he said, Unto you it is given to know the mysteries of the kingdom of God: but to others in parables; that seeing they might not see, and hearing they might not understand. Now the parable is this: The seed is the word of God. Those by the way side are they that hear; then cometh the devil, and taketh away the word out of their hearts, lest they should believe and be saved. They on the rock are they, which, when they hear, receive the word with joy; and these have no root, which for a while believe, and in time of temptation fall away. And that which fell among thorns are they, which, when they have heard, go forth, and are choked with cares and riches and pleasures of this life, and bring no fruit to perfection. But that on the good ground are they, which in an honest and good heart, having heard the word, keep it, and bring forth fruit with patience."
-      },
-      {
-        "source": "Gospel",
-        "display": "Luke 8.5-15",
-        "short_display": "Luke 8.5-15",
-        "text": "A sower went out to sow his seed: and as he sowed, some fell by the way side; and it was trodden down, and the fowls of the air devoured it. And some fell upon a rock; and as soon as it was sprung up, it withered away, because it lacked moisture. And some fell among thorns; and the thorns sprang up with it, and choked it. And other fell on good ground, and sprang up, and bare fruit an hundredfold. And when he had said these things, he cried, He that hath ears to hear, let him hear. And his disciples asked him, saying, What might this parable be? And he said, Unto you it is given to know the mysteries of the kingdom of God: but to others in parables; that seeing they might not see, and hearing they might not understand. Now the parable is this: The seed is the word of God. Those by the way side are they that hear; then cometh the devil, and taketh away the word out of their hearts, lest they should believe and be saved. They on the rock are they, which, when they hear, receive the word with joy; and these have no root, which for a while believe, and in time of temptation fall away. And that which fell among thorns are they, which, when they have heard, go forth, and are choked with cares and riches and pleasures of this life, and bring no fruit to perfection. But that on the good ground are they, which in an honest and good heart, having heard the word, keep it, and bring forth fruit with patience."
+        "display": "Luke 8:5-15",
+        "text": "The Lord said this parable: \"A sower went out to sow his seed; and as he sowed, some fell along the path, and was trodden under foot, and the birds of the air devoured it. And some fell on the rock; and as it grew up, it withered away, because it had no moisture. And some fell among thorns; and the thorns grew with it and choked it. And some fell into good soil and grew, and yielded a hundredfold.\" And when his disciples asked him what this parable meant, he said, \"To you it has been given to know the secrets of the kingdom of God; but for others they are in parables, so that seeing they may not see, and hearing they may not understand. Now the parable is this: The seed is the word of God. The ones along the path are those who have heard; then the devil comes and takes away the word from their hearts, that they may not believe and be saved. And the ones on the rock are those who, when they hear the word, receive it with joy; but these have no root, they believe for a while and in time of temptation fall away. And as for what fell among the thorns, they are those who hear, but as they go on their way they are choked by the cares and riches and pleasures of life, and their fruit does not mature. And as for that in the good soil, they are those who, hearing the word, hold it fast in an honest and good heart, and bring forth fruit with patience.\" As he said these things, he cried out \"He who has ears to hear, let him hear."
       }
-    ]
+    ],
+    "service_texts": []
   },
   "events": [
     {

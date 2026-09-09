@@ -2,85 +2,61 @@
   "date": "2026-09-14",
   "liturgical": {
     "status": "ok",
-    "titles": [
-      "Monday of the 16th week after Pentecost"
-    ],
-    "summary_title": "Exaltation (Elevation) of the Precious Cross",
+    "source": "antiochian",
     "feasts": [
-      "Exaltation (Elevation) of the Precious Cross"
+      "The Elevation of the Venerable and Life-Giving Cross"
     ],
     "saints": [
-      {
-        "name": "Commemoration of the 6th Ecumenical Council",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Commemoration%20of%20the%206th%20Ecumenical%20Council"
-      },
-      {
-        "name": "St Placilla the Empress (385 or 386)",
-        "link": "https://orthodoxwiki.org/Special:Search?search=St%20Placilla%20the%20Empress%20%28385%20or%20386%29"
-      },
-      {
-        "name": "Holy New Martyr Macarius of Thessalonica (1527)",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Holy%20New%20Martyr%20Macarius%20of%20Thessalonica%20%281527%29"
-      }
+      "The Elevation of the Venerable and Life-Giving Cross",
+      "Commemoration of the 6Th Ecumenical Council"
     ],
+    "summary_title": "The Elevation of the Venerable and Life-Giving Cross, Commemoration of the 6Th Ecumenical Council",
+    "stories": [],
     "fasting": {
-      "level": 1,
-      "description": "Fast",
+      "description": "Abstain From Meat, Fish, Dairy, Eggs, Wine, Olive Oil",
       "abstentions": [
         "meat",
         "fish",
         "dairy",
-        "eggs"
+        "eggs",
+        "wine",
+        "olive oil"
       ]
     },
     "readings": [
       {
-        "source": "Vespers",
-        "display": "Exodus 15.22-16.1",
-        "short_display": "Exod 15.22-16.1",
-        "text": "So Moses brought Israel from the Red sea, and they went out into the wilderness of Shur; and they went three days in the wilderness, and found no water. And when they came to Marah, they could not drink of the waters of Marah, for they were bitter: therefore the name of it was called Marah. And the people murmured against Moses, saying, What shall we drink? And he cried unto the LORD; and the LORD shewed him a tree, which when he had cast into the waters, the waters were made sweet: there he made for them a statute and an ordinance, and there he proved them, And said, If thou wilt diligently hearken to the voice of the LORD thy God, and wilt do that which is right in his sight, and wilt give ear to his commandments, and keep all his statutes, I will put none of these diseases upon thee, which I have brought upon the Egyptians: for I am the LORD that healeth thee. And they came to Elim, where were twelve wells of water, and threescore and ten palm trees: and they encamped there by the waters. And they took their journey from Elim, and all the congregation of the children of Israel came unto the wilderness of Sin, which is between Elim and Sinai, on the fifteenth day of the second month after their departing out of the land of Egypt."
+        "display": "St. Paul's First Letter to the Corinthians 1:18-24",
+        "text": "Brethren, the word of the cross is folly to those who are perishing, but to us who are being saved it is the power of God. For it is written, \"I will destroy the wisdom of the wise, and the cleverness of the clever I will thwart.\" Where is the wise man? Where is the scribe? Where is the debater of this age? Has not God made foolish the wisdom of the world? For since, in the wisdom of God, the world did not know God through wisdom, it pleased God through the folly of what we preach to save those who believe. For Jews demand signs and Greeks seek wisdom, but we preach Christ crucified, a stumbling block to Jews and folly to Gentiles, but to those who are called, both Jews and Greeks, Christ the power of God and the wisdom of God."
       },
       {
-        "source": "Vespers",
-        "display": "Proverbs 3.11-18",
-        "short_display": "Prov 3.11-18",
-        "text": "My son, despise not the chastening of the LORD; neither be weary of his correction: For whom the LORD loveth he correcteth; even as a father the son in whom he delighteth. Happy is the man that findeth wisdom, and the man that getteth understanding. For the merchandise of it is better than the merchandise of silver, and the gain thereof than fine gold. She is more precious than rubies: and all the things thou canst desire are not to be compared unto her. Length of days is in her right hand; and in her left hand riches and honour. Her ways are ways of pleasantness, and all her paths are peace. She is a tree of life to them that lay hold upon her: and happy is every one that retaineth her."
+        "display": "John 19:6-11, 13-20, 25-28, 30",
+        "text": "At that time, when the chief priests and the officers saw him, they cried out, \"Crucify him, crucify him!\" Pilate said to them, \"Take him yourselves and crucify him, for I find no crime in him.\" The Jews answered him, \"We have a law, and by that law he ought to die, because he has made himself the Son of God. When Pilate heard these words, he was the more afraid; he entered the praetorium again and said to Jesus, \"Where are you from?\" But Jesus gave no answer. Pilate therefore said to him, \"You will not speak to me? Do you not know that I have power to release you, and power to crucify you?\" Jesus answered him, \"You would have no power over me unless it had been given you from above; therefore he who delivered me to you has the greater sin.\" When Pilate heard these words, he brought Jesus out and sat down on the judgment seat at a place called the Pavement, and in Hebrew, Gabbatha. Now it was the day of Preparation of the Passover; it was about the sixth hour. He said to the Jews, \"Behold your King!\" They cried out, \"Away with him, away with him, crucify him!\" Pilate said to them, \"Shall I crucify your King?\" The chief priests answered, \"We have no king but Caesar.\" Then he handed him over to them to be crucified. So they took Jesus, and he went out, bearing his own cross, to the place called the place of a skull, which is called in Hebrew Golgotha. There they crucified him, and with him two others, one on either side, and Jesus between them. Pilate also wrote a title and put it on the cross; it read, \"Jesus of Nazareth, the King of the Jews.\" Many of the Jews read this title, for the place where Jesus was crucified was near the city; and it was written in Hebrew, in Latin, and in Greek. But standing by the cross of Jesus were his mother, and his mother's sister, Mary the wife of Clopas, and Mary Magdalene. When Jesus saw his mother, and the disciple whom he loved standing near, he said to his mother, \"Woman, behold your son!\" Then he said to the disciple, \"Behold your mother!\" And from that hour the disciple took her to his own home. Then when Jesus had received the vinegar, he said, \"It is finished\"; and he bowed his head and gave up his spirit."
+      }
+    ],
+    "service_texts": [
+      {
+        "label": "Abbreviated Rubrics",
+        "url": "https://www.antiochian.org/servicetexts/Sept%2014%20Abbr.pdf"
       },
       {
-        "source": "Vespers",
-        "display": "Isaiah 60.11-16",
-        "short_display": "Isa 60.11-16",
-        "text": "Therefore thy gates shall be open continually; they shall not be shut day nor night; that men may bring unto thee the forces of the Gentiles, and that their kings may be brought. For the nation and kingdom that will not serve thee shall perish; yea, those nations shall be utterly wasted. The glory of Lebanon shall come unto thee, the fir tree, the pine tree, and the box together, to beautify the place of my sanctuary; and I will make the place of my feet glorious. The sons also of them that afflicted thee shall come bending unto thee; and all they that despised thee shall bow themselves down at the soles of thy feet; and they shall call thee, The city of the LORD, The Zion of the Holy One of Israel. Whereas thou hast been forsaken and hated, so that no man went through thee, I will make thee an eternal excellency, a joy of many generations. Thou shalt also suck the milk of the Gentiles, and shalt suck the breast of kings: and thou shalt know that I the LORD am thy Saviour and thy Redeemer, the mighty One of Jacob."
+        "label": "Bilingual - Festal Orthros",
+        "url": "https://www.antiochian.org/servicetexts/Sept%2014%20Bilingual%20ORTHROS.pdf"
       },
       {
-        "source": "Matins Gospel",
-        "display": "John 12.28-36",
-        "short_display": "John 12.28-36",
-        "text": "Father, glorify thy name. Then came there a voice from heaven, saying, I have both glorified it, and will glorify it again. The people therefore, that stood by, and heard it, said that it thundered: others said, An angel spake to him. Jesus answered and said, This voice came not because of me, but for your sakes. Now is the judgment of this world: now shall the prince of this world be cast out. And I, if I be lifted up from the earth, will draw all men unto me. This he said, signifying what death he should die. The people answered him, We have heard out of the law that Christ abideth for ever: and how sayest thou, The Son of man must be lifted up? who is this Son of man? Then Jesus said unto them, Yet a little while is the light with you. Walk while ye have the light, lest darkness come upon you: for he that walketh in darkness knoweth not whither he goeth. While ye have light, believe in the light, that ye may be the children of light. These things spake Jesus, and departed, and did hide himself from them."
+        "label": "Bilingual - Divine Liturgy Variables",
+        "url": "https://www.antiochian.org/servicetexts/Sept%2014%20Bilingual%20READ.pdf"
       },
       {
-        "source": "Epistle",
-        "display": "1 Corinthians 1.18-24",
-        "short_display": "1 Cor 1.18-24",
-        "text": "For the preaching of the cross is to them that perish foolishness; but unto us which are saved it is the power of God. For it is written, I will destroy the wisdom of the wise, and will bring to nothing the understanding of the prudent. Where is the wise? where is the scribe? where is the disputer of this world? hath not God made foolish the wisdom of this world? For after that in the wisdom of God the world by wisdom knew not God, it pleased God by the foolishness of preaching to save them that believe. For the Jews require a sign, and the Greeks seek after wisdom: But we preach Christ crucified, unto the Jews a stumblingblock, and unto the Greeks foolishness; But unto them which are called, both Jews and Greeks, Christ the power of God, and the wisdom of God."
+        "label": "Festal Orthros",
+        "url": "https://www.antiochian.org/servicetexts/Sept%2014%20ORTHROS.pdf"
       },
       {
-        "source": "Epistle",
-        "display": "Galatians 4.28-5.10",
-        "short_display": "Gal 4.28-5.10",
-        "text": "Now we, brethren, as Isaac was, are the children of promise. But as then he that was born after the flesh persecuted him that was born after the Spirit, even so it is now. Nevertheless what saith the scripture? Cast out the bondwoman and her son: for the son of the bondwoman shall not be heir with the son of the freewoman. So then, brethren, we are not children of the bondwoman, but of the free. Stand fast therefore in the liberty wherewith Christ hath made us free, and be not entangled again with the yoke of bondage. Behold, I Paul say unto you, that if ye be circumcised, Christ shall profit you nothing. For I testify again to every man that is circumcised, that he is a debtor to do the whole law. Christ is become of no effect unto you, whosoever of you are justified by the law; ye are fallen from grace. For we through the Spirit wait for the hope of righteousness by faith. For in Jesus Christ neither circumcision availeth any thing, nor uncircumcision; but faith which worketh by love. Ye did run well; who did hinder you that ye should not obey the truth? This persuasion cometh not of him that calleth you. A little leaven leaveneth the whole lump. I have confidence in you through the Lord, that ye will be none otherwise minded: but he that troubleth you shall bear his judgment, whosoever he be."
+        "label": "Procession of the Cross",
+        "url": "https://www.antiochian.org/servicetexts/Sept%2014%20PROCESS.pdf"
       },
       {
-        "source": "Gospel",
-        "display": "John 19.6-11, 13-20, 25-28, 30-35",
-        "short_display": "John 19.6-11, 13-20, 25-28, 30-35",
-        "text": "When the chief priests therefore and officers saw him, they cried out, saying, Crucify him, crucify him. Pilate saith unto them, Take ye him, and crucify him: for I find no fault in him. The Jews answered him, We have a law, and by our law he ought to die, because he made himself the Son of God. When Pilate therefore heard that saying, he was the more afraid; And went again into the judgment hall, and saith unto Jesus, Whence art thou? But Jesus gave him no answer. Then saith Pilate unto him, Speakest thou not unto me? knowest thou not that I have power to crucify thee, and have power to release thee? Jesus answered, Thou couldest have no power at all against me, except it were given thee from above: therefore he that delivered me unto thee hath the greater sin. When Pilate therefore heard that saying, he brought Jesus forth, and sat down in the judgment seat in a place that is called the Pavement, but in the Hebrew, Gabbatha. And it was the preparation of the passover, and about the sixth hour: and he saith unto the Jews, Behold your King! But they cried out, Away with him, away with him, crucify him. Pilate saith unto them, Shall I crucify your King? The chief priests answered, We have no king but C\u00e6sar. Then delivered he him therefore unto them to be crucified. And they took Jesus, and led him away. And he bearing his cross went forth into a place called the place of a skull, which is called in the Hebrew Golgotha: Where they crucified him, and two other with him, on either side one, and Jesus in the midst. And Pilate wrote a title, and put it on the cross. And the writing was, JESUS OF NAZARETH THE KING OF THE JEWS. This title then read many of the Jews: for the place where Jesus was crucified was nigh to the city: and it was written in Hebrew, and Greek, and Latin. Now there stood by the cross of Jesus his mother, and his mother\u2019s sister, Mary the wife of Cleophas, and Mary Magdalene. When Jesus therefore saw his mother, and the disciple standing by, whom he loved, he saith unto his mother, Woman, behold thy son! Then saith he to the disciple, Behold thy mother! And from that hour that disciple took her unto his own home. After this, Jesus knowing that all things were now accomplished, that the scripture might be fulfilled, saith, I thirst. When Jesus therefore had received the vinegar, he said, It is finished: and he bowed his head, and gave up the ghost. The Jews therefore, because it was the preparation, that the bodies should not remain upon the cross on the sabbath day, (for that sabbath day was an high day,) besought Pilate that their legs might be broken, and that they might be taken away. Then came the soldiers, and brake the legs of the first, and of the other which was crucified with him. But when they came to Jesus, and saw that he was dead already, they brake not his legs: But one of the soldiers with a spear pierced his side, and forthwith came there out blood and water. And he that saw it bare record, and his record is true: and he knoweth that he saith true, that ye might believe."
-      },
-      {
-        "source": "Gospel",
-        "display": "Mark 6.54-7.8",
-        "short_display": "Mark 6.54-7.8",
-        "text": "And when they were come out of the ship, straightway they knew him, And ran through that whole region round about, and began to carry about in beds those that were sick, where they heard he was. And whithersoever he entered, into villages, or cities, or country, they laid the sick in the streets, and besought him that they might touch if it were but the border of his garment: and as many as touched him were made whole. Then came together unto him the Pharisees, and certain of the scribes, which came from Jerusalem. And when they saw some of his disciples eat bread with defiled, that is to say, with unwashen, hands, they found fault. For the Pharisees, and all the Jews, except they wash their hands oft, eat not, holding the tradition of the elders. And when they come from the market, except they wash, they eat not. And many other things there be, which they have received to hold, as the washing of cups, and pots, brasen vessels, and of tables. Then the Pharisees and scribes asked him, Why walk not thy disciples according to the tradition of the elders, but eat bread with unwashen hands? He answered and said unto them, Well hath Esaias prophesied of you hypocrites, as it is written, This people honoureth me with their lips, but their heart is far from me. Howbeit in vain do they worship me, teaching for doctrines the commandments of men. For laying aside the commandment of God, ye hold the tradition of men, as the washing of pots and cups: and many other such like things ye do."
+        "label": "Divine Liturgy Variables",
+        "url": "https://www.antiochian.org/servicetexts/Sept%2014%20READ.pdf"
       }
     ]
   },

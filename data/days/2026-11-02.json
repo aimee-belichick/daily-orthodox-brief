@@ -2,36 +2,36 @@
   "date": "2026-11-02",
   "liturgical": {
     "status": "ok",
-    "titles": [
-      "Monday of the 23rd week after Pentecost"
+    "source": "antiochian",
+    "feasts": [
+      "Monday of the 7Th Week"
     ],
-    "summary_title": "Martyrs Acindynus, Pegasius, Aphthonius, Elpidophorus, and Anempodistus of Persia; Domnina, Domna, & Kyriaki, the Martyrs",
-    "feasts": null,
     "saints": [
-      {
-        "name": "Martyrs Acindynus, Pegasius, Aphthonius, Elpidophorus, and Anempodistus of Persia",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Martyrs%20Acindynus%2C%20Pegasius%2C%20Aphthonius%2C%20Elpidophorus%2C%20and%20Anempodistus%20of%20Persia"
-      },
-      {
-        "name": "Domnina, Domna, & Kyriaki, the Martyrs",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Domnina%2C%20Domna%2C%20%26%20Kyriaki%2C%20the%20Martyrs"
-      }
+      "The Holy Martyrs Acindynos",
+      "Pegasios",
+      "Aphthonios",
+      "Elpidophoros",
+      "And Anempodistos",
+      "Domnina",
+      "Domna",
+      "& Kyriaki",
+      "The Martyrs",
+      "Gabriel the New Confessor of Georgia"
     ],
+    "summary_title": "The Holy Martyrs Acindynos, Pegasios, Aphthonios, Elpidophoros, And Anempodistos, Domnina, Domna, & Kyriaki, The Martyrs, Gabriel the New Confessor of Georgia",
+    "stories": [],
     "fasting": null,
     "readings": [
       {
-        "source": "Epistle",
-        "display": "1 Thessalonians 1.1-5",
-        "short_display": "1 Thess 1.1-5",
-        "text": "Paul, and Silvanus, and Timotheus, unto the church of the Thessalonians which is in God the Father and in the Lord Jesus Christ: Grace be unto you, and peace, from God our Father, and the Lord Jesus Christ. We give thanks to God always for you all, making mention of you in our prayers; Remembering without ceasing your work of faith, and labour of love, and patience of hope in our Lord Jesus Christ, in the sight of God and our Father; Knowing, brethren beloved, your election of God. For our gospel came not unto you in word only, but also in power, and in the Holy Ghost, and in much assurance; as ye know what manner of men we were among you for your sake."
+        "display": "St. Paul's First Letter to the Thessalonians 1:1-5",
+        "text": "Paul, Silvanus, and Timothy, to the church of the Thessalonians in God the Father and the Lord Jesus Christ: Grace to you and peace. We give thanks to God always for you all, constantly mentioning you in our prayers, remembering before our God and Father your work of faith and labor of love and steadfastness of hope in our Lord Jesus Christ. For we know, brethren beloved by God, that he has chosen you; for our gospel came to you not only in word, but also in power and in the Holy Spirit and with full conviction. You know what kind of men we proved to be among you for your sake."
       },
       {
-        "source": "Gospel",
-        "display": "Luke 11.29-33",
-        "short_display": "Luke 11.29-33",
-        "text": "And when the people were gathered thick together, he began to say, This is an evil generation: they seek a sign; and there shall no sign be given it, but the sign of Jonas the prophet. For as Jonas was a sign unto the Ninevites, so shall also the Son of man be to this generation. The queen of the south shall rise up in the judgment with the men of this generation, and condemn them: for she came from the utmost parts of the earth to hear the wisdom of Solomon; and, behold, a greater than Solomon is here. The men of Nineve shall rise up in the judgment with this generation, and shall condemn it: for they repented at the preaching of Jonas; and, behold, a greater than Jonas is here. No man, when he hath lighted a candle, putteth it in a secret place, neither under a bushel, but on a candlestick, that they which come in may see the light."
+        "display": "Luke 11:29-33",
+        "text": "At that time, when the crowds were increasing, Jesus began to say, \"This generation is an evil generation; it seeks a sign, but no sign shall be given to it except the sign of Jonah. For as Jonah became a sign to the men of Nineveh, so will the Son of man be to this generation. The queen of the South will arise at the judgment with the men of this generation and condemn them; for she came from the ends of the earth to hear the wisdom of Solomon, and behold, something greater than Solomon is here. The men of Nineveh will arise at the judgment with this generation and condemn it; for they repented at the preaching of Jonah, and behold, something greater than Jonah is here. No one after lighting a lamp puts it in a cellar or under a bushel, but on a stand, that those who enter may see the light.\""
       }
-    ]
+    ],
+    "service_texts": []
   },
   "events": [
     {

@@ -2,40 +2,30 @@
   "date": "2026-10-22",
   "liturgical": {
     "status": "ok",
-    "titles": [
-      "Thursday of the 21st week after Pentecost"
+    "source": "antiochian",
+    "feasts": [
+      "Thursday of the 5Th Week"
     ],
-    "summary_title": "St Abercius, Equal-to-the-Apostles; Venerable Lot of Egypt (5th c.); Holy Seven Youths of Ephesus",
-    "feasts": null,
     "saints": [
-      {
-        "name": "St Abercius, Equal-to-the-Apostles",
-        "link": "https://orthodoxwiki.org/Special:Search?search=St%20Abercius%2C%20Equal-to-the-Apostles"
-      },
-      {
-        "name": "Venerable Lot of Egypt (5th c.)",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Venerable%20Lot%20of%20Egypt%20%285th%20c.%29"
-      },
-      {
-        "name": "Holy Seven Youths of Ephesus",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Holy%20Seven%20Youths%20of%20Ephesus"
-      }
+      "Averkios",
+      "Equal-To-The-Apostles and Wonderworker",
+      "Bishop of Hierapolis",
+      "Seven Holy Martyred Youths of Ephesus"
     ],
+    "summary_title": "Averkios, Equal-To-The-Apostles and Wonderworker, Bishop of Hierapolis, Seven Holy Martyred Youths of Ephesus",
+    "stories": [],
     "fasting": null,
     "readings": [
       {
-        "source": "Epistle",
-        "display": "Colossians 1.24-29",
-        "short_display": "Col 1.24-29",
-        "text": "Who now rejoice in my sufferings for you, and fill up that which is behind of the afflictions of Christ in my flesh for his body\u2019s sake, which is the church: Whereof I am made a minister, according to the dispensation of God which is given to me for you, to fulfil the word of God; Even the mystery which hath been hid from ages and from generations, but now is made manifest to his saints: To whom God would make known what is the riches of the glory of this mystery among the Gentiles; which is Christ in you, the hope of glory: Whom we preach, warning every man, and teaching every man in all wisdom; that we may present every man perfect in Christ Jesus: Whereunto I also labour, striving according to his working, which worketh in me mightily."
+        "display": "St. Paul's Letter to the Colossians 1:24-29, 2:1",
+        "text": "Brethren, now I rejoice in my sufferings for your sake, and in my flesh I complete what is lacking in Christ's afflictions for the sake of his body, that is, the church, of which I became a minister according to the divine office which was given to me for you, to make the word of God fully known, the mystery hidden for ages and generations but now made manifest to his saints. To them God chose to make known how great among the Gentiles are the riches of the glory of this mystery, which is Christ in you, the hope of glory. Him we proclaim, warning every man and teaching every man in all wisdom, that we may present every man mature in Christ. For this I toil, striving with all the energy which he mightily inspires within me. For I want you to know how greatly I strive for you."
       },
       {
-        "source": "Gospel",
-        "display": "Luke 9.49-56",
-        "short_display": "Luke 9.49-56",
-        "text": "And John answered and said, Master, we saw one casting out devils in thy name; and we forbad him, because he followeth not with us. And Jesus said unto him, Forbid him not: for he that is not against us is for us. And it came to pass, when the time was come that he should be received up, he stedfastly set his face to go to Jerusalem, And sent messengers before his face: and they went, and entered into a village of the Samaritans, to make ready for him. And they did not receive him, because his face was as though he would go to Jerusalem. And when his disciples James and John saw this, they said, Lord, wilt thou that we command fire to come down from heaven, and consume them, even as Elias did? But he turned, and rebuked them, and said, Ye know not what manner of spirit ye are of. For the Son of man is not come to destroy men\u2019s lives, but to save them. And they went to another village."
+        "display": "Luke 9:49-56",
+        "text": "At that time, one of Jesus' disciples came to him and said, \"Master, we saw a man casting out demons in your name, and we forbade him, because he does not follow with us.\" But Jesus said to him, \"Do not forbid him; for he that is not against you is for you.\" When the days drew near for him to be received up, he set his face to go to Jerusalem. And he sent messengers ahead of him, who went and entered a village of the Samaritans, to make ready for him; but the people would not receive him, because his face was set toward Jerusalem. And when his disciples James and John saw it, they said, \"Lord, do you want us to bid fire come down from heaven and consume them as Elijah did?\" But he turned and rebuked them. And they went on to another village."
       }
-    ]
+    ],
+    "service_texts": []
   },
   "events": []
 }

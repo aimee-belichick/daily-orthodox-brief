@@ -2,40 +2,23 @@
   "date": "2026-12-01",
   "liturgical": {
     "status": "ok",
-    "titles": [
-      "Tuesday of the 27th week after Pentecost"
+    "source": "antiochian",
+    "feasts": [
+      "Tuesday of the 11Th Week"
     ],
-    "summary_title": "Prophet Nahum; Ananias the Persian; Holy Father Theocletus the Wonderworker, Archbishop of Lacedaemonia",
-    "feasts": null,
     "saints": [
-      {
-        "name": "Prophet Nahum",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Prophet%20Nahum"
-      },
-      {
-        "name": "Ananias the Persian",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Ananias%20the%20Persian"
-      },
-      {
-        "name": "Holy Father Theocletus the Wonderworker, Archbishop of Lacedaemonia",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Holy%20Father%20Theocletus%20the%20Wonderworker%2C%20Archbishop%20of%20Lacedaemonia"
-      },
-      {
-        "name": "Our Holy Fathers Ananius and Solochon, Archbishops of Ephesus",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Our%20Holy%20Fathers%20Ananius%20and%20Solochon%2C%20Archbishops%20of%20Ephesus"
-      },
-      {
-        "name": "Saint Philaret the Merciful of Constantinople (762)",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Saint%20Philaret%20the%20Merciful%20of%20Constantinople%20%28762%29"
-      },
-      {
-        "name": "Our Venerable Father Eligius (Eloi), Bishop of Noyon (660)",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Our%20Venerable%20Father%20Eligius%20%28Eloi%29%2C%20Bishop%20of%20Noyon%20%28660%29"
-      }
+      "Nahum the Prophet",
+      "Philaret the Merciful of Amnia",
+      "Ananias the Persian",
+      "Holy Father Theocletus the Wonderworker",
+      "Archbishop of Lacedaemonia",
+      "Our Holy Fathers Ananius and Solochon",
+      "Archbishops of Ephesus"
     ],
+    "summary_title": "Nahum the Prophet, Philaret the Merciful of Amnia, Ananias the Persian, Holy Father Theocletus the Wonderworker, Archbishop of Lacedaemonia, Our Holy Fathers Ananius and Solochon, Archbishops of Ephesus",
+    "stories": [],
     "fasting": {
-      "level": 5,
-      "description": "Nativity Fast",
+      "description": "Abstain From Meat, Dairy, Eggs",
       "abstentions": [
         "meat",
         "dairy",
@@ -44,18 +27,15 @@
     },
     "readings": [
       {
-        "source": "Epistle",
-        "display": "1 Timothy 5.11-21",
-        "short_display": "1 Tim 5.11-21",
-        "text": "But the younger widows refuse: for when they have begun to wax wanton against Christ, they will marry; Having damnation, because they have cast off their first faith. And withal they learn to be idle, wandering about from house to house; and not only idle, but tattlers also and busybodies, speaking things which they ought not. I will therefore that the younger women marry, bear children, guide the house, give none occasion to the adversary to speak reproachfully. For some are already turned aside after Satan. If any man or woman that believeth have widows, let them relieve them, and let not the church be charged; that it may relieve them that are widows indeed. Let the elders that rule well be counted worthy of double honour, especially they who labour in the word and doctrine. For the scripture saith, Thou shalt not muzzle the ox that treadeth out the corn. And, The labourer is worthy of his reward. Against an elder receive not an accusation, but before two or three witnesses. Them that sin rebuke before all, that others also may fear. I charge thee before God, and the Lord Jesus Christ, and the elect angels, that thou observe these things without preferring one before another, doing nothing by partiality."
+        "display": "St. Paul's First Letter to Timothy 5:11-21",
+        "text": "Timothy, my son, refuse to enrol younger widows; for when they grow wanton against Christ they desire to marry, and so they incur condemnation for having violated their first pledge. Besides that, they learn to be idlers, gadding about from house to house, and not only idlers but gossips and busybodies, saying what they should not. So I would have younger widows marry, bear children, rule their households, and give the enemy no occasion to revile us. For some have already strayed after Satan. If any believing man or woman has relatives who are widows, let him assist them; let the church not be burdened, so that it may assist those who are real widows. Let the elders who rule well be considered worthy of double honor, especially those who labor in preaching and teaching; for the scripture says, \"You shall not muzzle an ox when it is treading out the grain, \" and, \"The laborer deserves his wages.\" Never admit any charge against an elder except on the evidence of two or three witnesses. As for those who persist in sin, rebuke them in the presence of all, so that the rest may stand in fear. In the presence of God and of Christ Jesus and of the elect angels I charge you to keep these rules without favor, doing nothing from partiality."
       },
       {
-        "source": "Gospel",
-        "display": "Luke 19.45-48",
-        "short_display": "Luke 19.45-48",
-        "text": "And he went into the temple, and began to cast out them that sold therein, and them that bought; Saying unto them, It is written, My house is the house of prayer: but ye have made it a den of thieves. And he taught daily in the temple. But the chief priests and the scribes and the chief of the people sought to destroy him, And could not find what they might do: for all the people were very attentive to hear him."
+        "display": "Luke 19:45-48",
+        "text": "At that time, Jesus entered the temple and began to drive out those who sold, saying to them, \"It is written, 'My house shall be a house of prayer'; but you have made it a den of robbers.\" And he was teaching daily in the temple. The chief priests and the scribes and the principal men of the people sought to destroy him; but they did not find anything they could do, for all the people hung upon his words."
       }
-    ]
+    ],
+    "service_texts": []
   },
   "events": [
     {

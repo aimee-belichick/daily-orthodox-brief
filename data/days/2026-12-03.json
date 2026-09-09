@@ -2,44 +2,24 @@
   "date": "2026-12-03",
   "liturgical": {
     "status": "ok",
-    "titles": [
-      "Thursday of the 27th week after Pentecost"
+    "source": "antiochian",
+    "feasts": [
+      "Thursday of the 11Th Week"
     ],
-    "summary_title": "Prophet Zephaniah; Ven. Savva of Zvenigorod; Holy Martyrs Agapius and Seleucius",
-    "feasts": null,
     "saints": [
-      {
-        "name": "Prophet Zephaniah",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Prophet%20Zephaniah"
-      },
-      {
-        "name": "Ven. Savva of Zvenigorod",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Ven.%20Savva%20of%20Zvenigorod"
-      },
-      {
-        "name": "Holy Martyrs Agapius and Seleucius",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Holy%20Martyrs%20Agapius%20and%20Seleucius"
-      },
-      {
-        "name": "Theodore, Archbishop of Alexandria",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Theodore%2C%20Archbishop%20of%20Alexandria"
-      },
-      {
-        "name": "Angelis the New Martyr",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Angelis%20the%20New%20Martyr"
-      },
-      {
-        "name": "Karpos the Hieromartyr",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Karpos%20the%20Hieromartyr"
-      },
-      {
-        "name": "Our Venerable Father John the Silent, Bishop of Colonia (558)",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Our%20Venerable%20Father%20John%20the%20Silent%2C%20Bishop%20of%20Colonia%20%28558%29"
-      }
+      "The Holy Prophet Sophonias (Zephaniah)",
+      "Our Righteous Father John",
+      "Bishop and Hesychast",
+      "Holy Martyrs Agapius and Seleucius",
+      "Theodore",
+      "Archbishop of Alexandria",
+      "Angelis the New Martyr",
+      "Karpos the Hieromartyr"
     ],
+    "summary_title": "The Holy Prophet Sophonias (Zephaniah), Our Righteous Father John, Bishop and Hesychast, Holy Martyrs Agapius and Seleucius, Theodore, Archbishop of Alexandria, Angelis the New Martyr, Karpos the Hieromartyr",
+    "stories": [],
     "fasting": {
-      "level": 5,
-      "description": "Nativity Fast",
+      "description": "Abstain From Meat, Dairy, Eggs",
       "abstentions": [
         "meat",
         "dairy",
@@ -48,18 +28,15 @@
     },
     "readings": [
       {
-        "source": "Epistle",
-        "display": "1 Timothy 6.17-21",
-        "short_display": "1 Tim 6.17-21",
-        "text": "Charge them that are rich in this world, that they be not highminded, nor trust in uncertain riches, but in the living God, who giveth us richly all things to enjoy; That they do good, that they be rich in good works, ready to distribute, willing to communicate; Laying up in store for themselves a good foundation against the time to come, that they may lay hold on eternal life. O Timothy, keep that which is committed to thy trust, avoiding profane and vain babblings, and oppositions of science falsely so called: Which some professing have erred concerning the faith. Grace be with thee. Amen."
+        "display": "St. Paul's First Letter to Timothy 6:17-21",
+        "text": "Timothy, my son, charge the rich in this world not to be haughty, nor to set their hopes on uncertain riches but on God who richly furnishes us with everything to enjoy. They are to do good, to be rich in good deeds, liberal and generous, thus laying up for themselves a good foundation for the future, so that they may take hold of the life which is life indeed. O Timothy, guard what has been entrusted to you. Avoid the godless chatter and contradictions of what is falsely called knowledge, for by professing it some have missed the mark as regards the faith. Grace be with you. Amen."
       },
       {
-        "source": "Gospel",
-        "display": "Luke 20.9-18",
-        "short_display": "Luke 20.9-18",
-        "text": "Then began he to speak to the people this parable; A certain man planted a vineyard, and let it forth to husbandmen, and went into a far country for a long time. And at the season he sent a servant to the husbandmen, that they should give him of the fruit of the vineyard: but the husbandmen beat him, and sent him away empty. And again he sent another servant: and they beat him also, and entreated him shamefully, and sent him away empty. And again he sent a third: and they wounded him also, and cast him out. Then said the lord of the vineyard, What shall I do? I will send my beloved son: it may be they will reverence him when they see him. But when the husbandmen saw him, they reasoned among themselves, saying, This is the heir: come, let us kill him, that the inheritance may be ours. So they cast him out of the vineyard, and killed him. What therefore shall the lord of the vineyard do unto them? He shall come and destroy these husbandmen, and shall give the vineyard to others. And when they heard it, they said, God forbid. And he beheld them, and said, What is this then that is written, The stone which the builders rejected, the same is become the head of the corner? Whosoever shall fall upon that stone shall be broken; but on whomsoever it shall fall, it will grind him to powder."
+        "display": "Luke 20:9-18",
+        "text": "The Lord said this parable: \"A man planted a vineyard, and let it out to tenants, and went into another country for a long while. When the time came, he sent a servant to the tenants, that they should give him some of the fruit of the vineyard; but the tenants beat him, and sent him away empty-handed. And he sent another servant; him also they beat and treated shamefully, and sent him away empty-handed. And he sent yet a third; this one they wounded and cast out. Then the owner of the vineyard said, 'What shall I do? I will send my beloved son; it may be they will respect him.' But when the tenants saw him, they said to themselves, 'This is the heir; let us kill him, that the inheritance may be ours.' And they cast him out of the vineyard and killed him. What then will the owner of the vineyard do to them? He will come and destroy those tenants, and give the vineyard to others.\" When they heard this, they said, \"God forbid!\" But he looked at them and said, \"What then is this that is written: 'The very stone which the builders rejected has become the head of the corner'? Every one who falls on that stone will be broken to pieces; but when it falls on any one it will crush him."
       }
-    ]
+    ],
+    "service_texts": []
   },
   "events": []
 }

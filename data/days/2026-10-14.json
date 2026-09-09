@@ -2,59 +2,44 @@
   "date": "2026-10-14",
   "liturgical": {
     "status": "ok",
-    "titles": [
-      "Wednesday of the 20th week after Pentecost"
+    "source": "antiochian",
+    "feasts": [
+      "Wednesday of the 4Th Week"
     ],
-    "summary_title": "Ven. Parasceva of Serbia; Praised Ignatius, Archbishop of Methymna; Holy Martyrs Nazarius, Gervasius, Protasius, and Celsus of Milan (1st c.)",
-    "feasts": null,
     "saints": [
-      {
-        "name": "Ven. Parasceva of Serbia",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Ven.%20Parasceva%20of%20Serbia"
-      },
-      {
-        "name": "Praised Ignatius, Archbishop of Methymna",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Praised%20Ignatius%2C%20Archbishop%20of%20Methymna"
-      },
-      {
-        "name": "Holy Martyrs Nazarius, Gervasius, Protasius, and Celsus of Milan (1st c.)",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Holy%20Martyrs%20Nazarius%2C%20Gervasius%2C%20Protasius%2C%20and%20Celsus%20of%20Milan%20%281st%20c.%29"
-      },
-      {
-        "name": "Saint Cosmas the Hymnographer (8th c.)",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Saint%20Cosmas%20the%20Hymnographer%20%288th%20c.%29"
-      },
-      {
-        "name": "Saint Nicholas the Pious (Sviatosha), Prince of Chernigov (1143)",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Saint%20Nicholas%20the%20Pious%20%28Sviatosha%29%2C%20Prince%20of%20Chernigov%20%281143%29"
-      }
+      "Martyrs Nazarius",
+      "Gervasius",
+      "Protasius",
+      "& Celsus",
+      "Cosmas the Hagiopolite",
+      "Praised Ignatius",
+      "Archbishop of Methymna",
+      "Righteous Paraskeve of Serbia"
     ],
+    "summary_title": "Martyrs Nazarius, Gervasius, Protasius, & Celsus, Cosmas the Hagiopolite, Praised Ignatius, Archbishop of Methymna, Righteous Paraskeve of Serbia",
+    "stories": [],
     "fasting": {
-      "level": 1,
-      "description": "Fast",
+      "description": "Abstain From Meat, Fish, Dairy, Eggs, Wine, Olive Oil",
       "abstentions": [
         "meat",
         "fish",
         "dairy",
         "eggs",
         "wine",
-        "oil"
+        "olive oil"
       ]
     },
     "readings": [
       {
-        "source": "Epistle",
-        "display": "Philippians 2.24-30",
-        "short_display": "Phil 2.24-30",
-        "text": "But I trust in the Lord that I also myself shall come shortly. Yet I supposed it necessary to send to you Epaphroditus, my brother, and companion in labour, and fellowsoldier, but your messenger, and he that ministered to my wants. For he longed after you all, and was full of heaviness, because that ye had heard that he had been sick. For indeed he was sick nigh unto death: but God had mercy on him; and not on him only, but on me also, lest I should have sorrow upon sorrow. I sent him therefore the more carefully, that, when ye see him again, ye may rejoice, and that I may be the less sorrowful. Receive him therefore in the Lord with all gladness; and hold such in reputation: Because for the work of Christ he was nigh unto death, not regarding his life, to supply your lack of service toward me."
+        "display": "St. Paul's Letter to the Philippians 2:24-30",
+        "text": "Brethren, I trust in the Lord that shortly I myself shall come also. I have thought it necessary to send to you Epaphroditos my brother and fellow worker and fellow soldier, and your messenger and minister to my need, for he has been longing for you all, and has been distressed because you heard that he was ill. Indeed he was ill, near to death. But God had mercy on him, and not only on him but on me also, lest I should have sorrow upon sorrow. I am the more eager to send him, therefore, that you may rejoice at seeing him again, and that I may be less anxious. So receive him in the Lord with all joy; and honor such men, for he nearly died for the work of Christ, risking his life to complete your service to me."
       },
       {
-        "source": "Gospel",
-        "display": "Luke 8.22-25",
-        "short_display": "Luke 8.22-25",
-        "text": "Now it came to pass on a certain day, that he went into a ship with his disciples: and he said unto them, Let us go over unto the other side of the lake. And they launched forth. But as they sailed he fell asleep: and there came down a storm of wind on the lake; and they were filled with water, and were in jeopardy. And they came to him, and awoke him, saying, Master, master, we perish. Then he arose, and rebuked the wind and the raging of the water: and they ceased, and there was a calm. And he said unto them, Where is your faith? And they being afraid wondered, saying one to another, What manner of man is this! for he commandeth even the winds and water, and they obey him."
+        "display": "Luke 8:22-25",
+        "text": "At that time, Jesus entered a boat with his disciples, and he said to them, \"Let us go across to the other side of the lake.\" So they set out, and as they sailed he fell asleep. And a storm of wind came down on the lake, and they were filling with water, and were in danger. And they went and woke him, saying, \"Master, Master, we are perishing!\" And he awoke and rebuked the wind and the raging waves; and they ceased, and there was a calm. He said to them, \"Where is your faith?\" And they were afraid, and they marveled, saying to one another, \"Who then is this, that he commands even wind and water, and they obey him?"
       }
-    ]
+    ],
+    "service_texts": []
   },
   "events": [
     {

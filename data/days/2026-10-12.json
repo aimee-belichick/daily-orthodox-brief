@@ -2,40 +2,35 @@
   "date": "2026-10-12",
   "liturgical": {
     "status": "ok",
-    "titles": [
-      "Monday of the 20th week after Pentecost"
+    "source": "antiochian",
+    "feasts": [
+      "Monday of the 4Th Week"
     ],
-    "summary_title": "Martyrs Probus, Tarachus and Andronicus; Wilfrid of York; St Symeon the New Theologian (1022)",
-    "feasts": null,
     "saints": [
-      {
-        "name": "Martyrs Probus, Tarachus and Andronicus",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Martyrs%20Probus%2C%20Tarachus%20and%20Andronicus"
-      },
-      {
-        "name": "Wilfrid of York",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Wilfrid%20of%20York"
-      },
-      {
-        "name": "St Symeon the New Theologian (1022)",
-        "link": "https://orthodoxwiki.org/Special:Search?search=St%20Symeon%20the%20New%20Theologian%20%281022%29"
-      }
+      "Probus",
+      "Andronicus",
+      "& Tarachus",
+      "Martyrs of Tarsus",
+      "Symeon the New Theologian",
+      "Cosmas the Hymnographer",
+      "Bishop of Maiuma",
+      "Domnina the Martyr",
+      "Wilfrid of York"
     ],
+    "summary_title": "Probus, Andronicus, & Tarachus, Martyrs of Tarsus, Symeon the New Theologian, Cosmas the Hymnographer, Bishop of Maiuma, Domnina the Martyr, Wilfrid of York",
+    "stories": [],
     "fasting": null,
     "readings": [
       {
-        "source": "Epistle",
-        "display": "Philippians 2.12-16",
-        "short_display": "Phil 2.12-16",
-        "text": "Wherefore, my beloved, as ye have always obeyed, not as in my presence only, but now much more in my absence, work out your own salvation with fear and trembling. For it is God which worketh in you both to will and to do of his good pleasure. Do all things without murmurings and disputings: That ye may be blameless and harmless, the sons of God, without rebuke, in the midst of a crooked and perverse nation, among whom ye shine as lights in the world; Holding forth the word of life; that I may rejoice in the day of Christ, that I have not run in vain, neither laboured in vain."
+        "display": "St. Paul's Letter to the Philippians 2:12-15",
+        "text": "Brethren, as you have always obeyed, so now, not only as in my presence but much more in my absence, work out your own salvation with fear and trembling; for God is at work in you, both to will and to work for his good pleasure. Do all things without grumbling or questioning, that you may be blameless and innocent, children of God without blemish in the midst of a crooked and perverse generation, among whom you shine as lights in the world, holding fast the word of life, so that in the day of Christ I may be proud."
       },
       {
-        "source": "Gospel",
-        "display": "Luke 7.36-50",
-        "short_display": "Luke 7.36-50",
-        "text": "And one of the Pharisees desired him that he would eat with him. And he went into the Pharisee\u2019s house, and sat down to meat. And, behold, a woman in the city, which was a sinner, when she knew that Jesus sat at meat in the Pharisee\u2019s house, brought an alabaster box of ointment, And stood at his feet behind him weeping, and began to wash his feet with tears, and did wipe them with the hairs of her head, and kissed his feet, and anointed them with the ointment. Now when the Pharisee which had bidden him saw it, he spake within himself, saying, This man, if he were a prophet, would have known who and what manner of woman this is that toucheth him: for she is a sinner. And Jesus answering said unto him, Simon, I have somewhat to say unto thee. And he saith, Master, say on. There was a certain creditor which had two debtors: the one owed five hundred pence, and the other fifty. And when they had nothing to pay, he frankly forgave them both. Tell me therefore, which of them will love him most? Simon answered and said, I suppose that he, to whom he forgave most. And he said unto him, Thou hast rightly judged. And he turned to the woman, and said unto Simon, Seest thou this woman? I entered into thine house, thou gavest me no water for my feet: but she hath washed my feet with tears, and wiped them with the hairs of her head. Thou gavest me no kiss: but this woman since the time I came in hath not ceased to kiss my feet. My head with oil thou didst not anoint: but this woman hath anointed my feet with ointment. Wherefore I say unto thee, Her sins, which are many, are forgiven; for she loved much: but to whom little is forgiven, the same loveth little. And he said unto her, Thy sins are forgiven. And they that sat at meat with him began to say within themselves, Who is this that forgiveth sins also? And he said to the woman, Thy faith hath saved thee; go in peace."
+        "display": "Luke 7:36-50",
+        "text": "At that time, one of the Pharisees asked Jesus to eat with him, and he went into the Pharisee's house, and took his place at table. And behold, a woman of the city, who was a sinner, when she learned that he was at table in the Pharisee's house, brought an alabaster flask of ointment, and standing behind him at his feet, weeping, she began to wet his feet with her tears, and wiped them with the hair of her head, and kissed his feet, and anointed them with the ointment. Now when the Pharisee who had invited him saw it, he said to himself, \"If this man were a prophet, he would have known who and what sort of woman this is who is touching him, for she is a sinner.\" And Jesus answering said to him, \"Simon, I have something to say to you.\" And he answered, \"What is it, Teacher?\" \"A certain creditor had two debtors; one owed five hundred denarii, and the other fifty. When they could not pay, he forgave them both. Now which of them will love him more?\" Simon answered, \"The one, I suppose, to whom he forgave more.\" And he said to him, \"You have judged rightly.\" Then turning toward the woman he said to Simon, \"Do you see this woman? I entered your house, you gave me no water for my feet, but she has wet my feet with her tears and wiped them with her hair. You gave me no kiss, but from the time I came in she has not ceased to kiss my feet. You did not anoint my head with oil, but she has anointed my feet with ointment. Therefore I tell you, her sins, which are many, are forgiven, for she loved much; but he who is forgiven little, loves little.\" And he said to her, \"Your sins are forgiven.\" Then those who were at table with him began to say among themselves, \"Who is this, who even forgives sins?\" And he said to the woman, \"Your faith has saved you; go in peace.\""
       }
-    ]
+    ],
+    "service_texts": []
   },
   "events": [
     {

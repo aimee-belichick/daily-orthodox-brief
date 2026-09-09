@@ -2,58 +2,32 @@
   "date": "2026-10-19",
   "liturgical": {
     "status": "ok",
-    "titles": [
-      "Monday of the 21st week after Pentecost"
+    "source": "antiochian",
+    "feasts": [
+      "Monday of the 5Th Week"
     ],
-    "summary_title": "Prophet Joel; Relics Ven. John of Rila; Felix the Hieromartyr & Eusebius the Deacon",
-    "feasts": null,
     "saints": [
-      {
-        "name": "Prophet Joel",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Prophet%20Joel"
-      },
-      {
-        "name": "Relics Ven. John of Rila",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Relics%20Ven.%20John%20of%20Rila"
-      },
-      {
-        "name": "Felix the Hieromartyr & Eusebius the Deacon",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Felix%20the%20Hieromartyr%20%26%20Eusebius%20the%20Deacon"
-      },
-      {
-        "name": "Righteous John, Wonderworker of Kronstadt (1908).",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Righteous%20John%2C%20Wonderworker%20of%20Kronstadt%20%281908%29."
-      },
-      {
-        "name": "Holy Martyr Varus and those with him (304)",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Holy%20Martyr%20Varus%20and%20those%20with%20him%20%28304%29"
-      },
-      {
-        "name": "Holy Hieromartyr Sadoth (Shahdost) and his 128 companions (342)",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Holy%20Hieromartyr%20Sadoth%20%28Shahdost%29%20and%20his%20128%20companions%20%28342%29"
-      }
+      "Joel the Prophet",
+      "Varys the Martyr",
+      "John of Rilas",
+      "Felix the Hieromartyr & Eusebius the Deacon",
+      "John the Wonderworker of Kronstadt",
+      "Frideswide of Oxford"
     ],
+    "summary_title": "Joel the Prophet, Varys the Martyr, John of Rilas, Felix the Hieromartyr & Eusebius the Deacon, John the Wonderworker of Kronstadt, Frideswide of Oxford",
+    "stories": [],
     "fasting": null,
     "readings": [
       {
-        "source": "Epistle",
-        "display": "Philippians 4.10-23",
-        "short_display": "Phil 4.10-23",
-        "text": "But I rejoiced in the Lord greatly, that now at the last your care of me hath flourished again; wherein ye were also careful, but ye lacked opportunity. Not that I speak in respect of want: for I have learned, in whatsoever state I am, therewith to be content. I know both how to be abased, and I know how to abound: every where and in all things I am instructed both to be full and to be hungry, both to abound and to suffer need. I can do all things through Christ which strengtheneth me. Notwithstanding ye have well done, that ye did communicate with my affliction. Now ye Philippians know also, that in the beginning of the gospel, when I departed from Macedonia, no church communicated with me as concerning giving and receiving, but ye only. For even in Thessalonica ye sent once and again unto my necessity. Not because I desire a gift: but I desire fruit that may abound to your account. But I have all, and abound: I am full, having received of Epaphroditus the things which were sent from you, an odour of a sweet smell, a sacrifice acceptable, wellpleasing to God. But my God shall supply all your need according to his riches in glory by Christ Jesus. Now unto God and our Father be glory for ever and ever. Amen. Salute every saint in Christ Jesus. The brethren which are with me greet you. All the saints salute you, chiefly they that are of Caesar\u2019s household. The grace of our Lord Jesus Christ be with you all. Amen."
+        "display": "Acts of the Apostles 2:14-21",
+        "text": "In those days, Peter, standing with the eleven, lifted up his voice and addressed them, \"Men of Judea and all who dwell in Jerusalem, let this be known to you, and give ear to my words. For these men are not drunk, as you suppose, since it is only the third hour of the day; but this is what was spoken by the prophet Joel: 'And in the last days it shall be, God declares, that I will pour out my Spirit upon all flesh, and your sons and your daughters shall prophesy, and your young men shall see visions, and your old men shall dream dreams; yea, and on my menservants and my maid servants in those days I will pour out my Spirit; and they shall prophesy. And I will show wonders in the heaven above and signs on the earth beneath, blood, and fire, and vapor of smoke; the sun shall be turned into darkness and the moon into blood, before the day of the Lord comes, the great and manifest day. And it shall be that whoever calls on the name of the Lord shall be saved.'\""
       },
       {
-        "source": "Epistle",
-        "display": "Acts 2.14-21",
-        "short_display": "Acts 2.14-21",
-        "text": "But Peter, standing up with the eleven, lifted up his voice, and said unto them, Ye men of Jud\u00e6a, and all ye that dwell at Jerusalem, be this known unto you, and hearken to my words: For these are not drunken, as ye suppose, seeing it is but the third hour of the day. But this is that which was spoken by the prophet Joel; And it shall come to pass in the last days, saith God, I will pour out of my Spirit upon all flesh: and your sons and your daughters shall prophesy, and your young men shall see visions, and your old men shall dream dreams: And on my servants and on my handmaidens I will pour out in those days of my Spirit; and they shall prophesy: And I will shew wonders in heaven above, and signs in the earth beneath; blood, and fire, and vapour of smoke: The sun shall be turned into darkness, and the moon into blood, before that great and notable day of the Lord come: And it shall come to pass, that whosoever shall call on the name of the Lord shall be saved."
-      },
-      {
-        "source": "Gospel",
-        "display": "Luke 9.18-22",
-        "short_display": "Luke 9.18-22",
-        "text": "And it came to pass, as he was alone praying, his disciples were with him: and he asked them, saying, Whom say the people that I am? They answering said, John the Baptist; but some say, Elias; and others say, that one of the old prophets is risen again. He said unto them, But whom say ye that I am? Peter answering said, The Christ of God. And he straitly charged them, and commanded them to tell no man that thing; Saying, The Son of man must suffer many things, and be rejected of the elders and chief priests and scribes, and be slain, and be raised the third day."
+        "display": "Luke 9:18-22",
+        "text": "At that time, it happened that as Jesus was praying alone the disciples were with him; and he asked them, \"Who do the people say that I am?\" And they answered, \"John the Baptist; but others say, Elijah; and others, that one of the old prophets has risen.\" And he said to them, \"But who do you say that I am?\" And Peter answered, \"The Christ of God.\" But he charged and commanded them to tell this to no one, saying, \"The Son of man must suffer many things, and be rejected by the elders and chief priests and scribes, and be killed, and on the third day be raised.\""
       }
-    ]
+    ],
+    "service_texts": []
   },
   "events": [
     {

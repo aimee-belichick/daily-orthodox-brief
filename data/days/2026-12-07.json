@@ -2,40 +2,21 @@
   "date": "2026-12-07",
   "liturgical": {
     "status": "ok",
-    "titles": [
-      "Monday of the 28th week after Pentecost"
+    "source": "antiochian",
+    "feasts": [
+      "Monday of the 12Th Week"
     ],
-    "summary_title": "St Ambrose, Bishop of Milan; Ven. Nilus of Stolobensk; Athenodoros the Martyr of Mesopotamia",
-    "feasts": null,
     "saints": [
-      {
-        "name": "St Ambrose, Bishop of Milan",
-        "link": "https://orthodoxwiki.org/Special:Search?search=St%20Ambrose%2C%20Bishop%20of%20Milan"
-      },
-      {
-        "name": "Ven. Nilus of Stolobensk",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Ven.%20Nilus%20of%20Stolobensk"
-      },
-      {
-        "name": "Athenodoros the Martyr of Mesopotamia",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Athenodoros%20the%20Martyr%20of%20Mesopotamia"
-      },
-      {
-        "name": "Righteous Father Gerasimus, Ascetic of Euboia",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Righteous%20Father%20Gerasimus%2C%20Ascetic%20of%20Euboia"
-      },
-      {
-        "name": "The Martyrs of Africa, who suffered during the Vandal persecution (429 and following)",
-        "link": "https://orthodoxwiki.org/Special:Search?search=The%20Martyrs%20of%20Africa%2C%20who%20suffered%20during%20the%20Vandal%20persecution%20%28429%20and%20following%29"
-      },
-      {
-        "name": "Our Venerable Father Antony of Siya (1556)",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Our%20Venerable%20Father%20Antony%20of%20Siya%20%281556%29"
-      }
+      "Ambrose",
+      "Bishop of Milan",
+      "Athenodoros the Martyr of Mesopotamia",
+      "Righteous Father Gerasimus",
+      "Ascetic of Euboia"
     ],
+    "summary_title": "Ambrose, Bishop of Milan, Athenodoros the Martyr of Mesopotamia, Righteous Father Gerasimus, Ascetic of Euboia",
+    "stories": [],
     "fasting": {
-      "level": 5,
-      "description": "Nativity Fast",
+      "description": "Abstain From Meat, Dairy, Eggs",
       "abstentions": [
         "meat",
         "dairy",
@@ -44,18 +25,15 @@
     },
     "readings": [
       {
-        "source": "Epistle",
-        "display": "2 Timothy 2.20-26",
-        "short_display": "2 Tim 2.20-26",
-        "text": "But in a great house there are not only vessels of gold and of silver, but also of wood and of earth; and some to honour, and some to dishonour. If a man therefore purge himself from these, he shall be a vessel unto honour, sanctified, and meet for the master\u2019s use, and prepared unto every good work. Flee also youthful lusts: but follow righteousness, faith, charity, peace, with them that call on the Lord out of a pure heart. But foolish and unlearned questions avoid, knowing that they do gender strifes. And the servant of the Lord must not strive; but be gentle unto all men, apt to teach, patient, In meekness instructing those that oppose themselves; if God peradventure will give them repentance to the acknowledging of the truth; And that they may recover themselves out of the snare of the devil, who are taken captive by him at his will."
+        "display": "St. Paul's Second Letter to Timothy 2:20-26",
+        "text": "Timothy, my son, in a great house there are not only vessels of gold and silver but also of wood and earthenware, and some for noble use, some for ignoble. If any one purifies himself from what is ignoble, then he will be a vessel for noble use, consecrated and useful to the master of the house, ready for any good work. So shun youthful passions and aim at righteousness, faith, love, and peace, along with those who call upon the Lord from a pure heart. Have nothing to do with stupid, senseless controversies; you know that they breed quarrels. And the Lord's servant must not be quarrelsome but kindly to every one, an apt teacher, forbearing, correcting his opponents with gentleness. God may perhaps grant that they will repent and come to know the truth, and they may escape from the snare of the devil, after being captured by him to do his will."
       },
       {
-        "source": "Gospel",
-        "display": "Luke 20.27-44",
-        "short_display": "Luke 20.27-44",
-        "text": "Then came to him certain of the Sadducees, which deny that there is any resurrection; and they asked him, Saying, Master, Moses wrote unto us, If any man\u2019s brother die, having a wife, and he die without children, that his brother should take his wife, and raise up seed unto his brother. There were therefore seven brethren: and the first took a wife, and died without children. And the second took her to wife, and he died childless. And the third took her; and in like manner the seven also: and they left no children, and died. Last of all the woman died also. Therefore in the resurrection whose wife of them is she? for seven had her to wife. And Jesus answering said unto them, The children of this world marry, and are given in marriage: But they which shall be accounted worthy to obtain that world, and the resurrection from the dead, neither marry, nor are given in marriage: Neither can they die any more: for they are equal unto the angels; and are the children of God, being the children of the resurrection. Now that the dead are raised, even Moses shewed at the bush, when he calleth the Lord the God of Abraham, and the God of Isaac, and the God of Jacob. For he is not a God of the dead, but of the living: for all live unto him. Then certain of the scribes answering said, Master, thou hast well said. And after that they durst not ask him any question at all. And he said unto them, How say they that Christ is David\u2019s son? And David himself saith in the book of Psalms, The LORD said unto my Lord, Sit thou on my right hand, Till I make thine enemies thy footstool. David therefore calleth him Lord, how is he then his son?"
+        "display": "Luke 20:27-44",
+        "text": "At that time, there came to Jesus some Sadducees, those who say that there is no resurrection, and they asked him a question, saying, \"Teacher, Moses wrote for us that if a man's brother dies, having a wife but no children, the man must take the wife and raise up children for his brother. Now there were seven brothers; the first took a wife, and died without children; and the second and the third took her, and likewise all seven left no children and died. Afterward the woman also died. In the resurrection, therefore, whose wife will the woman be? For the seven had her as wife.\" And Jesus said to them, \"The sons of this age marry and are given in marriage; but those who are accounted worthy to attain to that age and to the resurrection from the dead neither marry nor are given in marriage, for they cannot die any more, because they are equal to angels and are sons of God, being sons of the resurrection. But that the dead are raised, even Moses showed, in the passage about the bush, where he calls the Lord the God of Abraham and the God of Isaac and the God of Jacob. Now he is not God of the dead, but of the living; for all live to him.\" And some of the scribes answered, \"Teacher, you have spoken well.\" For they no longer dared to ask him any question. But he said to them, \"How can they say that the Christ is David's son? For David himself says in the Book of Psalms, 'The Lord said to my Lord, Sit at my right hand, till I make thy enemies a stool for thy feet.' David thus calls him Lord; so how is he his son?"
       }
-    ]
+    ],
+    "service_texts": []
   },
   "events": [
     {

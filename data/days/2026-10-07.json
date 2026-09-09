@@ -2,55 +2,41 @@
   "date": "2026-10-07",
   "liturgical": {
     "status": "ok",
-    "titles": [
-      "Wednesday of the 19th week after Pentecost"
+    "source": "antiochian",
+    "feasts": [
+      "Wednesday of the 3Rd Week"
     ],
-    "summary_title": "Martyrs Sergius and Bacchus in Syria; Julian the Presbyter & Caesarius the Deacon; Holy Hieromartyr Polychronius (4th c.)",
-    "feasts": null,
     "saints": [
-      {
-        "name": "Martyrs Sergius and Bacchus in Syria",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Martyrs%20Sergius%20and%20Bacchus%20in%20Syria"
-      },
-      {
-        "name": "Julian the Presbyter & Caesarius the Deacon",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Julian%20the%20Presbyter%20%26%20Caesarius%20the%20Deacon"
-      },
-      {
-        "name": "Holy Hieromartyr Polychronius (4th c.)",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Holy%20Hieromartyr%20Polychronius%20%284th%20c.%29"
-      },
-      {
-        "name": "The Ninety-nine Fathers of Crete (date unknown)",
-        "link": "https://orthodoxwiki.org/Special:Search?search=The%20Ninety-nine%20Fathers%20of%20Crete%20%28date%20unknown%29"
-      }
+      "Sergius & Bacchus the Great Martyrs of Syria",
+      "Polychronios the Martyr",
+      "Julian the Presbyter & Caesarius the Deacon",
+      "John the Hermit of Crete",
+      "Jonah of Manchuria"
     ],
+    "summary_title": "Sergius & Bacchus the Great Martyrs of Syria, Polychronios the Martyr, Julian the Presbyter & Caesarius the Deacon, John the Hermit of Crete, Jonah of Manchuria",
+    "stories": [],
     "fasting": {
-      "level": 1,
-      "description": "Fast",
+      "description": "Abstain From Meat, Fish, Dairy, Eggs, Wine, Olive Oil",
       "abstentions": [
         "meat",
         "fish",
         "dairy",
         "eggs",
         "wine",
-        "oil"
+        "olive oil"
       ]
     },
     "readings": [
       {
-        "source": "Epistle",
-        "display": "Philippians 1.12-20",
-        "short_display": "Phil 1.12-20",
-        "text": "But I would ye should understand, brethren, that the things which happened unto me have fallen out rather unto the furtherance of the gospel; So that my bonds in Christ are manifest in all the palace, and in all other places; And many of the brethren in the Lord, waxing confident by my bonds, are much more bold to speak the word without fear. Some indeed preach Christ even of envy and strife; and some also of good will: The one preach Christ of contention, not sincerely, supposing to add affliction to my bonds: But the other of love, knowing that I am set for the defence of the gospel. What then? notwithstanding, every way, whether in pretence, or in truth, Christ is preached; and I therein do rejoice, yea, and will rejoice. For I know that this shall turn to my salvation through your prayer, and the supply of the Spirit of Jesus Christ, According to my earnest expectation and my hope, that in nothing I shall be ashamed, but that with all boldness, as always, so now also Christ shall be magnified in my body, whether it be by life, or by death."
+        "display": "St. Paul's Letter to the Philippians 1:12-20",
+        "text": "Brethren, I want you to know that what has happened to me has really served to advance the gospel, so that it has become known throughout the praetorian guard and to all the rest that my imprisonment is for Christ; and most of the brethren have been made confident in the Lord because of my imprisonment, and are much more bold to speak the word of God without fear. Some indeed preach Christ from envy and rivalry, but others from good will. The latter do it out of love, knowing that I am put here for the defense of the gospel; the former proclaim Christ out of partisanship, not sincerely but thinking to afflict me in my imprisonment. What then? Only that in every way, whether in pretense or in truth, Christ is proclaimed; and in that I rejoice. Yes, and I shall rejoice. For I know that through your prayers and the help of the Spirit of Jesus Christ this will turn out for my deliverance, as it is my eager expectation and hope."
       },
       {
-        "source": "Gospel",
-        "display": "Luke 6.46-7.1",
-        "short_display": "Luke 6.46-7.1",
-        "text": "And why call ye me, Lord, Lord, and do not the things which I say? Whosoever cometh to me, and heareth my sayings, and doeth them, I will shew you to whom he is like: He is like a man which built an house, and digged deep, and laid the foundation on a rock: and when the flood arose, the stream beat vehemently upon that house, and could not shake it: for it was founded upon a rock. But he that heareth, and doeth not, is like a man that without a foundation built an house upon the earth; against which the stream did beat vehemently, and immediately it fell; and the ruin of that house was great. Now when he had ended all his sayings in the audience of the people, he entered into Capernaum."
+        "display": "Luke 6:46-49, 7:1",
+        "text": "The Lord said, \"Why do you call me 'Lord, Lord, ' and not do what I tell you? Every one who comes to me and hears my words and does them, I will show you what he is like: he is like a man building a house, who dug deep, and laid the foundation upon rock; and when a flood arose, the stream broke against that house, and could not shake it, because it had been founded upon the rock. But he who hears and does not do them is like a man who built a house on the ground without a foundation; against which the stream broke, and immediately it fell, and the ruin of that house was great.\" After he had ended all his sayings in the hearing of the people he entered Capernaum."
       }
-    ]
+    ],
+    "service_texts": []
   },
   "events": [
     {

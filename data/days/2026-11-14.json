@@ -2,78 +2,31 @@
   "date": "2026-11-14",
   "liturgical": {
     "status": "ok",
-    "titles": [
-      "Saturday of the 24th week after Pentecost"
-    ],
-    "summary_title": "Holy Apostle Philip",
+    "source": "antiochian",
     "feasts": [
-      "Holy Apostle Philip"
+      "Philip the Apostle"
     ],
     "saints": [
-      {
-        "name": "Holy Great New Martyr Constantine of Hydra",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Holy%20Great%20New%20Martyr%20Constantine%20of%20Hydra"
-      },
-      {
-        "name": "St Gregory Palamas (1359)",
-        "link": "https://orthodoxwiki.org/Special:Search?search=St%20Gregory%20Palamas%20%281359%29"
-      },
-      {
-        "name": "Pious Emperor Justinian and His Wife Theodora (565)",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Pious%20Emperor%20Justinian%20and%20His%20Wife%20Theodora%20%28565%29"
-      }
+      "Philip the Apostle",
+      "Gregory Palamas",
+      "Archbishop of Thessaloniki",
+      "Holy Great New Martyr Constantine of Hydra",
+      "Justinian the Emperor and His Wife Theodora"
     ],
+    "summary_title": "Philip the Apostle, Gregory Palamas, Archbishop of Thessaloniki, Holy Great New Martyr Constantine of Hydra, Justinian the Emperor and His Wife Theodora",
+    "stories": [],
     "fasting": null,
     "readings": [
       {
-        "source": "Vespers",
-        "display": "1 Peter 1.1-2.6",
-        "short_display": "1 Pet 1.1-2.6",
-        "text": "Peter, an apostle of Jesus Christ, to the strangers scattered throughout Pontus, Galatia, Cappadocia, Asia, and Bithynia, Elect according to the foreknowledge of God the Father, through sanctification of the Spirit, unto obedience and sprinkling of the blood of Jesus Christ: Grace unto you, and peace, be multiplied. Blessed be the God and Father of our Lord Jesus Christ, which according to his abundant mercy hath begotten us again unto a lively hope by the resurrection of Jesus Christ from the dead, To an inheritance incorruptible, and undefiled, and that fadeth not away, reserved in heaven for you, Who are kept by the power of God through faith unto salvation ready to be revealed in the last time. Wherein ye greatly rejoice, though now for a season, if need be, ye are in heaviness through manifold temptations: That the trial of your faith, being much more precious than of gold that perisheth, though it be tried with fire, might be found unto praise and honour and glory at the appearing of Jesus Christ: Whom having not seen, ye love; in whom, though now ye see him not, yet believing, ye rejoice with joy unspeakable and full of glory: Receiving the end of your faith, even the salvation of your souls. Of which salvation the prophets have enquired and searched diligently, who prophesied of the grace that should come unto you: Searching what, or what manner of time the Spirit of Christ which was in them did signify, when it testified beforehand the sufferings of Christ, and the glory that should follow. Unto whom it was revealed, that not unto themselves, but unto us they did minister the things, which are now reported unto you by them that have preached the gospel unto you with the Holy Ghost sent down from heaven; which things the angels desire to look into. Wherefore gird up the loins of your mind, be sober, and hope to the end for the grace that is to be brought unto you at the revelation of Jesus Christ; As obedient children, not fashioning yourselves according to the former lusts in your ignorance: But as he which hath called you is holy, so be ye holy in all manner of conversation; Because it is written, Be ye holy; for I am holy. And if ye call on the Father, who without respect of persons judgeth according to every man\u2019s work, pass the time of your sojourning here in fear: Forasmuch as ye know that ye were not redeemed with corruptible things, as silver and gold, from your vain conversation received by tradition from your fathers; But with the precious blood of Christ, as of a lamb without blemish and without spot: Who verily was foreordained before the foundation of the world, but was manifest in these last times for you, Who by him do believe in God, that raised him up from the dead, and gave him glory; that your faith and hope might be in God. Seeing ye have purified your souls in obeying the truth through the Spirit unto unfeigned love of the brethren, see that ye love one another with a pure heart fervently: Being born again, not of corruptible seed, but of incorruptible, by the word of God, which liveth and abideth for ever. For all flesh is as grass, and all the glory of man as the flower of grass. The grass withereth, and the flower thereof falleth away: But the word of the Lord endureth for ever. And this is the word which by the gospel is preached unto you. Wherefore laying aside all malice, and all guile, and hypocrisies, and envies, and all evil speakings, As newborn babes, desire the sincere milk of the word, that ye may grow thereby: If so be ye have tasted that the Lord is gracious. To whom coming, as unto a living stone, disallowed indeed of men, but chosen of God, and precious, Ye also, as lively stones, are built up a spiritual house, an holy priesthood, to offer up spiritual sacrifices, acceptable to God by Jesus Christ. Wherefore also it is contained in the scripture, Behold, I lay in Sion a chief corner stone, elect, precious: and he that believeth on him shall not be confounded."
+        "display": "St. Paul's First Letter to the Corinthians 4:9-16",
+        "text": "Brethren, God has exhibited us apostles as last of all, like men sentenced to death; because we have become a spectacle to the world, to angels and to men. We are fools for Christ's sake, but you are wise in Christ. We are weak, but you are strong. You are held in honor, but we in disrepute. To the present hour we hunger and thirst, we are ill-clad and buffeted and homeless, and we labor, working with our own hands. When reviled, we bless; when persecuted, we endure; when slandered, we try to conciliate; we have become, and are now, as the refuse of the world, the off-scouring of all things. I do not write this to make you ashamed, but to admonish you as my beloved children. For though you have countless guides in Christ, you do not have many fathers. For I became your father in Christ Jesus through the gospel. I urge you, then, be imitators of me."
       },
       {
-        "source": "Vespers",
-        "display": "1 Peter 2.21-3.9",
-        "short_display": "1 Pet 2.21-3.9",
-        "text": "For even hereunto were ye called: because Christ also suffered for us, leaving us an example, that ye should follow his steps: Who did no sin, neither was guile found in his mouth: Who, when he was reviled, reviled not again; when he suffered, he threatened not; but committed himself to him that judgeth righteously: Who his own self bare our sins in his own body on the tree, that we, being dead to sins, should live unto righteousness: by whose stripes ye were healed. For ye were as sheep going astray; but are now returned unto the Shepherd and Bishop of your souls. Likewise, ye wives, be in subjection to your own husbands; that, if any obey not the word, they also may without the word be won by the conversation of the wives; While they behold your chaste conversation coupled with fear. Whose adorning let it not be that outward adorning of plaiting the hair, and of wearing of gold, or of putting on of apparel; But let it be the hidden man of the heart, in that which is not corruptible, even the ornament of a meek and quiet spirit, which is in the sight of God of great price. For after this manner in the old time the holy women also, who trusted in God, adorned themselves, being in subjection unto their own husbands: Even as Sara obeyed Abraham, calling him lord: whose daughters ye are, as long as ye do well, and are not afraid with any amazement. Likewise, ye husbands, dwell with them according to knowledge, giving honour unto the wife, as unto the weaker vessel, and as being heirs together of the grace of life; that your prayers be not hindered. Finally, be ye all of one mind, having compassion one of another, love as brethren, be pitiful, be courteous: Not rendering evil for evil, or railing for railing: but contrariwise blessing; knowing that ye are thereunto called, that ye should inherit a blessing."
-      },
-      {
-        "source": "Vespers",
-        "display": "1 Peter 4.1-11",
-        "short_display": "1 Pet 4.1-11",
-        "text": "Forasmuch then as Christ hath suffered for us in the flesh, arm yourselves likewise with the same mind: for he that hath suffered in the flesh hath ceased from sin; That he no longer should live the rest of his time in the flesh to the lusts of men, but to the will of God. For the time past of our life may suffice us to have wrought the will of the Gentiles, when we walked in lasciviousness, lusts, excess of wine, revellings, banquetings, and abominable idolatries: Wherein they think it strange that ye run not with them to the same excess of riot, speaking evil of you: Who shall give account to him that is ready to judge the quick and the dead. For for this cause was the gospel preached also to them that are dead, that they might be judged according to men in the flesh, but live according to God in the spirit. But the end of all things is at hand: be ye therefore sober, and watch unto prayer. And above all things have fervent charity among yourselves: for charity shall cover the multitude of sins. Use hospitality one to another without grudging. As every man hath received the gift, even so minister the same one to another, as good stewards of the manifold grace of God. If any man speak, let him speak as the oracles of God; if any man minister, let him do it as of the ability which God giveth: that God in all things may be glorified through Jesus Christ, to whom be praise and dominion for ever and ever. Amen."
-      },
-      {
-        "source": "Matins Gospel",
-        "display": "John 21.15-25",
-        "short_display": "John 21.15-25",
-        "text": "So when they had dined, Jesus saith to Simon Peter, Simon, son of Jonas, lovest thou me more than these? He saith unto him, Yea, Lord; thou knowest that I love thee. He saith unto him, Feed my lambs. He saith to him again the second time, Simon, son of Jonas, lovest thou me? He saith unto him, Yea, Lord; thou knowest that I love thee. He saith unto him, Feed my sheep. He saith unto him the third time, Simon, son of Jonas, lovest thou me? Peter was grieved because he said unto him the third time, Lovest thou me? And he said unto him, Lord, thou knowest all things; thou knowest that I love thee. Jesus saith unto him, Feed my sheep. Verily, verily, I say unto thee, When thou wast young, thou girdedst thyself, and walkedst whither thou wouldest: but when thou shalt be old, thou shalt stretch forth thy hands, and another shall gird thee, and carry thee whither thou wouldest not. This spake he, signifying by what death he should glorify God. And when he had spoken this, he saith unto him, Follow me. Then Peter, turning about, seeth the disciple whom Jesus loved following; which also leaned on his breast at supper, and said, Lord, which is he that betrayeth thee? Peter seeing him saith to Jesus, Lord, and what shall this man do? Jesus saith unto him, If I will that he tarry till I come, what is that to thee? follow thou me. Then went this saying abroad among the brethren, that that disciple should not die: yet Jesus said not unto him, He shall not die; but, If I will that he tarry till I come, what is that to thee? This is the disciple which testifieth of these things, and wrote these things: and we know that his testimony is true. And there are also many other things which Jesus did, the which, if they should be written every one, I suppose that even the world itself could not contain the books that should be written. Amen."
-      },
-      {
-        "source": "Epistle",
-        "display": "2 Corinthians 11.1-6",
-        "short_display": "2 Cor 11.1-6",
-        "text": "Would to God ye could bear with me a little in my folly: and indeed bear with me. For I am jealous over you with godly jealousy: for I have espoused you to one husband, that I may present you as a chaste virgin to Christ. But I fear, lest by any means, as the serpent beguiled Eve through his subtilty, so your minds should be corrupted from the simplicity that is in Christ. For if he that cometh preacheth another Jesus, whom we have not preached, or if ye receive another spirit, which ye have not received, or another gospel, which ye have not accepted, ye might well bear with him. For I suppose I was not a whit behind the very chiefest apostles. But though I be rude in speech, yet not in knowledge; but we have been throughly made manifest among you in all things."
-      },
-      {
-        "source": "Epistle",
-        "display": "1 Corinthians 4.9-16",
-        "short_display": "1 Cor 4.9-16",
-        "text": "For I think that God hath set forth us the apostles last, as it were appointed to death: for we are made a spectacle unto the world, and to angels, and to men. We are fools for Christ\u2019s sake, but ye are wise in Christ; we are weak, but ye are strong; ye are honourable, but we are despised. Even unto this present hour we both hunger, and thirst, and are naked, and are buffeted, and have no certain dwellingplace; And labour, working with our own hands: being reviled, we bless; being persecuted, we suffer it: Being defamed, we intreat: we are made as the filth of the world, and are the offscouring of all things unto this day. I write not these things to shame you, but as my beloved sons I warn you. For though ye have ten thousand instructers in Christ, yet have ye not many fathers: for in Christ Jesus I have begotten you through the gospel. Wherefore I beseech you, be ye followers of me."
-      },
-      {
-        "source": "Gospel",
-        "display": "Luke 9.37-43",
-        "short_display": "Luke 9.37-43",
-        "text": "And it came to pass, that on the next day, when they were come down from the hill, much people met him. And, behold, a man of the company cried out, saying, Master, I beseech thee, look upon my son: for he is mine only child. And, lo, a spirit taketh him, and he suddenly crieth out; and it teareth him that he foameth again, and bruising him hardly departeth from him. And I besought thy disciples to cast him out; and they could not. And Jesus answering said, O faithless and perverse generation, how long shall I be with you, and suffer you? Bring thy son hither. And as he was yet a coming, the devil threw him down, and tare him. And Jesus rebuked the unclean spirit, and healed the child, and delivered him again to his father. And they were all amazed at the mighty power of God. But while they wondered every one at all things which Jesus did, he said unto his disciples,"
-      },
-      {
-        "source": "Gospel",
-        "display": "John 1.43-51",
-        "short_display": "John 1.43-51",
-        "text": "The day following Jesus would go forth into Galilee, and findeth Philip, and saith unto him, Follow me. Now Philip was of Bethsaida, the city of Andrew and Peter. Philip findeth Nathanael, and saith unto him, We have found him, of whom Moses in the law, and the prophets, did write, Jesus of Nazareth, the son of Joseph. And Nathanael said unto him, Can there any good thing come out of Nazareth? Philip saith unto him, Come and see. Jesus saw Nathanael coming to him, and saith of him, Behold an Israelite indeed, in whom is no guile! Nathanael saith unto him, Whence knowest thou me? Jesus answered and said unto him, Before that Philip called thee, when thou wast under the fig tree, I saw thee. Nathanael answered and saith unto him, Rabbi, thou art the Son of God; thou art the King of Israel. Jesus answered and said unto him, Because I said unto thee, I saw thee under the fig tree, believest thou? thou shalt see greater things than these. And he saith unto him, Verily, verily, I say unto you, Hereafter ye shall see heaven open, and the angels of God ascending and descending upon the Son of man."
+        "display": "John 1:43-51",
+        "text": "At that time, Jesus decided to go to Galilee. And he found Philip and said to him, \"Follow me.\" Now Philip was from Bethsaida, the city of Andrew and Peter. Philip found Nathanael, and he said to him, \"We have found him of whom Moses in the law and also the prophets wrote, Jesus of Nazareth, the son of Joseph.\" Nathanael said to him, \"Can anything good come out of Nazareth?\" Philip said to him, \"Come and see.\" Jesus saw Nathanael coming to him, and said of him, \"Behold, an Israelite indeed, in whom is no guile!\" Nathanael said to him, \"How do you know me?\" Jesus answered him, \"Before Philip called you, when you were under the fig tree, I saw you.\" Nathanael answered him, \"Rabbi, you are the Son of God! You are the King of Israel!\" Jesus answered him, \"Because I said to you, I saw you under the fig tree, do you believe? You shall see greater things than these.\" And he said to him, \"Truly, truly, I say to you, you will see heaven opened, and the angels of God ascending and descending upon the Son of man.\""
       }
-    ]
+    ],
+    "service_texts": []
   },
   "events": [
     {

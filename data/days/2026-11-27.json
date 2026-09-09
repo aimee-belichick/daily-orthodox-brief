@@ -2,63 +2,43 @@
   "date": "2026-11-27",
   "liturgical": {
     "status": "ok",
-    "titles": [
-      "Friday of the 26th week after Pentecost"
+    "source": "antiochian",
+    "feasts": [
+      "Friday of the 10Th Week"
     ],
-    "summary_title": "Greatmartyr Jacob of Persia; Nathaniel of Nitria & Pinouphrios of Egypt, the Righteous; Gregory of Sinai and his disciple Gerasimos",
-    "feasts": null,
     "saints": [
-      {
-        "name": "Greatmartyr Jacob of Persia",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Greatmartyr%20Jacob%20of%20Persia"
-      },
-      {
-        "name": "Nathaniel of Nitria & Pinouphrios of Egypt, the Righteous",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Nathaniel%20of%20Nitria%20%26%20Pinouphrios%20of%20Egypt%2C%20the%20Righteous"
-      },
-      {
-        "name": "Gregory of Sinai and his disciple Gerasimos",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Gregory%20of%20Sinai%20and%20his%20disciple%20Gerasimos"
-      },
-      {
-        "name": "Arsenios of Rhaxos",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Arsenios%20of%20Rhaxos"
-      },
-      {
-        "name": "James the Wonderworker, Bishop of Rostov",
-        "link": "https://orthodoxwiki.org/Special:Search?search=James%20the%20Wonderworker%2C%20Bishop%20of%20Rostov"
-      },
-      {
-        "name": "Repose of Archimandrite Lazarus (Moore) (1992) (Nov. 14 OC)",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Repose%20of%20Archimandrite%20Lazarus%20%28Moore%29%20%281992%29%20%28Nov.%2014%20OC%29"
-      }
+      "James the Great Martyr of Persia",
+      "Nathaniel of Nitria & Pinouphrios of Egypt",
+      "The Righteous",
+      "Gregory of Sinai and His Disciple Gerasimos",
+      "Arsenios of Rhaxos",
+      "James the Wonderworker",
+      "Bishop of Rostov"
     ],
+    "summary_title": "James the Great Martyr of Persia, Nathaniel of Nitria & Pinouphrios of Egypt, The Righteous, Gregory of Sinai and His Disciple Gerasimos, Arsenios of Rhaxos, James the Wonderworker, Bishop of Rostov",
+    "stories": [],
     "fasting": {
-      "level": 5,
-      "description": "Nativity Fast",
+      "description": "Abstain From Meat, Fish, Dairy, Eggs, Wine, Olive Oil",
       "abstentions": [
         "meat",
         "fish",
         "dairy",
         "eggs",
         "wine",
-        "oil"
+        "olive oil"
       ]
     },
     "readings": [
       {
-        "source": "Epistle",
-        "display": "1 Timothy 4.4-8, 16",
-        "short_display": "1 Tim 4.4-8, 16",
-        "text": "For every creature of God is good, and nothing to be refused, if it be received with thanksgiving: For it is sanctified by the word of God and prayer. If thou put the brethren in remembrance of these things, thou shalt be a good minister of Jesus Christ, nourished up in the words of faith and of good doctrine, whereunto thou hast attained. But refuse profane and old wives\u2019 fables, and exercise thyself rather unto godliness. For bodily exercise profiteth little: but godliness is profitable unto all things, having promise of the life that now is, and of that which is to come. Take heed unto thyself, and unto the doctrine; continue in them: for in doing this thou shalt both save thyself, and them that hear thee."
+        "display": "St. Paul's First Letter to Timothy 4:4-8, 16",
+        "text": "Timothy, my son, everything created by God is good, and nothing is to be rejected if it is received with thanksgiving; for then it is consecrated by the word of God and prayer. If you put these instructions before the brethren, you will be a good minister of Christ Jesus, nourished on the words of the faith and of the good doctrine which you have followed. Have nothing to do with godless and silly myths. Train yourself in godliness; for while bodily training is of some value, godliness is of value in every way, as it holds promise for the present life and also for the life to come. Take heed to yourself and to your teaching; hold to that, for by so doing you will save both yourself and your hearers."
       },
       {
-        "source": "Gospel",
-        "display": "Luke 19.12-28",
-        "short_display": "Luke 19.12-28",
-        "text": "He said therefore, A certain nobleman went into a far country to receive for himself a kingdom, and to return. And he called his ten servants, and delivered them ten pounds, and said unto them, Occupy till I come. But his citizens hated him, and sent a message after him, saying, We will not have this man to reign over us. And it came to pass, that when he was returned, having received the kingdom, then he commanded these servants to be called unto him, to whom he had given the money, that he might know how much every man had gained by trading. Then came the first, saying, Lord, thy pound hath gained ten pounds. And he said unto him, Well, thou good servant: because thou hast been faithful in a very little, have thou authority over ten cities. And the second came, saying, Lord, thy pound hath gained five pounds. And he said likewise to him, Be thou also over five cities. And another came, saying, Lord, behold, here is thy pound, which I have kept laid up in a napkin: For I feared thee, because thou art an austere man: thou takest up that thou layedst not down, and reapest that thou didst not sow. And he saith unto him, Out of thine own mouth will I judge thee, thou wicked servant. Thou knewest that I was an austere man, taking up that I laid not down, and reaping that I did not sow: Wherefore then gavest not thou my money into the bank, that at my coming I might have required mine own with usury? And he said unto them that stood by, Take from him the pound, and give it to him that hath ten pounds. (And they said unto him, Lord, he hath ten pounds.) For I say unto you, That unto every one which hath shall be given; and from him that hath not, even that he hath shall be taken away from him. But those mine enemies, which would not that I should reign over them, bring hither, and slay them before me. And when he had thus spoken, he went before, ascending up to Jerusalem."
+        "display": "Luke 19:12-28",
+        "text": "The Lord said this parable, \"A nobleman went into a far country to receive a kingdom and then return. Calling ten of his servants, he gave them ten pounds, and said to them, 'Trade with these till I come.' But his citizens hated him and sent an embassy after him, saying, 'We do not want this man to reign over us.' When he returned, having received the kingdom, he commanded these servants, to whom he had given the money, to be called to him, that he might know what they had gained by trading. The first came before him, saying, 'Lord, your pound has made ten pounds more.' And he said to him, 'Well done, good servant! Because you have been faithful in a very little, you shall have authority over ten cities.' And the second came, saying, 'Lord, your pound has made five pounds.' And he said to him, 'And you are to be over five cities.' Then another came, saying, 'Lord, here is your pound, which I kept laid away in a napkin; for I was afraid of you, because you are a severe man; you take up what you did not lay down, and reap what you did not sow.' He said to him, 'I will condemn you out of your own mouth, you wicked servant! You knew that I was a severe man, taking up what I did not lay down and reaping what I did not sow? Why then did you not put my money into the bank, and at my coming I should have collected it with interest?' And he said to those who stood by, 'Take the pound from him, and give it to him who has the ten pounds.' (And they said to him, 'Lord, he has ten pounds!') 'I tell you, that to every one who has will more be given; but from him who has not, even what he has will be taken away. But as for these enemies of mine, who did not want me to reign over them, bring them here and slay them before me.'\" And when he had said this, he went on ahead, going up to Jerusalem."
       }
-    ]
+    ],
+    "service_texts": []
   },
   "events": []
 }

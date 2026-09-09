@@ -2,55 +2,42 @@
   "date": "2026-11-18",
   "liturgical": {
     "status": "ok",
-    "titles": [
-      "Wednesday of the 25th week after Pentecost"
+    "source": "antiochian",
+    "feasts": [
+      "Wednesday of the 9Th Week"
     ],
-    "summary_title": "Martyrs Platon and Roman; Zaccheus the Deacon; Holy Martyr Romanus and the holy child who declared for Christ (305)",
-    "feasts": null,
     "saints": [
-      {
-        "name": "Martyrs Platon and Roman",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Martyrs%20Platon%20and%20Roman"
-      },
-      {
-        "name": "Zaccheus the Deacon",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Zaccheus%20the%20Deacon"
-      },
-      {
-        "name": "Holy Martyr Romanus and the holy child who declared for Christ (305)",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Holy%20Martyr%20Romanus%20and%20the%20holy%20child%20who%20declared%20for%20Christ%20%28305%29"
-      },
-      {
-        "name": "Holy New Martyr Anastasius of Epirus (1750), and Daniel, whom he converted",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Holy%20New%20Martyr%20Anastasius%20of%20Epirus%20%281750%29%2C%20and%20Daniel%2C%20whom%20he%20converted"
-      }
+      "Plato the Great Martyr of Ancyra",
+      "Holy Martyr Romanus",
+      "Zaccheus the Deacon",
+      "Holy New Martyr Anastasius of Paramythia",
+      "Martyr Romanos the Deacon",
+      "Anastasios the New Martyr"
     ],
+    "summary_title": "Plato the Great Martyr of Ancyra, Holy Martyr Romanus, Zaccheus the Deacon, Holy New Martyr Anastasius of Paramythia, Martyr Romanos the Deacon, Anastasios the New Martyr",
+    "stories": [],
     "fasting": {
-      "level": 5,
-      "description": "Nativity Fast",
+      "description": "Abstain From Meat, Fish, Dairy, Eggs, Wine, Olive Oil",
       "abstentions": [
         "meat",
         "fish",
         "dairy",
         "eggs",
         "wine",
-        "oil"
+        "olive oil"
       ]
     },
     "readings": [
       {
-        "source": "Epistle",
-        "display": "2 Thessalonians 2.1-12",
-        "short_display": "2 Thess 2.1-12",
-        "text": "Now we beseech you, brethren, by the coming of our Lord Jesus Christ, and by our gathering together unto him, That ye be not soon shaken in mind, or be troubled, neither by spirit, nor by word, nor by letter as from us, as that the day of Christ is at hand. Let no man deceive you by any means: for that day shall not come, except there come a falling away first, and that man of sin be revealed, the son of perdition; Who opposeth and exalteth himself above all that is called God, or that is worshipped; so that he as God sitteth in the temple of God, shewing himself that he is God. Remember ye not, that, when I was yet with you, I told you these things? And now ye know what withholdeth that he might be revealed in his time. For the mystery of iniquity doth already work: only he who now letteth will let, until he be taken out of the way. And then shall that Wicked be revealed, whom the Lord shall consume with the spirit of his mouth, and shall destroy with the brightness of his coming: Even him, whose coming is after the working of Satan with all power and signs and lying wonders, And with all deceivableness of unrighteousness in them that perish; because they received not the love of the truth, that they might be saved. And for this cause God shall send them strong delusion, that they should believe a lie: That they all might be damned who believed not the truth, but had pleasure in unrighteousness."
+        "display": "St. Paul's Second Letter to the Thessalonians 2:1-12",
+        "text": "Brethren, concerning the coming of our Lord Jesus Christ and our assembling to meet him, we beg you not to be quickly shaken in mind or excited, either by spirit or by word, or by letter purporting to be from us, to the effect that the day of the Lord has come. Let no one deceive you in any way; for that day will not come, unless the rebellion comes first, and the man of lawlessness is revealed, the son of perdition, who opposes and exalts himself against every so-called god or object of worship, so that he takes his seat in the temple of God, proclaiming himself to be God. Do you not remember that when I was still with you I told you this? And you know what is restraining him now so that he may be revealed in his time. For the mystery of lawlessness is already at work; only he who now restrains it will do so until he is out of the way. And then the lawless one will be revealed, and the Lord Jesus will slay him with the breath of his mouth and destroy him by his appearing and his coming. The coming of the lawless one by the activity of Satan will be with all power and with pretended signs and wonders, and with all wicked deception for those who are to perish, because they refused to love the truth and so be saved. Therefore God sends upon them a strong delusion, to make them believe what is false, so that all may be condemned who did not believe the truth but had pleasure in unrighteousness."
       },
       {
-        "source": "Gospel",
-        "display": "Luke 15.1-10",
-        "short_display": "Luke 15.1-10",
-        "text": "Then drew near unto him all the publicans and sinners for to hear him. And the Pharisees and scribes murmured, saying, This man receiveth sinners, and eateth with them. And he spake this parable unto them, saying, What man of you, having an hundred sheep, if he lose one of them, doth not leave the ninety and nine in the wilderness, and go after that which is lost, until he find it? And when he hath found it, he layeth it on his shoulders, rejoicing. And when he cometh home, he calleth together his friends and neighbours, saying unto them, Rejoice with me; for I have found my sheep which was lost. I say unto you, that likewise joy shall be in heaven over one sinner that repenteth, more than over ninety and nine just persons, which need no repentance. Either what woman having ten pieces of silver, if she lose one piece, doth not light a candle, and sweep the house, and seek diligently till she find it? And when she hath found it, she calleth her friends and her neighbours together, saying, Rejoice with me; for I have found the piece which I had lost. Likewise, I say unto you, there is joy in the presence of the angels of God over one sinner that repenteth."
+        "display": "Luke 15:1-10",
+        "text": "At that time, the tax collectors and sinners were all drawing near to Jesus to hear him. And the Pharisees and the scribes murmured, saying, \"This man receives sinners and eats with them.\" So he told them this parable: \"What man of you, having a hundred sheep, if he has lost one of them, does not leave the ninety-nine in the wilderness, and go after the one which is lost, until he finds it? And when he has found it, he lays it on his shoulders, rejoicing. And when he comes home, he calls together his friends and his neighbors, saying to them, 'Rejoice with me, for I have found my sheep which was lost.' Just so, I tell you, there will be more joy in heaven over one sinner who repents than over ninety-nine righteous persons who need no repentance. \"Or what woman, having ten silver coins, if she loses one coin, does not light a lamp and sweep the house and seek diligently until she finds it? And when she has found it, she calls together her friends and neighbors, saying, 'Rejoice with me, for I have found the coin which I had lost.' Just so, I tell you, there is joy before the angels of God over one sinner who repents.\""
       }
-    ]
+    ],
+    "service_texts": []
   },
   "events": [
     {

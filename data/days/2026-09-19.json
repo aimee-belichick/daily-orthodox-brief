@@ -2,60 +2,41 @@
   "date": "2026-09-19",
   "liturgical": {
     "status": "ok",
-    "titles": [
-      "Saturday of the 16th week after Pentecost"
-    ],
-    "summary_title": "Saturday after Elevation",
+    "source": "antiochian",
     "feasts": [
-      "Saturday after Elevation"
+      "Saturday After Holy Cross"
     ],
     "saints": [
-      {
-        "name": "Martyrs Trophimus, Sabbatius, Dorymedon",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Martyrs%20Trophimus%2C%20Sabbatius%2C%20Dorymedon"
-      },
-      {
-        "name": "Rt. Blv. Theodore, Prince of Smolensk, and his sons Ss David and Constantine of Yaroslavl",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Rt.%20Blv.%20Theodore%2C%20Prince%20of%20Smolensk%2C%20and%20his%20sons%20Ss%20David%20and%20Constantine%20of%20Yaroslavl"
-      },
-      {
-        "name": "Plato the new Hieromartyr of Patmos",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Plato%20the%20new%20Hieromartyr%20of%20Patmos"
-      },
-      {
-        "name": "Theodore of Tarsus, Archbishop of Canterbury",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Theodore%20of%20Tarsus%2C%20Archbishop%20of%20Canterbury"
-      },
-      {
-        "name": "Holy Martyr Zosimas the Hermit of Cilicia (4th c.)",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Holy%20Martyr%20Zosimas%20the%20Hermit%20of%20Cilicia%20%284th%20c.%29"
-      }
+      "Saturday After Holy Cross",
+      "Trophimus",
+      "Sabbatius",
+      "& Dorymedon the Martyrs",
+      "Plato the New Hieromartyr of Patmos",
+      "Theodore of Tarsus",
+      "Archbishop of Canterbury",
+      "Afterfeast of the Holy Cross"
     ],
+    "summary_title": "Saturday After Holy Cross, Trophimus, Sabbatius, & Dorymedon the Martyrs, Plato the New Hieromartyr of Patmos, Theodore of Tarsus, Archbishop of Canterbury, Afterfeast of the Holy Cross",
+    "stories": [],
     "fasting": null,
     "readings": [
       {
-        "source": "Epistle",
-        "display": "1 Corinthians 1.26-29",
-        "short_display": "1 Cor 1.26-29",
-        "text": "For ye see your calling, brethren, how that not many wise men after the flesh, not many mighty, not many noble, are called: But God hath chosen the foolish things of the world to confound the wise; and God hath chosen the weak things of the world to confound the things which are mighty; And base things of the world, and things which are despised, hath God chosen, yea, and things which are not, to bring to nought things that are: That no flesh should glory in his presence."
+        "display": "St. Paul's First Letter to the Corinthians 1:26-31; 2:1-5",
+        "text": "Brethren, consider your call, not many of you were wise according to worldly standards, not many were powerful, not many were of noble birth; but God chose what is foolish in the world to shame the wise, God chose what is weak in the world to shame the strong, God chose what is low and despised in the world, even things that are not, to bring to nothing things that are, so that no human being might boast in the presence of God. He is the source of your life in Christ Jesus, whom God made our wisdom, our righteousness and sanctification and redemption; therefore, as it is written, \"Let him who boasts, boast of the Lord.\" When I came to you, brethren, I did not come proclaiming to you the testimony of God in lofty words or wisdom. For I decided to know nothing among you except Jesus Christ and him crucified. And I was with you in weakness and in much fear and trembling; and my speech and my message were not in plausible words of wisdom, but in demonstration of the Spirit and of power, that your faith might not rest in the wisdom of men but in the power of God."
       },
       {
-        "source": "Epistle",
-        "display": "1 Corinthians 10.23-28",
-        "short_display": "1 Cor 10.23-28",
-        "text": "All things are lawful for me, but all things are not expedient: all things are lawful for me, but all things edify not. Let no man seek his own, but every man another\u2019s wealth. Whatsoever is sold in the shambles, that eat, asking no question for conscience sake: For the earth is the Lord\u2019s, and the fulness thereof. If any of them that believe not bid you to a feast, and ye be disposed to go; whatsoever is set before you, eat, asking no question for conscience sake. But if any man say unto you, This is offered in sacrifice unto idols, eat not for his sake that shewed it, and for conscience sake: for the earth is the Lord\u2019s, and the fulness thereof:"
+        "display": "John 8:21-30",
+        "text": "The Lord said to the Jews who came to him, \"I go away, and you will seek me and die in your sin; where I am going, you cannot come.\" Then said the Jews, \"Will he kill himself, since he says, 'Where I am going, you cannot come'? \" He said to them, \"You are from below, I am from above; you are of this world, I am not of this world. I told you that you would die in your sins, for you will die in your sins unless you believe that I am he.\" They said to him, \"Who are you?\" Jesus said to them, \"Even what I have told you from the beginning. I have much to say about you and much to judge; but he who sent me is true, and I declare to the world what I have heard from him.\" They did not understand that he spoke to them of the Father. So Jesus said, \"When you have lifted up the Son of man, then you will know that I am he, and that I do nothing on my own authority but speak thus as the Father taught me. And he who sent me is with me; he has not left me alone, for I always do what is pleasing to him.\" As he spoke thus, many believed in him."
+      }
+    ],
+    "service_texts": [
+      {
+        "label": "Bilingual - Great Vespers",
+        "url": "https://www.antiochian.org/servicetexts/Sep%2019%202026%20Bilingual%20VESP.pdf"
       },
       {
-        "source": "Gospel",
-        "display": "John 8.21-30",
-        "short_display": "John 8.21-30",
-        "text": "Then said Jesus again unto them, I go my way, and ye shall seek me, and shall die in your sins: whither I go, ye cannot come. Then said the Jews, Will he kill himself? because he saith, Whither I go, ye cannot come. And he said unto them, Ye are from beneath; I am from above: ye are of this world; I am not of this world. I said therefore unto you, that ye shall die in your sins: for if ye believe not that I am he, ye shall die in your sins. Then said they unto him, Who art thou? And Jesus saith unto them, Even the same that I said unto you from the beginning. I have many things to say and to judge of you: but he that sent me is true; and I speak to the world those things which I have heard of him. They understood not that he spake to them of the Father. Then said Jesus unto them, When ye have lifted up the Son of man, then shall ye know that I am he, and that I do nothing of myself; but as my Father hath taught me, I speak these things. And he that sent me is with me: the Father hath not left me alone; for I do always those things that please him. As he spake these words, many believed on him."
-      },
-      {
-        "source": "Gospel",
-        "display": "Matthew 24.34-44",
-        "short_display": "Matt 24.34-44",
-        "text": "Verily I say unto you, This generation shall not pass, till all these things be fulfilled. Heaven and earth shall pass away, but my words shall not pass away. But of that day and hour knoweth no man, no, not the angels of heaven, but my Father only. But as the days of Noe were, so shall also the coming of the Son of man be. For as in the days that were before the flood they were eating and drinking, marrying and giving in marriage, until the day that Noe entered into the ark, And knew not until the flood came, and took them all away; so shall also the coming of the Son of man be. Then shall two be in the field; the one shall be taken, and the other left. Two women shall be grinding at the mill; the one shall be taken, and the other left. Watch therefore: for ye know not what hour your Lord doth come. But know this, that if the goodman of the house had known in what watch the thief would come, he would have watched, and would not have suffered his house to be broken up. Therefore be ye also ready: for in such an hour as ye think not the Son of man cometh."
+        "label": "Great Vespers",
+        "url": "https://www.antiochian.org/servicetexts/Sep%2019%202026%20VESP.pdf"
       }
     ]
   },

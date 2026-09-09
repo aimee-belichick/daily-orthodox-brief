@@ -10,13 +10,13 @@ import json
 import re
 import sys
 import urllib.error
-import urllib.parse
 import urllib.request
 from datetime import date, datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
 import pdfplumber
+from playwright.sync_api import sync_playwright
 
 CENTRAL = ZoneInfo("America/Chicago")
 WINDOW_BACK_DAYS = 7
@@ -29,13 +29,12 @@ DATA_DIR = BASE_DIR / "data"
 DAYS_DIR = DATA_DIR / "days"
 
 ORTHOCAL_URL = "https://orthocal.info/api/greek/gregorian/{year}/{month}/{day}/"
+ANTIOCHIAN_BASE = "https://www.antiochian.org"
 PARISH_EVENTS_URL = "https://www.constantinehelen.com/wp-json/tribe/events/v1/events"
 PARISH_MEDIA_URL = "https://www.constantinehelen.com/wp-json/wp/v2/media"
 PARISH_HOME_URL = "https://www.constantinehelen.com/"
 
 STATIC_LINKS = {
-    "liturgy": "https://www.antiochian.org/liturgy",
-    "vespers": "https://www.antiochian.org/vespers",
     "parish_calendar": "https://www.constantinehelen.com/calendar/",
 }
 
@@ -62,10 +61,144 @@ def http_get_json(url: str):
 
 
 # ---------------------------------------------------------------------------
-# Source: orthocal.info (liturgical data)
+# Source: antiochian.org (primary liturgical data, via headless browser)
+#
+# The site is a client-rendered Angular app, so plain HTTP fetching returns an
+# empty shell. Each day's page is addressable by a sequential integer ID
+# (confirmed: id N = id of today +/- N days), which lets us navigate directly
+# instead of driving the on-page date picker.
 # ---------------------------------------------------------------------------
 
-def fetch_liturgical_day(d: date) -> dict:
+DATE_HEADING_PATTERN = re.compile(r"([A-Z]+),\s*([A-Z]+)\s+(\d+),\s*(\d{4})")
+MONTH_NAMES = ["JANUARY", "FEBRUARY", "MARCH", "APRIL", "MAY", "JUNE", "JULY",
+               "AUGUST", "SEPTEMBER", "OCTOBER", "NOVEMBER", "DECEMBER"]
+
+TITLECASE_LOWERCASE_WORDS = {"of", "and", "the", "in", "on", "for", "to", "a", "an", "at", "by", "with"}
+
+
+def titlecase(text: str) -> str:
+    """antiochian.org stores these strings in ALL CAPS; render them more readably."""
+    words = text.title().split(" ")
+    fixed = []
+    for i, w in enumerate(words):
+        w = re.sub(r"'([A-Z])", lambda m: "'" + m.group(1).lower(), w)
+        lw = w.lower()
+        fixed.append(lw if i != 0 and lw in TITLECASE_LOWERCASE_WORDS else w)
+    return " ".join(fixed)
+
+
+def parse_date_heading(body_text: str) -> date:
+    m = DATE_HEADING_PATTERN.search(body_text)
+    if not m:
+        raise ValueError("date heading not found on antiochian.org page")
+    month = MONTH_NAMES.index(m.group(2)) + 1
+    return date(int(m.group(4)), month, int(m.group(3)))
+
+
+def antiochian_find_today_id(page) -> int:
+    page.goto(f"{ANTIOCHIAN_BASE}/liturgicday", wait_until="networkidle", timeout=30000)
+    page.wait_for_timeout(1200)
+    href = page.eval_on_selector("a[href*='/epistleliturgicday/']", "el => el.getAttribute('href')")
+    m = re.search(r"/epistleliturgicday/(\d+)", href or "")
+    if not m:
+        raise ValueError("could not find today's antiochian.org id")
+    found_date = parse_date_heading(page.inner_text("body"))
+    if found_date != today_central():
+        raise ValueError(f"antiochian.org today mismatch: page says {found_date}")
+    return int(m.group(1))
+
+
+def antiochian_parse_liturgicday(page, id_: int, expected_date: date) -> dict:
+    page.goto(f"{ANTIOCHIAN_BASE}/liturgicday/{id_}", wait_until="networkidle", timeout=30000)
+    page.wait_for_timeout(1200)
+
+    body_text = page.inner_text("body")
+    found_date = parse_date_heading(body_text)
+    if found_date != expected_date:
+        raise ValueError(f"antiochian.org id {id_} resolved to {found_date}, expected {expected_date}")
+
+    items = page.eval_on_selector_all(".liturgicalDayListItem", """els => els.map(el => ({
+        hasLink: !!el.querySelector('a'),
+        title: (el.querySelector('.liturgicalSubItemTitle') || {}).innerText || null,
+        desc: (el.querySelector('.liturgicalSubItemDesc') || {}).innerText || null,
+        iconSrc: (el.querySelector('img') || {}).src || ""
+    }))""")
+
+    feast_item = next((it for it in items if not it["hasLink"] and "feast" in it["iconSrc"].lower()), None)
+    fasting_item = next((it for it in items if not it["hasLink"] and "fasting" in it["iconSrc"].lower()), None)
+
+    if not feast_item or not feast_item["title"]:
+        raise ValueError(f"antiochian.org id {id_}: feast title not found")
+
+    fasting = None
+    if fasting_item and fasting_item["title"]:
+        text = fasting_item["title"].strip()
+        if text.upper() != "NO FAST":
+            abstentions = [a.strip().lower() for a in re.sub(r"(?i)^abstain from\s*", "", text).split(",") if a.strip()]
+            fasting = {"description": titlecase(text), "abstentions": abstentions}
+
+    service_links_raw = page.eval_on_selector_all(
+        "a.dailyLiturgicalTextUrl",
+        "els => els.map(e => ({text: e.innerText.trim(), href: e.href}))",
+    )
+    seen_urls = set()
+    service_texts = []
+    for link in service_links_raw:
+        if "(PDF)" not in link["text"] or link["href"] in seen_urls:
+            continue
+        seen_urls.add(link["href"])
+        service_texts.append({
+            "label": link["text"].replace(" (PDF)", ""),
+            "url": link["href"],
+        })
+
+    commemorations = [titlecase(c.strip()) for c in (feast_item["desc"] or "").split(",") if c.strip()]
+
+    return {
+        "title": titlecase(feast_item["title"].strip()),
+        "commemorations": commemorations,
+        "fasting": fasting,
+        "service_texts": service_texts,
+    }
+
+
+def antiochian_parse_readings(page, id_: int) -> list:
+    page.goto(f"{ANTIOCHIAN_BASE}/epistleliturgicday/{id_}", wait_until="networkidle", timeout=30000)
+    page.wait_for_timeout(1200)
+
+    pairs = page.eval_on_selector_all(".dailyReadingSubTitle", "els => els.map(e => e.innerText.trim())")
+    texts = page.eval_on_selector_all(".dailyReadingSubDesc", "els => els.map(e => e.innerText.trim())")
+    return [
+        {"display": titlecase(title), "text": text}
+        for title, text in zip(pairs, texts)
+        if title and text
+    ]
+
+
+def fetch_antiochian_day(page, id_: int, expected_date: date) -> dict:
+    day_info = antiochian_parse_liturgicday(page, id_, expected_date)
+    readings = antiochian_parse_readings(page, id_)
+    if not readings:
+        raise ValueError(f"antiochian.org id {id_}: no readings found")
+
+    return {
+        "status": "ok",
+        "source": "antiochian",
+        "feasts": [day_info["title"]],
+        "saints": day_info["commemorations"],
+        "summary_title": ", ".join(day_info["commemorations"]) or day_info["title"],
+        "stories": [],
+        "fasting": day_info["fasting"],
+        "readings": readings,
+        "service_texts": day_info["service_texts"],
+    }
+
+
+# ---------------------------------------------------------------------------
+# Source: orthocal.info (fallback liturgical data)
+# ---------------------------------------------------------------------------
+
+def fetch_orthocal_day(d: date) -> dict:
     url = ORTHOCAL_URL.format(year=d.year, month=d.month, day=d.day)
     raw = http_get_json(url)
 
@@ -76,37 +209,44 @@ def fetch_liturgical_day(d: date) -> dict:
             for verse in (r.get("passage") or [])
         ).strip()
         readings.append({
-            "source": r.get("source"),
             "display": r.get("display"),
-            "short_display": r.get("short_display"),
             "text": text,
         })
 
-    saints = []
-    for name in raw.get("saints") or []:
-        saints.append({
-            "name": name,
-            "link": "https://orthodoxwiki.org/Special:Search?search=" + urllib.parse.quote(name),
-        })
+    stories = [
+        {"title": s.get("title"), "html": s.get("story")}
+        for s in (raw.get("stories") or [])
+        if s.get("story")
+    ]
 
     fast_level = raw.get("fast_level") or 0
     fasting = None
     if fast_level:
         fasting = {
-            "level": fast_level,
             "description": raw.get("fast_level_desc"),
             "abstentions": raw.get("fast_abstentions") or [],
         }
 
     return {
         "status": "ok",
-        "titles": raw.get("titles") or [],
-        "summary_title": raw.get("summary_title"),
+        "source": "orthocal",
         "feasts": raw.get("feasts"),
-        "saints": saints,
+        "saints": raw.get("saints") or [],
+        "summary_title": raw.get("summary_title"),
+        "stories": stories,
         "fasting": fasting,
         "readings": readings,
+        "service_texts": [],
     }
+
+
+def fetch_liturgical_day(page, id_map: dict, d: date) -> dict:
+    """Try antiochian.org first (via headless browser); fall back to orthocal.info."""
+    try:
+        return fetch_antiochian_day(page, id_map[d], d)
+    except Exception as exc:
+        print(f"[warn] antiochian.org fetch failed for {d}: {exc}", file=sys.stderr)
+    return fetch_orthocal_day(d)
 
 
 # ---------------------------------------------------------------------------
@@ -257,21 +397,44 @@ def build_day_files(window_start: date, window_end: date) -> tuple[str, bool, bo
     except Exception as exc:
         print(f"[warn] parish events fetch failed: {exc}", file=sys.stderr)
 
-    any_liturgical_ok = False
+    dates_needing_liturgical = []
     for d in date_range(window_start, window_end):
         existing = load_json(day_file_path(d))
-        liturgical = None
+        if not (existing and existing.get("liturgical", {}).get("status") == "ok"):
+            dates_needing_liturgical.append(d)
 
-        if existing and existing.get("liturgical", {}).get("status") == "ok":
+    liturgical_by_date = {}
+    any_liturgical_ok = False
+    if dates_needing_liturgical:
+        with sync_playwright() as p:
+            browser = p.chromium.launch()
+            page = browser.new_page(user_agent=USER_AGENT)
+            try:
+                today_id = antiochian_find_today_id(page)
+                today = today_central()
+                id_map = {d: today_id + (d - today).days for d in dates_needing_liturgical}
+            except Exception as exc:
+                print(f"[warn] antiochian.org unavailable this run: {exc}", file=sys.stderr)
+                id_map = {}
+
+            for d in dates_needing_liturgical:
+                try:
+                    liturgical_by_date[d] = fetch_liturgical_day(page, id_map, d) if d in id_map else fetch_orthocal_day(d)
+                    any_liturgical_ok = True
+                except Exception as exc:
+                    print(f"[warn] liturgical fetch failed for {d}: {exc}", file=sys.stderr)
+            browser.close()
+
+    for d in date_range(window_start, window_end):
+        existing = load_json(day_file_path(d))
+
+        if d in liturgical_by_date:
+            liturgical = liturgical_by_date[d]
+        elif existing and existing.get("liturgical", {}).get("status") == "ok":
             liturgical = existing["liturgical"]
             any_liturgical_ok = True
         else:
-            try:
-                liturgical = fetch_liturgical_day(d)
-                any_liturgical_ok = True
-            except Exception as exc:
-                print(f"[warn] liturgical fetch failed for {d}: {exc}", file=sys.stderr)
-                liturgical = (existing or {}).get("liturgical") or {"status": "error"}
+            liturgical = (existing or {}).get("liturgical") or {"status": "error"}
 
         if events_ok:
             events = events_by_date.get(d.isoformat(), [])

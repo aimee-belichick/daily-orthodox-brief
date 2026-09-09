@@ -2,108 +2,34 @@
   "date": "2026-09-24",
   "liturgical": {
     "status": "ok",
-    "titles": [
-      "Thursday of the 17th week after Pentecost"
+    "source": "antiochian",
+    "feasts": [
+      "The Commemoration of the Miracle of the Theotokos Myrtidiotissis in Kythyra"
     ],
-    "summary_title": "The Commemoration of the Miracle of the Theotokos Myrtidiotissis in Kythyra; Stephen the Martyr; The Most Holy Theotokos of Palianis",
-    "feasts": null,
     "saints": [
-      {
-        "name": "The Commemoration of the Miracle of the Theotokos Myrtidiotissis in Kythyra",
-        "link": "https://orthodoxwiki.org/Special:Search?search=The%20Commemoration%20of%20the%20Miracle%20of%20the%20Theotokos%20Myrtidiotissis%20in%20Kythyra"
-      },
-      {
-        "name": "Stephen the Martyr",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Stephen%20the%20Martyr"
-      },
-      {
-        "name": "The Most Holy Theotokos of Palianis",
-        "link": "https://orthodoxwiki.org/Special:Search?search=The%20Most%20Holy%20Theotokos%20of%20Palianis"
-      },
-      {
-        "name": "Coprios the Righteous",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Coprios%20the%20Righteous"
-      },
-      {
-        "name": "Holy Protomartyr Thecla, Equal to the Apostles (1st c.)",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Holy%20Protomartyr%20Thecla%2C%20Equal%20to%20the%20Apostles%20%281st%20c.%29"
-      },
-      {
-        "name": "Holy New Martyrs Juvenaly and Peter the Aleut of Alaska (1796, 1815)",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Holy%20New%20Martyrs%20Juvenaly%20and%20Peter%20the%20Aleut%20of%20Alaska%20%281796%2C%201815%29"
-      },
-      {
-        "name": "St Silouan, elder of Mt Athos (1938) (September 11 OC)",
-        "link": "https://orthodoxwiki.org/Special:Search?search=St%20Silouan%2C%20elder%20of%20Mt%20Athos%20%281938%29%20%28September%2011%20OC%29"
-      },
-      {
-        "name": "St Stephen, First-crowned King of Serbia (Simon the Monk) (1224)",
-        "link": "https://orthodoxwiki.org/Special:Search?search=St%20Stephen%2C%20First-crowned%20King%20of%20Serbia%20%28Simon%20the%20Monk%29%20%281224%29"
-      }
+      "The Commemoration of the Miracle of the Theotokos Myrtidiotissis in Kythyra",
+      "Thecla the Protomartyr & Equal to the Apostles",
+      "Silouan of Athos",
+      "Stephen the Martyr",
+      "The Most Holy Theotokos of Palianis",
+      "Coprios the Righteous",
+      "Juvenaly & Peter the Aleut",
+      "New Martyrs of Alaska"
     ],
+    "summary_title": "The Commemoration of the Miracle of the Theotokos Myrtidiotissis in Kythyra, Thecla the Protomartyr & Equal to the Apostles, Silouan of Athos, Stephen the Martyr, The Most Holy Theotokos of Palianis, Coprios the Righteous, Juvenaly & Peter the Aleut, New Martyrs of Alaska",
+    "stories": [],
     "fasting": null,
     "readings": [
       {
-        "source": "Vespers",
-        "display": "Isaiah 43.9-14",
-        "short_display": "Isa 43.9-14",
-        "text": "Let all the nations be gathered together, and let the people be assembled: who among them can declare this, and shew us former things? let them bring forth their witnesses, that they may be justified: or let them hear, and say, It is truth. Ye are my witnesses, saith the LORD, and my servant whom I have chosen: that ye may know and believe me, and understand that I am he: before me there was no God formed, neither shall there be after me. I, even I, am the LORD; and beside me there is no saviour. I have declared, and have saved, and I have shewed, when there was no strange god among you: therefore ye are my witnesses, saith the LORD, that I am God. Yea, before the day was I am he; and there is none that can deliver out of my hand: I will work, and who shall let it? Thus saith the LORD, your redeemer, the Holy One of Israel; For your sake I have sent to Babylon, and have brought down all their nobles, and the Chaldeans, whose cry is in the ships."
+        "display": "St. Paul's Second Letter to Timothy 3:10-15",
+        "text": "TIMOTHY, my son, you have observed my teaching, my conduct, my aim in life, my faith, my patience, my love, my steadfastness, my persecutions, my sufferings, what befell me at Antioch, at lconion, and at Lystra, what persecutions I endured; yet from them all the Lord rescued me. Indeed all who desire to live a godly life in Christ Jesus will be persecuted, while evil men and impostors will go on from bad to worse, deceivers and deceived. But as for you, continue in what you have learned and have firmly believed, knowing from whom you learned it and how from childhood you have been acquainted with the sacred writings which are able to instruct you for salvation through faith in Christ Jesus."
       },
       {
-        "source": "Vespers",
-        "display": "Wisdom of Solomon 3.1-9",
-        "short_display": "Wis 3.1-9",
-        "text": "But the souls of the righteous are in the hand of God, and there shall no torment touch them. In the sight of the unwise they seemed to die: and their departure is taken for misery, And their going from us to be utter destruction: but they are in peace. For though they be punished in the sight of men, yet is their hope full of immortality. And having been a little chastised, they shall be greatly rewarded: for God proved them, and found them worthy for himself. As gold in the furnace hath he tried them, and received them as a burnt offering. And in the time of their visitation they shall shine, and run to and fro like sparks among the stubble. They shall judge the nations, and have dominion over the people, and their Lord shall reign for ever. They that put their trust in him shall understand the truth: and such as be faithful in love shall abide with him: for grace and mercy is to his saints, and he hath care for his elect."
-      },
-      {
-        "source": "Vespers",
-        "display": "Wisdom of Solomon 5.15-6.3",
-        "short_display": "Wis 5.15-6.3",
-        "text": "But the righteous live for evermore; their reward also is with the Lord, and the care of them is with the most High. Therefore shall they receive a glorious kingdom, and a beautiful crown from the Lord\u2019s hand: for with his right hand shall he cover them, and with his arm shall he protect them. He shall take to him his jealousy for complete armour, and make the creature his weapon for the revenge of his enemies. He shall put on righteousness as a breastplate, and true judgment instead of an helmet. He shall take holiness for an invincible shield. His severe wrath shall he sharpen for a sword, and the world shall fight with him against the unwise. Then shall the right aiming thunderbolts go abroad; and from the clouds, as from a well drawn bow, shall they fly to the mark. And hailstones full of wrath shall be cast as out of a stone bow, and the water of the sea shall rage against them, and the floods shall cruelly drown them. Yea, a mighty wind shall stand up against them, and like a storm shall blow them away: thus iniquity shall lay waste the whole earth, and ill dealing shall overthrow the thrones of the mighty. Hear therefore, O ye kings, and understand; learn, ye that be judges of the ends of the earth. Give ear, ye that rule the people, and glory in the multitude of nations. For power is given you of the Lord, and sovereignty from the Highest, who shall try your works, and search out your counsels."
-      },
-      {
-        "source": "Matins Gospel",
-        "display": "Luke 12.2-12",
-        "short_display": "Luke 12.2-12",
-        "text": "For there is nothing covered, that shall not be revealed; neither hid, that shall not be known. Therefore whatsoever ye have spoken in darkness shall be heard in the light; and that which ye have spoken in the ear in closets shall be proclaimed upon the housetops. And I say unto you my friends, Be not afraid of them that kill the body, and after that have no more that they can do. But I will forewarn you whom ye shall fear: Fear him, which after he hath killed hath power to cast into hell; yea, I say unto you, Fear him. Are not five sparrows sold for two farthings, and not one of them is forgotten before God? But even the very hairs of your head are all numbered. Fear not therefore: ye are of more value than many sparrows. Also I say unto you, Whosoever shall confess me before men, him shall the Son of man also confess before the angels of God: But he that denieth me before men shall be denied before the angels of God. And whosoever shall speak a word against the Son of man, it shall be forgiven him: but unto him that blasphemeth against the Holy Ghost it shall not be forgiven. And when they bring you unto the synagogues, and unto magistrates, and powers, take ye no thought how or what thing ye shall answer, or what ye shall say: For the Holy Ghost shall teach you in the same hour what ye ought to say."
-      },
-      {
-        "source": "Epistle",
-        "display": "Ephesians 4.14-19",
-        "short_display": "Eph 4.14-19",
-        "text": "That we henceforth be no more children, tossed to and fro, and carried about with every wind of doctrine, by the sleight of men, and cunning craftiness, whereby they lie in wait to deceive; But speaking the truth in love, may grow up into him in all things, which is the head, even Christ: From whom the whole body fitly joined together and compacted by that which every joint supplieth, according to the effectual working in the measure of every part, maketh increase of the body unto the edifying of itself in love. This I say therefore, and testify in the Lord, that ye henceforth walk not as other Gentiles walk, in the vanity of their mind, Having the understanding darkened, being alienated from the life of God through the ignorance that is in them, because of the blindness of their heart: Who being past feeling have given themselves over unto lasciviousness, to work all uncleanness with greediness."
-      },
-      {
-        "source": "Epistle",
-        "display": "Romans 8.28-39",
-        "short_display": "Rom 8.28-39",
-        "text": "And we know that all things work together for good to them that love God, to them who are the called according to his purpose. For whom he did foreknow, he also did predestinate to be conformed to the image of his Son, that he might be the firstborn among many brethren. Moreover whom he did predestinate, them he also called: and whom he called, them he also justified: and whom he justified, them he also glorified. What shall we then say to these things? If God be for us, who can be against us? He that spared not his own Son, but delivered him up for us all, how shall he not with him also freely give us all things? Who shall lay any thing to the charge of God\u2019s elect? It is God that justifieth. Who is he that condemneth? It is Christ that died, yea rather, that is risen again, who is even at the right hand of God, who also maketh intercession for us. Who shall separate us from the love of Christ? shall tribulation, or distress, or persecution, or famine, or nakedness, or peril, or sword? As it is written, For thy sake we are killed all the day long; we are accounted as sheep for the slaughter. Nay, in all these things we are more than conquerors through him that loved us. For I am persuaded, that neither death, nor life, nor angels, nor principalities, nor powers, nor things present, nor things to come, Nor height, nor depth, nor any other creature, shall be able to separate us from the love of God, which is in Christ Jesus our Lord."
-      },
-      {
-        "source": "Epistle",
-        "display": "2 Timothy 3.10-15",
-        "short_display": "2 Tim 3.10-15",
-        "text": "But thou hast fully known my doctrine, manner of life, purpose, faith, longsuffering, charity, patience, Persecutions, afflictions, which came unto me at Antioch, at Iconium, at Lystra; what persecutions I endured: but out of them all the Lord delivered me. Yea, and all that will live godly in Christ Jesus shall suffer persecution. But evil men and seducers shall wax worse and worse, deceiving, and being deceived. But continue thou in the things which thou hast learned and hast been assured of, knowing of whom thou hast learned them; And that from a child thou hast known the holy scriptures, which are able to make thee wise unto salvation through faith which is in Christ Jesus."
-      },
-      {
-        "source": "Gospel",
-        "display": "Luke 4.16-22",
-        "short_display": "Luke 4.16-22",
-        "text": "And he came to Nazareth, where he had been brought up: and, as his custom was, he went into the synagogue on the sabbath day, and stood up for to read. And there was delivered unto him the book of the prophet Esaias. And when he had opened the book, he found the place where it was written, The Spirit of the Lord is upon me, because he hath anointed me to preach the gospel to the poor; he hath sent me to heal the brokenhearted, to preach deliverance to the captives, and recovering of sight to the blind, to set at liberty them that are bruised, To preach the acceptable year of the Lord. And he closed the book, and he gave it again to the minister, and sat down. And the eyes of all them that were in the synagogue were fastened on him. And he began to say unto them, This day is this scripture fulfilled in your ears. And all bare him witness, and wondered at the gracious words which proceeded out of his mouth. And they said, Is not this Joseph\u2019s son?"
-      },
-      {
-        "source": "Gospel",
-        "display": "Luke 21.12-19",
-        "short_display": "Luke 21.12-19",
-        "text": "But before all these, they shall lay their hands on you, and persecute you, delivering you up to the synagogues, and into prisons, being brought before kings and rulers for my name\u2019s sake. And it shall turn to you for a testimony. Settle it therefore in your hearts, not to meditate before what ye shall answer: For I will give you a mouth and wisdom, which all your adversaries shall not be able to gainsay nor resist. And ye shall be betrayed both by parents, and brethren, and kinsfolks, and friends; and some of you shall they cause to be put to death. And ye shall be hated of all men for my name\u2019s sake. But there shall not an hair of your head perish. In your patience possess ye your souls."
-      },
-      {
-        "source": "Gospel",
-        "display": "Luke 10.38-42, 11.27-28",
-        "short_display": "Luke 10.38-42, 11.27-28",
-        "text": "Now it came to pass, as they went, that he entered into a certain village: and a certain woman named Martha received him into her house. And she had a sister called Mary, which also sat at Jesus\u2019 feet, and heard his word. But Martha was cumbered about much serving, and came to him, and said, Lord, dost thou not care that my sister hath left me to serve alone? bid her therefore that she help me. And Jesus answered and said unto her, Martha, Martha, thou art careful and troubled about many things: But one thing is needful: and Mary hath chosen that good part, which shall not be taken away from her. And it came to pass, as he spake these things, a certain woman of the company lifted up her voice, and said unto him, Blessed is the womb that bare thee, and the paps which thou hast sucked. But he said, Yea rather, blessed are they that hear the word of God, and keep it."
+        "display": "Luke 10:38-42, 11:27-28",
+        "text": "At that time, Jesus entered a village; and a woman called Martha received him into her house. And she had a sister called Mary, who sat at the Lord's feet and listened to his teaching. But Martha was distracted with much serving; and she went to him and said, \"Lord, do you not care that my sister has left me to serve you alone? Tell her then to help me.\" But the Lord answered her, \"Martha, Martha, you are anxious and troubled about many things; one thing is needful. Mary has chosen the good portion, which shall not be taken away from her.\" As he said this, a woman in the crowd raised her voice and said to him, \"Blessed is the womb that bore you, and the breasts that you sucked!\" But he said, \"Blessed rather are those who hear the word of God and keep it!\""
       }
-    ]
+    ],
+    "service_texts": []
   },
   "events": []
 }

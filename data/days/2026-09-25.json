@@ -2,103 +2,43 @@
   "date": "2026-09-25",
   "liturgical": {
     "status": "ok",
-    "titles": [
-      "Friday of the 17th week after Pentecost"
+    "source": "antiochian",
+    "feasts": [
+      "Friday of the 1St Week"
     ],
-    "summary_title": "Paphnoutios the Martyr & his 546 Companions in Egypt; Synaxis of the Most Holy Theotokos of Evangelistria; Finbar the Confessor, First Bishop of Cork",
-    "feasts": null,
     "saints": [
-      {
-        "name": "Paphnoutios the Martyr & his 546 Companions in Egypt",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Paphnoutios%20the%20Martyr%20%26%20his%20546%20Companions%20in%20Egypt"
-      },
-      {
-        "name": "Synaxis of the Most Holy Theotokos of Evangelistria",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Synaxis%20of%20the%20Most%20Holy%20Theotokos%20of%20Evangelistria"
-      },
-      {
-        "name": "Finbar the Confessor, First Bishop of Cork",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Finbar%20the%20Confessor%2C%20First%20Bishop%20of%20Cork"
-      },
-      {
-        "name": "Our Holy Father Sergius of Radonezh (1392)",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Our%20Holy%20Father%20Sergius%20of%20Radonezh%20%281392%29"
-      },
-      {
-        "name": "Our Righteous Mother Euphrosyne (ca. 445)",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Our%20Righteous%20Mother%20Euphrosyne%20%28ca.%20445%29"
-      },
-      {
-        "name": "Commemoration of the Great Earthquake at Constantinople (447) and the Miracle of the Trisagion",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Commemoration%20of%20the%20Great%20Earthquake%20at%20Constantinople%20%28447%29%20and%20the%20Miracle%20of%20the%20Trisagion"
-      },
-      {
-        "name": "Venerable Dosithea, recluse of the Kiev Caves (1776)",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Venerable%20Dosithea%2C%20recluse%20of%20the%20Kiev%20Caves%20%281776%29"
-      }
+      "Euphrosyne of Alexandria",
+      "Paphnoutios the Martyr & His 546 Companions in Egypt",
+      "Synaxis of the Most Holy Theotokos of Evangelistria",
+      "Mochos",
+      "Our Righteous Father Sergius of Radonezh",
+      "Finbar the Confessor",
+      "First Bishop of Cork"
     ],
+    "summary_title": "Euphrosyne of Alexandria, Paphnoutios the Martyr & His 546 Companions in Egypt, Synaxis of the Most Holy Theotokos of Evangelistria, Mochos, Our Righteous Father Sergius of Radonezh, Finbar the Confessor, First Bishop of Cork",
+    "stories": [],
     "fasting": {
-      "level": 1,
-      "description": "Fast",
+      "description": "Abstain From Meat, Fish, Dairy, Eggs, Wine, Olive Oil",
       "abstentions": [
         "meat",
         "fish",
         "dairy",
         "eggs",
         "wine",
-        "oil"
+        "olive oil"
       ]
     },
     "readings": [
       {
-        "source": "Vespers",
-        "display": "Composite 2 - Proverbs 10, 3, 8",
-        "short_display": "Prov 10, 3, 8",
-        "text": "The memory of a just man is praised, and the Lord\u2019s blessing is upon his head. Blessed is one who has found wisdom; a mortal who knows understanding. To import her is better than treasures of gold and silver. She is more valuable than precious stones; nothing of value equals her worth. Justice proceeds from her mouth; she bears law and mercy on her tongue. Therefore, my children, listen to me, for I speak weighty things. And blessed is the one who keeps my ways. For my goings out are the goings out of life, and favour is prepared from the Lord. Therefore I exhort you, and utter my voice to the children of humankind. Because I, Wisdom, have prepared counsel, knowledge and understanding. I have called on them. Counsel and sureness are mine; prudence is mine, strength is mine. I love those who are my friends, while those who seek me will find grace. You innocent, then, understand cunning; you untaught, take it to heart. Listen to me, for I will speak weighty things, and I will open right things from my lips. Because my throat will meditate truth; lying lips are abominable before me. All the words of my mouth are with justice, there is nothing crooked in them nor twisted. They are all straight for those who understand, and right for those who find knowledge. For I teach you what is true, that your hope may be in the Lord and that you may be filled with spirit."
+        "display": "St. Paul's Letter to the Ephesians 4:17-25",
+        "text": "Brethren, this I affirm and testify in the Lord, that you must no longer live as the Gentiles do, in the futility of their minds; they are darkened in their understanding, alienated from the life of God because of the ignorance that is in them, due to their hardness of heart; they have become callous and have given themselves up to licentiousness, greedy to practice every kind of uncleanness. You did not so learn Christ! - assuming that you have heard about him and were taught in him, as the truth is in Jesus. Put off your old nature which belongs to your former manner of life and is corrupt through deceitful lusts, and be renewed in the spirit of your minds, and put on the new nature, created after the likeness of God in true righteousness and holiness. Therefore, putting away falsehood, speak the truth."
       },
       {
-        "source": "Vespers",
-        "display": "Proverbs 10.31-11.12",
-        "short_display": "Prov 10.31-11.12",
-        "text": "The mouth of the just bringeth forth wisdom: but the froward tongue shall be cut out. The lips of the righteous know what is acceptable: but the mouth of the wicked speaketh frowardness. A false balance is abomination to the LORD: but a just weight is his delight. When pride cometh, then cometh shame: but with the lowly is wisdom. The integrity of the upright shall guide them: but the perverseness of transgressors shall destroy them. Riches profit not in the day of wrath: but righteousness delivereth from death. The righteousness of the perfect shall direct his way: but the wicked shall fall by his own wickedness. The righteousness of the upright shall deliver them: but transgressors shall be taken in their own naughtiness. When a wicked man dieth, his expectation shall perish: and the hope of unjust men perisheth. The righteous is delivered out of trouble, and the wicked cometh in his stead. An hypocrite with his mouth destroyeth his neighbour: but through knowledge shall the just be delivered. When it goeth well with the righteous, the city rejoiceth: and when the wicked perish, there is shouting. By the blessing of the upright the city is exalted: but it is overthrown by the mouth of the wicked. He that is void of wisdom despiseth his neighbour: but a man of understanding holdeth his peace."
-      },
-      {
-        "source": "Vespers",
-        "display": "Wisdom of Solomon 3.1-9",
-        "short_display": "Wis 3.1-9",
-        "text": "But the souls of the righteous are in the hand of God, and there shall no torment touch them. In the sight of the unwise they seemed to die: and their departure is taken for misery, And their going from us to be utter destruction: but they are in peace. For though they be punished in the sight of men, yet is their hope full of immortality. And having been a little chastised, they shall be greatly rewarded: for God proved them, and found them worthy for himself. As gold in the furnace hath he tried them, and received them as a burnt offering. And in the time of their visitation they shall shine, and run to and fro like sparks among the stubble. They shall judge the nations, and have dominion over the people, and their Lord shall reign for ever. They that put their trust in him shall understand the truth: and such as be faithful in love shall abide with him: for grace and mercy is to his saints, and he hath care for his elect."
-      },
-      {
-        "source": "Matins Gospel",
-        "display": "Matthew 11.27-30",
-        "short_display": "Matt 11.27-30",
-        "text": "All things are delivered unto me of my Father: and no man knoweth the Son, but the Father; neither knoweth any man the Father, save the Son, and he to whomsoever the Son will reveal him. Come unto me, all ye that labour and are heavy laden, and I will give you rest. Take my yoke upon you, and learn of me; for I am meek and lowly in heart: and ye shall find rest unto your souls. For my yoke is easy, and my burden is light."
-      },
-      {
-        "source": "Epistle",
-        "display": "Ephesians 4.17-25",
-        "short_display": "Eph 4.17-25",
-        "text": "This I say therefore, and testify in the Lord, that ye henceforth walk not as other Gentiles walk, in the vanity of their mind, Having the understanding darkened, being alienated from the life of God through the ignorance that is in them, because of the blindness of their heart: Who being past feeling have given themselves over unto lasciviousness, to work all uncleanness with greediness. But ye have not so learned Christ; If so be that ye have heard him, and have been taught by him, as the truth is in Jesus: That ye put off concerning the former conversation the old man, which is corrupt according to the deceitful lusts; And be renewed in the spirit of your mind; And that ye put on the new man, which after God is created in righteousness and true holiness. Wherefore putting away lying, speak every man truth with his neighbour: for we are members one of another."
-      },
-      {
-        "source": "Epistle",
-        "display": "Galatians 5.22-6.2",
-        "short_display": "Gal 5.22-6.2",
-        "text": "But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, Meekness, temperance: against such there is no law. And they that are Christ\u2019s have crucified the flesh with the affections and lusts. If we live in the Spirit, let us also walk in the Spirit. Let us not be desirous of vain glory, provoking one another, envying one another. Brethren, if a man be overtaken in a fault, ye which are spiritual, restore such an one in the spirit of meekness; considering thyself, lest thou also be tempted. Bear ye one another\u2019s burdens, and so fulfil the law of Christ."
-      },
-      {
-        "source": "Gospel",
-        "display": "Luke 4.22-30",
-        "short_display": "Luke 4.22-30",
-        "text": "And all bare him witness, and wondered at the gracious words which proceeded out of his mouth. And they said, Is not this Joseph\u2019s son? And he said unto them, Ye will surely say unto me this proverb, Physician, heal thyself: whatsoever we have heard done in Capernaum, do also here in thy country. And he said, Verily I say unto you, No prophet is accepted in his own country. But I tell you of a truth, many widows were in Israel in the days of Elias, when the heaven was shut up three years and six months, when great famine was throughout all the land; But unto none of them was Elias sent, save unto Sarepta, a city of Sidon, unto a woman that was a widow. And many lepers were in Israel in the time of Eliseus the prophet; and none of them was cleansed, saving Naaman the Syrian. And all they in the synagogue, when they heard these things, were filled with wrath, And rose up, and thrust him out of the city, and led him unto the brow of the hill whereon their city was built, that they might cast him down headlong. But he passing through the midst of them went his way,"
-      },
-      {
-        "source": "Gospel",
-        "display": "Luke 6.17-23",
-        "short_display": "Luke 6.17-23",
-        "text": "And he came down with them, and stood in the plain, and the company of his disciples, and a great multitude of people out of all Jud\u00e6a and Jerusalem, and from the sea coast of Tyre and Sidon, which came to hear him, and to be healed of their diseases; And they that were vexed with unclean spirits: and they were healed. And the whole multitude sought to touch him: for there went virtue out of him, and healed them all. And he lifted up his eyes on his disciples, and said, Blessed be ye poor: for yours is the kingdom of God. Blessed are ye that hunger now: for ye shall be filled. Blessed are ye that weep now: for ye shall laugh. Blessed are ye, when men shall hate you, and when they shall separate you from their company, and shall reproach you, and cast out your name as evil, for the Son of man\u2019s sake. Rejoice ye in that day, and leap for joy: for, behold, your reward is great in heaven: for in the like manner did their fathers unto the prophets."
+        "display": "Luke 4:22-30",
+        "text": "At that time, the crowd wondered at the gracious words which proceeded out of the mouth of Jesus; and they said, \"Is not this Joseph's son?\" And he said to them, \"Doubtless you will quote to me this proverb, 'Physician, heal yourself; what we have heard you did at Capernaum, do here also in your own country.'\" And he said, \"Truly, I say to you, no prophet is acceptable in his own country. But in truth, I tell you, there were many widows in Israel in the days of Elijah, when the heaven was shut up three years and six months, when there came a great famine over all the land; and Elijah was sent to none of them but only to Zarephath, in the land of Sidon, to a woman who was a widow. And there were many lepers in Israel in the time of the prophet Elisha; and none of them was cleansed but only Naaman the Syrian.\" When they heard this, all in the synagogue were filled with wrath. And they rose up and put him out of the city, and led him to the brow of the hill on which their city was built, that they might throw him down headlong. But passing through the midst of them he went away."
       }
-    ]
+    ],
+    "service_texts": []
   },
   "events": []
 }

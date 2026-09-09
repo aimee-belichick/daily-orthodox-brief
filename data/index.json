@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T16:13:57.382340-05:00",
+  "generated_at": "2026-09-09T17:31:53.664046-05:00",
   "today": "2026-09-09",
   "available_dates": [
     "2026-09-02",
@@ -102,15 +102,13 @@
     "2026-12-08"
   ],
   "last_successful": {
-    "liturgical": "2026-09-09T16:13:57.382340-05:00",
-    "parish_events": "2026-09-09T16:13:57.382340-05:00",
-    "bulletin": "2026-09-09T16:13:57.382340-05:00",
-    "fasting_calendar": "2026-09-09T16:13:57.382340-05:00",
-    "prayer_list": "2026-09-09T16:13:57.382340-05:00"
+    "liturgical": "2026-09-09T17:31:53.664046-05:00",
+    "parish_events": "2026-09-09T17:31:53.664046-05:00",
+    "bulletin": "2026-09-09T17:31:53.664046-05:00",
+    "fasting_calendar": "2026-09-09T17:31:53.664046-05:00",
+    "prayer_list": "2026-09-09T17:31:53.664046-05:00"
   },
   "links": {
-    "liturgy": "https://www.antiochian.org/liturgy",
-    "vespers": "https://www.antiochian.org/vespers",
     "parish_calendar": "https://www.constantinehelen.com/calendar/",
     "bulletin_pdf": "https://www.constantinehelen.com/wp-content/uploads/2026/08/SCH-BW-Bulletin-8-30-2026-2.pdf",
     "bulletin_posted": "2026-08-28T16:25:50",

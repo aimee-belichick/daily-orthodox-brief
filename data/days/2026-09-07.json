@@ -2,56 +2,50 @@
   "date": "2026-09-07",
   "liturgical": {
     "status": "ok",
-    "titles": [
-      "Monday of the 15th week after Pentecost"
-    ],
-    "summary_title": "Forefeast of Nativity",
+    "source": "antiochian",
     "feasts": [
-      "Forefeast of Nativity"
+      "15Th Monday After Pentecost"
     ],
     "saints": [
-      {
-        "name": "Martyr Sozon of Cilicia",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Martyr%20Sozon%20of%20Cilicia"
-      },
-      {
-        "name": "St John, Archbishop of Novgorod",
-        "link": "https://orthodoxwiki.org/Special:Search?search=St%20John%2C%20Archbishop%20of%20Novgorod"
-      },
-      {
-        "name": "John and Sergios, Bishops of Lerna",
-        "link": "https://orthodoxwiki.org/Special:Search?search=John%20and%20Sergios%2C%20Bishops%20of%20Lerna"
-      },
-      {
-        "name": "Daniel Katounakiotis of Smyrna",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Daniel%20Katounakiotis%20of%20Smyrna"
-      },
-      {
-        "name": "Holy Apostles Evodus and Onesiphorus of the Seventy",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Holy%20Apostles%20Evodus%20and%20Onesiphorus%20of%20the%20Seventy"
-      },
-      {
-        "name": "Holy Martyr Eupsychyius of Caesarea (2nd c.)",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Holy%20Martyr%20Eupsychyius%20of%20Caesarea%20%282nd%20c.%29"
-      },
-      {
-        "name": "St Kassia (Kassiani) the Hymnographer (9th c.)",
-        "link": "https://orthodoxwiki.org/Special:Search?search=St%20Kassia%20%28Kassiani%29%20the%20Hymnographer%20%289th%20c.%29"
-      }
+      "The Forefeast of the Nativity of the Theotokos",
+      "Sozon the Martyr",
+      "Kassiani the Hymnographer",
+      "John and Sergios",
+      "Bishops of Lerna",
+      "Daniel Katounakiotis of Smyrna",
+      "Euodos and Onesiphoros",
+      "Apostles of the 70",
+      "John the Wonderworker of Novgorod"
     ],
+    "summary_title": "The Forefeast of the Nativity of the Theotokos, Sozon the Martyr, Kassiani the Hymnographer, John and Sergios, Bishops of Lerna, Daniel Katounakiotis of Smyrna, Euodos and Onesiphoros, Apostles of the 70, John the Wonderworker of Novgorod",
+    "stories": [],
     "fasting": null,
     "readings": [
       {
-        "source": "Epistle",
-        "display": "Galatians 2.11-16",
-        "short_display": "Gal 2.11-16",
-        "text": "But when Peter was come to Antioch, I withstood him to the face, because he was to be blamed. For before that certain came from James, he did eat with the Gentiles: but when they were come, he withdrew and separated himself, fearing them which were of the circumcision. And the other Jews dissembled likewise with him; insomuch that Barnabas also was carried away with their dissimulation. But when I saw that they walked not uprightly according to the truth of the gospel, I said unto Peter before them all, If thou, being a Jew, livest after the manner of Gentiles, and not as do the Jews, why compellest thou the Gentiles to live as do the Jews? We who are Jews by nature, and not sinners of the Gentiles, Knowing that a man is not justified by the works of the law, but by the faith of Jesus Christ, even we have believed in Jesus Christ, that we might be justified by the faith of Christ, and not by the works of the law: for by the works of the law shall no flesh be justified."
+        "display": "St. Paul's Letter to the Galatians 2:11-16",
+        "text": "Brethren, when Cephas came to Antioch I opposed him to his face, because he stood condemned. For before certain men came from James, he ate with the Gentiles; but when they came he drew back and separated himself, fearing the circumcision party. And with him the rest of the Jews acted insincerely, so that even Barnabas was carried away by their insincerity. But when I saw that they were not straightforward about the truth of the gospel, I said to Cephas before them all, \"if you, though a Jew, live like a Gentile and not like a Jew, how can you compel the Gentiles to live like Jews?\" We ourselves, who are Jews by birth and not Gentile sinners, yet who know that a man is not justified by works of the law but through faith in Jesus Christ, even we have believed in Christ Jesus, in order to be justified by faith in Christ, and not by works of the law, because by works of the law shall no one be justified."
       },
       {
-        "source": "Gospel",
-        "display": "Mark 5.24-34",
-        "short_display": "Mark 5.24-34",
-        "text": "And Jesus went with him; and much people followed him, and thronged him. And a certain woman, which had an issue of blood twelve years, And had suffered many things of many physicians, and had spent all that she had, and was nothing bettered, but rather grew worse, When she had heard of Jesus, came in the press behind, and touched his garment. For she said, If I may touch but his clothes, I shall be whole. And straightway the fountain of her blood was dried up; and she felt in her body that she was healed of that plague. And Jesus, immediately knowing in himself that virtue had gone out of him, turned him about in the press, and said, Who touched my clothes? And his disciples said unto him, Thou seest the multitude thronging thee, and sayest thou, Who touched me? And he looked round about to see her that had done this thing. But the woman fearing and trembling, knowing what was done in her, came and fell down before him, and told him all the truth. And he said unto her, Daughter, thy faith hath made thee whole; go in peace, and be whole of thy plague."
+        "display": "Mark 5:24-34",
+        "text": "At that time, a great crowd followed Jesus and thronged about him. And there was a woman who had had a flow of blood for twelve years, and who had suffered much under many physicians, and had spent all that she had, and was no better but rather grew worse. She had heard the reports about Jesus, and came up behind him in the crowd and touched his garment. For she said, \"If I touch even his garments, I shall be made well.\" And immediately the hemorrhage ceased; and she felt in her body that she was healed of her disease. And Jesus, perceiving in himself that power had gone forth from him, immediately turned about in the crowd, and said, \"Who touched my garments?\" And his disciples said to him, \"You see the crowd pressing around you, and yet you say, 'Who touched me?'\" And he looked around to see who had done it. But the woman, knowing what had been done to her, came in fear and trembling and fell down before him, and told him the whole truth. And he said to her, \"Daughter, your faith has made you well; go in peace, and be healed of your disease.\""
+      }
+    ],
+    "service_texts": [
+      {
+        "label": "Bilingual - Litia/Artoklasia",
+        "url": "https://www.antiochian.org/servicetexts/Sept%2007%20Bilingual%20LITART.pdf"
+      },
+      {
+        "label": "Bilingual - Great Vespers",
+        "url": "https://www.antiochian.org/servicetexts/Sept%2007%20Bilingual%20VESP.pdf"
+      },
+      {
+        "label": "Litia/Artoklasia",
+        "url": "https://www.antiochian.org/servicetexts/Sept%2007%20LITART.pdf"
+      },
+      {
+        "label": "Great Vespers",
+        "url": "https://www.antiochian.org/servicetexts/Sept%2007%20VESP.pdf"
       }
     ]
   },

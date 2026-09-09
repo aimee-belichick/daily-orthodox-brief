@@ -2,28 +2,20 @@
   "date": "2026-11-28",
   "liturgical": {
     "status": "ok",
-    "titles": [
-      "Saturday of the 26th week after Pentecost"
+    "source": "antiochian",
+    "feasts": [
+      "Saturday of the 10Th Week"
     ],
-    "summary_title": "Monk Martyr and Confessor Stephen the New; Martyr Irenarchus and Seven Women Martyrs at Sebaste; Martyr Timothy and his Companions at Tiberiopolis",
-    "feasts": null,
     "saints": [
-      {
-        "name": "Monk Martyr and Confessor Stephen the New",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Monk%20Martyr%20and%20Confessor%20Stephen%20the%20New"
-      },
-      {
-        "name": "Martyr Irenarchus and Seven Women Martyrs at Sebaste",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Martyr%20Irenarchus%20and%20Seven%20Women%20Martyrs%20at%20Sebaste"
-      },
-      {
-        "name": "Martyr Timothy and his Companions at Tiberiopolis",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Martyr%20Timothy%20and%20his%20Companions%20at%20Tiberiopolis"
-      }
+      "Stephen the New",
+      "Irenarchos & His Companion Martyrs at Sebaste",
+      "Auxentius",
+      "16 Martyrs of Tiberioupolis"
     ],
+    "summary_title": "Stephen the New, Irenarchos & His Companion Martyrs at Sebaste, Auxentius, 16 Martyrs of Tiberioupolis",
+    "stories": [],
     "fasting": {
-      "level": 5,
-      "description": "Nativity Fast",
+      "description": "Abstain From Meat, Dairy, Eggs",
       "abstentions": [
         "meat",
         "dairy",
@@ -32,18 +24,15 @@
     },
     "readings": [
       {
-        "source": "Epistle",
-        "display": "Galatians 3.8-12",
-        "short_display": "Gal 3.8-12",
-        "text": "And the scripture, foreseeing that God would justify the heathen through faith, preached before the gospel unto Abraham, saying, In thee shall all nations be blessed. So then they which be of faith are blessed with faithful Abraham. For as many as are of the works of the law are under the curse: for it is written, Cursed is every one that continueth not in all things which are written in the book of the law to do them. But that no man is justified by the law in the sight of God, it is evident: for, The just shall live by faith. And the law is not of faith: but, The man that doeth them shall live in them."
+        "display": "St. Paul's Letter to the Galatians 3:8-12",
+        "text": "Brethren, the scripture, foreseeing that God would justify the Gentiles by faith, preached the gospel beforehand to Abraham, saying, \"in you shall all the nations be blessed.\" So then, those who are men of faith are blessed with Abraham who had faith. For all who rely on works of the law are under a curse; for it is written, \"Cursed be every one who does not abide by all things written in the book of the law, and do them.\" Now it is evident that no man is justified before God by the law; for \"the righteous shall live by faith\"; but the law does not rest on faith, for \"He who does them shall live by them.\""
       },
       {
-        "source": "Gospel",
-        "display": "Luke 10.19-21",
-        "short_display": "Luke 10.19-21",
-        "text": "Behold, I give unto you power to tread on serpents and scorpions, and over all the power of the enemy: and nothing shall by any means hurt you. Notwithstanding in this rejoice not, that the spirits are subject unto you; but rather rejoice, because your names are written in heaven. In that hour Jesus rejoiced in spirit, and said, I thank thee, O Father, Lord of heaven and earth, that thou hast hid these things from the wise and prudent, and hast revealed them unto babes: even so, Father; for so it seemed good in thy sight."
+        "display": "Luke 10:19-21",
+        "text": "The Lord said to his disciples, \"Behold, I have given you authority to tread upon serpents and scorpions, and over all the power of the enemy; and nothing shall hurt you. Nevertheless do not rejoice in this, that the spirits are subject to you; but rejoice that your names are written in heaven.\" In that same hour he rejoiced in the Holy Spirit and said, \"I thank you, Father, Lord of heaven and earth, that you have hidden these things from the wise and understanding and revealed them to babes; yes, Father, for such was your gracious will."
       }
-    ]
+    ],
+    "service_texts": []
   },
   "events": [
     {

@@ -2,32 +2,24 @@
   "date": "2026-11-15",
   "liturgical": {
     "status": "ok",
-    "titles": [
-      "24th Sunday after Pentecost"
+    "source": "antiochian",
+    "feasts": [
+      "8Th Sunday of Luke"
     ],
-    "summary_title": "24th Sunday after Pentecost",
-    "feasts": null,
     "saints": [
-      {
-        "name": "Begin Nativity Fast",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Begin%20Nativity%20Fast"
-      },
-      {
-        "name": "Guria, Shamuna, and Habib, Martyrs and Confessors of Edessa",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Guria%2C%20Shamuna%2C%20and%20Habib%2C%20Martyrs%20and%20Confessors%20of%20Edessa"
-      },
-      {
-        "name": "Thomas II the New, Archbishop of Constantinople",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Thomas%20II%20the%20New%2C%20Archbishop%20of%20Constantinople"
-      },
-      {
-        "name": "Our Venerable Father Paisius Velichkovsky (1794)",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Our%20Venerable%20Father%20Paisius%20Velichkovsky%20%281794%29"
-      }
+      "8Th Sunday of Luke",
+      "Nativity Fast Begins",
+      "Guria",
+      "Shamuna",
+      "And Habib",
+      "Martyrs and Confessors of Edessa",
+      "Thomas Ii the New",
+      "Archbishop of Constantinople"
     ],
+    "summary_title": "8Th Sunday of Luke, Nativity Fast Begins, Guria, Shamuna, And Habib, Martyrs and Confessors of Edessa, Thomas Ii the New, Archbishop of Constantinople",
+    "stories": [],
     "fasting": {
-      "level": 5,
-      "description": "Nativity Fast",
+      "description": "Abstain From Meat, Dairy, Eggs",
       "abstentions": [
         "meat",
         "dairy",
@@ -36,24 +28,15 @@
     },
     "readings": [
       {
-        "source": "2nd Matins Gospel",
-        "display": "Mark 16.1-8",
-        "short_display": "Mark 16.1-8",
-        "text": "And when the sabbath was past, Mary Magdalene, and Mary the mother of James, and Salome, had bought sweet spices, that they might come and anoint him. And very early in the morning the first day of the week, they came unto the sepulchre at the rising of the sun. And they said among themselves, Who shall roll us away the stone from the door of the sepulchre? And when they looked, they saw that the stone was rolled away: for it was very great. And entering into the sepulchre, they saw a young man sitting on the right side, clothed in a long white garment; and they were affrighted. And he saith unto them, Be not affrighted: Ye seek Jesus of Nazareth, which was crucified: he is risen; he is not here: behold the place where they laid him. But go your way, tell his disciples and Peter that he goeth before you into Galilee: there shall ye see him, as he said unto you. And they went out quickly, and fled from the sepulchre; for they trembled and were amazed: neither said they any thing to any man; for they were afraid."
+        "display": "St. Paul's Letter to the Ephesians 2:14-22",
+        "text": "Brethren, Christ is our peace, who has made us both one, and has broken down the dividing wall of hostility, by abolishing in his flesh the law of commandments and ordinances, that he might create in himself one new man in place of the two, so making peace, and might reconcile us both to God in one body through the cross, thereby bringing the hostility to an end. And he came and preached peace to you who were far off and peace to those who were near; for through him we both have access in one Spirit to the Father. So then you are no longer strangers and sojourners, but you are fellow citizens with the saints and members of the household of God, built upon the foundation of the apostles and prophets, Christ Jesus himself being the cornerstone, in whom the whole structure is joined together and grows into a holy temple in the Lord; in whom you also are built into it for a dwelling place of God in the Spirit."
       },
       {
-        "source": "Epistle",
-        "display": "Ephesians 2.14-22",
-        "short_display": "Eph 2.14-22",
-        "text": "For he is our peace, who hath made both one, and hath broken down the middle wall of partition between us; Having abolished in his flesh the enmity, even the law of commandments contained in ordinances; for to make in himself of twain one new man, so making peace; And that he might reconcile both unto God in one body by the cross, having slain the enmity thereby: And came and preached peace to you which were afar off, and to them that were nigh. For through him we both have access by one Spirit unto the Father. Now therefore ye are no more strangers and foreigners, but fellowcitizens with the saints, and of the household of God; And are built upon the foundation of the apostles and prophets, Jesus Christ himself being the chief corner stone; In whom all the building fitly framed together groweth unto an holy temple in the Lord: In whom ye also are builded together for an habitation of God through the Spirit."
-      },
-      {
-        "source": "Gospel",
-        "display": "Luke 10.25-37",
-        "short_display": "Luke 10.25-37",
-        "text": "And, behold, a certain lawyer stood up, and tempted him, saying, Master, what shall I do to inherit eternal life? He said unto him, What is written in the law? how readest thou? And he answering said, Thou shalt love the Lord thy God with all thy heart, and with all thy soul, and with all thy strength, and with all thy mind; and thy neighbour as thyself. And he said unto him, Thou hast answered right: this do, and thou shalt live. But he, willing to justify himself, said unto Jesus, And who is my neighbour? And Jesus answering said, A certain man went down from Jerusalem to Jericho, and fell among thieves, which stripped him of his raiment, and wounded him, and departed, leaving him half dead. And by chance there came down a certain priest that way: and when he saw him, he passed by on the other side. And likewise a Levite, when he was at the place, came and looked on him, and passed by on the other side. But a certain Samaritan, as he journeyed, came where he was: and when he saw him, he had compassion on him, And went to him, and bound up his wounds, pouring in oil and wine, and set him on his own beast, and brought him to an inn, and took care of him. And on the morrow when he departed, he took out two pence, and gave them to the host, and said unto him, Take care of him; and whatsoever thou spendest more, when I come again, I will repay thee. Which now of these three, thinkest thou, was neighbour unto him that fell among the thieves? And he said, He that shewed mercy on him. Then said Jesus unto him, Go, and do thou likewise."
+        "display": "Luke 10:25-37",
+        "text": "At that time, a lawyer stood up to put Jesus to the test, saying, \"Teacher, what shall I do to inherit eternal life?\" He said to him, \"What is written in the law? How do you read?\" And he answered, \"You shall love the Lord your God with all your heart, and with all your soul, and with all your strength, and with all your mind; and your neighbor as yourself.\" And he said to him, \"You have answered right; do this, and you will live.\" But he, desiring to justify himself, said to Jesus, \"And who is my neighbor?\" Jesus replied, \"A man was going down from Jerusalem to Jericho, and he fell among robbers, who stripped him and beat him, and departed, leaving him half dead. Now by chance a priest was going down that road; and when he saw him he passed by on the other side. So likewise a Levite, when he came to the place and saw him, passed by on the other side. But a Samaritan, as he journeyed, came to where he was; and when he saw him, he had compassion, and went to him and bound up his wounds, pouring on oil and wine; then he set him on his own beast and brought him to an inn, and took care of him. And the next day he took out two denarii and gave them to the innkeeper, saying, 'Take care of him; and whatever more you spend, I will repay you when I come back.' Which of these three, do you think, proved neighbor to the man who fell among the robbers?\" He said, \"The one who showed mercy on him.\" And Jesus said to him, \"Go and do likewise."
       }
-    ]
+    ],
+    "service_texts": []
   },
   "events": [
     {

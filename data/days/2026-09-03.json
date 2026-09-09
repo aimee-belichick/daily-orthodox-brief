@@ -2,60 +2,34 @@
   "date": "2026-09-03",
   "liturgical": {
     "status": "ok",
-    "titles": [
-      "Thursday of the 14th week after Pentecost"
+    "source": "antiochian",
+    "feasts": [
+      "14Th Thursday After Pentecost"
     ],
-    "summary_title": "Hieromartyr Anthimus, Bishop of Nicomedia; Holy Father Theoctistus and his fellow struggler Euthymius the Great; Polydorus the Martyr of New Ephesus",
-    "feasts": null,
     "saints": [
-      {
-        "name": "Hieromartyr Anthimus, Bishop of Nicomedia",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Hieromartyr%20Anthimus%2C%20Bishop%20of%20Nicomedia"
-      },
-      {
-        "name": "Holy Father Theoctistus and his fellow struggler Euthymius the Great",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Holy%20Father%20Theoctistus%20and%20his%20fellow%20struggler%20Euthymius%20the%20Great"
-      },
-      {
-        "name": "Polydorus the Martyr of New Ephesus",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Polydorus%20the%20Martyr%20of%20New%20Ephesus"
-      },
-      {
-        "name": "Translation of the relics of St. Nectarius the Wonderworker, Bishop of Pentopolis",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Translation%20of%20the%20relics%20of%20St.%20Nectarius%20the%20Wonderworker%2C%20Bishop%20of%20Pentopolis"
-      },
-      {
-        "name": "Chariton the Martyr",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Chariton%20the%20Martyr"
-      },
-      {
-        "name": "Phoebe the Deaconess",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Phoebe%20the%20Deaconess"
-      },
-      {
-        "name": "Holy Martyr Basilissa (309)",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Holy%20Martyr%20Basilissa%20%28309%29"
-      },
-      {
-        "name": "Our Holy Father Joannicius, Archbishop and first Patriarch of Serbia (1354)",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Our%20Holy%20Father%20Joannicius%2C%20Archbishop%20and%20first%20Patriarch%20of%20Serbia%20%281354%29"
-      }
+      "Anthimus",
+      "Bishop of Nicomedea",
+      "Holy Father Theoctistus and His Fellow Struggler Euthymius the Great",
+      "Polydorus the Martyr of New Ephesus",
+      "Translation of the Relics of St. Nectarius the Wonderworker",
+      "Bishop of Pentopolis",
+      "Chariton the Martyr",
+      "Phoebe the Deaconess"
     ],
+    "summary_title": "Anthimus, Bishop of Nicomedea, Holy Father Theoctistus and His Fellow Struggler Euthymius the Great, Polydorus the Martyr of New Ephesus, Translation of the Relics of St. Nectarius the Wonderworker, Bishop of Pentopolis, Chariton the Martyr, Phoebe the Deaconess",
+    "stories": [],
     "fasting": null,
     "readings": [
       {
-        "source": "Epistle",
-        "display": "Galatians 1.1-10, 20-2.5",
-        "short_display": "Gal 1.1-10, 20-2.5",
-        "text": "Paul, an apostle, (not of men, neither by man, but by Jesus Christ, and God the Father, who raised him from the dead;) And all the brethren which are with me, unto the churches of Galatia: Grace be to you and peace from God the Father, and from our Lord Jesus Christ, Who gave himself for our sins, that he might deliver us from this present evil world, according to the will of God and our Father: To whom be glory for ever and ever. Amen. I marvel that ye are so soon removed from him that called you into the grace of Christ unto another gospel: Which is not another; but there be some that trouble you, and would pervert the gospel of Christ. But though we, or an angel from heaven, preach any other gospel unto you than that which we have preached unto you, let him be accursed. As we said before, so say I now again, If any man preach any other gospel unto you than that ye have received, let him be accursed. For do I now persuade men, or God? or do I seek to please men? for if I yet pleased men, I should not be the servant of Christ. Now the things which I write unto you, behold, before God, I lie not. Afterwards I came into the regions of Syria and Cilicia; And was unknown by face unto the churches of Judaea which were in Christ: But they had heard only, That he which persecuted us in times past now preacheth the faith which once he destroyed. And they glorified God in me. Then fourteen years after I went up again to Jerusalem with Barnabas, and took Titus with me also. And I went up by revelation, and communicated unto them that gospel which I preach among the Gentiles, but privately to them which were of reputation, lest by any means I should run, or had run, in vain. But neither Titus, who was with me, being a Greek, was compelled to be circumcised: And that because of false brethren unawares brought in, who came in privily to spy out our liberty which we have in Christ Jesus, that they might bring us into bondage: To whom we gave place by subjection, no, not for an hour; that the truth of the gospel might continue with you."
+        "display": "St. Paul's Letter to the Galatians 1:1-3, 20-24; 2:1-5",
+        "text": "Paul, an apostle - not from men nor through men, but through Jesus Christ and God the Father, who raised him from the dead - and all the brethren who are with me, To the churches of Galatia: Grace to you and peace from God the Father and our Lord Jesus Christ. In what I am writing to you, before God, I do not lie! Then I went into the regions of Syria and Cilicia. And I was still not known by sight to the churches of Christ in Judea; they only heard it said, \"He who once persecuted us is now preaching the faith he once tried to destroy.\" And they glorified God because of me. Then after fourteen years I went up again to Jerusalem with Barnabas, taking Titus along with me. I went up by revelation; and I laid before them (but privately before those who were of repute) the gospel which I preach among the Gentiles, lest somehow I should be running or had run in vain. But even Titus, who was with me, was not compelled to be circumcised, though he was a Greek. But because of false brethren secretly brought in, who slipped in to spy out our freedom which we have in Christ Jesus, that they might bring us into bondage - to them we did not yield submission even for a moment, that the truth of the gospel might be preserved for you."
       },
       {
-        "source": "Gospel",
-        "display": "Mark 5.1-20",
-        "short_display": "Mark 5.1-20",
-        "text": "And they came over unto the other side of the sea, into the country of the Gadarenes. And when he was come out of the ship, immediately there met him out of the tombs a man with an unclean spirit, Who had his dwelling among the tombs; and no man could bind him, no, not with chains: Because that he had been often bound with fetters and chains, and the chains had been plucked asunder by him, and the fetters broken in pieces: neither could any man tame him. And always, night and day, he was in the mountains, and in the tombs, crying, and cutting himself with stones. But when he saw Jesus afar off, he ran and worshipped him, And cried with a loud voice, and said, What have I to do with thee, Jesus, thou Son of the most high God? I adjure thee by God, that thou torment me not. For he said unto him, Come out of the man, thou unclean spirit. And he asked him, What is thy name? And he answered, saying, My name is Legion: for we are many. And he besought him much that he would not send them away out of the country. Now there was there nigh unto the mountains a great herd of swine feeding. And all the devils besought him, saying, Send us into the swine, that we may enter into them. And forthwith Jesus gave them leave. And the unclean spirits went out, and entered into the swine: and the herd ran violently down a steep place into the sea, (they were about two thousand;) and were choked in the sea. And they that fed the swine fled, and told it in the city, and in the country. And they went out to see what it was that was done. And they come to Jesus, and see him that was possessed with the devil, and had the legion, sitting, and clothed, and in his right mind: and they were afraid. And they that saw it told them how it befell to him that was possessed with the devil, and also concerning the swine. And they began to pray him to depart out of their coasts. And when he was come into the ship, he that had been possessed with the devil prayed him that he might be with him. Howbeit Jesus suffered him not, but saith unto him, Go home to thy friends, and tell them how great things the Lord hath done for thee, and hath had compassion on thee. And he departed, and began to publish in Decapolis how great things Jesus had done for him: and all men did marvel."
+        "display": "Mark 5:1-20",
+        "text": "At that time, Jesus came to the other side of the sea, to the country of the Gergesenes. And when he had come out of the boat, there met him out of the tombs a man with an unclean spirit, who lived among the tombs; and no one could bind him any more, even with a chain; for he had often been bound with fetters and chains, but the chains he wrenched apart, and the fetters he broke in pieces; and no one had the strength to subdue him. Night and day among the tombs and on the mountains he was always crying out, and bruising himself with stones. And when he saw Jesus from afar, he ran and worshiped him; and crying out with a loud voice, he said, \"What have you to do with me, Jesus, Son of the Most High God? I adjure you by God, do not torment me.\" For he had said to him, \"Come out of the man, you unclean spirit!\" And Jesus asked him, \"What is your name?\" He replied, \"My name is Legion; for we are many.\" And he begged him eagerly not to send them out of the country. Now a great herd of swine was feeding there on the hillside; and they begged him, \"Send us to the swine, let us enter them.\" So he gave them leave. And the unclean spirits came out, and entered the swine; and the herd, numbering about two thousand, rushed down the steep bank into the sea, and were drowned in the sea. The herdsmen fled, and told it in the city and in the country. And people came to see what it was that had happened. And they came to Jesus, and saw the demoniac sitting there, clothed and in his right mind, the man who had had the legion; and they were afraid. And those who had seen it told what had happened to the demoniac and to the swine. And they began to beg Jesus to depart from their neighborhood. And as he was getting into the boat, the man who had been possessed with demons begged him that he might be with him. But he refused, and said to him, \"Go home to your friends, and tell them how much the Lord has done for you, and how he has had mercy on you.\" And he went away and began to proclaim in the Dekapolis how much Jesus had done for him; and all men marveled."
       }
-    ]
+    ],
+    "service_texts": []
   },
   "events": []
 }

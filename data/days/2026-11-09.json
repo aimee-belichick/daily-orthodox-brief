@@ -2,64 +2,33 @@
   "date": "2026-11-09",
   "liturgical": {
     "status": "ok",
-    "titles": [
-      "Monday of the 24th week after Pentecost"
+    "source": "antiochian",
+    "feasts": [
+      "Nektarius the Wonderworker, Metropolitan of Pentapolis"
     ],
-    "summary_title": "Martyrs Onesiphorus and Porphyrius; Theoktisti of the Isle of Lesbos; Our Father among the Saints Nectarius (Nektarios), bishop of Pentapolis, Wonderworker, and founder of the Monastery of the Holy Trinity on Aegina (1920).",
-    "feasts": null,
     "saints": [
-      {
-        "name": "Martyrs Onesiphorus and Porphyrius",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Martyrs%20Onesiphorus%20and%20Porphyrius"
-      },
-      {
-        "name": "Theoktisti of the Isle of Lesbos",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Theoktisti%20of%20the%20Isle%20of%20Lesbos"
-      },
-      {
-        "name": "Our Father among the Saints Nectarius (Nektarios), bishop of Pentapolis, Wonderworker, and founder of the Monastery of the Holy Trinity on Aegina (1920).",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Our%20Father%20among%20the%20Saints%20Nectarius%20%28Nektarios%29%2C%20bishop%20of%20Pentapolis%2C%20Wonderworker%2C%20and%20founder%20of%20the%20Monastery%20of%20the%20Holy%20Trinity%20on%20Aegina%20%281920%29."
-      },
-      {
-        "name": "Our Venerable Father John the Dwarf (John the Short) (4th c.)",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Our%20Venerable%20Father%20John%20the%20Dwarf%20%28John%20the%20Short%29%20%284th%20c.%29"
-      },
-      {
-        "name": "Our Holy Mother Matrona (492)",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Our%20Holy%20Mother%20Matrona%20%28492%29"
-      },
-      {
-        "name": "Saint Symeon Metaphrastes (960)",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Saint%20Symeon%20Metaphrastes%20%28960%29"
-      }
+      "Nektarius the Wonderworker",
+      "Metropolitan of Pentapolis",
+      "Onesiphorus and Porphyrius of Ephesus",
+      "Matrona",
+      "Abbess of Constantinople",
+      "Theoktisti of the Isle of Lesbos",
+      "Symeon the Translator"
     ],
+    "summary_title": "Nektarius the Wonderworker, Metropolitan of Pentapolis, Onesiphorus and Porphyrius of Ephesus, Matrona, Abbess of Constantinople, Theoktisti of the Isle of Lesbos, Symeon the Translator",
+    "stories": [],
     "fasting": null,
     "readings": [
       {
-        "source": "Epistle",
-        "display": "1 Thessalonians 2.20-3.8",
-        "short_display": "1 Thess 2.20-3.8",
-        "text": "For ye are our glory and joy. Wherefore when we could no longer forbear, we thought it good to be left at Athens alone; And sent Timotheus, our brother, and minister of God, and our fellowlabourer in the gospel of Christ, to establish you, and to comfort you concerning your faith: That no man should be moved by these afflictions: for yourselves know that we are appointed thereunto. For verily, when we were with you, we told you before that we should suffer tribulation; even as it came to pass, and ye know. For this cause, when I could no longer forbear, I sent to know your faith, lest by some means the tempter have tempted you, and our labour be in vain. But now when Timotheus came from you unto us, and brought us good tidings of your faith and charity, and that ye have good remembrance of us always, desiring greatly to see us, as we also to see you: Therefore, brethren, we were comforted over you in all our affliction and distress by your faith: For now we live, if ye stand fast in the Lord."
+        "display": "St. Paul's Letter to the Ephesians 5:8-19",
+        "text": "Brethren, walk as children of light (for the fruit of light is found in all that is good and right and true), and try to learn what is pleasing to the Lord. Take no part in the unfruitful works of darkness, but instead expose them. For it is a shame even to speak of the things that they do in secret; but when anything is exposed by the light it becomes visible, for anything that becomes visible is light. Therefore it is said, \"Awake, O sleeper, and arise from the dead, and Christ shall give you light.\" Look carefully then how you walk, not as unwise men but as wise, making the most of the time, because the days are evil. Therefore do not be foolish, but understand what the will of the Lord is. And do not get drunk with wine, for that is debauchery; but be filled with the Spirit, addressing one another in psalms and hymns and spiritual songs, singing and making melody to the Lord with all your heart."
       },
       {
-        "source": "Epistle",
-        "display": "Ephesians 5.8-19",
-        "short_display": "Eph 5.8-19",
-        "text": "For ye were sometimes darkness, but now are ye light in the Lord: walk as children of light: (For the fruit of the Spirit is in all goodness and righteousness and truth;) Proving what is acceptable unto the Lord. And have no fellowship with the unfruitful works of darkness, but rather reprove them. For it is a shame even to speak of those things which are done of them in secret. But all things that are reproved are made manifest by the light: for whatsoever doth make manifest is light. Wherefore he saith, Awake thou that sleepest, and arise from the dead, and Christ shall give thee light. See then that ye walk circumspectly, not as fools, but as wise, Redeeming the time, because the days are evil. Wherefore be ye not unwise, but understanding what the will of the Lord is. And be not drunk with wine, wherein is excess; but be filled with the Spirit; Speaking to yourselves in psalms and hymns and spiritual songs, singing and making melody in your heart to the Lord;"
-      },
-      {
-        "source": "Gospel",
-        "display": "Luke 12.13-15, 22-31",
-        "short_display": "Luke 12.13-15, 22-31",
-        "text": "And one of the company said unto him, Master, speak to my brother, that he divide the inheritance with me. And he said unto him, Man, who made me a judge or a divider over you? And he said unto them, Take heed, and beware of covetousness: for a man\u2019s life consisteth not in the abundance of the things which he possesseth. And he said unto his disciples, Therefore I say unto you, Take no thought for your life, what ye shall eat; neither for the body, what ye shall put on. The life is more than meat, and the body is more than raiment. Consider the ravens: for they neither sow nor reap; which neither have storehouse nor barn; and God feedeth them: how much more are ye better than the fowls? And which of you with taking thought can add to his stature one cubit? If ye then be not able to do that thing which is least, why take ye thought for the rest? Consider the lilies how they grow: they toil not, they spin not; and yet I say unto you, that Solomon in all his glory was not arrayed like one of these. If then God so clothe the grass, which is to day in the field, and to morrow is cast into the oven; how much more will he clothe you, O ye of little faith? And seek not ye what ye shall eat, or what ye shall drink, neither be ye of doubtful mind. For all these things do the nations of the world seek after: and your Father knoweth that ye have need of these things. But rather seek ye the kingdom of God; and all these things shall be added unto you."
-      },
-      {
-        "source": "Gospel",
-        "display": "Matthew 4.25-5.12",
-        "short_display": "Matt 4.25-5.12",
-        "text": "And there followed him great multitudes of people from Galilee, and from Decapolis, and from Jerusalem, and from Judaea, and from beyond Jordan. And seeing the multitudes, he went up into a mountain: and when he was set, his disciples came unto him: And he opened his mouth, and taught them, saying, Blessed are the poor in spirit: for theirs is the kingdom of heaven. Blessed are they that mourn: for they shall be comforted. Blessed are the meek: for they shall inherit the earth. Blessed are they which do hunger and thirst after righteousness: for they shall be filled. Blessed are the merciful: for they shall obtain mercy. Blessed are the pure in heart: for they shall see God. Blessed are the peacemakers: for they shall be called the children of God. Blessed are they which are persecuted for righteousness\u2019 sake: for theirs is the kingdom of heaven. Blessed are ye, when men shall revile you, and persecute you, and shall say all manner of evil against you falsely, for my sake. Rejoice, and be exceeding glad: for great is your reward in heaven: for so persecuted they the prophets which were before you."
+        "display": "Matthew 4:25, 5:1-12",
+        "text": "At that time, great crowds followed Jesus from Galilee and the Decapolis and Jerusalem and Judea and from beyond the Jordan. Seeing the crowds, he went up on the mountain, and when he sat down his disciples came to him. And he opened his mouth and taught them, saying: \"Blessed are the poor in spirit, for theirs is the kingdom of heaven. Blessed are those who mourn, for they shall be comforted. Blessed are the meek, for they shall inherit the earth. Blessed are those who hunger and thirst for righteousness, for they shall be satisfied. Blessed are the merciful, for they shall obtain mercy. Blessed are the pure in heart, for they shall see God. Blessed are the peacemakers, for they shall be called sons of God. Blessed are those who are persecuted for righteousness' sake, for theirs is the kingdom of heaven. Blessed are you when men revile you and persecute you and utter all kinds of evil against you falsely on my account. Rejoice and be glad, for your reward is great in heaven."
       }
-    ]
+    ],
+    "service_texts": []
   },
   "events": [
     {

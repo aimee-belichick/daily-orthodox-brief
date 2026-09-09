@@ -2,71 +2,39 @@
   "date": "2026-09-30",
   "liturgical": {
     "status": "ok",
-    "titles": [
-      "Wednesday of the 18th week after Pentecost"
+    "source": "antiochian",
+    "feasts": [
+      "Gregory the Illuminator, Bishop of Armenia"
     ],
-    "summary_title": "Hieromartyr Gregory of Armenia; Ven. Gregory of Vologda; Mardonios and Stratonikos the Martyrs",
-    "feasts": null,
     "saints": [
-      {
-        "name": "Hieromartyr Gregory of Armenia",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Hieromartyr%20Gregory%20of%20Armenia"
-      },
-      {
-        "name": "Ven. Gregory of Vologda",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Ven.%20Gregory%20of%20Vologda"
-      },
-      {
-        "name": "Mardonios and Stratonikos the Martyrs",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Mardonios%20and%20Stratonikos%20the%20Martyrs"
-      },
-      {
-        "name": "Venerable Gregory of Pelshma (1441 or 1451)",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Venerable%20Gregory%20of%20Pelshma%20%281441%20or%201451%29"
-      },
-      {
-        "name": "Our Father among the Saints Michael, Metropolitan of Kiev (992)",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Our%20Father%20among%20the%20Saints%20Michael%2C%20Metropolitan%20of%20Kiev%20%28992%29"
-      }
+      "Gregory the Illuminator",
+      "Bishop of Armenia",
+      "Mardonios & Stratonikos the Martyrs"
     ],
+    "summary_title": "Gregory the Illuminator, Bishop of Armenia, Mardonios & Stratonikos the Martyrs",
+    "stories": [],
     "fasting": {
-      "level": 1,
-      "description": "Fast",
+      "description": "Abstain From Meat, Fish, Dairy, Eggs, Wine, Olive Oil",
       "abstentions": [
         "meat",
         "fish",
         "dairy",
         "eggs",
         "wine",
-        "oil"
+        "olive oil"
       ]
     },
     "readings": [
       {
-        "source": "Epistle",
-        "display": "Ephesians 5.25-33",
-        "short_display": "Eph 5.25-33",
-        "text": "Husbands, love your wives, even as Christ also loved the church, and gave himself for it; That he might sanctify and cleanse it with the washing of water by the word, That he might present it to himself a glorious church, not having spot, or wrinkle, or any such thing; but that it should be holy and without blemish. So ought men to love their wives as their own bodies. He that loveth his wife loveth himself. For no man ever yet hated his own flesh; but nourisheth and cherisheth it, even as the Lord the church: For we are members of his body, of his flesh, and of his bones. For this cause shall a man leave his father and mother, and shall be joined unto his wife, and they two shall be one flesh. This is a great mystery: but I speak concerning Christ and the church. Nevertheless let every one of you in particular so love his wife even as himself; and the wife see that she reverence her husband."
+        "display": "St. Paul's First Letter to the Corinthians 16:13-24",
+        "text": "Brethren, be watchful, stand firm in your faith, be courageous, be strong. Let all that you do be done in love. Now, brethren, you know that the household of Stephanas were the first converts in Achaia, and they have devoted themselves to the service of the saints; I urge you to be subject to such men and to every fellow worker and laborer. I rejoice at the coming of Stephanas and Fortunatus and Achaicos, because they have made up for your absence; for they refreshed my spirit as well as yours. Give recognition to such men. The churches of Asia send greetings. Aquila and Prisca, together with the church in their house, send you hearty greetings in the Lord. All the brethren send greetings. Greet one another with a holy kiss. I, Paul, write this greeting with my own hand. If any one has no love for the Lord, let him be accursed. Our Lord, come! The grace of the Lord Jesus be with you. My love be with you all in Christ Jesus. Amen."
       },
       {
-        "source": "Epistle",
-        "display": "1 Corinthians 16.13-24",
-        "short_display": "1 Cor 16.13-24",
-        "text": "Watch ye, stand fast in the faith, quit you like men, be strong. Let all your things be done with charity. I beseech you, brethren, (ye know the house of Stephanas, that it is the firstfruits of Achaia, and that they have addicted themselves to the ministry of the saints,) That ye submit yourselves unto such, and to every one that helpeth with us, and laboureth. I am glad of the coming of Stephanas and Fortunatus and Achaicus: for that which was lacking on your part they have supplied. For they have refreshed my spirit and yours: therefore acknowledge ye them that are such. The churches of Asia salute you. Aquila and Priscilla salute you much in the Lord, with the church that is in their house. All the brethren greet you. Greet ye one another with an holy kiss. The salutation of me Paul with mine own hand. If any man love not the Lord Jesus Christ, let him be Anathema Maranatha. The grace of our Lord Jesus Christ be with you. My love be with you all in Christ Jesus. Amen."
-      },
-      {
-        "source": "Gospel",
-        "display": "Luke 5.33-39",
-        "short_display": "Luke 5.33-39",
-        "text": "And they said unto him, Why do the disciples of John fast often, and make prayers, and likewise the disciples of the Pharisees; but thine eat and drink? And he said unto them, Can ye make the children of the bridechamber fast, while the bridegroom is with them? But the days will come, when the bridegroom shall be taken away from them, and then shall they fast in those days. And he spake also a parable unto them; No man putteth a piece of a new garment upon an old; if otherwise, then both the new maketh a rent, and the piece that was taken out of the new agreeth not with the old. And no man putteth new wine into old bottles; else the new wine will burst the bottles, and be spilled, and the bottles shall perish. But new wine must be put into new bottles; and both are preserved. No man also having drunk old wine straightway desireth new: for he saith, The old is better."
-      },
-      {
-        "source": "Gospel",
-        "display": "Matthew 24.42-47",
-        "short_display": "Matt 24.42-47",
-        "text": "Watch therefore: for ye know not what hour your Lord doth come. But know this, that if the goodman of the house had known in what watch the thief would come, he would have watched, and would not have suffered his house to be broken up. Therefore be ye also ready: for in such an hour as ye think not the Son of man cometh. Who then is a faithful and wise servant, whom his lord hath made ruler over his household, to give them meat in due season? Blessed is that servant, whom his lord when he cometh shall find so doing. Verily I say unto you, That he shall make him ruler over all his goods."
+        "display": "Matthew 24:42-47",
+        "text": "The Lord said, \"Watch, for you do not know on what day your Lord is coming. But know this, that if the householder had known in what part of the night the thief was coming, he would have watched and would not have let his house be broken into. Therefore you also must be ready; for the Son of man is coming at an hour you do not expect. Who then is the faithful and wise servant whom his master has set over his household, to give them their food at the proper time? Blessed is that servant whom his master when he comes will find so doing. Truly, I say to you, he will set him over all his possessions.\""
       }
-    ]
+    ],
+    "service_texts": []
   },
   "events": [
     {

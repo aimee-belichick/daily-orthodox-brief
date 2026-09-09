@@ -2,67 +2,42 @@
   "date": "2026-09-04",
   "liturgical": {
     "status": "ok",
-    "titles": [
-      "Friday of the 14th week after Pentecost"
+    "source": "antiochian",
+    "feasts": [
+      "14Th Friday After Pentecost"
     ],
-    "summary_title": "Hieromartyr Babylas, Bishop of Antioch; Our Righteous Father Anthimus of Coroucle in Cephallenia; Holy Prophet Moses, who beheld God.",
-    "feasts": null,
     "saints": [
-      {
-        "name": "Hieromartyr Babylas, Bishop of Antioch",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Hieromartyr%20Babylas%2C%20Bishop%20of%20Antioch"
-      },
-      {
-        "name": "Our Righteous Father Anthimus of Coroucle in Cephallenia",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Our%20Righteous%20Father%20Anthimus%20of%20Coroucle%20in%20Cephallenia"
-      },
-      {
-        "name": "Holy Prophet Moses, who beheld God.",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Holy%20Prophet%20Moses%2C%20who%20beheld%20God."
-      },
-      {
-        "name": "St John Mavropos, Metropolitan of Euchaita (1100)",
-        "link": "https://orthodoxwiki.org/Special:Search?search=St%20John%20Mavropos%2C%20Metropolitan%20of%20Euchaita%20%281100%29"
-      },
-      {
-        "name": "St Hermione, daughter of Apostle Philip (1st c.)",
-        "link": "https://orthodoxwiki.org/Special:Search?search=St%20Hermione%2C%20daughter%20of%20Apostle%20Philip%20%281st%20c.%29"
-      },
-      {
-        "name": "Venerable Anthimos the Blind, New Ascetic (1782)",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Venerable%20Anthimos%20the%20Blind%2C%20New%20Ascetic%20%281782%29"
-      },
-      {
-        "name": "Holy New Martyr Gorazd, Bishop of Slovakia and the Czech Lands (1942) (August 22 OC)",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Holy%20New%20Martyr%20Gorazd%2C%20Bishop%20of%20Slovakia%20and%20the%20Czech%20Lands%20%281942%29%20%28August%2022%20OC%29"
-      }
+      "Babylas the Holy Martyr",
+      "Moses the Prophet & Godseer",
+      "Our Righteous Father Anthimus of Coroucle in Cephallenia",
+      "Anthimos the New Ascetic",
+      "Hermione the Martyr",
+      "Daughter of St. Philip the Deacon"
     ],
+    "summary_title": "Babylas the Holy Martyr, Moses the Prophet & Godseer, Our Righteous Father Anthimus of Coroucle in Cephallenia, Anthimos the New Ascetic, Hermione the Martyr, Daughter of St. Philip the Deacon",
+    "stories": [],
     "fasting": {
-      "level": 1,
-      "description": "Fast",
+      "description": "Abstain From Meat, Fish, Dairy, Eggs, Wine, Olive Oil",
       "abstentions": [
         "meat",
         "fish",
         "dairy",
         "eggs",
         "wine",
-        "oil"
+        "olive oil"
       ]
     },
     "readings": [
       {
-        "source": "Epistle",
-        "display": "Galatians 2.6-10",
-        "short_display": "Gal 2.6-10",
-        "text": "But of these who seemed to be somewhat, (whatsoever they were, it maketh no matter to me: God accepteth no man\u2019s person:) for they who seemed to be somewhat in conference added nothing to me: But contrariwise, when they saw that the gospel of the uncircumcision was committed unto me, as the gospel of the circumcision was unto Peter; (For he that wrought effectually in Peter to the apostleship of the circumcision, the same was mighty in me toward the Gentiles:) And when James, Cephas, and John, who seemed to be pillars, perceived the grace that was given unto me, they gave to me and Barnabas the right hands of fellowship; that we should go unto the heathen, and they unto the circumcision. Only they would that we should remember the poor; the same which I also was forward to do."
+        "display": "St. Paul's Letter to the Galatians 2:6-10",
+        "text": "Brethren, from those who were reputed to be something (what they were makes no difference to me; God shows no partiality) - those, I say, who were of repute added nothing to me; but on the contrary, when they saw that I had been entrusted with the gospel to the uncircumcised, just as Peter had been entrusted with the gospel to the circumcised (for he who worked through Peter for the mission to the circumcised worked through me also for the Gentiles), and when they perceived the grace that was given to me, James and Cephas and John, who were reputed to be pillars, gave to me and Barnabas the right hand of fellowship, that we should go to the Gentiles and they to the circumcised; only they would have us remember the poor, which very thing I was eager to do."
       },
       {
-        "source": "Gospel",
-        "display": "Mark 5.22-24, 35-6.1",
-        "short_display": "Mark 5.22-24, 35-6.1",
-        "text": "And, behold, there cometh one of the rulers of the synagogue, Jairus by name; and when he saw him, he fell at his feet, And besought him greatly, saying, My little daughter lieth at the point of death: I pray thee, come and lay thy hands on her, that she may be healed; and she shall live. And Jesus went with him; and much people followed him, and thronged him. While he yet spake, there came from the ruler of the synagogue\u2019s house certain which said, Thy daughter is dead: why troublest thou the Master any further? As soon as Jesus heard the word that was spoken, he saith unto the ruler of the synagogue, Be not afraid, only believe. And he suffered no man to follow him, save Peter, and James, and John the brother of James. And he cometh to the house of the ruler of the synagogue, and seeth the tumult, and them that wept and wailed greatly. And when he was come in, he saith unto them, Why make ye this ado, and weep? the damsel is not dead, but sleepeth. And they laughed him to scorn. But when he had put them all out, he taketh the father and the mother of the damsel, and them that were with him, and entereth in where the damsel was lying. And he took the damsel by the hand, and said unto her, Talitha cumi; which is, being interpreted, Damsel, I say unto thee, arise. And straightway the damsel arose, and walked; for she was of the age of twelve years. And they were astonished with a great astonishment. And he charged them straitly that no man should know it; and commanded that something should be given her to eat. And he went out from thence, and came into his own country; and his disciples follow him."
+        "display": "Mark 5:22-24, 35-43; 6:1",
+        "text": "At that time, there came to Jesus one of the rulers of the synagogue, Jairus by name; and seeing him, he fell at his feet, and besought him, saying, \"My little daughter is at the point of death. Come and lay your hands on her, so that she may be made well, and live.\" And he went with him. While he was still speaking, there came from the ruler's house some who said, \"Your daughter is dead. Why trouble the Teacher any further?\" But ignoring what they said, Jesus said to the ruler of the synagogue, \"Do not fear, only believe.\" And he allowed no one to follow him except Peter and James and John the brother of James. When they came to the house of the ruler of the synagogue, he saw a tumult, and people weeping and wailing loudly. And when he had entered, he said to them, \"Why do you make a tumult and weep? The child is not dead but sleeping.\" And they laughed at him. But he put them all outside, and took the child's father and mother and those who were with him, and went in where the child was. Taking her by the hand he said to her, \"Talitha cumi\"; which means, \"Little girl, I say to you, arise.\" And immediately the girl got up and walked (she was twelve years of age), and they were immediately overcome with amazement. And he strictly charged them that no one should know this, and told them to give her something to eat. He went away from there and came to his own country; and his disciples followed him."
       }
-    ]
+    ],
+    "service_texts": []
   },
   "events": []
 }

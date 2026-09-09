@@ -2,40 +2,28 @@
   "date": "2026-10-29",
   "liturgical": {
     "status": "ok",
-    "titles": [
-      "Thursday of the 22nd week after Pentecost"
+    "source": "antiochian",
+    "feasts": [
+      "Thursday of the 6Th Week"
     ],
-    "summary_title": "Martyr Anastasia the Roman; Ven. Avram of Rostov; Our Holy Father Abramius (366) and his niece Mary (371) of Mesopotamia",
-    "feasts": null,
     "saints": [
-      {
-        "name": "Martyr Anastasia the Roman",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Martyr%20Anastasia%20the%20Roman"
-      },
-      {
-        "name": "Ven. Avram of Rostov",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Ven.%20Avram%20of%20Rostov"
-      },
-      {
-        "name": "Our Holy Father Abramius (366) and his niece Mary (371) of Mesopotamia",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Our%20Holy%20Father%20Abramius%20%28366%29%20and%20his%20niece%20Mary%20%28371%29%20of%20Mesopotamia"
-      }
+      "Anastasia the Martyr of Rome",
+      "Our Righteous Father Abramius"
     ],
+    "summary_title": "Anastasia the Martyr of Rome, Our Righteous Father Abramius",
+    "stories": [],
     "fasting": null,
     "readings": [
       {
-        "source": "Epistle",
-        "display": "Colossians 4.2-9",
-        "short_display": "Col 4.2-9",
-        "text": "Continue in prayer, and watch in the same with thanksgiving; Withal praying also for us, that God would open unto us a door of utterance, to speak the mystery of Christ, for which I am also in bonds: That I may make it manifest, as I ought to speak. Walk in wisdom toward them that are without, redeeming the time. Let your speech be alway with grace, seasoned with salt, that ye may know how ye ought to answer every man. All my state shall Tychicus declare unto you, who is a beloved brother, and a faithful minister and fellowservant in the Lord: Whom I have sent unto you for the same purpose, that he might know your estate, and comfort your hearts; With Onesimus, a faithful and beloved brother, who is one of you. They shall make known unto you all things which are done here."
+        "display": "St. Paul's Letter to the Colossians 4:2-9",
+        "text": "Brethren, continue steadfastly in prayer, being watchful in it with thanksgiving; and pray for us also, that God may open to us a door for the word, to declare the mystery of Christ, on account of which I am in prison, that I may make it clear, as I ought to speak. Conduct yourselves wisely toward outsiders, making the most of the time. Let your speech always be gracious, seasoned with salt, so that you may know how you ought to answer every one. Tychicos will tell you all about my affairs; he is a beloved brother and faithful minister and fellow servant in the Lord. I have sent him to you for this very purpose, that you may know how we are and that he may encourage your hearts, and with him Onesimos, the faithful and beloved brother, who is one of yourselves. They will tell you of everything that has taken place here."
       },
       {
-        "source": "Gospel",
-        "display": "Luke 11.14-23",
-        "short_display": "Luke 11.14-23",
-        "text": "And he was casting out a devil, and it was dumb. And it came to pass, when the devil was gone out, the dumb spake; and the people wondered. But some of them said, He casteth out devils through Beelzebub the chief of the devils. And others, tempting him, sought of him a sign from heaven. But he, knowing their thoughts, said unto them, Every kingdom divided against itself is brought to desolation; and a house divided against a house falleth. If Satan also be divided against himself, how shall his kingdom stand? because ye say that I cast out devils through Beelzebub. And if I by Beelzebub cast out devils, by whom do your sons cast them out? therefore shall they be your judges. But if I with the finger of God cast out devils, no doubt the kingdom of God is come upon you. When a strong man armed keepeth his palace, his goods are in peace: But when a stronger than he shall come upon him, and overcome him, he taketh from him all his armour wherein he trusted, and divideth his spoils. He that is not with me is against me: and he that gathereth not with me scattereth."
+        "display": "Luke 11:14-23",
+        "text": "At that time, Jesus was casting out a demon that was dumb; when the demon had gone out, the dumb man spoke, and the people marveled. But some of them said, \"He casts out demons by Beelzebul, the prince of demons\"; while others, to test him, sought from him a sign from heaven. But he, knowing their thoughts, said to them, \"Every kingdom divided against itself is laid waste, and a divided household falls. And if Satan also is divided against himself, how will his kingdom stand? For you say that I cast out demons by Beelzebul. And if I cast out demons by Beelzebul, by whom do your sons cast them out? Therefore they shall be your judges. But if it is by the finger of God that I cast out demons, then the kingdom of God has come upon you. When a strong man, fully armed, guards his own palace, his goods are in peace; but when one stronger than he assails him and overcomes him, he takes away his armor in which he trusted, and divides his spoil. He who is not with me is against me, and he who does not gather with me scatters."
       }
-    ]
+    ],
+    "service_texts": []
   },
   "events": []
 }

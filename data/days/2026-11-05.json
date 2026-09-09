@@ -2,44 +2,34 @@
   "date": "2026-11-05",
   "liturgical": {
     "status": "ok",
-    "titles": [
-      "Thursday of the 23rd week after Pentecost"
+    "source": "antiochian",
+    "feasts": [
+      "Thursday of the 7Th Week"
     ],
-    "summary_title": "Martyrs Galacteon and Wife Epistemis; Repose St Jonah of Novgorod; Holy Apostles Patrobas, Hermas, Linus, Gaius and Philologus",
-    "feasts": null,
     "saints": [
-      {
-        "name": "Martyrs Galacteon and Wife Epistemis",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Martyrs%20Galacteon%20and%20Wife%20Epistemis"
-      },
-      {
-        "name": "Repose St Jonah of Novgorod",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Repose%20St%20Jonah%20of%20Novgorod"
-      },
-      {
-        "name": "Holy Apostles Patrobas, Hermas, Linus, Gaius and Philologus",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Holy%20Apostles%20Patrobas%2C%20Hermas%2C%20Linus%2C%20Gaius%20and%20Philologus"
-      },
-      {
-        "name": "Our Holy Father Gregory the Confessor, Patriarch of Alexandria (early 9th c.)",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Our%20Holy%20Father%20Gregory%20the%20Confessor%2C%20Patriarch%20of%20Alexandria%20%28early%209th%20c.%29"
-      }
+      "Galaktion & His Wife Episteme",
+      "The Martyrs of Emesa",
+      "Hermas",
+      "Patrobos",
+      "Gaios",
+      "Linos",
+      "& Philologos",
+      "Apostles of the 70"
     ],
+    "summary_title": "Galaktion & His Wife Episteme, The Martyrs of Emesa, Hermas, Patrobos, Gaios, Linos, & Philologos, Apostles of the 70",
+    "stories": [],
     "fasting": null,
     "readings": [
       {
-        "source": "Epistle",
-        "display": "1 Thessalonians 2.9-14",
-        "short_display": "1 Thess 2.9-14",
-        "text": "For ye remember, brethren, our labour and travail: for labouring night and day, because we would not be chargeable unto any of you, we preached unto you the gospel of God. Ye are witnesses, and God also, how holily and justly and unblameably we behaved ourselves among you that believe: As ye know how we exhorted and comforted and charged every one of you, as a father doth his children, That ye would walk worthy of God, who hath called you unto his kingdom and glory. For this cause also thank we God without ceasing, because, when ye received the word of God which ye heard of us, ye received it not as the word of men, but as it is in truth, the word of God, which effectually worketh also in you that believe. For ye, brethren, became followers of the churches of God which in Judaea are in Christ Jesus: for ye also have suffered like things of your own countrymen, even as they have of the Jews:"
+        "display": "St. Paul's First Letter to the Thessalonians 2:9-14",
+        "text": "Brethren, remember our labor and toil; we worked night and day, that we might not burden any of you, while we preached to you the gospel of God. You are witnesses, and God also, how holy and righteous and blameless was our behavior to you believers; for you know how, like a father with his children, we exhorted each one of you and encouraged you and charged you to lead a life worthy of God, who calls you into his own kingdom and glory. And we also thank God constantly for this, that when you received the word of God which you heard from us, you accepted it not as the word of men but as what it really is, the word of God, which is at work in you believers. For you, brethren, became imitators of the churches of God in Christ Jesus which are in Judea."
       },
       {
-        "source": "Gospel",
-        "display": "Luke 11.47-12.1",
-        "short_display": "Luke 11.47-12.1",
-        "text": "Woe unto you! for ye build the sepulchres of the prophets, and your fathers killed them. Truly ye bear witness that ye allow the deeds of your fathers: for they indeed killed them, and ye build their sepulchres. Therefore also said the wisdom of God, I will send them prophets and apostles, and some of them they shall slay and persecute: That the blood of all the prophets, which was shed from the foundation of the world, may be required of this generation; From the blood of Abel unto the blood of Zacharias, which perished between the altar and the temple: verily I say unto you, It shall be required of this generation. Woe unto you, lawyers! for ye have taken away the key of knowledge: ye entered not in yourselves, and them that were entering in ye hindered. And as he said these things unto them, the scribes and the Pharisees began to urge him vehemently, and to provoke him to speak of many things: Laying wait for him, and seeking to catch something out of his mouth, that they might accuse him. In the mean time, when there were gathered together an innumerable multitude of people, insomuch that they trode one upon another, he began to say unto his disciples first of all, Beware ye of the leaven of the Pharisees, which is hypocrisy."
+        "display": "Luke 11:47-54; 12:1",
+        "text": "The Lord said to the Jews who had come to him, \"Woe to you! for you build the tombs of the prophets whom your fathers killed. So you are witnesses and consent to the deeds of your fathers; for they killed them, and you build their tombs. Therefore also the Wisdom of God said, 'I will send them prophets and apostles, some of whom they will kill and persecute, ' that the blood of all the prophets, shed from the foundation of the world, may be required of this generation, from the blood of Abel to the blood of Zacharias, who perished between the altar and the sanctuary. Yes, I tell you, it shall be required of this generation. Woe to you lawyers! for you have taken away the key of knowledge; you did not enter yourselves, and you hindered those who were entering.\" As he went away from there, the scribes and the Pharisees began to press him hard, and to provoke him to speak of many things, lying in wait for him, to catch at something he might say. In the meantime, when so many thousands of the multitude had gathered together that they trod upon one another, he began to say to his disciples first, \"Beware of the leaven of the Pharisees, which is hypocrisy."
       }
-    ]
+    ],
+    "service_texts": []
   },
   "events": []
 }

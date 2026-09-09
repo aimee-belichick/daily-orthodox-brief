@@ -2,75 +2,46 @@
   "date": "2026-09-02",
   "liturgical": {
     "status": "ok",
-    "titles": [
-      "Wednesday of the 14th week after Pentecost"
+    "source": "antiochian",
+    "feasts": [
+      "14Th Wednesday After Pentecost"
     ],
-    "summary_title": "Ven. Anthony and Theodosius of Kiev Caves; Cosmas the Hermit; Ammon & Aeithalas the Martyrs of Thrace",
-    "feasts": null,
     "saints": [
-      {
-        "name": "Ven. Anthony and Theodosius of Kiev Caves",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Ven.%20Anthony%20and%20Theodosius%20of%20Kiev%20Caves"
-      },
-      {
-        "name": "Cosmas the Hermit",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Cosmas%20the%20Hermit"
-      },
-      {
-        "name": "Ammon & Aeithalas the Martyrs of Thrace",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Ammon%20%26%20Aeithalas%20the%20Martyrs%20of%20Thrace"
-      },
-      {
-        "name": "Martyr Mamas of Caesarea in Cappadocia (275), and his parents, Martyrs Theodotus and Rufina",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Martyr%20Mamas%20of%20Caesarea%20in%20Cappadocia%20%28275%29%2C%20and%20his%20parents%2C%20Martyrs%20Theodotus%20and%20Rufina"
-      },
-      {
-        "name": "St John IV, Patriarch of Constantinople, known as John the Faster (595)",
-        "link": "https://orthodoxwiki.org/Special:Search?search=St%20John%20IV%2C%20Patriarch%20of%20Constantinople%2C%20known%20as%20John%20the%20Faster%20%28595%29"
-      },
-      {
-        "name": "Ven. Anthony of the Kiev Caves",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Ven.%20Anthony%20of%20the%20Kiev%20Caves"
-      },
-      {
-        "name": "Righteous Eleazar, son of Aaron and second High Priest of Israel",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Righteous%20Eleazar%2C%20son%20of%20Aaron%20and%20second%20High%20Priest%20of%20Israel"
-      },
-      {
-        "name": "Repose of Hieromonk Seraphim (Rose) of Platina (1982). (August 20 OC)",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Repose%20of%20Hieromonk%20Seraphim%20%28Rose%29%20of%20Platina%20%281982%29.%20%28August%2020%20OC%29"
-      }
+      "Mammas the Martyr",
+      "John the Abstainer",
+      "Patriarch of Constantinople",
+      "Paul",
+      "Patriarch of Constantinople",
+      "Cosmas the Hermit",
+      "Ammon & Aeithalas the Martyrs of Thrace"
     ],
+    "summary_title": "Mammas the Martyr, John the Abstainer, Patriarch of Constantinople, Paul, Patriarch of Constantinople, Cosmas the Hermit, Ammon & Aeithalas the Martyrs of Thrace",
+    "stories": [],
     "fasting": {
-      "level": 1,
-      "description": "Fast",
+      "description": "Abstain From Meat, Fish, Dairy, Eggs, Wine, Olive Oil",
       "abstentions": [
         "meat",
         "fish",
         "dairy",
         "eggs",
         "wine",
-        "oil"
+        "olive oil"
       ]
     },
     "readings": [
       {
-        "source": "Epistle",
-        "display": "2 Corinthians 13.3-14",
-        "short_display": "2 Cor 13.3-14",
-        "text": "Since ye seek a proof of Christ speaking in me, which to you-ward is not weak, but is mighty in you. For though he was crucified through weakness, yet he liveth by the power of God. For we also are weak in him, but we shall live with him by the power of God toward you. Examine yourselves, whether ye be in the faith; prove your own selves. Know ye not your own selves, how that Jesus Christ is in you, except ye be reprobates? But I trust that ye shall know that we are not reprobates. Now I pray to God that ye do no evil; not that we should appear approved, but that ye should do that which is honest, though we be as reprobates. For we can do nothing against the truth, but for the truth. For we are glad, when we are weak, and ye are strong: and this also we wish, even your perfection. Therefore I write these things being absent, lest being present I should use sharpness, according to the power which the Lord hath given me to edification, and not to destruction. Finally, brethren, farewell. Be perfect, be of good comfort, be of one mind, live in peace; and the God of love and peace shall be with you. Greet one another with an holy kiss. All the saints salute you. The grace of the Lord Jesus Christ, and the love of God, and the communion of the Holy Ghost, be with you all. Amen."
+        "display": "St. Paul's Letter to the Romans 8:28-39",
+        "text": "Brethren, we know that everything works for good with those who love God, who are called according to his purpose. For those whom he foreknew he also predestined to be conformed to the image of his Son, in order that he might be the first-born among many brethren. And those whom he predestined he also called; and those whom he called he also justified; and those whom he justified he also glorified. What then shall we say to this? If God is for us, who is against us? He who did not spare his own Son but gave him up for us all, will he not also give us all things with him? Who shall bring any charge against God's elect? It is God who justifies; who is to condemn? It is Christ Jesus, who died, yes, who was raised from the dead, who is at the right hand of God, who indeed intercedes for us. Who shall separate us from the love of Christ? Shall tribulation, or distress, or persecution, or famine, or nakedness, or peril, or sword? As it is written, \"For thy sake we are being killed all the day long; we are regarded as sheep to be slaughtered.\" No, in all these things we are more than conquerors through him who loved us. For I am sure that neither death, nor life, nor angels, nor principalities, nor things present, nor things to come, nor powers, nor height, nor depth, nor anything else in all creation, will be able to separate us from the love of God in Christ Jesus our Lord."
       },
       {
-        "source": "Epistle",
-        "display": "Romans 8.28-39",
-        "short_display": "Rom 8.28-39",
-        "text": "And we know that all things work together for good to them that love God, to them who are the called according to his purpose. For whom he did foreknow, he also did predestinate to be conformed to the image of his Son, that he might be the firstborn among many brethren. Moreover whom he did predestinate, them he also called: and whom he called, them he also justified: and whom he justified, them he also glorified. What shall we then say to these things? If God be for us, who can be against us? He that spared not his own Son, but delivered him up for us all, how shall he not with him also freely give us all things? Who shall lay any thing to the charge of God's elect? It is God that justifieth. Who is he that condemneth? It is Christ that died, yea rather, that is risen again, who is even at the right hand of God, who also maketh intercession for us. Who shall separate us from the love of Christ? shall tribulation, or distress, or persecution, or famine, or nakedness, or peril, or sword? As it is written, For thy sake we are killed all the day long; we are accounted as sheep for the slaughter. Nay, in all these things we are more than conquerors through him that loved us. For I am persuaded, that neither death, nor life, nor angels, nor principalities, nor powers, nor things present, nor things to come, Nor height, nor depth, nor any other creature, shall be able to separate us from the love of God, which is in Christ Jesus our Lord."
-      },
+        "display": "Mark 4:35-41",
+        "text": "The Lord said to his disciples, \"Let us go across to the other side.\" And leaving the crowd, they took him with them in the boat, just as he was. And other boats were with him. And a great storm of wind arose, and the waves beat into the boat, so that the boat was already filling. But he was in the stern, asleep on the cushion; and they woke him and said to him, \"Teacher, do you not care if we perish?\" And he awoke and rebuked the wind, and said to the sea, \"Peace! Be still!\" And the wind ceased, and there was a great calm. He said to them, \"Why are you afraid? Have you no faith?\" And they were filled with awe, and said to one another, \"Who then is this, that even wind and sea obey him?"
+      }
+    ],
+    "service_texts": [
       {
-        "source": "Gospel",
-        "display": "Mark 4.35-41",
-        "short_display": "Mark 4.35-41",
-        "text": "And the same day, when the even was come, he saith unto them, Let us pass over unto the other side. And when they had sent away the multitude, they took him even as he was in the ship. And there were also with him other little ships. And there arose a great storm of wind, and the waves beat into the ship, so that it was now full. And he was in the hinder part of the ship, asleep on a pillow: and they awake him, and say unto him, Master, carest thou not that we perish? And he arose, and rebuked the wind, and said unto the sea, Peace, be still. And the wind ceased, and there was a great calm. And he said unto them, Why are ye so fearful? how is it that ye have no faith?"
+        "label": "Daily Vespers",
+        "url": "https://www.antiochian.org/servicetexts/Sep%2002%202026%20VESP.pdf"
       }
     ]
   },

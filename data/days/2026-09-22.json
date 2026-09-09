@@ -2,40 +2,32 @@
   "date": "2026-09-22",
   "liturgical": {
     "status": "ok",
-    "titles": [
-      "Tuesday of the 17th week after Pentecost"
+    "source": "antiochian",
+    "feasts": [
+      "Tuesday of the 1St Week"
     ],
-    "summary_title": "Hieromartyr Phocas, Bishop of Sinope; Phocas the Gardener; Venerable Cosmas, desert-dweller of Zographou, Mt Athos (1323)",
-    "feasts": null,
     "saints": [
-      {
-        "name": "Hieromartyr Phocas, Bishop of Sinope",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Hieromartyr%20Phocas%2C%20Bishop%20of%20Sinope"
-      },
-      {
-        "name": "Phocas the Gardener",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Phocas%20the%20Gardener"
-      },
-      {
-        "name": "Venerable Cosmas, desert-dweller of Zographou, Mt Athos (1323)",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Venerable%20Cosmas%2C%20desert-dweller%20of%20Zographou%2C%20Mt%20Athos%20%281323%29"
-      }
+      "Phocas the Martyr",
+      "Bishop of Sinope",
+      "Phocas the Gardener",
+      "Martyrs Isaac",
+      "Martin",
+      "And the 26 Monk-Martyrs of Zographou Monastery"
     ],
+    "summary_title": "Phocas the Martyr, Bishop of Sinope, Phocas the Gardener, Martyrs Isaac, Martin, And the 26 Monk-Martyrs of Zographou Monastery",
+    "stories": [],
     "fasting": null,
     "readings": [
       {
-        "source": "Epistle",
-        "display": "Ephesians 2.19-3.7",
-        "short_display": "Eph 2.19-3.7",
-        "text": "Now therefore ye are no more strangers and foreigners, but fellowcitizens with the saints, and of the household of God; And are built upon the foundation of the apostles and prophets, Jesus Christ himself being the chief corner stone; In whom all the building fitly framed together groweth unto an holy temple in the Lord: In whom ye also are builded together for an habitation of God through the Spirit. For this cause I Paul, the prisoner of Jesus Christ for you Gentiles, If ye have heard of the dispensation of the grace of God which is given me to you-ward: How that by revelation he made known unto me the mystery; (as I wrote afore in few words, Whereby, when ye read, ye may understand my knowledge in the mystery of Christ) Which in other ages was not made known unto the sons of men, as it is now revealed unto his holy apostles and prophets by the Spirit; That the Gentiles should be fellowheirs, and of the same body, and partakers of his promise in Christ by the gospel: Whereof I was made a minister, according to the gift of the grace of God given unto me by the effectual working of his power."
+        "display": "St. Paul's Letter to the Ephesians 2:19-22; 3:1-7",
+        "text": "Brethren, you are no longer strangers and sojourners, but you are fellow citizens with the saints and members of the household of God, built upon the foundation of the apostles and prophets, Christ Jesus himself being the cornerstone, in whom the whole structure is joined together and grows into a holy temple in the Lord in whom you also are built into it for a dwelling place of God in the Spirit. For this reason I, Paul, a prisoner for Christ Jesus on behalf of you Gentiles -- assuming that you have heard of the stewardship of God's grace that was given to me for you, how the mystery was made known to me by revelation, as I have written briefly. When you read this you can perceive my insight into the mystery of Christ, which was not made known to the sons of men in other generations as it has now been revealed to his holy apostles and prophets by the Spirit; that is, how the Gentiles are fellow heirs, members of the same body, and partakers of the promise in Christ Jesus through the gospel. Of this gospel I was made a minister according to the gift of God's grace which was given me by the working of his power."
       },
       {
-        "source": "Gospel",
-        "display": "Luke 3.23-4.1",
-        "short_display": "Luke 3.23-4.1",
-        "text": "And Jesus himself began to be about thirty years of age, being (as was supposed) the son of Joseph, which was the son of Heli, Which was the son of Matthat, which was the son of Levi, which was the son of Melchi, which was the son of Janna, which was the son of Joseph, Which was the son of Mattathias, which was the son of Amos, which was the son of Naum, which was the son of Esli, which was the son of Nagge, Which was the son of Maath, which was the son of Mattathias, which was the son of Semei, which was the son of Joseph, which was the son of Juda, Which was the son of Joanna, which was the son of Rhesa, which was the son of Zorobabel, which was the son of Salathiel, which was the son of Neri, Which was the son of Melchi, which was the son of Addi, which was the son of Cosam, which was the son of Elmodam, which was the son of Er, Which was the son of Jose, which was the son of Eliezer, which was the son of Jorim, which was the son of Matthat, which was the son of Levi, Which was the son of Simeon, which was the son of Juda, which was the son of Joseph, which was the son of Jonan, which was the son of Eliakim, Which was the son of Melea, which was the son of Menan, which was the son of Mattatha, which was the son of Nathan, which was the son of David, Which was the son of Jesse, which was the son of Obed, which was the son of Booz, which was the son of Salmon, which was the son of Naasson, Which was the son of Aminadab, which was the son of Aram, which was the son of Esrom, which was the son of Phares, which was the son of Juda, Which was the son of Jacob, which was the son of Isaac, which was the son of Abraham, which was the son of Thara, which was the son of Nachor, Which was the son of Saruch, which was the son of Ragau, which was the son of Phalec, which was the son of Heber, which was the son of Sala, Which was the son of Cainan, which was the son of Arphaxad, which was the son of Sem, which was the son of Noe, which was the son of Lamech, Which was the son of Mathusala, which was the son of Enoch, which was the son of Jared, which was the son of Maleleel, which was the son of Cainan, Which was the son of Enos, which was the son of Seth, which was the son of Adam, which was the son of God. And Jesus being full of the Holy Ghost returned from Jordan, and was led by the Spirit into the wilderness,"
+        "display": "Luke 3:23-38, 4:1",
+        "text": "At that time, Jesus, when he began his ministry, was about thirty years of age, being the son (as was supposed) of Joseph, the son of Heli, the son of Matthat, the son of Levi, the son of Melchi, the son of Jannai, the son of Joseph, the son of Mattathias, the son of Amos, the son of Nahum, the son of Esli, the son of Naggai, the son of Maath, the son of Mattathias, the son of Semein, the son of Josech, the son of Joda, the son of Joanan, the son of Rhesa, the son of Zerubbabel, the son of Salathiel, the son of Neri, the son of Melchi, the son of Addi, the son of Cosam, the son of Elmadam, the son of Er, the son of Joshua, the son of Eliezer, the son of Jorim, the son of Matthat, the son of Levi, the son of Simeon, the son of Judah, the son of Joseph, the son of Jonam, the son of Eliakim, the son of Melea, the son of Menna, the son of Mattatha, the son of Nathan, the son of David, the son of Jesse, the son of Obed, the son of Boaz, the son of Sala, the son of Nahshon, the son of Amminadab, the son of Admin, the son of Arni, the son of Hezron, the son of Perez, the son of Judah, the son of Jacob, the son of Isaac, the son of Abraham, the son of Terah, the son of Nahor, the son of Serug, the son of Reu, the son of Peleg, the son of Eber, the son of Shelah, the son of Cainan, the son of Arphaxad, the son of Shem, the son of Noah, the son of Lamech, the son of Methuselah, the son of Enoch, the son of Jared, the son of Mahalaleel, the son of Cainan, the son of Enos, the son of Seth, the son of Adam, the son of God. And Jesus, full of the Holy Spirit, returned from the Jordan, and was led by the Spirit in the wilderness."
       }
-    ]
+    ],
+    "service_texts": []
   },
   "events": [
     {

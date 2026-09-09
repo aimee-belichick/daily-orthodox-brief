@@ -2,40 +2,32 @@
   "date": "2026-09-17",
   "liturgical": {
     "status": "ok",
-    "titles": [
-      "Thursday of the 16th week after Pentecost"
+    "source": "antiochian",
+    "feasts": [
+      "16Th Thursday After Pentecost"
     ],
-    "summary_title": "Martyr Sophia and Daughters Faith, Hope, and Love; Herakleides & Myron, Bishops of Cyprus; Our Holy Father Lambert, Bishop of Maastricht (705)",
-    "feasts": null,
     "saints": [
-      {
-        "name": "Martyr Sophia and Daughters Faith, Hope, and Love",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Martyr%20Sophia%20and%20Daughters%20Faith%2C%20Hope%2C%20and%20Love"
-      },
-      {
-        "name": "Herakleides & Myron, Bishops of Cyprus",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Herakleides%20%26%20Myron%2C%20Bishops%20of%20Cyprus"
-      },
-      {
-        "name": "Our Holy Father Lambert, Bishop of Maastricht (705)",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Our%20Holy%20Father%20Lambert%2C%20Bishop%20of%20Maastricht%20%28705%29"
-      }
+      "Sophia & Her Three Daughters: Faith",
+      "Hope",
+      "And Love",
+      "Herakleides & Myron",
+      "Bishops of Cyprus",
+      "Afterfeast of the Holy Cross"
     ],
+    "summary_title": "Sophia & Her Three Daughters: Faith, Hope, And Love, Herakleides & Myron, Bishops of Cyprus, Afterfeast of the Holy Cross",
+    "stories": [],
     "fasting": null,
     "readings": [
       {
-        "source": "Epistle",
-        "display": "Ephesians 1.1-9",
-        "short_display": "Eph 1.1-9",
-        "text": "Paul, an apostle of Jesus Christ by the will of God, to the saints which are at Ephesus, and to the faithful in Christ Jesus: Grace be to you, and peace, from God our Father, and from the Lord Jesus Christ. Blessed be the God and Father of our Lord Jesus Christ, who hath blessed us with all spiritual blessings in heavenly places in Christ: According as he hath chosen us in him before the foundation of the world, that we should be holy and without blame before him in love: Having predestinated us unto the adoption of children by Jesus Christ to himself, according to the good pleasure of his will, To the praise of the glory of his grace, wherein he hath made us accepted in the beloved. In whom we have redemption through his blood, the forgiveness of sins, according to the riches of his grace; Wherein he hath abounded toward us in all wisdom and prudence; Having made known unto us the mystery of his will, according to his good pleasure which he hath purposed in himself:"
+        "display": "St. Paul's Letter to the Ephesians 1:1-9",
+        "text": "Paul, an apostle of Christ Jesus by the will of God, To the saints who are at Ephesos and faithful in Christ Jesus: Grace to you and peace from God our Father and the Lord Jesus Christ. Blessed be the God and Father of our Lord Jesus Christ, who has blessed us in Christ with every spiritual blessing in the heavenly places, even as he chose us in him before the foundation of the world, that we should be holy and blameless before him. He destined us in love to be his sons through Jesus Christ, according to the purpose of his will, to the praise of his glorious grace which he freely bestowed on us in the Beloved. In him we have redemption through his blood, the forgiveness of our trespasses, according to the riches of his grace which he lavished upon us in all wisdom and insight the mystery of his will, according to his purpose."
       },
       {
-        "source": "Gospel",
-        "display": "Mark 7.24-30",
-        "short_display": "Mark 7.24-30",
-        "text": "And from thence he arose, and went into the borders of Tyre and Sidon, and entered into an house, and would have no man know it: but he could not be hid. For a certain woman, whose young daughter had an unclean spirit, heard of him, and came and fell at his feet: The woman was a Greek, a Syrophenician by nation; and she besought him that he would cast forth the devil out of her daughter. But Jesus said unto her, Let the children first be filled: for it is not meet to take the children\u2019s bread, and to cast it unto the dogs. And she answered and said unto him, Yes, Lord: yet the dogs under the table eat of the children\u2019s crumbs. And he said unto her, For this saying go thy way; the devil is gone out of thy daughter. And when she was come to her house, she found the devil gone out, and her daughter laid upon the bed."
+        "display": "Mark 7:24-30",
+        "text": "At that time, Jesus went away to the region of Tyre and Sidon. And he entered a house, and would not have any one know it; yet he could not be hid. But immediately a woman, whose little daughter was possessed by an unclean spirit, heard of him, and came and fell down at his feet. Now the woman was a Greek, a Syrophoenician by birth. And she begged him to cast the demon out of her daughter. And he said to her, \"Let the children first be fed, for it is not right to take the children's bread and throw it to the dogs.\" But she answered him, \"Yes, Lord; yet even the dogs under the table eat the children's crumbs.\" And he said to her, \"For this saying you may go your way; the demon has left your daughter.\" And she went home, and found the child lying in bed, and the demon gone."
       }
-    ]
+    ],
+    "service_texts": []
   },
   "events": []
 }

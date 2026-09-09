@@ -2,93 +2,68 @@
   "date": "2026-09-13",
   "liturgical": {
     "status": "ok",
-    "titles": [
-      "15th Sunday after Pentecost"
-    ],
-    "summary_title": "15th Sunday after Pentecost",
+    "source": "antiochian",
     "feasts": [
-      "Sunday before Elevation",
-      "Founding of Church of the Holy Sepulchre"
+      "Sunday Before Holy Cross"
     ],
     "saints": [
-      {
-        "name": "Aristides the Philosopher",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Aristides%20the%20Philosopher"
-      },
-      {
-        "name": "Hierotheos the Righteous of Iveron Monastery, Mount Athos",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Hierotheos%20the%20Righteous%20of%20Iveron%20Monastery%2C%20Mount%20Athos"
-      },
-      {
-        "name": "Holy Hieromartyr Cornelius the Centurion (1st c. )",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Holy%20Hieromartyr%20Cornelius%20the%20Centurion%20%281st%20c.%20%29"
-      },
-      {
-        "name": "Holy Great Martyr Ketevan, Queen of Georgia (1624)",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Holy%20Great%20Martyr%20Ketevan%2C%20Queen%20of%20Georgia%20%281624%29"
-      }
+      "Sunday Before Holy Cross",
+      "The Consecration of the Church of the Holy Resurrection (Holy Sepulchre)",
+      "Forefeast of the Elevation of the Holy Cross",
+      "Cornelius the Centurion & Martyr",
+      "Aristides the Philosopher",
+      "Hierotheos the Righteous of Iveron Monastery",
+      "Mount Athos"
     ],
+    "summary_title": "Sunday Before Holy Cross, The Consecration of the Church of the Holy Resurrection (Holy Sepulchre), Forefeast of the Elevation of the Holy Cross, Cornelius the Centurion & Martyr, Aristides the Philosopher, Hierotheos the Righteous of Iveron Monastery, Mount Athos",
+    "stories": [],
     "fasting": null,
     "readings": [
       {
-        "source": "Vespers",
-        "display": "3[1] Kings 8.22-23, 27-30",
-        "short_display": "3 Kgs 8.22-23, 27-30",
-        "text": "And Solomon stood before the altar of the LORD in the presence of all the congregation of Israel, and spread forth his hands toward heaven: And he said, LORD God of Israel, there is no God like thee, in heaven above, or on earth beneath, who keepest covenant and mercy with thy servants that walk before thee with all their heart: But will God indeed dwell on the earth? behold, the heaven and heaven of heavens cannot contain thee; how much less this house that I have builded? Yet have thou respect unto the prayer of thy servant, and to his supplication, O LORD my God, to hearken unto the cry and to the prayer, which thy servant prayeth before thee to day: That thine eyes may be open toward this house night and day, even toward the place of which thou hast said, My name shall be there: that thou mayest hearken unto the prayer which thy servant shall make toward this place. And hearken thou to the supplication of thy servant, and of thy people Israel, when they shall pray toward this place: and hear thou in heaven thy dwelling place: and when thou hearest, forgive."
+        "display": "St. Paul's Letter to the Galatians 6:11-18",
+        "text": "Brethren, see with what large letters I am writing to you with my own hand. It is those who want to make a good showing in the flesh that would compel you to be circumcised, and only in order that they may not be persecuted for the cross of Christ. For even those who receive circumcision do not themselves keep the law, but they desire to have you circumcised that they may glory in your flesh. But far be it from me to glory except in the cross of our Lord Jesus Christ, by which the world has been crucified to me, and I to the world. For neither circumcision counts for anything, nor uncircumcision, but a new creation. Peace and mercy be upon all who walk by this rule, upon the Israel of God. Henceforth let no man trouble me; for I bear on my body the marks of Jesus. The grace of our Lord Jesus Christ be with your spirit, brethren. Amen."
       },
       {
-        "source": "Vespers",
-        "display": "Proverbs 3.19-34",
-        "short_display": "Prov 3.19-34",
-        "text": "The LORD by wisdom hath founded the earth; by understanding hath he established the heavens. By his knowledge the depths are broken up, and the clouds drop down the dew. My son, let not them depart from thine eyes: keep sound wisdom and discretion: So shall they be life unto thy soul, and grace to thy neck. Then shalt thou walk in thy way safely, and thy foot shall not stumble. When thou liest down, thou shalt not be afraid: yea, thou shalt lie down, and thy sleep shall be sweet. Be not afraid of sudden fear, neither of the desolation of the wicked, when it cometh. For the LORD shall be thy confidence, and shall keep thy foot from being taken. Withhold not good from them to whom it is due, when it is in the power of thine hand to do it. Say not unto thy neighbour, Go, and come again, and to morrow I will give; when thou hast it by thee. Devise not evil against thy neighbour, seeing he dwelleth securely by thee. Strive not with a man without cause, if he have done thee no harm. Envy thou not the oppressor, and choose none of his ways. For the froward is abomination to the LORD: but his secret is with the righteous. The curse of the LORD is in the house of the wicked: but he blesseth the habitation of the just. Surely he scorneth the scorners: but he giveth grace unto the lowly."
+        "display": "John 3:13-17",
+        "text": "The Lord said, \"No one has ascended into heaven but he who descended from heaven, the Son of man who is in heaven. And as Moses lifted up the serpent in the wilderness, so must the Son of man be lifted up, that whoever believes in him may have eternal life. For God so loved the world that he gave his only Son, that whoever believes in him should not perish but have eternal life. For God sent the Son into the world, not to condemn the world, but that the world might be saved through him."
+      }
+    ],
+    "service_texts": [
+      {
+        "label": "Abbreviated Rubrics",
+        "url": "https://www.antiochian.org/servicetexts/Sep%2013%202026%20Abbr.pdf"
       },
       {
-        "source": "Vespers",
-        "display": "Proverbs 9.1-11",
-        "short_display": "Prov 9.1-11",
-        "text": "Wisdom hath builded her house, she hath hewn out her seven pillars: She hath killed her beasts; she hath mingled her wine; she hath also furnished her table. She hath sent forth her maidens: she crieth upon the highest places of the city, Whoso is simple, let him turn in hither: as for him that wanteth understanding, she saith to him, Come, eat of my bread, and drink of the wine which I have mingled. Forsake the foolish, and live; and go in the way of understanding. He that reproveth a scorner getteth to himself shame: and he that rebuketh a wicked man getteth himself a blot. Reprove not a scorner, lest he hate thee: rebuke a wise man, and he will love thee. Give instruction to a wise man, and he will be yet wiser: teach a just man, and he will increase in learning. The fear of the LORD is the beginning of wisdom: and the knowledge of the holy is understanding. For by me thy days shall be multiplied, and the years of thy life shall be increased."
+        "label": "Bilingual - Sunday Orthros",
+        "url": "https://www.antiochian.org/servicetexts/Sep%2013%202026%20Bilingual%20ORTHROS.pdf"
       },
       {
-        "source": "4th Matins Gospel",
-        "display": "Luke 24.1-12",
-        "short_display": "Luke 24.1-12",
-        "text": "Now upon the first day of the week, very early in the morning, they came unto the sepulchre, bringing the spices which they had prepared, and certain others with them. And they found the stone rolled away from the sepulchre. And they entered in, and found not the body of the Lord Jesus. And it came to pass, as they were much perplexed thereabout, behold, two men stood by them in shining garments: And as they were afraid, and bowed down their faces to the earth, they said unto them, Why seek ye the living among the dead? He is not here, but is risen: remember how he spake unto you when he was yet in Galilee, Saying, The Son of man must be delivered into the hands of sinful men, and be crucified, and the third day rise again. And they remembered his words, And returned from the sepulchre, and told all these things unto the eleven, and to all the rest. It was Mary Magdalene, and Joanna, and Mary the mother of James, and other women that were with them, which told these things unto the apostles. And their words seemed to them as idle tales, and they believed them not. Then arose Peter, and ran unto the sepulchre; and stooping down, he beheld the linen clothes laid by themselves, and departed, wondering in himself at that which was come to pass."
+        "label": "Bilingual - Divine Liturgy Variables",
+        "url": "https://www.antiochian.org/servicetexts/Sep%2013%202026%20Bilingual%20READ.pdf"
       },
       {
-        "source": "Epistle",
-        "display": "Galatians 6.11-18",
-        "short_display": "Gal 6.11-18",
-        "text": "Ye see how large a letter I have written unto you with mine own hand. As many as desire to make a fair shew in the flesh, they constrain you to be circumcised; only lest they should suffer persecution for the cross of Christ. For neither they themselves who are circumcised keep the law; but desire to have you circumcised, that they may glory in your flesh. But God forbid that I should glory, save in the cross of our Lord Jesus Christ, by whom the world is crucified unto me, and I unto the world. For in Christ Jesus neither circumcision availeth any thing, nor uncircumcision, but a new creature. And as many as walk according to this rule, peace be on them, and mercy, and upon the Israel of God. From henceforth let no man trouble me: for I bear in my body the marks of the Lord Jesus. Brethren, the grace of our Lord Jesus Christ be with your spirit. Amen."
+        "label": "Sunday Orthros",
+        "url": "https://www.antiochian.org/servicetexts/Sep%2013%202026%20ORTHROS.pdf"
       },
       {
-        "source": "Epistle",
-        "display": "2 Corinthians 4.6-15",
-        "short_display": "2 Cor 4.6-15",
-        "text": "For God, who commanded the light to shine out of darkness, hath shined in our hearts, to give the light of the knowledge of the glory of God in the face of Jesus Christ. But we have this treasure in earthen vessels, that the excellency of the power may be of God, and not of us. We are troubled on every side, yet not distressed; we are perplexed, but not in despair; Persecuted, but not forsaken; cast down, but not destroyed; Always bearing about in the body the dying of the Lord Jesus, that the life also of Jesus might be made manifest in our body. For we which live are alway delivered unto death for Jesus\u2019 sake, that the life also of Jesus might be made manifest in our mortal flesh. So then death worketh in us, but life in you. We having the same spirit of faith, according as it is written, I believed, and therefore have I spoken; we also believe, and therefore speak; Knowing that he which raised up the Lord Jesus shall raise up us also by Jesus, and shall present us with you. For all things are for your sakes, that the abundant grace might through the thanksgiving of many redound to the glory of God."
+        "label": "Divine Liturgy Variables",
+        "url": "https://www.antiochian.org/servicetexts/Sep%2013%202026%20READ.pdf"
       },
       {
-        "source": "Epistle",
-        "display": "Hebrews 3.1-4",
-        "short_display": "Heb 3.1-4",
-        "text": "Wherefore, holy brethren, partakers of the heavenly calling, consider the Apostle and High Priest of our profession, Christ Jesus; Who was faithful to him that appointed him, as also Moses was faithful in all his house. For this man was counted worthy of more glory than Moses, inasmuch as he who hath builded the house hath more honour than the house. For every house is builded by some man; but he that built all things is God."
+        "label": "Bilingual - Litia/Artoklasia",
+        "url": "https://www.antiochian.org/servicetexts/Sept%2013%20Bilingual%20LITART.pdf"
       },
       {
-        "source": "Gospel",
-        "display": "John 3.13-17",
-        "short_display": "John 3.13-17",
-        "text": "And no man hath ascended up to heaven, but he that came down from heaven, even the Son of man which is in heaven. And as Moses lifted up the serpent in the wilderness, even so must the Son of man be lifted up: That whosoever believeth in him should not perish, but have eternal life. For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life. For God sent not his Son into the world to condemn the world; but that the world through him might be saved."
+        "label": "Bilingual - Great Vespers - Sunday Evening",
+        "url": "https://www.antiochian.org/servicetexts/Sept%2013%20Bilingual%20VESP.pdf"
       },
       {
-        "source": "Gospel",
-        "display": "Matthew 22.35-46",
-        "short_display": "Matt 22.35-46",
-        "text": "Then one of them, which was a lawyer, asked him a question, tempting him, and saying, Master, which is the great commandment in the law? Jesus said unto him, Thou shalt love the Lord thy God with all thy heart, and with all thy soul, and with all thy mind. This is the first and great commandment. And the second is like unto it, Thou shalt love thy neighbour as thyself. On these two commandments hang all the law and the prophets. While the Pharisees were gathered together, Jesus asked them, Saying, What think ye of Christ? whose son is he? They say unto him, The Son of David. He saith unto them, How then doth David in spirit call him Lord, saying, The LORD said unto my Lord, Sit thou on my right hand, till I make thine enemies thy footstool? If David then call him Lord, how is he his son? And no man was able to answer him a word, neither durst any man from that day forth ask him any more questions."
+        "label": "Litia/Artoklasia",
+        "url": "https://www.antiochian.org/servicetexts/Sept%2013%20LITART.pdf"
       },
       {
-        "source": "Gospel",
-        "display": "Matthew 16.13-18",
-        "short_display": "Matt 16.13-18",
-        "text": "When Jesus came into the coasts of Caesarea Philippi, he asked his disciples, saying, Whom do men say that I the Son of man am? And they said, Some say that thou art John the Baptist: some, Elias; and others, Jeremias, or one of the prophets. He saith unto them, But whom say ye that I am? And Simon Peter answered and said, Thou art the Christ, the Son of the living God. And Jesus answered and said unto him, Blessed art thou, Simon Bar-jona: for flesh and blood hath not revealed it unto thee, but my Father which is in heaven. And I say also unto thee, That thou art Peter, and upon this rock I will build my church; and the gates of hell shall not prevail against it."
+        "label": "Great Vespers - Sunday Evening",
+        "url": "https://www.antiochian.org/servicetexts/Sept%2013%20VESP.pdf"
       }
     ]
   },

@@ -2,32 +2,24 @@
   "date": "2026-11-24",
   "liturgical": {
     "status": "ok",
-    "titles": [
-      "Tuesday of the 26th week after Pentecost"
+    "source": "antiochian",
+    "feasts": [
+      "Tuesday of the 10Th Week"
     ],
-    "summary_title": "Hieromartyr Clement, Pope of Rome; Peter, Archbishop of Alexandria; Hermogenes, the Martyr",
-    "feasts": null,
     "saints": [
-      {
-        "name": "Hieromartyr Clement, Pope of Rome",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Hieromartyr%20Clement%2C%20Pope%20of%20Rome"
-      },
-      {
-        "name": "Peter, Archbishop of Alexandria",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Peter%2C%20Archbishop%20of%20Alexandria"
-      },
-      {
-        "name": "Hermogenes, the Martyr",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Hermogenes%2C%20the%20Martyr"
-      },
-      {
-        "name": "Philoumenos and Christopher the Martyrs",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Philoumenos%20and%20Christopher%20the%20Martyrs"
-      }
+      "Our Holy Father Clement",
+      "Pope of Rome",
+      "Peter",
+      "Archbishop of Alexandria",
+      "Hermogenes",
+      "The Martyr",
+      "Afterfeast of the Entry of the Theotokos Into the Temple",
+      "Philoumenos and Christopher the Martyrs"
     ],
+    "summary_title": "Our Holy Father Clement, Pope of Rome, Peter, Archbishop of Alexandria, Hermogenes, The Martyr, Afterfeast of the Entry of the Theotokos Into the Temple, Philoumenos and Christopher the Martyrs",
+    "stories": [],
     "fasting": {
-      "level": 5,
-      "description": "Nativity Fast",
+      "description": "Abstain From Meat, Dairy, Eggs",
       "abstentions": [
         "meat",
         "dairy",
@@ -36,24 +28,15 @@
     },
     "readings": [
       {
-        "source": "Epistle",
-        "display": "1 Timothy 1.8-14",
-        "short_display": "1 Tim 1.8-14",
-        "text": "But we know that the law is good, if a man use it lawfully; Knowing this, that the law is not made for a righteous man, but for the lawless and disobedient, for the ungodly and for sinners, for unholy and profane, for murderers of fathers and murderers of mothers, for manslayers, For whoremongers, for them that defile themselves with mankind, for menstealers, for liars, for perjured persons, and if there be any other thing that is contrary to sound doctrine; According to the glorious gospel of the blessed God, which was committed to my trust. And I thank Christ Jesus our Lord, who hath enabled me, for that he counted me faithful, putting me into the ministry; Who was before a blasphemer, and a persecutor, and injurious: but I obtained mercy, because I did it ignorantly in unbelief. And the grace of our Lord was exceeding abundant with faith and love which is in Christ Jesus."
+        "display": "St. Paul's Letter to the Philippians 3:20-21; 4:1-3",
+        "text": "Brethren, our commonwealth is in heaven, and from it we await a Savior, the Lord Jesus Christ, who will change our lowly body to be like his glorious body, by the power which enables him even to subject all things to himself. Therefore, my brethren, whom I love and long for, my joy and crown, stand firm thus in the Lord, my beloved. I entreat Euodia and I entreat Syntyche to agree in the Lord. And I ask you also, true yokefellow, help these women, for they have labored side by side with me in the gospel together with Clement and the rest of my fellow workers, whose names are in the book of life."
       },
       {
-        "source": "Epistle",
-        "display": "Philippians 3.20-4.3",
-        "short_display": "Phil 3.20-4.3",
-        "text": "For our conversation is in heaven; from whence also we look for the Saviour, the Lord Jesus Christ: Who shall change our vile body, that it may be fashioned like unto his glorious body, according to the working whereby he is able even to subdue all things unto himself. Therefore, my brethren dearly beloved and longed for, my joy and crown, so stand fast in the Lord, my dearly beloved. I beseech Euodias, and beseech Syntyche, that they be of the same mind in the Lord. And I intreat thee also, true yokefellow, help those women which laboured with me in the gospel, with Clement also, and with other my fellowlabourers, whose names are in the book of life."
-      },
-      {
-        "source": "Gospel",
-        "display": "Luke 17.26-37; 18.8",
-        "short_display": "Luke 17.26-37; 18.8",
-        "text": "And as it was in the days of Noe, so shall it be also in the days of the Son of man. They did eat, they drank, they married wives, they were given in marriage, until the day that Noe entered into the ark, and the flood came, and destroyed them all. Likewise also as it was in the days of Lot; they did eat, they drank, they bought, they sold, they planted, they builded; But the same day that Lot went out of Sodom it rained fire and brimstone from heaven, and destroyed them all. Even thus shall it be in the day when the Son of man is revealed. In that day, he which shall be upon the housetop, and his stuff in the house, let him not come down to take it away: and he that is in the field, let him likewise not return back. Remember Lot\u2019s wife. Whosoever shall seek to save his life shall lose it; and whosoever shall lose his life shall preserve it. I tell you, in that night there shall be two men in one bed; the one shall be taken, and the other shall be left. Two women shall be grinding together; the one shall be taken, and the other left. Two men shall be in the field; the one shall be taken, and the other left. And they answered and said unto him, Where, Lord? And he said unto them, Wheresoever the body is, thither will the eagles be gathered together. I tell you that he will avenge them speedily. Nevertheless when the Son of man cometh, shall he find faith on the earth?"
+        "display": "Luke 17:26-37; 18:8",
+        "text": "The Lord said, \"As it was in the days of Noah, so will it be in the days of the Son of man. They ate, they drank, they married, they were given in marriage, until the day when Noah entered the ark, and the flood came and destroyed them all. Likewise as it was in the days of Lot -- they ate, they drank, they bought, they sold, they planted, they built, but on the day when Lot went out from Sodom fire and sulphur rained from heaven and destroyed them all -- so will it be on the day when the Son of man is revealed. On that day, let him who is on the housetop, with his goods in the house, not come down to take them away; and likewise let him who is in the field not turn back. Remember Lot's wife. Whoever seeks to gain his life will lose it, but whoever loses his life will preserve it. I tell you, in that night there will be two in one bed; one will be taken and the other left. There will be two women grinding together; one will be taken and the other left.\" And they said to him, \"Where, Lord?\" He said to them, \"Where the body is, there the eagles will be gathered together. Nevertheless, when the Son of man comes, will he find faith on earth?"
       }
-    ]
+    ],
+    "service_texts": []
   },
   "events": [
     {

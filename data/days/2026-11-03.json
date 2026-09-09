@@ -2,52 +2,36 @@
   "date": "2026-11-03",
   "liturgical": {
     "status": "ok",
-    "titles": [
-      "Tuesday of the 23rd week after Pentecost"
+    "source": "antiochian",
+    "feasts": [
+      "Tuesday of the 7Th Week"
     ],
-    "summary_title": "Martyrs Acepsimus, Joseph, Aithalas; Dedication of the Temple of the Holy Great Martyr George in Lydda; George of Neapolis the New Martyr",
-    "feasts": null,
     "saints": [
-      {
-        "name": "Martyrs Acepsimus, Joseph, Aithalas",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Martyrs%20Acepsimus%2C%20Joseph%2C%20Aithalas"
-      },
-      {
-        "name": "Dedication of the Temple of the Holy Great Martyr George in Lydda",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Dedication%20of%20the%20Temple%20of%20the%20Holy%20Great%20Martyr%20George%20in%20Lydda"
-      },
-      {
-        "name": "George of Neapolis the New Martyr",
-        "link": "https://orthodoxwiki.org/Special:Search?search=George%20of%20Neapolis%20the%20New%20Martyr"
-      },
-      {
-        "name": "Holy Father and New Hieromartyr Gregory of Neapolis",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Holy%20Father%20and%20New%20Hieromartyr%20Gregory%20of%20Neapolis"
-      },
-      {
-        "name": "Theodore the Confessor, Bishop of Ancyra",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Theodore%20the%20Confessor%2C%20Bishop%20of%20Ancyra"
-      },
-      {
-        "name": "Holy Virgin Martyr Winefride of Treffynnon (Holywell), Wales (7th c.)",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Holy%20Virgin%20Martyr%20Winefride%20of%20Treffynnon%20%28Holywell%29%2C%20Wales%20%287th%20c.%29"
-      }
+      "Acepsimas the Bishop",
+      "Joseph the Presbyter",
+      "& Aeithalas the Deacon",
+      "Martyrs of Persia",
+      "Dedication of the Temple of the Holy Great Martyr George in Lydda",
+      "George of Neapolis the New Martyr",
+      "Holy Father and New Hieromartyr Gregory of Neapolis",
+      "Theodore the Confessor",
+      "Bishop of Ancyra",
+      "Winifred of Treffynnon"
     ],
+    "summary_title": "Acepsimas the Bishop, Joseph the Presbyter, & Aeithalas the Deacon, Martyrs of Persia, Dedication of the Temple of the Holy Great Martyr George in Lydda, George of Neapolis the New Martyr, Holy Father and New Hieromartyr Gregory of Neapolis, Theodore the Confessor, Bishop of Ancyra, Winifred of Treffynnon",
+    "stories": [],
     "fasting": null,
     "readings": [
       {
-        "source": "Epistle",
-        "display": "1 Thessalonians 1.6-10",
-        "short_display": "1 Thess 1.6-10",
-        "text": "And ye became followers of us, and of the Lord, having received the word in much affliction, with joy of the Holy Ghost: So that ye were ensamples to all that believe in Macedonia and Achaia. For from you sounded out the word of the Lord not only in Macedonia and Achaia, but also in every place your faith to God-ward is spread abroad; so that we need not to speak any thing. For they themselves shew of us what manner of entering in we had unto you, and how ye turned to God from idols to serve the living and true God; And to wait for his Son from heaven, whom he raised from the dead, even Jesus, which delivered us from the wrath to come."
+        "display": "St. Paul's First Letter to the Thessalonians 1:6-10",
+        "text": "Brethren, you became imitators of us and of the Lord, for you received the word in much affliction, with joy inspired by the Holy Spirit; so that you became an example to all the believers in Macedonia and in Achaia. For not only has the word of the Lord sounded forth from you in Macedonia and Achaia, but your faith in God has gone forth everywhere, so that we need not say anything. For they themselves report concerning us what a welcome we had among you, and how you turned to God from idols, to serve a living and true God, and to wait for his Son from heaven, whom he raised from the dead, Jesus who delivers us from the wrath to come."
       },
       {
-        "source": "Gospel",
-        "display": "Luke 11.34-41",
-        "short_display": "Luke 11.34-41",
-        "text": "The light of the body is the eye: therefore when thine eye is single, thy whole body also is full of light; but when thine eye is evil, thy body also is full of darkness. Take heed therefore that the light which is in thee be not darkness. If thy whole body therefore be full of light, having no part dark, the whole shall be full of light, as when the bright shining of a candle doth give thee light. And as he spake, a certain Pharisee besought him to dine with him: and he went in, and sat down to meat. And when the Pharisee saw it, he marvelled that he had not first washed before dinner. And the Lord said unto him, Now do ye Pharisees make clean the outside of the cup and the platter; but your inward part is full of ravening and wickedness. Ye fools, did not he that made that which is without make that which is within also? But rather give alms of such things as ye have; and, behold, all things are clean unto you."
+        "display": "Luke 11:34-41",
+        "text": "The Lord said, \"Your eye is the lamp of your body; when your eye is sound, your whole body is full of light; but when it is not sound, your body is full of darkness. Therefore be careful lest the light in you be darkness. If then your whole body is full of light, having no part dark, it will be wholly bright, as when a lamp with its rays gives you light.\" While he was speaking, a Pharisee asked him to dine with him; so he went in and sat at table. The Pharisee was astonished to see that he did not first wash before dinner. And the Lord said to him, \"Now you Pharisees cleanse the outside of the cup and of the dish, but inside you are full of extortion and wickedness. You fools! Did not he who made the outside make the inside also? But give for alms those things which are within and behold, everything is clean for you."
       }
-    ]
+    ],
+    "service_texts": []
   },
   "events": [
     {

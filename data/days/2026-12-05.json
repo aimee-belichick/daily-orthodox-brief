@@ -2,30 +2,20 @@
   "date": "2026-12-05",
   "liturgical": {
     "status": "ok",
-    "titles": [
-      "Saturday of the 27th week after Pentecost"
-    ],
-    "summary_title": "Ven. Sabbas the Sanctified",
+    "source": "antiochian",
     "feasts": [
-      "Ven. Sabbas the Sanctified"
+      "Sabbas the Sanctified"
     ],
     "saints": [
-      {
-        "name": "Holy Martyr Diogenes",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Holy%20Martyr%20Diogenes"
-      },
-      {
-        "name": "Nektarios the Bulgarian",
-        "link": "https://orthodoxwiki.org/Special:Search?search=Nektarios%20the%20Bulgarian"
-      },
-      {
-        "name": "St Cosmas the Protos of Mount Athos and his companions (ca. 1274)",
-        "link": "https://orthodoxwiki.org/Special:Search?search=St%20Cosmas%20the%20Protos%20of%20Mount%20Athos%20and%20his%20companions%20%28ca.%201274%29"
-      }
+      "Sabbas the Sanctified",
+      "Holy Martyr Diogenes",
+      "Philotheos the Righteous of Mount Athos",
+      "Nektarios the Bulgarian"
     ],
+    "summary_title": "Sabbas the Sanctified, Holy Martyr Diogenes, Philotheos the Righteous of Mount Athos, Nektarios the Bulgarian",
+    "stories": [],
     "fasting": {
-      "level": 5,
-      "description": "Nativity Fast",
+      "description": "Abstain From Meat, Dairy, Eggs",
       "abstentions": [
         "meat",
         "dairy",
@@ -34,54 +24,15 @@
     },
     "readings": [
       {
-        "source": "Vespers",
-        "display": "Wisdom of Solomon 3.1-9",
-        "short_display": "Wis 3.1-9",
-        "text": "But the souls of the righteous are in the hand of God, and there shall no torment touch them. In the sight of the unwise they seemed to die: and their departure is taken for misery, And their going from us to be utter destruction: but they are in peace. For though they be punished in the sight of men, yet is their hope full of immortality. And having been a little chastised, they shall be greatly rewarded: for God proved them, and found them worthy for himself. As gold in the furnace hath he tried them, and received them as a burnt offering. And in the time of their visitation they shall shine, and run to and fro like sparks among the stubble. They shall judge the nations, and have dominion over the people, and their Lord shall reign for ever. They that put their trust in him shall understand the truth: and such as be faithful in love shall abide with him: for grace and mercy is to his saints, and he hath care for his elect."
+        "display": "St. Paul's Letter to the Galatians 5:22-26; 6:1-2",
+        "text": "Brethren, the fruit of the Spirit is love, joy, peace, patience, kindness, goodness, faithfulness, gentleness, self-control; against such there is no law. And those who belong to Christ Jesus have crucified the flesh with its passions and desires. If we live by the Spirit, let us also walk by the Spirit. Let us have no self-conceit, no provoking of one another, no envy of one another. Brethren, if a man is overtaken in any trespass, you who are spiritual should restore him in a spirit of gentleness. Look to yourself, lest you too be tempted. Bear one another's burdens, and so fulfill the law of Christ."
       },
       {
-        "source": "Vespers",
-        "display": "Wisdom of Solomon 5.15-6.3",
-        "short_display": "Wis 5.15-6.3",
-        "text": "But the righteous live for evermore; their reward also is with the Lord, and the care of them is with the most High. Therefore shall they receive a glorious kingdom, and a beautiful crown from the Lord\u2019s hand: for with his right hand shall he cover them, and with his arm shall he protect them. He shall take to him his jealousy for complete armour, and make the creature his weapon for the revenge of his enemies. He shall put on righteousness as a breastplate, and true judgment instead of an helmet. He shall take holiness for an invincible shield. His severe wrath shall he sharpen for a sword, and the world shall fight with him against the unwise. Then shall the right aiming thunderbolts go abroad; and from the clouds, as from a well drawn bow, shall they fly to the mark. And hailstones full of wrath shall be cast as out of a stone bow, and the water of the sea shall rage against them, and the floods shall cruelly drown them. Yea, a mighty wind shall stand up against them, and like a storm shall blow them away: thus iniquity shall lay waste the whole earth, and ill dealing shall overthrow the thrones of the mighty. Hear therefore, O ye kings, and understand; learn, ye that be judges of the ends of the earth. Give ear, ye that rule the people, and glory in the multitude of nations. For power is given you of the Lord, and sovereignty from the Highest, who shall try your works, and search out your counsels."
-      },
-      {
-        "source": "Vespers",
-        "display": "Wisdom of Solomon 4.7-15",
-        "short_display": "Wis 4.7-15",
-        "text": "But though the righteous be prevented with death, yet shall he be in rest. For honourable age is not that which standeth in length of time, nor that is measured by number of years. But wisdom is the gray hair unto men, and an unspotted life is old age. He pleased God, and was beloved of him: so that living among sinners he was translated. Yea speedily was he taken away, lest that wickedness should alter his understanding, or deceit beguile his soul. For the bewitching of naughtiness doth obscure things that are honest; and the wandering of concupiscence doth undermine the simple mind. He, being made perfect in a short time, fulfilled a long time: For his soul pleased the Lord: therefore hasted he to take him away from among the wicked. This the people saw, and understood it not, neither laid they up this in their minds, That his grace and mercy is with his saints, and that he hath respect unto his chosen."
-      },
-      {
-        "source": "Matins Gospel",
-        "display": "Luke 6.17-23",
-        "short_display": "Luke 6.17-23",
-        "text": "And he came down with them, and stood in the plain, and the company of his disciples, and a great multitude of people out of all Jud\u00e6a and Jerusalem, and from the sea coast of Tyre and Sidon, which came to hear him, and to be healed of their diseases; And they that were vexed with unclean spirits: and they were healed. And the whole multitude sought to touch him: for there went virtue out of him, and healed them all. And he lifted up his eyes on his disciples, and said, Blessed be ye poor: for yours is the kingdom of God. Blessed are ye that hunger now: for ye shall be filled. Blessed are ye that weep now: for ye shall laugh. Blessed are ye, when men shall hate you, and when they shall separate you from their company, and shall reproach you, and cast out your name as evil, for the Son of man\u2019s sake. Rejoice ye in that day, and leap for joy: for, behold, your reward is great in heaven: for in the like manner did their fathers unto the prophets."
-      },
-      {
-        "source": "Epistle",
-        "display": "Galatians 5.22-6.2",
-        "short_display": "Gal 5.22-6.2",
-        "text": "But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, Meekness, temperance: against such there is no law. And they that are Christ\u2019s have crucified the flesh with the affections and lusts. If we live in the Spirit, let us also walk in the Spirit. Let us not be desirous of vain glory, provoking one another, envying one another. Brethren, if a man be overtaken in a fault, ye which are spiritual, restore such an one in the spirit of meekness; considering thyself, lest thou also be tempted. Bear ye one another\u2019s burdens, and so fulfil the law of Christ."
-      },
-      {
-        "source": "Epistle",
-        "display": "Galatians 5.22-6.2",
-        "short_display": "Gal 5.22-6.2",
-        "text": "But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, Meekness, temperance: against such there is no law. And they that are Christ\u2019s have crucified the flesh with the affections and lusts. If we live in the Spirit, let us also walk in the Spirit. Let us not be desirous of vain glory, provoking one another, envying one another. Brethren, if a man be overtaken in a fault, ye which are spiritual, restore such an one in the spirit of meekness; considering thyself, lest thou also be tempted. Bear ye one another\u2019s burdens, and so fulfil the law of Christ."
-      },
-      {
-        "source": "Gospel",
-        "display": "Luke 12.32-40",
-        "short_display": "Luke 12.32-40",
-        "text": "Fear not, little flock; for it is your Father\u2019s good pleasure to give you the kingdom. Sell that ye have, and give alms; provide yourselves bags which wax not old, a treasure in the heavens that faileth not, where no thief approacheth, neither moth corrupteth. For where your treasure is, there will your heart be also. Let your loins be girded about, and your lights burning; And ye yourselves like unto men that wait for their lord, when he will return from the wedding; that when he cometh and knocketh, they may open unto him immediately. Blessed are those servants, whom the lord when he cometh shall find watching: verily I say unto you, that he shall gird himself, and make them to sit down to meat, and will come forth and serve them. And if he shall come in the second watch, or come in the third watch, and find them so, blessed are those servants. And this know, that if the goodman of the house had known what hour the thief would come, he would have watched, and not have suffered his house to be broken through. Be ye therefore ready also: for the Son of man cometh at an hour when ye think not."
-      },
-      {
-        "source": "Gospel",
-        "display": "Matthew 11.27-30",
-        "short_display": "Matt 11.27-30",
-        "text": "All things are delivered unto me of my Father: and no man knoweth the Son, but the Father; neither knoweth any man the Father, save the Son, and he to whomsoever the Son will reveal him. Come unto me, all ye that labour and are heavy laden, and I will give you rest. Take my yoke upon you, and learn of me; for I am meek and lowly in heart: and ye shall find rest unto your souls. For my yoke is easy, and my burden is light."
+        "display": "Matthew 11:27-30",
+        "text": "The Lord said to his disciples, \"All things have been delivered to me by my Father; and no one knows the Son except the Father, and no one knows the Father except the Son and any one to whom the Son chooses to reveal him. Come to me, all who labor and are heavy laden, and I will give you rest. Take my yoke upon you, and learn from me; for I am gentle and lowly in heart, and you will find rest for your souls. For my yoke is easy, and my burden is light."
       }
-    ]
+    ],
+    "service_texts": []
   },
   "events": [
     {

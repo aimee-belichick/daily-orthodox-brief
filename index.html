@@ -8,34 +8,21 @@
 <link rel="apple-touch-icon" href="icons/icon-180.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="theme-color" content="#faf8f4" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#15130f" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#060606">
 <style>
   :root {
-    --bg: #faf8f4;
-    --ink: #1c1a16;
-    --ink-soft: #58534a;
-    --ink-faint: #948d7f;
-    --rule: #e2ddd0;
-    --accent: #7a1f1f;
-    --card-bg: #ffffff;
-    --warn-bg: #fdf1e0;
-    --warn-ink: #6b4a1a;
+    --bg: #060606;
+    --cross: #161616;
+    --ink: #f7f4ec;
+    --ink-soft: #cbc6b8;
+    --ink-faint: #8f897a;
+    --rule: #302f2c;
+    --accent: #d99a6c;
+    --card-bg: #1c1c1a;
+    --warn-bg: #2c2314;
+    --warn-ink: #e0b878;
     --serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, "Times New Roman", serif;
     --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  }
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --bg: #15130f;
-      --ink: #efe9dd;
-      --ink-soft: #b7ae9c;
-      --ink-faint: #7d7568;
-      --rule: #322d24;
-      --accent: #d99a6c;
-      --card-bg: #1e1b15;
-      --warn-bg: #2c2314;
-      --warn-ink: #e0b878;
-    }
   }
   * { box-sizing: border-box; }
   html, body {
@@ -50,8 +37,21 @@
     padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
     min-height: 100vh;
   }
+  #bg-cross {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: min(65vw, 420px);
+    height: 88vh;
+    z-index: 0;
+    pointer-events: none;
+  }
+  #bg-cross .cross-shape { fill: var(--cross); }
   a { color: var(--accent); }
   main {
+    position: relative;
+    z-index: 1;
     max-width: 640px;
     margin: 0 auto;
     padding: 1.75rem 1.25rem 4rem;
@@ -109,6 +109,7 @@
     border-radius: 14px;
     padding: 1.1rem 1.25rem;
     margin-bottom: 1rem;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
   }
   section.card h2 {
     margin: 0 0 0.6rem;
@@ -132,9 +133,15 @@
     margin: 0 0 0.75rem;
   }
 
-  .saints-list a { color: inherit; text-decoration: none; border-bottom: 1px dotted var(--ink-faint); }
   .saints-list { margin: 0; padding: 0; list-style: none; }
   .saints-list li { margin-bottom: 0.35rem; font-size: 0.98rem; }
+
+  .story-block { margin-bottom: 1.1rem; }
+  .story-block:last-child { margin-bottom: 0; }
+  .story-title { font-weight: 600; font-size: 0.95rem; margin: 0 0 0.3rem; }
+  .story-text { font-family: var(--serif); font-size: 1.05rem; line-height: 1.6; color: var(--ink-soft); }
+  .story-text p { margin: 0 0 0.6rem; }
+  .story-text p:last-child { margin-bottom: 0; }
 
   .fast-desc { font-size: 1.05rem; margin: 0 0 0.35rem; }
   .fast-abstentions { font-size: 0.9rem; color: var(--ink-soft); margin: 0 0 0.6rem; }
@@ -207,6 +214,14 @@
 </style>
 </head>
 <body>
+<svg id="bg-cross" viewBox="0 0 200 400" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
+  <g class="cross-shape">
+    <rect x="88" y="30" width="24" height="340"/>
+    <rect x="55" y="72" width="90" height="24"/>
+    <rect x="30" y="164" width="140" height="28"/>
+    <rect x="48" y="268" width="104" height="24"/>
+  </g>
+</svg>
 <main id="app">
   <div class="empty-state" id="loading">Loading today&rsquo;s brief&hellip;</div>
 </main>
@@ -304,11 +319,7 @@
 
   function renderSaintsSection(lit) {
     if (!lit || !lit.saints || !lit.saints.length) return "";
-    var items = lit.saints
-      .map(function (s) {
-        return '<li><a href="' + esc(s.link) + '" target="_blank" rel="noopener">' + esc(s.name) + "</a></li>";
-      })
-      .join("");
+    var items = lit.saints.map(function (name) { return "<li>" + esc(name) + "</li>"; }).join("");
     var summary = lit.summary_title ? '<p class="summary-title">' + esc(lit.summary_title) + "</p>" : "";
     return (
       '<section class="card"><h2>Saints Commemorated</h2>' +
@@ -317,6 +328,22 @@
       items +
       "</ul></section>"
     );
+  }
+
+  function renderStoriesSection(lit) {
+    if (!lit || !lit.stories || !lit.stories.length) return "";
+    var blocks = lit.stories
+      .map(function (s) {
+        return (
+          '<div class="story-block"><p class="story-title">' +
+          esc(s.title) +
+          '</p><div class="story-text">' +
+          s.html +
+          "</div></div>"
+        );
+      })
+      .join("");
+    return '<section class="card"><h2>About Today&rsquo;s Saints</h2>' + blocks + "</section>";
   }
 
   function renderFastingSection(lit) {
@@ -344,8 +371,7 @@
       .map(function (r) {
         return (
           '<div class="reading-block"><p class="reading-label">' +
-          esc(r.source) +
-          (r.display ? " &mdash; " + esc(r.display) : "") +
+          esc(r.display) +
           '</p><p class="reading-text">' +
           esc(r.text) +
           "</p></div>"
@@ -355,15 +381,14 @@
     return '<section class="card"><h2>Reading</h2>' + blocks + "</section>";
   }
 
-  function renderServiceLinksSection() {
-    var links = index.links;
-    return (
-      '<section class="card"><h2>Services</h2><div class="link-row">' +
-      '<a href="' + esc(links.liturgy) + '" target="_blank" rel="noopener">Liturgy &rarr;</a>' +
-      '<a href="' + esc(links.vespers) + '" target="_blank" rel="noopener">Vespers &rarr;</a>' +
-      (links.bulletin_pdf ? '<a href="' + esc(links.bulletin_pdf) + '" target="_blank" rel="noopener">Bulletin &rarr;</a>' : "") +
-      "</div></section>"
-    );
+  function renderServiceLinksSection(lit) {
+    if (!lit || !lit.service_texts || !lit.service_texts.length) return "";
+    var items = lit.service_texts
+      .map(function (s) {
+        return '<a href="' + esc(s.url) + '" target="_blank" rel="noopener">' + esc(s.label) + " &rarr;</a>";
+      })
+      .join("");
+    return '<section class="card"><h2>Service Texts</h2><div class="link-row">' + items + "</div></section>";
   }
 
   function renderEventsSection(day) {
@@ -478,17 +503,17 @@
     html += renderFeastSection(lit);
     html += renderFastingSection(lit);
     html += renderSaintsSection(lit);
-    html += renderReadingSection(lit);
-    html += renderServiceLinksSection();
+    html += renderStoriesSection(lit);
+    html += renderServiceLinksSection(lit);
     html += renderEventsSection(day);
     html += renderPrayerListSection();
+    html += renderReadingSection(lit);
     html += renderFooter();
 
     if (!lit) {
       html =
         renderNavBar(dateStr) +
         '<div class="banner">Couldn&rsquo;t reach the liturgical calendar for this day.</div>' +
-        renderServiceLinksSection() +
         renderEventsSection(day) +
         renderPrayerListSection() +
         renderFooter();
