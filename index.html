@@ -318,14 +318,16 @@
   }
 
   function renderFeastSection(lit) {
-    if (!lit || !lit.great_feast || !lit.feasts || !lit.feasts.length) return "";
+    if (!lit || !lit.feasts || !lit.feasts.length) return "";
     var badge = "";
+    var heading = "Recognizing";
     if (lit.great_feast) {
+      heading = "Feast";
       var label = lit.great_feast.is_pascha ? "Pascha" : "Great Feast";
       badge = '<p class="great-feast-badge">&#10022; ' + esc(label) + "</p>";
     }
     return (
-      '<section class="card"><h2>Feast</h2>' +
+      "<section class=\"card\"><h2>" + esc(heading) + "</h2>" +
       badge +
       '<p class="feast-title">' +
       lit.feasts.map(esc).join(" &middot; ") +
