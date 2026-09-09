@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-08",
+  "liturgical": {
+    "status": "ok",
+    "titles": [
+      "Thursday of the 19th week after Pentecost"
+    ],
+    "summary_title": "Ven. Pelagia the Penitent; Phillip, Bishop of Gortyna; Saint Tha\u00efs the Repentant Harlot (4th c.)",
+    "feasts": null,
+    "saints": [
+      {
+        "name": "Ven. Pelagia the Penitent",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Ven.%20Pelagia%20the%20Penitent"
+      },
+      {
+        "name": "Phillip, Bishop of Gortyna",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Phillip%2C%20Bishop%20of%20Gortyna"
+      },
+      {
+        "name": "Saint Tha\u00efs the Repentant Harlot (4th c.)",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Saint%20Tha%C3%AFs%20the%20Repentant%20Harlot%20%284th%20c.%29"
+      }
+    ],
+    "fasting": null,
+    "readings": [
+      {
+        "source": "Epistle",
+        "display": "Philippians 1.20-27",
+        "short_display": "Phil 1.20-27",
+        "text": "According to my earnest expectation and my hope, that in nothing I shall be ashamed, but that with all boldness, as always, so now also Christ shall be magnified in my body, whether it be by life, or by death. For to me to live is Christ, and to die is gain. But if I live in the flesh, this is the fruit of my labour: yet what I shall choose I wot not. For I am in a strait betwixt two, having a desire to depart, and to be with Christ; which is far better: Nevertheless to abide in the flesh is more needful for you. And having this confidence, I know that I shall abide and continue with you all for your furtherance and joy of faith; That your rejoicing may be more abundant in Jesus Christ for me by my coming to you again. Only let your conversation be as it becometh the gospel of Christ: that whether I come and see you, or else be absent, I may hear of your affairs, that ye stand fast in one spirit, with one mind striving together for the faith of the gospel;"
+      },
+      {
+        "source": "Gospel",
+        "display": "Luke 7.17-30",
+        "short_display": "Luke 7.17-30",
+        "text": "And this rumour of him went forth throughout all Jud\u00e6a, and throughout all the region round about. And the disciples of John shewed him of all these things. And John calling unto him two of his disciples sent them to Jesus, saying, Art thou he that should come? or look we for another? When the men were come unto him, they said, John Baptist hath sent us unto thee, saying, Art thou he that should come? or look we for another? And in that same hour he cured many of their infirmities and plagues, and of evil spirits; and unto many that were blind he gave sight. Then Jesus answering said unto them, Go your way, and tell John what things ye have seen and heard; how that the blind see, the lame walk, the lepers are cleansed, the deaf hear, the dead are raised, to the poor the gospel is preached. And blessed is he, whosoever shall not be offended in me. And when the messengers of John were departed, he began to speak unto the people concerning John, What went ye out into the wilderness for to see? A reed shaken with the wind? But what went ye out for to see? A man clothed in soft raiment? Behold, they which are gorgeously apparelled, and live delicately, are in kings\u2019 courts. But what went ye out for to see? A prophet? Yea, I say unto you, and much more than a prophet. This is he, of whom it is written, Behold, I send my messenger before thy face, which shall prepare thy way before thee. For I say unto you, Among those that are born of women there is not a greater prophet than John the Baptist: but he that is least in the kingdom of God is greater than he. And all the people that heard him, and the publicans, justified God, being baptized with the baptism of John. But the Pharisees and lawyers rejected the counsel of God against themselves, being not baptized of him."
+      }
+    ]
+  },
+  "events": []
+}

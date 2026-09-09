@@ -1,0 +1,534 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Daily Orthodox Brief</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="theme-color" content="#faf8f4" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#15130f" media="(prefers-color-scheme: dark)">
+<style>
+  :root {
+    --bg: #faf8f4;
+    --ink: #1c1a16;
+    --ink-soft: #58534a;
+    --ink-faint: #948d7f;
+    --rule: #e2ddd0;
+    --accent: #7a1f1f;
+    --card-bg: #ffffff;
+    --warn-bg: #fdf1e0;
+    --warn-ink: #6b4a1a;
+    --serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, "Times New Roman", serif;
+    --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #15130f;
+      --ink: #efe9dd;
+      --ink-soft: #b7ae9c;
+      --ink-faint: #7d7568;
+      --rule: #322d24;
+      --accent: #d99a6c;
+      --card-bg: #1e1b15;
+      --warn-bg: #2c2314;
+      --warn-ink: #e0b878;
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--sans);
+    -webkit-font-smoothing: antialiased;
+  }
+  body {
+    padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+    min-height: 100vh;
+  }
+  a { color: var(--accent); }
+  main {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 1.75rem 1.25rem 4rem;
+  }
+
+  .nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+  }
+  .nav-btn {
+    appearance: none;
+    border: none;
+    background: none;
+    color: var(--ink);
+    font-size: 1.5rem;
+    line-height: 1;
+    padding: 0.5rem 0.75rem;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  .nav-btn:disabled { color: var(--rule); cursor: default; }
+  .nav-btn:not(:disabled):active { background: var(--rule); }
+
+  .date-heading { text-align: center; flex: 1; }
+  .date-heading .weekday {
+    display: block;
+    font-size: 0.8rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+    margin-bottom: 0.15rem;
+  }
+  .date-heading .date {
+    display: block;
+    font-family: var(--serif);
+    font-size: 1.4rem;
+  }
+  .today-btn {
+    display: block;
+    margin: -0.75rem auto 1.5rem;
+    text-align: center;
+    background: none;
+    border: none;
+    color: var(--accent);
+    font-size: 0.85rem;
+    cursor: pointer;
+  }
+
+  section.card {
+    background: var(--card-bg);
+    border: 1px solid var(--rule);
+    border-radius: 14px;
+    padding: 1.1rem 1.25rem;
+    margin-bottom: 1rem;
+  }
+  section.card h2 {
+    margin: 0 0 0.6rem;
+    font-size: 0.75rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+    font-weight: 600;
+  }
+
+  .feast-title {
+    font-family: var(--serif);
+    font-size: 1.3rem;
+    margin: 0;
+  }
+
+  .summary-title {
+    font-family: var(--serif);
+    font-size: 1.05rem;
+    color: var(--ink-soft);
+    margin: 0 0 0.75rem;
+  }
+
+  .saints-list a { color: inherit; text-decoration: none; border-bottom: 1px dotted var(--ink-faint); }
+  .saints-list { margin: 0; padding: 0; list-style: none; }
+  .saints-list li { margin-bottom: 0.35rem; font-size: 0.98rem; }
+
+  .fast-desc { font-size: 1.05rem; margin: 0 0 0.35rem; }
+  .fast-abstentions { font-size: 0.9rem; color: var(--ink-soft); margin: 0 0 0.6rem; }
+  .fast-cal-link { font-size: 0.85rem; }
+
+  .reading-block { margin-bottom: 1.4rem; }
+  .reading-block:last-child { margin-bottom: 0; }
+  .reading-label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--ink-soft);
+    margin: 0 0 0.4rem;
+  }
+  .reading-text {
+    font-family: var(--serif);
+    font-size: 1.15rem;
+    line-height: 1.6;
+    margin: 0;
+    max-width: 34em;
+  }
+
+  .link-row {
+    display: flex;
+    gap: 1.25rem;
+    flex-wrap: wrap;
+    font-size: 0.95rem;
+  }
+
+  .event-list { margin: 0; padding: 0; list-style: none; }
+  .event-item { padding: 0.5rem 0; border-bottom: 1px solid var(--rule); }
+  .event-item:last-child { border-bottom: none; }
+  .event-item a { text-decoration: none; color: inherit; }
+  .event-time { display: block; font-size: 0.8rem; color: var(--ink-faint); }
+  .event-title { display: block; font-size: 1rem; }
+
+  .prayer-group { margin-bottom: 0.75rem; }
+  .prayer-group:last-child { margin-bottom: 0; }
+  .prayer-group h3 {
+    margin: 0 0 0.2rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--ink-soft);
+  }
+  .prayer-names { margin: 0; font-size: 0.98rem; }
+
+  .banner {
+    background: var(--warn-bg);
+    color: var(--warn-ink);
+    border-radius: 10px;
+    padding: 0.7rem 0.9rem;
+    font-size: 0.85rem;
+    margin-bottom: 1rem;
+  }
+
+  footer {
+    text-align: center;
+    color: var(--ink-faint);
+    font-size: 0.75rem;
+    margin-top: 2rem;
+    line-height: 1.6;
+  }
+
+  .empty-state {
+    text-align: center;
+    color: var(--ink-faint);
+    padding: 3rem 1rem;
+    font-family: var(--serif);
+    font-size: 1.1rem;
+  }
+</style>
+</head>
+<body>
+<main id="app">
+  <div class="empty-state" id="loading">Loading today&rsquo;s brief&hellip;</div>
+</main>
+
+<script>
+(function () {
+  "use strict";
+
+  var app = document.getElementById("app");
+  var dayCache = {};
+  var index = null;
+  var currentDate = null;
+
+  function esc(s) {
+    return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+    });
+  }
+
+  function parseISODate(s) {
+    var parts = s.split("-").map(Number);
+    return new Date(parts[0], parts[1] - 1, parts[2]);
+  }
+
+  function formatISODate(d) {
+    var y = d.getFullYear();
+    var m = String(d.getMonth() + 1).padStart(2, "0");
+    var day = String(d.getDate()).padStart(2, "0");
+    return y + "-" + m + "-" + day;
+  }
+
+  function addDays(dateStr, n) {
+    var d = parseISODate(dateStr);
+    d.setDate(d.getDate() + n);
+    return formatISODate(d);
+  }
+
+  function friendlyDate(dateStr) {
+    var d = parseISODate(dateStr);
+    var weekday = d.toLocaleDateString(undefined, { weekday: "long" });
+    var rest = d.toLocaleDateString(undefined, { month: "long", day: "numeric", year: "numeric" });
+    return { weekday: weekday, date: rest };
+  }
+
+  function formatEventTime(sqlDateTime) {
+    if (!sqlDateTime) return "";
+    var iso = sqlDateTime.replace(" ", "T");
+    var d = new Date(iso);
+    if (isNaN(d.getTime())) return "";
+    var isMidnight = d.getHours() === 0 && d.getMinutes() === 0;
+    if (isMidnight) return "All day";
+    return d.toLocaleTimeString(undefined, { hour: "numeric", minute: "2-digit" });
+  }
+
+  function fetchJSON(url) {
+    return fetch(url, { cache: "no-store" }).then(function (r) {
+      if (!r.ok) throw new Error("HTTP " + r.status + " for " + url);
+      return r.json();
+    });
+  }
+
+  function loadIndex() {
+    return fetchJSON("data/index.json").then(function (data) {
+      index = data;
+    });
+  }
+
+  function loadDay(dateStr) {
+    if (dayCache[dateStr]) return Promise.resolve(dayCache[dateStr]);
+    return fetchJSON("data/days/" + dateStr + ".json").then(function (data) {
+      dayCache[dateStr] = data;
+      return data;
+    });
+  }
+
+  function relativeStaleness(iso) {
+    if (!iso) return "never";
+    var then = new Date(iso).getTime();
+    if (isNaN(then)) return "unknown";
+    var diffH = Math.round((Date.now() - then) / 36e5);
+    if (diffH < 1) return "just now";
+    if (diffH < 24) return diffH + "h ago";
+    var diffD = Math.round(diffH / 24);
+    return diffD + "d ago";
+  }
+
+  function renderFeastSection(lit) {
+    if (!lit || !lit.feasts || !lit.feasts.length) return "";
+    return (
+      '<section class="card"><h2>Feast</h2><p class="feast-title">' +
+      lit.feasts.map(esc).join(" &middot; ") +
+      "</p></section>"
+    );
+  }
+
+  function renderSaintsSection(lit) {
+    if (!lit || !lit.saints || !lit.saints.length) return "";
+    var items = lit.saints
+      .map(function (s) {
+        return '<li><a href="' + esc(s.link) + '" target="_blank" rel="noopener">' + esc(s.name) + "</a></li>";
+      })
+      .join("");
+    var summary = lit.summary_title ? '<p class="summary-title">' + esc(lit.summary_title) + "</p>" : "";
+    return (
+      '<section class="card"><h2>Saints Commemorated</h2>' +
+      summary +
+      '<ul class="saints-list">' +
+      items +
+      "</ul></section>"
+    );
+  }
+
+  function renderFastingSection(lit) {
+    if (!lit || !lit.fasting) return "";
+    var f = lit.fasting;
+    var abst = f.abstentions && f.abstentions.length
+      ? '<p class="fast-abstentions">Abstain from: ' + f.abstentions.map(esc).join(", ") + "</p>"
+      : "";
+    var calLink = index.links.fasting_calendar_pdf
+      ? '<p class="fast-cal-link"><a href="' + esc(index.links.fasting_calendar_pdf) + '" target="_blank" rel="noopener">Full-year fasting calendar &rarr;</a></p>'
+      : "";
+    return (
+      '<section class="card"><h2>Fasting</h2><p class="fast-desc">' +
+      esc(f.description) +
+      "</p>" +
+      abst +
+      calLink +
+      "</section>"
+    );
+  }
+
+  function renderReadingSection(lit) {
+    if (!lit || !lit.readings || !lit.readings.length) return "";
+    var blocks = lit.readings
+      .map(function (r) {
+        return (
+          '<div class="reading-block"><p class="reading-label">' +
+          esc(r.source) +
+          (r.display ? " &mdash; " + esc(r.display) : "") +
+          '</p><p class="reading-text">' +
+          esc(r.text) +
+          "</p></div>"
+        );
+      })
+      .join("");
+    return '<section class="card"><h2>Reading</h2>' + blocks + "</section>";
+  }
+
+  function renderServiceLinksSection() {
+    var links = index.links;
+    return (
+      '<section class="card"><h2>Services</h2><div class="link-row">' +
+      '<a href="' + esc(links.liturgy) + '" target="_blank" rel="noopener">Liturgy &rarr;</a>' +
+      '<a href="' + esc(links.vespers) + '" target="_blank" rel="noopener">Vespers &rarr;</a>' +
+      (links.bulletin_pdf ? '<a href="' + esc(links.bulletin_pdf) + '" target="_blank" rel="noopener">Bulletin &rarr;</a>' : "") +
+      "</div></section>"
+    );
+  }
+
+  function renderEventsSection(day) {
+    if (!day.events || !day.events.length) return "";
+    var items = day.events
+      .map(function (ev) {
+        var time = formatEventTime(ev.start);
+        var body = '<span class="event-time">' + esc(time) + '</span><span class="event-title">' + esc(ev.title) + "</span>";
+        return (
+          '<li class="event-item">' +
+          (ev.url ? '<a href="' + esc(ev.url) + '" target="_blank" rel="noopener">' + body + "</a>" : body) +
+          "</li>"
+        );
+      })
+      .join("");
+    return (
+      '<section class="card"><h2>Parish Events Today</h2><ul class="event-list">' +
+      items +
+      '</ul><p class="fast-cal-link" style="margin-top:0.6rem"><a href="' +
+      esc(index.links.parish_calendar) +
+      '" target="_blank" rel="noopener">Parish calendar &rarr;</a></p></section>'
+    );
+  }
+
+  function renderPrayerListSection() {
+    var pl = index.prayer_list;
+    if (!pl) return "";
+    var groups = [
+      { key: "sick", label: "For the health of body and soul" },
+      { key: "military", label: "Serving in our armed forces" },
+      { key: "catechumens", label: "Our catechumens" },
+    ];
+    var body = groups
+      .map(function (g) {
+        var names = pl[g.key];
+        if (!names || !names.length) return "";
+        return (
+          '<div class="prayer-group"><h3>' +
+          esc(g.label) +
+          '</h3><p class="prayer-names">' +
+          names.map(esc).join(", ") +
+          "</p></div>"
+        );
+      })
+      .join("");
+    if (!body) return "";
+    return '<section class="card"><h2>Prayer List</h2>' + body + "</section>";
+  }
+
+  function renderStalenessBanners() {
+    var s = index.status || {};
+    var messages = [];
+    if (!s.liturgical_ok) messages.push("Couldn&rsquo;t reach the liturgical calendar this morning &mdash; showing the most recent data available.");
+    if (!s.parish_events_ok) messages.push("Couldn&rsquo;t reach the parish calendar this morning &mdash; events shown may be out of date.");
+    if (!s.bulletin_ok) messages.push("Couldn&rsquo;t find a new bulletin &mdash; linking to the last known one.");
+    if (!s.prayer_list_ok) messages.push("Couldn&rsquo;t read the prayer list from the bulletin &mdash; showing the last known list.");
+    if (!messages.length) return "";
+    return messages.map(function (m) { return '<div class="banner">' + m + "</div>"; }).join("");
+  }
+
+  function renderFooter() {
+    var ls = index.last_successful || {};
+    return (
+      "<footer>Liturgical data updated " +
+      esc(relativeStaleness(ls.liturgical)) +
+      " &middot; Parish calendar updated " +
+      esc(relativeStaleness(ls.parish_events)) +
+      "<br>Brief generated " +
+      esc(relativeStaleness(index.generated_at)) +
+      "</footer>"
+    );
+  }
+
+  function canGoBack(dateStr) {
+    return dateStr > index.available_dates[0];
+  }
+  function canGoForward(dateStr) {
+    return dateStr < index.available_dates[index.available_dates.length - 1];
+  }
+
+  function renderNavBar(dateStr) {
+    var fd = friendlyDate(dateStr);
+    return (
+      '<div class="nav-bar">' +
+      '<button class="nav-btn" id="prevBtn" ' + (canGoBack(dateStr) ? "" : "disabled") + ' aria-label="Previous day">&larr;</button>' +
+      '<div class="date-heading"><span class="weekday">' + esc(fd.weekday) + '</span><span class="date">' + esc(fd.date) + "</span></div>" +
+      '<button class="nav-btn" id="nextBtn" ' + (canGoForward(dateStr) ? "" : "disabled") + ' aria-label="Next day">&rarr;</button>' +
+      "</div>"
+    );
+  }
+
+  function wireNavBar(dateStr) {
+    var prevBtn = document.getElementById("prevBtn");
+    var nextBtn = document.getElementById("nextBtn");
+    var todayBtn = document.getElementById("todayBtn");
+    if (prevBtn) prevBtn.addEventListener("click", function () { goTo(addDays(dateStr, -1)); });
+    if (nextBtn) nextBtn.addEventListener("click", function () { goTo(addDays(dateStr, 1)); });
+    if (todayBtn) todayBtn.addEventListener("click", function () { goTo(index.today); });
+  }
+
+  function render(dateStr, day) {
+    var lit = day.liturgical && day.liturgical.status === "ok" ? day.liturgical : null;
+
+    var html = "";
+    html += renderNavBar(dateStr);
+
+    if (dateStr !== index.today) {
+      html += '<button class="today-btn" id="todayBtn">Back to today</button>';
+    }
+
+    html += renderStalenessBanners();
+    html += renderFeastSection(lit);
+    html += renderFastingSection(lit);
+    html += renderSaintsSection(lit);
+    html += renderReadingSection(lit);
+    html += renderServiceLinksSection();
+    html += renderEventsSection(day);
+    html += renderPrayerListSection();
+    html += renderFooter();
+
+    if (!lit) {
+      html =
+        renderNavBar(dateStr) +
+        '<div class="banner">Couldn&rsquo;t reach the liturgical calendar for this day.</div>' +
+        renderServiceLinksSection() +
+        renderEventsSection(day) +
+        renderPrayerListSection() +
+        renderFooter();
+    }
+
+    app.innerHTML = html;
+    currentDate = dateStr;
+    wireNavBar(dateStr);
+  }
+
+  function goTo(dateStr) {
+    if (dateStr < index.available_dates[0] || dateStr > index.available_dates[index.available_dates.length - 1]) return;
+    app.innerHTML = '<div class="empty-state">Loading&hellip;</div>';
+    loadDay(dateStr)
+      .then(function (day) { render(dateStr, day); })
+      .catch(function () {
+        app.innerHTML = renderNavBar(dateStr) + '<div class="banner">Couldn&rsquo;t load this day. Pull to refresh or try again later.</div>';
+        currentDate = dateStr;
+        wireNavBar(dateStr);
+      });
+  }
+
+  var touchStartX = null;
+  document.addEventListener("touchstart", function (e) { touchStartX = e.touches[0].clientX; }, { passive: true });
+  document.addEventListener("touchend", function (e) {
+    if (touchStartX == null) return;
+    var dx = e.changedTouches[0].clientX - touchStartX;
+    touchStartX = null;
+    if (Math.abs(dx) < 60 || !currentDate) return;
+    if (dx < 0 && canGoForward(currentDate)) goTo(addDays(currentDate, 1));
+    if (dx > 0 && canGoBack(currentDate)) goTo(addDays(currentDate, -1));
+  }, { passive: true });
+
+  loadIndex()
+    .then(function () { return loadDay(index.today); })
+    .then(function (day) { render(index.today, day); })
+    .catch(function (err) {
+      app.innerHTML = '<div class="empty-state">Couldn&rsquo;t load the brief.<br><span style="font-size:0.8rem">' + esc(err.message) + "</span></div>";
+    });
+})();
+</script>
+</body>
+</html>

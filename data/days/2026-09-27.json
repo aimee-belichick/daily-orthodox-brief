@@ -1,0 +1,80 @@
+{
+  "date": "2026-09-27",
+  "liturgical": {
+    "status": "ok",
+    "titles": [
+      "17th Sunday after Pentecost"
+    ],
+    "summary_title": "17th Sunday after Pentecost",
+    "feasts": null,
+    "saints": [
+      {
+        "name": "Martyr Callistratus and Companions",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Martyr%20Callistratus%20and%20Companions"
+      },
+      {
+        "name": "Ven. Sabbatius of Solovetsk",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Ven.%20Sabbatius%20of%20Solovetsk"
+      },
+      {
+        "name": "Gideon the Righteous",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Gideon%20the%20Righteous"
+      },
+      {
+        "name": "Holy Apostles Mark, Aristarchus and Zenas of the Seventy",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Holy%20Apostles%20Mark%2C%20Aristarchus%20and%20Zenas%20of%20the%20Seventy"
+      },
+      {
+        "name": "Holy New Martyr Aquilina (1764)",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Holy%20New%20Martyr%20Aquilina%20%281764%29"
+      }
+    ],
+    "fasting": null,
+    "readings": [
+      {
+        "source": "6th Matins Gospel",
+        "display": "Luke 24.36-53",
+        "short_display": "Luke 24.36-53",
+        "text": "And as they thus spake, Jesus himself stood in the midst of them, and saith unto them, Peace be unto you. But they were terrified and affrighted, and supposed that they had seen a spirit. And he said unto them, Why are ye troubled? and why do thoughts arise in your hearts? Behold my hands and my feet, that it is I myself: handle me, and see; for a spirit hath not flesh and bones, as ye see me have. And when he had thus spoken, he shewed them his hands and his feet. And while they yet believed not for joy, and wondered, he said unto them, Have ye here any meat? And they gave him a piece of a broiled fish, and of an honeycomb. And he took it, and did eat before them. And he said unto them, These are the words which I spake unto you, while I was yet with you, that all things must be fulfilled, which were written in the law of Moses, and in the prophets, and in the psalms, concerning me. Then opened he their understanding, that they might understand the scriptures, And said unto them, Thus it is written, and thus it behoved Christ to suffer, and to rise from the dead the third day: And that repentance and remission of sins should be preached in his name among all nations, beginning at Jerusalem. And ye are witnesses of these things. And, behold, I send the promise of my Father upon you: but tarry ye in the city of Jerusalem, until ye be endued with power from on high. And he led them out as far as to Bethany, and he lifted up his hands, and blessed them. And it came to pass, while he blessed them, he was parted from them, and carried up into heaven. And they worshipped him, and returned to Jerusalem with great joy: And were continually in the temple, praising and blessing God. Amen."
+      },
+      {
+        "source": "Epistle",
+        "display": "2 Corinthians 6.16-7.1",
+        "short_display": "2 Cor 6.16-7.1",
+        "text": "And what agreement hath the temple of God with idols? for ye are the temple of the living God; as God hath said, I will dwell in them, and walk in them; and I will be their God, and they shall be my people. Wherefore come out from among them, and be ye separate, saith the Lord, and touch not the unclean thing; and I will receive you, And will be a Father unto you, and ye shall be my sons and daughters, saith the Lord Almighty. Having therefore these promises, dearly beloved, let us cleanse ourselves from all filthiness of the flesh and spirit, perfecting holiness in the fear of God."
+      },
+      {
+        "source": "Gospel",
+        "display": "Luke 5.1-11",
+        "short_display": "Luke 5.1-11",
+        "text": "And it came to pass, that, as the people pressed upon him to hear the word of God, he stood by the lake of Gennesaret, And saw two ships standing by the lake: but the fishermen were gone out of them, and were washing their nets. And he entered into one of the ships, which was Simon\u2019s, and prayed him that he would thrust out a little from the land. And he sat down, and taught the people out of the ship. Now when he had left speaking, he said unto Simon, Launch out into the deep, and let down your nets for a draught. And Simon answering said unto him, Master, we have toiled all the night, and have taken nothing: nevertheless at thy word I will let down the net. And when they had this done, they inclosed a great multitude of fishes: and their net brake. And they beckoned unto their partners, which were in the other ship, that they should come and help them. And they came, and filled both the ships, so that they began to sink. When Simon Peter saw it, he fell down at Jesus\u2019 knees, saying, Depart from me; for I am a sinful man, O Lord. For he was astonished, and all that were with him, at the draught of the fishes which they had taken: And so was also James, and John, the sons of Zebedee, which were partners with Simon. And Jesus said unto Simon, Fear not; from henceforth thou shalt catch men. And when they had brought their ships to land, they forsook all, and followed him."
+      }
+    ]
+  },
+  "events": [
+    {
+      "title": "Matins (Orthros)",
+      "start": "2026-09-27 09:00:00",
+      "end": "2026-09-27 10:00:00",
+      "url": "https://www.constantinehelen.com/event/matins-orthros-29/2026-09-27/"
+    },
+    {
+      "title": "Divine Liturgy",
+      "start": "2026-09-27 10:00:00",
+      "end": "2026-09-27 11:30:00",
+      "url": "https://www.constantinehelen.com/event/divine-liturgy-39-2/2026-09-27/"
+    },
+    {
+      "title": "Women of St. Helen Monthly Meeting",
+      "start": "2026-09-27 11:30:00",
+      "end": "2026-09-27 12:30:00",
+      "url": "https://www.constantinehelen.com/event/women-of-st-helen-monthly-meeting-4/"
+    },
+    {
+      "title": "Irish School of Music",
+      "start": "2026-09-27 14:00:00",
+      "end": "2026-09-27 17:00:00",
+      "url": "https://www.constantinehelen.com/event/irish-school-of-music-11/"
+    }
+  ]
+}

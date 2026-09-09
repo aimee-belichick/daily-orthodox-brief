@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-17",
+  "liturgical": {
+    "status": "ok",
+    "titles": [
+      "Tuesday of the 25th week after Pentecost"
+    ],
+    "summary_title": "St Gregory the Wonderworker; Ven. Nikon of Radonezh; Gennadios I and Maximus, Patriarchs of Constantinople",
+    "feasts": null,
+    "saints": [
+      {
+        "name": "St Gregory the Wonderworker",
+        "link": "https://orthodoxwiki.org/Special:Search?search=St%20Gregory%20the%20Wonderworker"
+      },
+      {
+        "name": "Ven. Nikon of Radonezh",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Ven.%20Nikon%20of%20Radonezh"
+      },
+      {
+        "name": "Gennadios I and Maximus, Patriarchs of Constantinople",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Gennadios%20I%20and%20Maximus%2C%20Patriarchs%20of%20Constantinople"
+      },
+      {
+        "name": "Our Holy Father Longinus (4th or 5th c.)",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Our%20Holy%20Father%20Longinus%20%284th%20or%205th%20c.%29"
+      },
+      {
+        "name": "Our Holy Mother Hilda, Abbess of Whitby (680)",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Our%20Holy%20Mother%20Hilda%2C%20Abbess%20of%20Whitby%20%28680%29"
+      }
+    ],
+    "fasting": {
+      "level": 5,
+      "description": "Nativity Fast",
+      "abstentions": [
+        "meat",
+        "dairy",
+        "eggs"
+      ]
+    },
+    "readings": [
+      {
+        "source": "Epistle",
+        "display": "2 Thessalonians 1.10-2.2",
+        "short_display": "2 Thess 1.10-2.2",
+        "text": "When he shall come to be glorified in his saints, and to be admired in all them that believe (because our testimony among you was believed) in that day. Wherefore also we pray always for you, that our God would count you worthy of this calling, and fulfil all the good pleasure of his goodness, and the work of faith with power: That the name of our Lord Jesus Christ may be glorified in you, and ye in him, according to the grace of our God and the Lord Jesus Christ. Now we beseech you, brethren, by the coming of our Lord Jesus Christ, and by our gathering together unto him, That ye be not soon shaken in mind, or be troubled, neither by spirit, nor by word, nor by letter as from us, as that the day of Christ is at hand."
+      },
+      {
+        "source": "Epistle",
+        "display": "1 Corinthians 12.7-11",
+        "short_display": "1 Cor 12.7-11",
+        "text": "But the manifestation of the Spirit is given to every man to profit withal. For to one is given by the Spirit the word of wisdom; to another the word of knowledge by the same Spirit; To another faith by the same Spirit; to another the gifts of healing by the same Spirit; To another the working of miracles; to another prophecy; to another discerning of spirits; to another divers kinds of tongues; to another the interpretation of tongues: But all these worketh that one and the selfsame Spirit, dividing to every man severally as he will."
+      },
+      {
+        "source": "Gospel",
+        "display": "Luke 14.25-35",
+        "short_display": "Luke 14.25-35",
+        "text": "And there went great multitudes with him: and he turned, and said unto them, If any man come to me, and hate not his father, and mother, and wife, and children, and brethren, and sisters, yea, and his own life also, he cannot be my disciple. And whosoever doth not bear his cross, and come after me, cannot be my disciple. For which of you, intending to build a tower, sitteth not down first, and counteth the cost, whether he have sufficient to finish it? Lest haply, after he hath laid the foundation, and is not able to finish it, all that behold it begin to mock him, Saying, This man began to build, and was not able to finish. Or what king, going to make war against another king, sitteth not down first, and consulteth whether he be able with ten thousand to meet him that cometh against him with twenty thousand? Or else, while the other is yet a great way off, he sendeth an ambassage, and desireth conditions of peace. So likewise, whosoever he be of you that forsaketh not all that he hath, he cannot be my disciple. Salt is good: but if the salt have lost his savour, wherewith shall it be seasoned? It is neither fit for the land, nor yet for the dunghill; but men cast it out. He that hath ears to hear, let him hear."
+      }
+    ]
+  },
+  "events": [
+    {
+      "title": "Tuesday Liturgy",
+      "start": "2026-11-17 09:30:00",
+      "end": "2026-11-17 11:00:00",
+      "url": "https://www.constantinehelen.com/event/tuesday-liturgy/2026-11-17/"
+    },
+    {
+      "title": "Daily Vespers at Holy Myrrhbearers Outreach",
+      "start": "2026-11-17 18:00:00",
+      "end": "2026-11-17 20:00:00",
+      "url": "https://www.constantinehelen.com/event/daily-vespers-at-holy-myrrhbearers-outreach/2026-11-17/"
+    }
+  ]
+}

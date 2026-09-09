@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-10",
+  "liturgical": {
+    "status": "ok",
+    "titles": [
+      "Saturday of the 19th week after Pentecost"
+    ],
+    "summary_title": "Martyrs Eulampius and Eulampia at Nicomedia; Pinytos, Bishop of Knossos; The 200 Monk-martyrs of Nicomedia",
+    "feasts": null,
+    "saints": [
+      {
+        "name": "Martyrs Eulampius and Eulampia at Nicomedia",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Martyrs%20Eulampius%20and%20Eulampia%20at%20Nicomedia"
+      },
+      {
+        "name": "Pinytos, Bishop of Knossos",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Pinytos%2C%20Bishop%20of%20Knossos"
+      },
+      {
+        "name": "The 200 Monk-martyrs of Nicomedia",
+        "link": "https://orthodoxwiki.org/Special:Search?search=The%20200%20Monk-martyrs%20of%20Nicomedia"
+      },
+      {
+        "name": "Vassianos the Righteous of Constantinople",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Vassianos%20the%20Righteous%20of%20Constantinople"
+      },
+      {
+        "name": "Paulinus, Archbishop of York",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Paulinus%2C%20Archbishop%20of%20York"
+      },
+      {
+        "name": "Blessed Fool for Christ Andrew of Totma (1637)",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Blessed%20Fool%20for%20Christ%20Andrew%20of%20Totma%20%281637%29"
+      }
+    ],
+    "fasting": null,
+    "readings": [
+      {
+        "source": "Epistle",
+        "display": "1 Corinthians 15.58-16.3",
+        "short_display": "1 Cor 15.58-16.3",
+        "text": "Therefore, my beloved brethren, be ye stedfast, unmoveable, always abounding in the work of the Lord, forasmuch as ye know that your labour is not in vain in the Lord. Now concerning the collection for the saints, as I have given order to the churches of Galatia, even so do ye. Upon the first day of the week let every one of you lay by him in store, as God hath prospered him, that there be no gatherings when I come. And when I come, whomsoever ye shall approve by your letters, them will I send to bring your liberality unto Jerusalem."
+      },
+      {
+        "source": "Gospel",
+        "display": "Luke 5.27-32",
+        "short_display": "Luke 5.27-32",
+        "text": "And after these things he went forth, and saw a publican, named Levi, sitting at the receipt of custom: and he said unto him, Follow me. And he left all, rose up, and followed him. And Levi made him a great feast in his own house: and there was a great company of publicans and of others that sat down with them. But their scribes and Pharisees murmured against his disciples, saying, Why do ye eat and drink with publicans and sinners? And Jesus answering said unto them, They that are whole need not a physician; but they that are sick. I came not to call the righteous, but sinners to repentance."
+      }
+    ]
+  },
+  "events": [
+    {
+      "title": "Hall reserved \u2013 private event",
+      "start": "2026-10-10 00:00:00",
+      "end": "2026-10-10 23:59:59",
+      "url": "https://www.constantinehelen.com/event/hall-reserved-private-event-4/"
+    },
+    {
+      "title": "Great Vespers & Confessions",
+      "start": "2026-10-10 17:00:00",
+      "end": "2026-10-10 18:30:00",
+      "url": "https://www.constantinehelen.com/event/great-vespers-confessions/2026-10-10/"
+    },
+    {
+      "title": "Great Vespers at Holy Myrrhbearers Outreach",
+      "start": "2026-10-10 18:00:00",
+      "end": "2026-10-10 20:00:00",
+      "url": "https://www.constantinehelen.com/event/great-vespers-at-holy-myrrhbearers-outreach/2026-10-10/"
+    },
+    {
+      "title": "Catechism Class",
+      "start": "2026-10-10 18:00:00",
+      "end": "2026-10-10 19:00:00",
+      "url": "https://www.constantinehelen.com/event/catechism-class-10/"
+    }
+  ]
+}

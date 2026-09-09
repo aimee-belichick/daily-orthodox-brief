@@ -1,0 +1,64 @@
+{
+  "date": "2026-11-23",
+  "liturgical": {
+    "status": "ok",
+    "titles": [
+      "Monday of the 26th week after Pentecost"
+    ],
+    "summary_title": "Gregory, Bishop of Agrigentum; Dionysios, Patriarch of Constantinople; Ischyrion, Bishop of Egypt",
+    "feasts": null,
+    "saints": [
+      {
+        "name": "Gregory, Bishop of Agrigentum",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Gregory%2C%20Bishop%20of%20Agrigentum"
+      },
+      {
+        "name": "Dionysios, Patriarch of Constantinople",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Dionysios%2C%20Patriarch%20of%20Constantinople"
+      },
+      {
+        "name": "Ischyrion, Bishop of Egypt",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Ischyrion%2C%20Bishop%20of%20Egypt"
+      },
+      {
+        "name": "Sisinios the Confessor",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Sisinios%20the%20Confessor"
+      },
+      {
+        "name": "Our Holy Father Amphilocus, Bishop of Iconium (395)",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Our%20Holy%20Father%20Amphilocus%2C%20Bishop%20of%20Iconium%20%28395%29"
+      }
+    ],
+    "fasting": {
+      "level": 5,
+      "description": "Nativity Fast",
+      "abstentions": [
+        "meat",
+        "dairy",
+        "eggs"
+      ]
+    },
+    "readings": [
+      {
+        "source": "Epistle",
+        "display": "1 Timothy 1.1-7",
+        "short_display": "1 Tim 1.1-7",
+        "text": "Paul, an apostle of Jesus Christ by the commandment of God our Saviour, and Lord Jesus Christ, which is our hope; Unto Timothy, my own son in the faith: Grace, mercy, and peace, from God our Father and Jesus Christ our Lord. As I besought thee to abide still at Ephesus, when I went into Macedonia, that thou mightest charge some that they teach no other doctrine, Neither give heed to fables and endless genealogies, which minister questions, rather than godly edifying which is in faith: so do. Now the end of the commandment is charity out of a pure heart, and of a good conscience, and of faith unfeigned: From which some having swerved have turned aside unto vain jangling; Desiring to be teachers of the law; understanding neither what they say, nor whereof they affirm."
+      },
+      {
+        "source": "Gospel",
+        "display": "Luke 17.20-25",
+        "short_display": "Luke 17.20-25",
+        "text": "And when he was demanded of the Pharisees, when the kingdom of God should come, he answered them and said, The kingdom of God cometh not with observation: Neither shall they say, Lo here! or, lo there! for, behold, the kingdom of God is within you. And he said unto the disciples, The days will come, when ye shall desire to see one of the days of the Son of man, and ye shall not see it. And they shall say to you, See here; or, see there: go not after them, nor follow them. For as the lightning, that lighteneth out of the one part under heaven, shineth unto the other part under heaven; so shall also the Son of man be in his day. But first must he suffer many things, and be rejected of this generation."
+      }
+    ]
+  },
+  "events": [
+    {
+      "title": "AA Meeting",
+      "start": "2026-11-23 18:00:00",
+      "end": "2026-11-23 19:30:00",
+      "url": "https://www.constantinehelen.com/event/aa-meeting-10-2025-11-10-2/2026-11-23/"
+    }
+  ]
+}

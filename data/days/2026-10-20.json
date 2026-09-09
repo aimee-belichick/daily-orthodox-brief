@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-20",
+  "liturgical": {
+    "status": "ok",
+    "titles": [
+      "Tuesday of the 21st week after Pentecost"
+    ],
+    "summary_title": "Greatmartyr Artemius at Antioch; Ven. Matrona of Chios; Andronicus the Righteous Martyr",
+    "feasts": null,
+    "saints": [
+      {
+        "name": "Greatmartyr Artemius at Antioch",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Greatmartyr%20Artemius%20at%20Antioch"
+      },
+      {
+        "name": "Ven. Matrona of Chios",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Ven.%20Matrona%20of%20Chios"
+      },
+      {
+        "name": "Andronicus the Righteous Martyr",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Andronicus%20the%20Righteous%20Martyr"
+      },
+      {
+        "name": "St Gerasimus the New, ascetic of Cephalonia (1579)",
+        "link": "https://orthodoxwiki.org/Special:Search?search=St%20Gerasimus%20the%20New%2C%20ascetic%20of%20Cephalonia%20%281579%29"
+      },
+      {
+        "name": "St Jonah, Bishop of Manchuria (1925) (October 7 OC)",
+        "link": "https://orthodoxwiki.org/Special:Search?search=St%20Jonah%2C%20Bishop%20of%20Manchuria%20%281925%29%20%28October%207%20OC%29"
+      }
+    ],
+    "fasting": null,
+    "readings": [
+      {
+        "source": "Epistle",
+        "display": "Colossians 1.1-2, 7-11",
+        "short_display": "Col 1.1-2, 7-11",
+        "text": "Paul, an apostle of Jesus Christ by the will of God, and Timotheus our brother, To the saints and faithful brethren in Christ which are at Colosse: Grace be unto you, and peace, from God our Father and the Lord Jesus Christ. As ye also learned of Epaphras our dear fellowservant, who is for you a faithful minister of Christ; Who also declared unto us your love in the Spirit. For this cause we also, since the day we heard it, do not cease to pray for you, and to desire that ye might be filled with the knowledge of his will in all wisdom and spiritual understanding; That ye might walk worthy of the Lord unto all pleasing, being fruitful in every good work, and increasing in the knowledge of God; Strengthened with all might, according to his glorious power, unto all patience and longsuffering with joyfulness;"
+      },
+      {
+        "source": "Epistle",
+        "display": "2 Timothy 2.1-10",
+        "short_display": "2 Tim 2.1-10",
+        "text": "Thou therefore, my son, be strong in the grace that is in Christ Jesus. And the things that thou hast heard of me among many witnesses, the same commit thou to faithful men, who shall be able to teach others also. Thou therefore endure hardness, as a good soldier of Jesus Christ. No man that warreth entangleth himself with the affairs of this life; that he may please him who hath chosen him to be a soldier. And if a man also strive for masteries, yet is he not crowned, except he strive lawfully. The husbandman that laboureth must be first partaker of the fruits. Consider what I say; and the Lord give thee understanding in all things. Remember that Jesus Christ of the seed of David was raised from the dead according to my gospel: Wherein I suffer trouble, as an evil doer, even unto bonds; but the word of God is not bound. Therefore I endure all things for the elect\u2019s sakes, that they may also obtain the salvation which is in Christ Jesus with eternal glory."
+      },
+      {
+        "source": "Gospel",
+        "display": "Luke 9.23-27",
+        "short_display": "Luke 9.23-27",
+        "text": "And he said to them all, If any man will come after me, let him deny himself, and take up his cross daily, and follow me. For whosoever will save his life shall lose it: but whosoever will lose his life for my sake, the same shall save it. For what is a man advantaged, if he gain the whole world, and lose himself, or be cast away? For whosoever shall be ashamed of me and of my words, of him shall the Son of man be ashamed, when he shall come in his own glory, and in his Father\u2019s, and of the holy angels. But I tell you of a truth, there be some standing here, which shall not taste of death, till they see the kingdom of God."
+      }
+    ]
+  },
+  "events": [
+    {
+      "title": "Tuesday Liturgy",
+      "start": "2026-10-20 09:30:00",
+      "end": "2026-10-20 11:00:00",
+      "url": "https://www.constantinehelen.com/event/tuesday-liturgy/2026-10-20/"
+    },
+    {
+      "title": "Daily Vespers at Holy Myrrhbearers Outreach",
+      "start": "2026-10-20 18:00:00",
+      "end": "2026-10-20 20:00:00",
+      "url": "https://www.constantinehelen.com/event/daily-vespers-at-holy-myrrhbearers-outreach/2026-10-20/"
+    }
+  ]
+}

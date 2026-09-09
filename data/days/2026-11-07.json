@@ -1,0 +1,78 @@
+{
+  "date": "2026-11-07",
+  "liturgical": {
+    "status": "ok",
+    "titles": [
+      "Saturday of the 23rd week after Pentecost"
+    ],
+    "summary_title": "St Hieron and the Holy 33 Martyrs of Melitene; Lazarus the Wonderworker; Martyr Athenodorus",
+    "feasts": null,
+    "saints": [
+      {
+        "name": "St Hieron and the Holy 33 Martyrs of Melitene",
+        "link": "https://orthodoxwiki.org/Special:Search?search=St%20Hieron%20and%20the%20Holy%2033%20Martyrs%20of%20Melitene"
+      },
+      {
+        "name": "Lazarus the Wonderworker",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Lazarus%20the%20Wonderworker"
+      },
+      {
+        "name": "Martyr Athenodorus",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Martyr%20Athenodorus"
+      },
+      {
+        "name": "Alexander the Martyr of Thessaloniki",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Alexander%20the%20Martyr%20of%20Thessaloniki"
+      },
+      {
+        "name": "Saint Willibrord, first Bishop of Utrecht and Apostle of Holland (739)",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Saint%20Willibrord%2C%20first%20Bishop%20of%20Utrecht%20and%20Apostle%20of%20Holland%20%28739%29"
+      },
+      {
+        "name": "St Raphael, Bishop of Brooklyn (1915)",
+        "link": "https://orthodoxwiki.org/Special:Search?search=St%20Raphael%2C%20Bishop%20of%20Brooklyn%20%281915%29"
+      }
+    ],
+    "fasting": null,
+    "readings": [
+      {
+        "source": "Epistle",
+        "display": "2 Corinthians 8.1-5",
+        "short_display": "2 Cor 8.1-5",
+        "text": "Moreover, brethren, we do you to wit of the grace of God bestowed on the churches of Macedonia; How that in a great trial of affliction the abundance of their joy and their deep poverty abounded unto the riches of their liberality. For to their power, I bear record, yea, and beyond their power they were willing of themselves; Praying us with much intreaty that we would receive the gift, and take upon us the fellowship of the ministering to the saints. And this they did, not as we hoped, but first gave their own selves to the Lord, and unto us by the will of God."
+      },
+      {
+        "source": "Gospel",
+        "display": "Luke 9.1-6",
+        "short_display": "Luke 9.1-6",
+        "text": "Then he called his twelve disciples together, and gave them power and authority over all devils, and to cure diseases. And he sent them to preach the kingdom of God, and to heal the sick. And he said unto them, Take nothing for your journey, neither staves, nor scrip, neither bread, neither money; neither have two coats apiece. And whatsoever house ye enter into, there abide, and thence depart. And whosoever will not receive you, when ye go out of that city, shake off the very dust from your feet for a testimony against them. And they departed, and went through the towns, preaching the gospel, and healing every where."
+      }
+    ]
+  },
+  "events": [
+    {
+      "title": "Hall reserved \u2013 private event",
+      "start": "2026-11-07 00:00:00",
+      "end": "2026-11-07 23:59:59",
+      "url": "https://www.constantinehelen.com/event/hall-reserved-private-event-6/"
+    },
+    {
+      "title": "Great Vespers & Confessions",
+      "start": "2026-11-07 17:00:00",
+      "end": "2026-11-07 18:30:00",
+      "url": "https://www.constantinehelen.com/event/great-vespers-confessions/2026-11-07/"
+    },
+    {
+      "title": "Great Vespers at Holy Myrrhbearers Outreach",
+      "start": "2026-11-07 18:00:00",
+      "end": "2026-11-07 20:00:00",
+      "url": "https://www.constantinehelen.com/event/great-vespers-at-holy-myrrhbearers-outreach/2026-11-07/"
+    },
+    {
+      "title": "Catechism Class",
+      "start": "2026-11-07 18:00:00",
+      "end": "2026-11-07 19:00:00",
+      "url": "https://www.constantinehelen.com/event/catechism-class-14/"
+    }
+  ]
+}

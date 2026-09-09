@@ -1,0 +1,85 @@
+{
+  "date": "2026-12-02",
+  "liturgical": {
+    "status": "ok",
+    "titles": [
+      "Wednesday of the 27th week after Pentecost"
+    ],
+    "summary_title": "Holy Prophet Habbakuk (Abbacum) (7th c. BC).; Our Righteous Father Cyril of Phileus; Joannicos the Monk of Devich",
+    "feasts": null,
+    "saints": [
+      {
+        "name": "Holy Prophet Habbakuk (Abbacum) (7th c. BC).",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Holy%20Prophet%20Habbakuk%20%28Abbacum%29%20%287th%20c.%20BC%29."
+      },
+      {
+        "name": "Our Righteous Father Cyril of Phileus",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Our%20Righteous%20Father%20Cyril%20of%20Phileus"
+      },
+      {
+        "name": "Joannicos the Monk of Devich",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Joannicos%20the%20Monk%20of%20Devich"
+      },
+      {
+        "name": "Theophilos the Hermit",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Theophilos%20the%20Hermit"
+      },
+      {
+        "name": "Holy Martyr Myrope (Myropea) of Chios (251)",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Holy%20Martyr%20Myrope%20%28Myropea%29%20of%20Chios%20%28251%29"
+      },
+      {
+        "name": "Our Holy Father Athanasius \"the Resurrected,\" Recluse of the Kiev Caves (1176)",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Our%20Holy%20Father%20Athanasius%20%22the%20Resurrected%2C%22%20Recluse%20of%20the%20Kiev%20Caves%20%281176%29"
+      },
+      {
+        "name": "Saint (Stephen) Uro\u0161, King of Serbia (1367)",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Saint%20%28Stephen%29%20Uro%C5%A1%2C%20King%20of%20Serbia%20%281367%29"
+      },
+      {
+        "name": "Saint Porphyrios of Kavsokalyvia (1991) (Nov. 19 OC)",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Saint%20Porphyrios%20of%20Kavsokalyvia%20%281991%29%20%28Nov.%2019%20OC%29"
+      }
+    ],
+    "fasting": {
+      "level": 5,
+      "description": "Nativity Fast",
+      "abstentions": [
+        "meat",
+        "fish",
+        "dairy",
+        "eggs",
+        "wine",
+        "oil"
+      ]
+    },
+    "readings": [
+      {
+        "source": "Epistle",
+        "display": "1 Timothy 5.22-6.11",
+        "short_display": "1 Tim 5.22-6.11",
+        "text": "Lay hands suddenly on no man, neither be partaker of other men\u2019s sins: keep thyself pure. Drink no longer water, but use a little wine for thy stomach\u2019s sake and thine often infirmities. Some men\u2019s sins are open beforehand, going before to judgment; and some men they follow after. Likewise also the good works of some are manifest beforehand; and they that are otherwise cannot be hid. Let as many servants as are under the yoke count their own masters worthy of all honour, that the name of God and his doctrine be not blasphemed. And they that have believing masters, let them not despise them, because they are brethren; but rather do them service, because they are faithful and beloved, partakers of the benefit. These things teach and exhort. If any man teach otherwise, and consent not to wholesome words, even the words of our Lord Jesus Christ, and to the doctrine which is according to godliness; He is proud, knowing nothing, but doting about questions and strifes of words, whereof cometh envy, strife, railings, evil surmisings, Perverse disputings of men of corrupt minds, and destitute of the truth, supposing that gain is godliness: from such withdraw thyself. But godliness with contentment is great gain. For we brought nothing into this world, and it is certain we can carry nothing out. And having food and raiment let us be therewith content. But they that will be rich fall into temptation and a snare, and into many foolish and hurtful lusts, which drown men in destruction and perdition. For the love of money is the root of all evil: which while some coveted after, they have erred from the faith, and pierced themselves through with many sorrows. But thou, O man of God, flee these things; and follow after righteousness, godliness, faith, love, patience, meekness."
+      },
+      {
+        "source": "Gospel",
+        "display": "Luke 20.1-8",
+        "short_display": "Luke 20.1-8",
+        "text": "And it came to pass, that on one of those days, as he taught the people in the temple, and preached the gospel, the chief priests and the scribes came upon him with the elders, And spake unto him, saying, Tell us, by what authority doest thou these things? or who is he that gave thee this authority? And he answered and said unto them, I will also ask you one thing; and answer me: The baptism of John, was it from heaven, or of men? And they reasoned with themselves, saying, If we shall say, From heaven; he will say, Why then believed ye him not? But and if we say, Of men; all the people will stone us: for they be persuaded that John was a prophet. And they answered, that they could not tell whence it was. And Jesus said unto them, Neither tell I you by what authority I do these things."
+      }
+    ]
+  },
+  "events": [
+    {
+      "title": "Daily Vespers",
+      "start": "2026-12-02 18:00:00",
+      "end": "2026-12-02 19:00:00",
+      "url": "https://www.constantinehelen.com/event/daily-vespers-15/2026-12-02/"
+    },
+    {
+      "title": "Book Study",
+      "start": "2026-12-02 18:45:00",
+      "end": "2026-12-02 20:00:00",
+      "url": "https://www.constantinehelen.com/event/book-study-2-2/2026-12-02/"
+    }
+  ]
+}

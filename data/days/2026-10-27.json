@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-27",
+  "liturgical": {
+    "status": "ok",
+    "titles": [
+      "Tuesday of the 22nd week after Pentecost"
+    ],
+    "summary_title": "Martyr Nestor of Thessalonica; Kyriakos, Patriarch of Constantinople; St Procla, the wife of Pontius Pilate.",
+    "feasts": null,
+    "saints": [
+      {
+        "name": "Martyr Nestor of Thessalonica",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Martyr%20Nestor%20of%20Thessalonica"
+      },
+      {
+        "name": "Kyriakos, Patriarch of Constantinople",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Kyriakos%2C%20Patriarch%20of%20Constantinople"
+      },
+      {
+        "name": "St Procla, the wife of Pontius Pilate.",
+        "link": "https://orthodoxwiki.org/Special:Search?search=St%20Procla%2C%20the%20wife%20of%20Pontius%20Pilate."
+      },
+      {
+        "name": "Our Venerable Father Demetrius of Basarabov (Romania) (13th c.)",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Our%20Venerable%20Father%20Demetrius%20of%20Basarabov%20%28Romania%29%20%2813th%20c.%29"
+      }
+    ],
+    "fasting": null,
+    "readings": [
+      {
+        "source": "Epistle",
+        "display": "Colossians 2.20-3.3",
+        "short_display": "Col 2.20-3.3",
+        "text": "Wherefore if ye be dead with Christ from the rudiments of the world, why, as though living in the world, are ye subject to ordinances, (Touch not; taste not; handle not; Which all are to perish with the using;) after the commandments and doctrines of men? Which things have indeed a shew of wisdom in will worship, and humility, and neglecting of the body; not in any honour to the satisfying of the flesh. If ye then be risen with Christ, seek those things which are above, where Christ sitteth on the right hand of God. Set your affection on things above, not on things on the earth. For ye are dead, and your life is hid with Christ in God."
+      },
+      {
+        "source": "Gospel",
+        "display": "Luke 11.1-10",
+        "short_display": "Luke 11.1-10",
+        "text": "And it came to pass, that, as he was praying in a certain place, when he ceased, one of his disciples said unto him, Lord, teach us to pray, as John also taught his disciples. And he said unto them, When ye pray, say, Our Father which art in heaven, Hallowed be thy name. Thy kingdom come. Thy will be done, as in heaven, so in earth. Give us day by day our daily bread. And forgive us our sins; for we also forgive every one that is indebted to us. And lead us not into temptation; but deliver us from evil. And he said unto them, Which of you shall have a friend, and shall go unto him at midnight, and say unto him, Friend, lend me three loaves; For a friend of mine in his journey is come to me, and I have nothing to set before him? And he from within shall answer and say, Trouble me not: the door is now shut, and my children are with me in bed; I cannot rise and give thee. I say unto you, Though he will not rise and give him, because he is his friend, yet because of his importunity he will rise and give him as many as he needeth. And I say unto you, Ask, and it shall be given you; seek, and ye shall find; knock, and it shall be opened unto you. For every one that asketh receiveth; and he that seeketh findeth; and to him that knocketh it shall be opened."
+      }
+    ]
+  },
+  "events": [
+    {
+      "title": "Tuesday Liturgy",
+      "start": "2026-10-27 09:30:00",
+      "end": "2026-10-27 11:00:00",
+      "url": "https://www.constantinehelen.com/event/tuesday-liturgy/2026-10-27/"
+    },
+    {
+      "title": "Daily Vespers at Holy Myrrhbearers Outreach",
+      "start": "2026-10-27 18:00:00",
+      "end": "2026-10-27 20:00:00",
+      "url": "https://www.constantinehelen.com/event/daily-vespers-at-holy-myrrhbearers-outreach/2026-10-27/"
+    }
+  ]
+}

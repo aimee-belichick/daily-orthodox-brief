@@ -1,0 +1,88 @@
+{
+  "date": "2026-09-19",
+  "liturgical": {
+    "status": "ok",
+    "titles": [
+      "Saturday of the 16th week after Pentecost"
+    ],
+    "summary_title": "Saturday after Elevation",
+    "feasts": [
+      "Saturday after Elevation"
+    ],
+    "saints": [
+      {
+        "name": "Martyrs Trophimus, Sabbatius, Dorymedon",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Martyrs%20Trophimus%2C%20Sabbatius%2C%20Dorymedon"
+      },
+      {
+        "name": "Rt. Blv. Theodore, Prince of Smolensk, and his sons Ss David and Constantine of Yaroslavl",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Rt.%20Blv.%20Theodore%2C%20Prince%20of%20Smolensk%2C%20and%20his%20sons%20Ss%20David%20and%20Constantine%20of%20Yaroslavl"
+      },
+      {
+        "name": "Plato the new Hieromartyr of Patmos",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Plato%20the%20new%20Hieromartyr%20of%20Patmos"
+      },
+      {
+        "name": "Theodore of Tarsus, Archbishop of Canterbury",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Theodore%20of%20Tarsus%2C%20Archbishop%20of%20Canterbury"
+      },
+      {
+        "name": "Holy Martyr Zosimas the Hermit of Cilicia (4th c.)",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Holy%20Martyr%20Zosimas%20the%20Hermit%20of%20Cilicia%20%284th%20c.%29"
+      }
+    ],
+    "fasting": null,
+    "readings": [
+      {
+        "source": "Epistle",
+        "display": "1 Corinthians 1.26-29",
+        "short_display": "1 Cor 1.26-29",
+        "text": "For ye see your calling, brethren, how that not many wise men after the flesh, not many mighty, not many noble, are called: But God hath chosen the foolish things of the world to confound the wise; and God hath chosen the weak things of the world to confound the things which are mighty; And base things of the world, and things which are despised, hath God chosen, yea, and things which are not, to bring to nought things that are: That no flesh should glory in his presence."
+      },
+      {
+        "source": "Epistle",
+        "display": "1 Corinthians 10.23-28",
+        "short_display": "1 Cor 10.23-28",
+        "text": "All things are lawful for me, but all things are not expedient: all things are lawful for me, but all things edify not. Let no man seek his own, but every man another\u2019s wealth. Whatsoever is sold in the shambles, that eat, asking no question for conscience sake: For the earth is the Lord\u2019s, and the fulness thereof. If any of them that believe not bid you to a feast, and ye be disposed to go; whatsoever is set before you, eat, asking no question for conscience sake. But if any man say unto you, This is offered in sacrifice unto idols, eat not for his sake that shewed it, and for conscience sake: for the earth is the Lord\u2019s, and the fulness thereof:"
+      },
+      {
+        "source": "Gospel",
+        "display": "John 8.21-30",
+        "short_display": "John 8.21-30",
+        "text": "Then said Jesus again unto them, I go my way, and ye shall seek me, and shall die in your sins: whither I go, ye cannot come. Then said the Jews, Will he kill himself? because he saith, Whither I go, ye cannot come. And he said unto them, Ye are from beneath; I am from above: ye are of this world; I am not of this world. I said therefore unto you, that ye shall die in your sins: for if ye believe not that I am he, ye shall die in your sins. Then said they unto him, Who art thou? And Jesus saith unto them, Even the same that I said unto you from the beginning. I have many things to say and to judge of you: but he that sent me is true; and I speak to the world those things which I have heard of him. They understood not that he spake to them of the Father. Then said Jesus unto them, When ye have lifted up the Son of man, then shall ye know that I am he, and that I do nothing of myself; but as my Father hath taught me, I speak these things. And he that sent me is with me: the Father hath not left me alone; for I do always those things that please him. As he spake these words, many believed on him."
+      },
+      {
+        "source": "Gospel",
+        "display": "Matthew 24.34-44",
+        "short_display": "Matt 24.34-44",
+        "text": "Verily I say unto you, This generation shall not pass, till all these things be fulfilled. Heaven and earth shall pass away, but my words shall not pass away. But of that day and hour knoweth no man, no, not the angels of heaven, but my Father only. But as the days of Noe were, so shall also the coming of the Son of man be. For as in the days that were before the flood they were eating and drinking, marrying and giving in marriage, until the day that Noe entered into the ark, And knew not until the flood came, and took them all away; so shall also the coming of the Son of man be. Then shall two be in the field; the one shall be taken, and the other left. Two women shall be grinding at the mill; the one shall be taken, and the other left. Watch therefore: for ye know not what hour your Lord doth come. But know this, that if the goodman of the house had known in what watch the thief would come, he would have watched, and would not have suffered his house to be broken up. Therefore be ye also ready: for in such an hour as ye think not the Son of man cometh."
+      }
+    ]
+  },
+  "events": [
+    {
+      "title": "Hall reserved \u2013 private event",
+      "start": "2026-09-19 00:00:00",
+      "end": "2026-09-19 23:59:59",
+      "url": "https://www.constantinehelen.com/event/hall-reserved-private-event-3/"
+    },
+    {
+      "title": "Great Vespers & Confessions",
+      "start": "2026-09-19 17:00:00",
+      "end": "2026-09-19 18:30:00",
+      "url": "https://www.constantinehelen.com/event/great-vespers-confessions/2026-09-19/"
+    },
+    {
+      "title": "Great Vespers at Holy Myrrhbearers Outreach",
+      "start": "2026-09-19 18:00:00",
+      "end": "2026-09-19 20:00:00",
+      "url": "https://www.constantinehelen.com/event/great-vespers-at-holy-myrrhbearers-outreach/2026-09-19/"
+    },
+    {
+      "title": "Catechism Class",
+      "start": "2026-09-19 18:00:00",
+      "end": "2026-09-19 19:00:00",
+      "url": "https://www.constantinehelen.com/event/catechism-class-8/"
+    }
+  ]
+}

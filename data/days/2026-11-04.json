@@ -1,0 +1,73 @@
+{
+  "date": "2026-11-04",
+  "liturgical": {
+    "status": "ok",
+    "titles": [
+      "Wednesday of the 23rd week after Pentecost"
+    ],
+    "summary_title": "Ven. Joannicus the Great; The Holy Hieromartyrs Nicander, Bishop of Myra, and Hermias the Presbyter; Porphyrios the Mime",
+    "feasts": null,
+    "saints": [
+      {
+        "name": "Ven. Joannicus the Great",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Ven.%20Joannicus%20the%20Great"
+      },
+      {
+        "name": "The Holy Hieromartyrs Nicander, Bishop of Myra, and Hermias the Presbyter",
+        "link": "https://orthodoxwiki.org/Special:Search?search=The%20Holy%20Hieromartyrs%20Nicander%2C%20Bishop%20of%20Myra%2C%20and%20Hermias%20the%20Presbyter"
+      },
+      {
+        "name": "Porphyrios the Mime",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Porphyrios%20the%20Mime"
+      },
+      {
+        "name": "Emperor John Batatze the Merciful",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Emperor%20John%20Batatze%20the%20Merciful"
+      },
+      {
+        "name": "George Karslidis of Pontos",
+        "link": "https://orthodoxwiki.org/Special:Search?search=George%20Karslidis%20of%20Pontos"
+      }
+    ],
+    "fasting": {
+      "level": 1,
+      "description": "Fast",
+      "abstentions": [
+        "meat",
+        "fish",
+        "dairy",
+        "eggs",
+        "wine",
+        "oil"
+      ]
+    },
+    "readings": [
+      {
+        "source": "Epistle",
+        "display": "1 Thessalonians 2.1-8",
+        "short_display": "1 Thess 2.1-8",
+        "text": "For yourselves, brethren, know our entrance in unto you, that it was not in vain: But even after that we had suffered before, and were shamefully entreated, as ye know, at Philippi, we were bold in our God to speak unto you the gospel of God with much contention. For our exhortation was not of deceit, nor of uncleanness, nor in guile: But as we were allowed of God to be put in trust with the gospel, even so we speak; not as pleasing men, but God, which trieth our hearts. For neither at any time used we flattering words, as ye know, nor a cloke of covetousness; God is witness: Nor of men sought we glory, neither of you, nor yet of others, when we might have been burdensome, as the apostles of Christ. But we were gentle among you, even as a nurse cherisheth her children: So being affectionately desirous of you, we were willing to have imparted unto you, not the gospel of God only, but also our own souls, because ye were dear unto us."
+      },
+      {
+        "source": "Gospel",
+        "display": "Luke 11.42-46",
+        "short_display": "Luke 11.42-46",
+        "text": "But woe unto you, Pharisees! for ye tithe mint and rue and all manner of herbs, and pass over judgment and the love of God: these ought ye to have done, and not to leave the other undone. Woe unto you, Pharisees! for ye love the uppermost seats in the synagogues, and greetings in the markets. Woe unto you, scribes and Pharisees, hypocrites! for ye are as graves which appear not, and the men that walk over them are not aware of them. Then answered one of the lawyers, and said unto him, Master, thus saying thou reproachest us also. And he said, Woe unto you also, ye lawyers! for ye lade men with burdens grievous to be borne, and ye yourselves touch not the burdens with one of your fingers."
+      }
+    ]
+  },
+  "events": [
+    {
+      "title": "Daily Vespers",
+      "start": "2026-11-04 18:00:00",
+      "end": "2026-11-04 19:00:00",
+      "url": "https://www.constantinehelen.com/event/daily-vespers-15/2026-11-04/"
+    },
+    {
+      "title": "Book Study",
+      "start": "2026-11-04 18:45:00",
+      "end": "2026-11-04 20:00:00",
+      "url": "https://www.constantinehelen.com/event/book-study-2-2/2026-11-04/"
+    }
+  ]
+}

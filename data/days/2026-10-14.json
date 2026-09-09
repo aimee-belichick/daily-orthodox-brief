@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-14",
+  "liturgical": {
+    "status": "ok",
+    "titles": [
+      "Wednesday of the 20th week after Pentecost"
+    ],
+    "summary_title": "Ven. Parasceva of Serbia; Praised Ignatius, Archbishop of Methymna; Holy Martyrs Nazarius, Gervasius, Protasius, and Celsus of Milan (1st c.)",
+    "feasts": null,
+    "saints": [
+      {
+        "name": "Ven. Parasceva of Serbia",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Ven.%20Parasceva%20of%20Serbia"
+      },
+      {
+        "name": "Praised Ignatius, Archbishop of Methymna",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Praised%20Ignatius%2C%20Archbishop%20of%20Methymna"
+      },
+      {
+        "name": "Holy Martyrs Nazarius, Gervasius, Protasius, and Celsus of Milan (1st c.)",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Holy%20Martyrs%20Nazarius%2C%20Gervasius%2C%20Protasius%2C%20and%20Celsus%20of%20Milan%20%281st%20c.%29"
+      },
+      {
+        "name": "Saint Cosmas the Hymnographer (8th c.)",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Saint%20Cosmas%20the%20Hymnographer%20%288th%20c.%29"
+      },
+      {
+        "name": "Saint Nicholas the Pious (Sviatosha), Prince of Chernigov (1143)",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Saint%20Nicholas%20the%20Pious%20%28Sviatosha%29%2C%20Prince%20of%20Chernigov%20%281143%29"
+      }
+    ],
+    "fasting": {
+      "level": 1,
+      "description": "Fast",
+      "abstentions": [
+        "meat",
+        "fish",
+        "dairy",
+        "eggs",
+        "wine",
+        "oil"
+      ]
+    },
+    "readings": [
+      {
+        "source": "Epistle",
+        "display": "Philippians 2.24-30",
+        "short_display": "Phil 2.24-30",
+        "text": "But I trust in the Lord that I also myself shall come shortly. Yet I supposed it necessary to send to you Epaphroditus, my brother, and companion in labour, and fellowsoldier, but your messenger, and he that ministered to my wants. For he longed after you all, and was full of heaviness, because that ye had heard that he had been sick. For indeed he was sick nigh unto death: but God had mercy on him; and not on him only, but on me also, lest I should have sorrow upon sorrow. I sent him therefore the more carefully, that, when ye see him again, ye may rejoice, and that I may be the less sorrowful. Receive him therefore in the Lord with all gladness; and hold such in reputation: Because for the work of Christ he was nigh unto death, not regarding his life, to supply your lack of service toward me."
+      },
+      {
+        "source": "Gospel",
+        "display": "Luke 8.22-25",
+        "short_display": "Luke 8.22-25",
+        "text": "Now it came to pass on a certain day, that he went into a ship with his disciples: and he said unto them, Let us go over unto the other side of the lake. And they launched forth. But as they sailed he fell asleep: and there came down a storm of wind on the lake; and they were filled with water, and were in jeopardy. And they came to him, and awoke him, saying, Master, master, we perish. Then he arose, and rebuked the wind and the raging of the water: and they ceased, and there was a calm. And he said unto them, Where is your faith? And they being afraid wondered, saying one to another, What manner of man is this! for he commandeth even the winds and water, and they obey him."
+      }
+    ]
+  },
+  "events": [
+    {
+      "title": "Daily Vespers",
+      "start": "2026-10-14 18:00:00",
+      "end": "2026-10-14 19:00:00",
+      "url": "https://www.constantinehelen.com/event/daily-vespers-15/2026-10-14/"
+    },
+    {
+      "title": "Book Study",
+      "start": "2026-10-14 18:45:00",
+      "end": "2026-10-14 20:00:00",
+      "url": "https://www.constantinehelen.com/event/book-study-2-2/2026-10-14/"
+    }
+  ]
+}

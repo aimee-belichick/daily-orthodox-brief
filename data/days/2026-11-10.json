@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-10",
+  "liturgical": {
+    "status": "ok",
+    "titles": [
+      "Tuesday of the 24th week after Pentecost"
+    ],
+    "summary_title": "Apostles of the 70 Erastus, Olympas, Herodion, Sosipater, Quartus, Tertius; Our Venerable Father Arsenios of Cappadocia, the Wonderworker (1924)",
+    "feasts": null,
+    "saints": [
+      {
+        "name": "Apostles of the 70 Erastus, Olympas, Herodion, Sosipater, Quartus, Tertius",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Apostles%20of%20the%2070%20Erastus%2C%20Olympas%2C%20Herodion%2C%20Sosipater%2C%20Quartus%2C%20Tertius"
+      },
+      {
+        "name": "Our Venerable Father Arsenios of Cappadocia, the Wonderworker (1924)",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Our%20Venerable%20Father%20Arsenios%20of%20Cappadocia%2C%20the%20Wonderworker%20%281924%29"
+      }
+    ],
+    "fasting": null,
+    "readings": [
+      {
+        "source": "Epistle",
+        "display": "1 Thessalonians 3.9-13",
+        "short_display": "1 Thess 3.9-13",
+        "text": "For what thanks can we render to God again for you, for all the joy wherewith we joy for your sakes before our God; Night and day praying exceedingly that we might see your face, and might perfect that which is lacking in your faith? Now God himself and our Father, and our Lord Jesus Christ, direct our way unto you. And the Lord make you to increase and abound in love one toward another, and toward all men, even as we do toward you: To the end he may stablish your hearts unblameable in holiness before God, even our Father, at the coming of our Lord Jesus Christ with all his saints."
+      },
+      {
+        "source": "Epistle",
+        "display": "1 Corinthians 4.9-16",
+        "short_display": "1 Cor 4.9-16",
+        "text": "For I think that God hath set forth us the apostles last, as it were appointed to death: for we are made a spectacle unto the world, and to angels, and to men. We are fools for Christ\u2019s sake, but ye are wise in Christ; we are weak, but ye are strong; ye are honourable, but we are despised. Even unto this present hour we both hunger, and thirst, and are naked, and are buffeted, and have no certain dwellingplace; And labour, working with our own hands: being reviled, we bless; being persecuted, we suffer it: Being defamed, we intreat: we are made as the filth of the world, and are the offscouring of all things unto this day. I write not these things to shame you, but as my beloved sons I warn you. For though ye have ten thousand instructers in Christ, yet have ye not many fathers: for in Christ Jesus I have begotten you through the gospel. Wherefore I beseech you, be ye followers of me."
+      },
+      {
+        "source": "Gospel",
+        "display": "Luke 12.42-48",
+        "short_display": "Luke 12.42-48",
+        "text": "And the Lord said, Who then is that faithful and wise steward, whom his lord shall make ruler over his household, to give them their portion of meat in due season? Blessed is that servant, whom his lord when he cometh shall find so doing. Of a truth I say unto you, that he will make him ruler over all that he hath. But and if that servant say in his heart, My lord delayeth his coming; and shall begin to beat the menservants and maidens, and to eat and drink, and to be drunken; The lord of that servant will come in a day when he looketh not for him, and at an hour when he is not aware, and will cut him in sunder, and will appoint him his portion with the unbelievers. And that servant, which knew his lord\u2019s will, and prepared not himself, neither did according to his will, shall be beaten with many stripes. But he that knew not, and did commit things worthy of stripes, shall be beaten with few stripes. For unto whomsoever much is given, of him shall be much required: and to whom men have committed much, of him they will ask the more."
+      }
+    ]
+  },
+  "events": [
+    {
+      "title": "Hall reserved \u2013 private event",
+      "start": "2026-11-10 00:00:00",
+      "end": "2026-11-11 23:59:59",
+      "url": "https://www.constantinehelen.com/event/hall-reserved-private-event-7/"
+    },
+    {
+      "title": "Tuesday Liturgy",
+      "start": "2026-11-10 09:30:00",
+      "end": "2026-11-10 11:00:00",
+      "url": "https://www.constantinehelen.com/event/tuesday-liturgy/2026-11-10/"
+    },
+    {
+      "title": "Daily Vespers at Holy Myrrhbearers Outreach",
+      "start": "2026-11-10 18:00:00",
+      "end": "2026-11-10 20:00:00",
+      "url": "https://www.constantinehelen.com/event/daily-vespers-at-holy-myrrhbearers-outreach/2026-11-10/"
+    }
+  ]
+}

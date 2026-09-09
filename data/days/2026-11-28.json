@@ -1,0 +1,68 @@
+{
+  "date": "2026-11-28",
+  "liturgical": {
+    "status": "ok",
+    "titles": [
+      "Saturday of the 26th week after Pentecost"
+    ],
+    "summary_title": "Monk Martyr and Confessor Stephen the New; Martyr Irenarchus and Seven Women Martyrs at Sebaste; Martyr Timothy and his Companions at Tiberiopolis",
+    "feasts": null,
+    "saints": [
+      {
+        "name": "Monk Martyr and Confessor Stephen the New",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Monk%20Martyr%20and%20Confessor%20Stephen%20the%20New"
+      },
+      {
+        "name": "Martyr Irenarchus and Seven Women Martyrs at Sebaste",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Martyr%20Irenarchus%20and%20Seven%20Women%20Martyrs%20at%20Sebaste"
+      },
+      {
+        "name": "Martyr Timothy and his Companions at Tiberiopolis",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Martyr%20Timothy%20and%20his%20Companions%20at%20Tiberiopolis"
+      }
+    ],
+    "fasting": {
+      "level": 5,
+      "description": "Nativity Fast",
+      "abstentions": [
+        "meat",
+        "dairy",
+        "eggs"
+      ]
+    },
+    "readings": [
+      {
+        "source": "Epistle",
+        "display": "Galatians 3.8-12",
+        "short_display": "Gal 3.8-12",
+        "text": "And the scripture, foreseeing that God would justify the heathen through faith, preached before the gospel unto Abraham, saying, In thee shall all nations be blessed. So then they which be of faith are blessed with faithful Abraham. For as many as are of the works of the law are under the curse: for it is written, Cursed is every one that continueth not in all things which are written in the book of the law to do them. But that no man is justified by the law in the sight of God, it is evident: for, The just shall live by faith. And the law is not of faith: but, The man that doeth them shall live in them."
+      },
+      {
+        "source": "Gospel",
+        "display": "Luke 10.19-21",
+        "short_display": "Luke 10.19-21",
+        "text": "Behold, I give unto you power to tread on serpents and scorpions, and over all the power of the enemy: and nothing shall by any means hurt you. Notwithstanding in this rejoice not, that the spirits are subject unto you; but rather rejoice, because your names are written in heaven. In that hour Jesus rejoiced in spirit, and said, I thank thee, O Father, Lord of heaven and earth, that thou hast hid these things from the wise and prudent, and hast revealed them unto babes: even so, Father; for so it seemed good in thy sight."
+      }
+    ]
+  },
+  "events": [
+    {
+      "title": "Great Vespers & Confessions",
+      "start": "2026-11-28 17:00:00",
+      "end": "2026-11-28 18:30:00",
+      "url": "https://www.constantinehelen.com/event/great-vespers-confessions/2026-11-28/"
+    },
+    {
+      "title": "Great Vespers at Holy Myrrhbearers Outreach",
+      "start": "2026-11-28 18:00:00",
+      "end": "2026-11-28 20:00:00",
+      "url": "https://www.constantinehelen.com/event/great-vespers-at-holy-myrrhbearers-outreach/2026-11-28/"
+    },
+    {
+      "title": "Catechism Class",
+      "start": "2026-11-28 18:00:00",
+      "end": "2026-11-28 19:00:00",
+      "url": "https://www.constantinehelen.com/event/catechism-class-17/"
+    }
+  ]
+}

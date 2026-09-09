@@ -1,0 +1,85 @@
+{
+  "date": "2026-11-25",
+  "liturgical": {
+    "status": "ok",
+    "titles": [
+      "Wednesday of the 26th week after Pentecost"
+    ],
+    "summary_title": "Leavetaking of the Entry",
+    "feasts": [
+      "Leavetaking of the Entry"
+    ],
+    "saints": [
+      {
+        "name": "Holy Great Martyr and Most Wise Catherine of Alexandria and those with her (305)",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Holy%20Great%20Martyr%20and%20Most%20Wise%20Catherine%20of%20Alexandria%20and%20those%20with%20her%20%28305%29"
+      },
+      {
+        "name": "Great Martyr Mercurius (ca. 259)",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Great%20Martyr%20Mercurius%20%28ca.%20259%29"
+      }
+    ],
+    "fasting": {
+      "level": 5,
+      "description": "Nativity Fast",
+      "abstentions": [
+        "meat",
+        "fish",
+        "dairy",
+        "eggs"
+      ]
+    },
+    "readings": [
+      {
+        "source": "Epistle",
+        "display": "1 Timothy 1.18-20, 2.8-15",
+        "short_display": "1 Tim 1.18-20, 2.8-15",
+        "text": "This charge I commit unto thee, son Timothy, according to the prophecies which went before on thee, that thou by them mightest war a good warfare; Holding faith, and a good conscience; which some having put away concerning faith have made shipwreck: Of whom is Hymenaeus and Alexander; whom I have delivered unto Satan, that they may learn not to blaspheme. I will therefore that men pray every where, lifting up holy hands, without wrath and doubting. In like manner also, that women adorn themselves in modest apparel, with shamefacedness and sobriety; not with broided hair, or gold, or pearls, or costly array; But (which becometh women professing godliness) with good works. Let the woman learn in silence with all subjection. But I suffer not a woman to teach, nor to usurp authority over the man, but to be in silence. For Adam was first formed, then Eve. And Adam was not deceived, but the woman being deceived was in the transgression. Notwithstanding she shall be saved in childbearing, if they continue in faith and charity and holiness with sobriety."
+      },
+      {
+        "source": "Epistle",
+        "display": "Hebrews 9.1-7",
+        "short_display": "Heb 9.1-7",
+        "text": "Then verily the first covenant had also ordinances of divine service, and a worldly sanctuary. For there was a tabernacle made; the first, wherein was the candlestick, and the table, and the shewbread; which is called the sanctuary. And after the second veil, the tabernacle which is called the Holiest of all; Which had the golden censer, and the ark of the covenant overlaid round about with gold, wherein was the golden pot that had manna, and Aaron\u2019s rod that budded, and the tables of the covenant; And over it the cherubims of glory shadowing the mercyseat; of which we cannot now speak particularly. Now when these things were thus ordained, the priests went always into the first tabernacle, accomplishing the service of God. But into the second went the high priest alone once every year, not without blood, which he offered for himself, and for the errors of the people:"
+      },
+      {
+        "source": "Epistle",
+        "display": "Galatians 3.23-4.5",
+        "short_display": "Gal 3.23-4.5",
+        "text": "But before faith came, we were kept under the law, shut up unto the faith which should afterwards be revealed. Wherefore the law was our schoolmaster to bring us unto Christ, that we might be justified by faith. But after that faith is come, we are no longer under a schoolmaster. For ye are all the children of God by faith in Christ Jesus. For as many of you as have been baptized into Christ have put on Christ. There is neither Jew nor Greek, there is neither bond nor free, there is neither male nor female: for ye are all one in Christ Jesus. And if ye be Christ\u2019s, then are ye Abraham\u2019s seed, and heirs according to the promise. Now I say, That the heir, as long as he is a child, differeth nothing from a servant, though he be lord of all; But is under tutors and governors until the time appointed of the father. Even so we, when we were children, were in bondage under the elements of the world: But when the fulness of the time was come, God sent forth his Son, made of a woman, made under the law, To redeem them that were under the law, that we might receive the adoption of sons."
+      },
+      {
+        "source": "Gospel",
+        "display": "Luke 18.15-17, 26-30",
+        "short_display": "Luke 18.15-17, 26-30",
+        "text": "And they brought unto him also infants, that he would touch them: but when his disciples saw it, they rebuked them. But Jesus called them unto him, and said, Suffer little children to come unto me, and forbid them not: for of such is the kingdom of God. Verily I say unto you, Whosoever shall not receive the kingdom of God as a little child shall in no wise enter therein. And they that heard it said, Who then can be saved? And he said, The things which are impossible with men are possible with God. Then Peter said, Lo, we have left all, and followed thee. And he said unto them, Verily I say unto you, There is no man that hath left house, or parents, or brethren, or wife, or children, for the kingdom of God\u2019s sake, Who shall not receive manifold more in this present time, and in the world to come life everlasting."
+      },
+      {
+        "source": "Gospel",
+        "display": "Luke 10.38-42, 11.27-28",
+        "short_display": "Luke 10.38-42, 11.27-28",
+        "text": "Now it came to pass, as they went, that he entered into a certain village: and a certain woman named Martha received him into her house. And she had a sister called Mary, which also sat at Jesus\u2019 feet, and heard his word. But Martha was cumbered about much serving, and came to him, and said, Lord, dost thou not care that my sister hath left me to serve alone? bid her therefore that she help me. And Jesus answered and said unto her, Martha, Martha, thou art careful and troubled about many things: But one thing is needful: and Mary hath chosen that good part, which shall not be taken away from her. And it came to pass, as he spake these things, a certain woman of the company lifted up her voice, and said unto him, Blessed is the womb that bare thee, and the paps which thou hast sucked. But he said, Yea rather, blessed are they that hear the word of God, and keep it."
+      },
+      {
+        "source": "Gospel",
+        "display": "Mark 5.24-34",
+        "short_display": "Mark 5.24-34",
+        "text": "And Jesus went with him; and much people followed him, and thronged him. And a certain woman, which had an issue of blood twelve years, And had suffered many things of many physicians, and had spent all that she had, and was nothing bettered, but rather grew worse, When she had heard of Jesus, came in the press behind, and touched his garment. For she said, If I may touch but his clothes, I shall be whole. And straightway the fountain of her blood was dried up; and she felt in her body that she was healed of that plague. And Jesus, immediately knowing in himself that virtue had gone out of him, turned him about in the press, and said, Who touched my clothes? And his disciples said unto him, Thou seest the multitude thronging thee, and sayest thou, Who touched me? And he looked round about to see her that had done this thing. But the woman fearing and trembling, knowing what was done in her, came and fell down before him, and told him all the truth. And he said unto her, Daughter, thy faith hath made thee whole; go in peace, and be whole of thy plague."
+      }
+    ]
+  },
+  "events": [
+    {
+      "title": "Daily Vespers",
+      "start": "2026-11-25 18:00:00",
+      "end": "2026-11-25 19:00:00",
+      "url": "https://www.constantinehelen.com/event/daily-vespers-15/2026-11-25/"
+    },
+    {
+      "title": "Book Study",
+      "start": "2026-11-25 18:45:00",
+      "end": "2026-11-25 20:00:00",
+      "url": "https://www.constantinehelen.com/event/book-study-2-2/2026-11-25/"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "date": "2026-10-09",
+  "liturgical": {
+    "status": "ok",
+    "titles": [
+      "Friday of the 19th week after Pentecost"
+    ],
+    "summary_title": "Holy Apostle James, Son of Alphaeus.; Poplia the Confessor of Antioch; Saints Andronicus and Athanasia (5th c.)",
+    "feasts": null,
+    "saints": [
+      {
+        "name": "Holy Apostle James, Son of Alphaeus.",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Holy%20Apostle%20James%2C%20Son%20of%20Alphaeus."
+      },
+      {
+        "name": "Poplia the Confessor of Antioch",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Poplia%20the%20Confessor%20of%20Antioch"
+      },
+      {
+        "name": "Saints Andronicus and Athanasia (5th c.)",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Saints%20Andronicus%20and%20Athanasia%20%285th%20c.%29"
+      },
+      {
+        "name": "Holy and Righteous Abraham and Lot",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Holy%20and%20Righteous%20Abraham%20and%20Lot"
+      },
+      {
+        "name": "St Stephen the Blind, Prince of Serbia (1476)",
+        "link": "https://orthodoxwiki.org/Special:Search?search=St%20Stephen%20the%20Blind%2C%20Prince%20of%20Serbia%20%281476%29"
+      },
+      {
+        "name": "Holy Hieromartyr Denis (Dionysius), first Bishop of Paris (ca. 258)",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Holy%20Hieromartyr%20Denis%20%28Dionysius%29%2C%20first%20Bishop%20of%20Paris%20%28ca.%20258%29"
+      }
+    ],
+    "fasting": {
+      "level": 1,
+      "description": "Fast",
+      "abstentions": [
+        "meat",
+        "dairy",
+        "eggs"
+      ]
+    },
+    "readings": [
+      {
+        "source": "Vespers",
+        "display": "Wisdom of Solomon 3.1-9",
+        "short_display": "Wis 3.1-9",
+        "text": "But the souls of the righteous are in the hand of God, and there shall no torment touch them. In the sight of the unwise they seemed to die: and their departure is taken for misery, And their going from us to be utter destruction: but they are in peace. For though they be punished in the sight of men, yet is their hope full of immortality. And having been a little chastised, they shall be greatly rewarded: for God proved them, and found them worthy for himself. As gold in the furnace hath he tried them, and received them as a burnt offering. And in the time of their visitation they shall shine, and run to and fro like sparks among the stubble. They shall judge the nations, and have dominion over the people, and their Lord shall reign for ever. They that put their trust in him shall understand the truth: and such as be faithful in love shall abide with him: for grace and mercy is to his saints, and he hath care for his elect."
+      },
+      {
+        "source": "Vespers",
+        "display": "Wisdom of Solomon 5.15-6.3",
+        "short_display": "Wis 5.15-6.3",
+        "text": "But the righteous live for evermore; their reward also is with the Lord, and the care of them is with the most High. Therefore shall they receive a glorious kingdom, and a beautiful crown from the Lord\u2019s hand: for with his right hand shall he cover them, and with his arm shall he protect them. He shall take to him his jealousy for complete armour, and make the creature his weapon for the revenge of his enemies. He shall put on righteousness as a breastplate, and true judgment instead of an helmet. He shall take holiness for an invincible shield. His severe wrath shall he sharpen for a sword, and the world shall fight with him against the unwise. Then shall the right aiming thunderbolts go abroad; and from the clouds, as from a well drawn bow, shall they fly to the mark. And hailstones full of wrath shall be cast as out of a stone bow, and the water of the sea shall rage against them, and the floods shall cruelly drown them. Yea, a mighty wind shall stand up against them, and like a storm shall blow them away: thus iniquity shall lay waste the whole earth, and ill dealing shall overthrow the thrones of the mighty. Hear therefore, O ye kings, and understand; learn, ye that be judges of the ends of the earth. Give ear, ye that rule the people, and glory in the multitude of nations. For power is given you of the Lord, and sovereignty from the Highest, who shall try your works, and search out your counsels."
+      },
+      {
+        "source": "Vespers",
+        "display": "Wisdom of Solomon 4.7-15",
+        "short_display": "Wis 4.7-15",
+        "text": "But though the righteous be prevented with death, yet shall he be in rest. For honourable age is not that which standeth in length of time, nor that is measured by number of years. But wisdom is the gray hair unto men, and an unspotted life is old age. He pleased God, and was beloved of him: so that living among sinners he was translated. Yea speedily was he taken away, lest that wickedness should alter his understanding, or deceit beguile his soul. For the bewitching of naughtiness doth obscure things that are honest; and the wandering of concupiscence doth undermine the simple mind. He, being made perfect in a short time, fulfilled a long time: For his soul pleased the Lord: therefore hasted he to take him away from among the wicked. This the people saw, and understood it not, neither laid they up this in their minds, That his grace and mercy is with his saints, and that he hath respect unto his chosen."
+      },
+      {
+        "source": "Matins Gospel",
+        "display": "John 10.1-9",
+        "short_display": "John 10.1-9",
+        "text": "Verily, verily, I say unto you, He that entereth not by the door into the sheepfold, but climbeth up some other way, the same is a thief and a robber. But he that entereth in by the door is the shepherd of the sheep. To him the porter openeth; and the sheep hear his voice: and he calleth his own sheep by name, and leadeth them out. And when he putteth forth his own sheep, he goeth before them, and the sheep follow him: for they know his voice. And a stranger will they not follow, but will flee from him: for they know not the voice of strangers. This parable spake Jesus unto them: but they understood not what things they were which he spake unto them. Then said Jesus unto them again, Verily, verily, I say unto you, I am the door of the sheep. All that ever came before me are thieves and robbers: but the sheep did not hear them. I am the door: by me if any man enter in, he shall be saved, and shall go in and out, and find pasture."
+      },
+      {
+        "source": "Epistle",
+        "display": "Philippians 1.27-2.4",
+        "short_display": "Phil 1.27-2.4",
+        "text": "Only let your conversation be as it becometh the gospel of Christ: that whether I come and see you, or else be absent, I may hear of your affairs, that ye stand fast in one spirit, with one mind striving together for the faith of the gospel; And in nothing terrified by your adversaries: which is to them an evident token of perdition, but to you of salvation, and that of God. For unto you it is given in the behalf of Christ, not only to believe on him, but also to suffer for his sake; Having the same conflict which ye saw in me, and now hear to be in me. If there be therefore any consolation in Christ, if any comfort of love, if any fellowship of the Spirit, if any bowels and mercies, Fulfil ye my joy, that ye be likeminded, having the same love, being of one accord, of one mind. Let nothing be done through strife or vainglory; but in lowliness of mind let each esteem other better than themselves. Look not every man on his own things, but every man also on the things of others."
+      },
+      {
+        "source": "Epistle",
+        "display": "1 Corinthians 4.9-16",
+        "short_display": "1 Cor 4.9-16",
+        "text": "For I think that God hath set forth us the apostles last, as it were appointed to death: for we are made a spectacle unto the world, and to angels, and to men. We are fools for Christ\u2019s sake, but ye are wise in Christ; we are weak, but ye are strong; ye are honourable, but we are despised. Even unto this present hour we both hunger, and thirst, and are naked, and are buffeted, and have no certain dwellingplace; And labour, working with our own hands: being reviled, we bless; being persecuted, we suffer it: Being defamed, we intreat: we are made as the filth of the world, and are the offscouring of all things unto this day. I write not these things to shame you, but as my beloved sons I warn you. For though ye have ten thousand instructers in Christ, yet have ye not many fathers: for in Christ Jesus I have begotten you through the gospel. Wherefore I beseech you, be ye followers of me."
+      },
+      {
+        "source": "Gospel",
+        "display": "Luke 7.31-35",
+        "short_display": "Luke 7.31-35",
+        "text": "And the Lord said, Whereunto then shall I liken the men of this generation? and to what are they like? They are like unto children sitting in the marketplace, and calling one to another, and saying, We have piped unto you, and ye have not danced; we have mourned to you, and ye have not wept. For John the Baptist came neither eating bread nor drinking wine; and ye say, He hath a devil. The Son of man is come eating and drinking; and ye say, Behold a gluttonous man, and a winebibber, a friend of publicans and sinners! But wisdom is justified of all her children."
+      },
+      {
+        "source": "Gospel",
+        "display": "Matthew 9.36-10.8",
+        "short_display": "Matt 9.36-10.8",
+        "text": "But when he saw the multitudes, he was moved with compassion on them, because they fainted, and were scattered abroad, as sheep having no shepherd. Then saith he unto his disciples, The harvest truly is plenteous, but the labourers are few; Pray ye therefore the Lord of the harvest, that he will send forth labourers into his harvest. And when he had called unto him his twelve disciples, he gave them power against unclean spirits, to cast them out, and to heal all manner of sickness and all manner of disease. Now the names of the twelve apostles are these; The first, Simon, who is called Peter, and Andrew his brother; James the son of Zebedee, and John his brother; Philip, and Bartholomew; Thomas, and Matthew the publican; James the son of Alphaeus, and Lebbaeus, whose surname was Thaddaeus; Simon the Canaanite, and Judas Iscariot, who also betrayed him. These twelve Jesus sent forth, and commanded them, saying, Go not into the way of the Gentiles, and into any city of the Samaritans enter ye not: But go rather to the lost sheep of the house of Israel. And as ye go, preach, saying, The kingdom of heaven is at hand. Heal the sick, cleanse the lepers, raise the dead, cast out devils: freely ye have received, freely give."
+      }
+    ]
+  },
+  "events": []
+}

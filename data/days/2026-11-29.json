@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-29",
+  "liturgical": {
+    "status": "ok",
+    "titles": [
+      "26th Sunday after Pentecost"
+    ],
+    "summary_title": "26th Sunday after Pentecost",
+    "feasts": null,
+    "saints": [
+      {
+        "name": "Martyr Paramon and Companions",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Martyr%20Paramon%20and%20Companions"
+      },
+      {
+        "name": "Our Righteous Father Nicholas, Archbishop of Thessolonica",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Our%20Righteous%20Father%20Nicholas%2C%20Archbishop%20of%20Thessolonica"
+      },
+      {
+        "name": "Hieromartyr Dionysios, Bishop of Corinth",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Hieromartyr%20Dionysios%2C%20Bishop%20of%20Corinth"
+      },
+      {
+        "name": "Phaedrus the Martyr",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Phaedrus%20the%20Martyr"
+      },
+      {
+        "name": "Our Holy Father Pitirim of Egypt (4th c.)",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Our%20Holy%20Father%20Pitirim%20of%20Egypt%20%284th%20c.%29"
+      }
+    ],
+    "fasting": {
+      "level": 5,
+      "description": "Nativity Fast",
+      "abstentions": [
+        "meat",
+        "dairy",
+        "eggs"
+      ]
+    },
+    "readings": [
+      {
+        "source": "4th Matins Gospel",
+        "display": "Luke 24.1-12",
+        "short_display": "Luke 24.1-12",
+        "text": "Now upon the first day of the week, very early in the morning, they came unto the sepulchre, bringing the spices which they had prepared, and certain others with them. And they found the stone rolled away from the sepulchre. And they entered in, and found not the body of the Lord Jesus. And it came to pass, as they were much perplexed thereabout, behold, two men stood by them in shining garments: And as they were afraid, and bowed down their faces to the earth, they said unto them, Why seek ye the living among the dead? He is not here, but is risen: remember how he spake unto you when he was yet in Galilee, Saying, The Son of man must be delivered into the hands of sinful men, and be crucified, and the third day rise again. And they remembered his words, And returned from the sepulchre, and told all these things unto the eleven, and to all the rest. It was Mary Magdalene, and Joanna, and Mary the mother of James, and other women that were with them, which told these things unto the apostles. And their words seemed to them as idle tales, and they believed them not. Then arose Peter, and ran unto the sepulchre; and stooping down, he beheld the linen clothes laid by themselves, and departed, wondering in himself at that which was come to pass."
+      },
+      {
+        "source": "Epistle",
+        "display": "Ephesians 5.8-19",
+        "short_display": "Eph 5.8-19",
+        "text": "For ye were sometimes darkness, but now are ye light in the Lord: walk as children of light: (For the fruit of the Spirit is in all goodness and righteousness and truth;) Proving what is acceptable unto the Lord. And have no fellowship with the unfruitful works of darkness, but rather reprove them. For it is a shame even to speak of those things which are done of them in secret. But all things that are reproved are made manifest by the light: for whatsoever doth make manifest is light. Wherefore he saith, Awake thou that sleepest, and arise from the dead, and Christ shall give thee light. See then that ye walk circumspectly, not as fools, but as wise, Redeeming the time, because the days are evil. Wherefore be ye not unwise, but understanding what the will of the Lord is. And be not drunk with wine, wherein is excess; but be filled with the Spirit; Speaking to yourselves in psalms and hymns and spiritual songs, singing and making melody in your heart to the Lord;"
+      },
+      {
+        "source": "Gospel",
+        "display": "Luke 18.18-27",
+        "short_display": "Luke 18.18-27",
+        "text": "And a certain ruler asked him, saying, Good Master, what shall I do to inherit eternal life? And Jesus said unto him, Why callest thou me good? none is good, save one, that is, God. Thou knowest the commandments, Do not commit adultery, Do not kill, Do not steal, Do not bear false witness, Honour thy father and thy mother. And he said, All these have I kept from my youth up. Now when Jesus heard these things, he said unto him, Yet lackest thou one thing: sell all that thou hast, and distribute unto the poor, and thou shalt have treasure in heaven: and come, follow me. And when he heard this, he was very sorrowful: for he was very rich. And when Jesus saw that he was very sorrowful, he said, How hardly shall they that have riches enter into the kingdom of God! For it is easier for a camel to go through a needle\u2019s eye, than for a rich man to enter into the kingdom of God. And they that heard it said, Who then can be saved? And he said, The things which are impossible with men are possible with God."
+      }
+    ]
+  },
+  "events": [
+    {
+      "title": "Matins (Orthros)",
+      "start": "2026-11-29 09:00:00",
+      "end": "2026-11-29 10:00:00",
+      "url": "https://www.constantinehelen.com/event/matins-orthros-29/2026-11-29/"
+    },
+    {
+      "title": "Divine Liturgy",
+      "start": "2026-11-29 10:00:00",
+      "end": "2026-11-29 11:30:00",
+      "url": "https://www.constantinehelen.com/event/divine-liturgy-39-2/2026-11-29/"
+    }
+  ]
+}

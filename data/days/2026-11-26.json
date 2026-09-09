@@ -1,0 +1,61 @@
+{
+  "date": "2026-11-26",
+  "liturgical": {
+    "status": "ok",
+    "titles": [
+      "Thursday of the 26th week after Pentecost"
+    ],
+    "summary_title": "Ven. Alypius the Stylite; Stylianos the Monk of Paphlagonia; Akakios of Sinai who is mentioned in The Ladder",
+    "feasts": null,
+    "saints": [
+      {
+        "name": "Ven. Alypius the Stylite",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Ven.%20Alypius%20the%20Stylite"
+      },
+      {
+        "name": "Stylianos the Monk of Paphlagonia",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Stylianos%20the%20Monk%20of%20Paphlagonia"
+      },
+      {
+        "name": "Akakios of Sinai who is mentioned in The Ladder",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Akakios%20of%20Sinai%20who%20is%20mentioned%20in%20The%20Ladder"
+      },
+      {
+        "name": "Our Holy Father Innocent, Bishop of Irkutsk (1731)",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Our%20Holy%20Father%20Innocent%2C%20Bishop%20of%20Irkutsk%20%281731%29"
+      },
+      {
+        "name": "St Nikon Metanoite (\"Repent!\") (ca. 1000)",
+        "link": "https://orthodoxwiki.org/Special:Search?search=St%20Nikon%20Metanoite%20%28%22Repent%21%22%29%20%28ca.%201000%29"
+      },
+      {
+        "name": "Holy New Martyr George of Chios (1897)",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Holy%20New%20Martyr%20George%20of%20Chios%20%281897%29"
+      }
+    ],
+    "fasting": {
+      "level": 5,
+      "description": "Nativity Fast",
+      "abstentions": [
+        "meat",
+        "dairy",
+        "eggs"
+      ]
+    },
+    "readings": [
+      {
+        "source": "Epistle",
+        "display": "1 Timothy 3.1-13",
+        "short_display": "1 Tim 3.1-13",
+        "text": "This is a true saying, If a man desire the office of a bishop, he desireth a good work. A bishop then must be blameless, the husband of one wife, vigilant, sober, of good behaviour, given to hospitality, apt to teach; Not given to wine, no striker, not greedy of filthy lucre; but patient, not a brawler, not covetous; One that ruleth well his own house, having his children in subjection with all gravity; (For if a man know not how to rule his own house, how shall he take care of the church of God?) Not a novice, lest being lifted up with pride he fall into the condemnation of the devil. Moreover he must have a good report of them which are without; lest he fall into reproach and the snare of the devil. Likewise must the deacons be grave, not doubletongued, not given to much wine, not greedy of filthy lucre; Holding the mystery of the faith in a pure conscience. And let these also first be proved; then let them use the office of a deacon, being found blameless. Even so must their wives be grave, not slanderers, sober, faithful in all things. Let the deacons be the husbands of one wife, ruling their children and their own houses well. For they that have used the office of a deacon well purchase to themselves a good degree, and great boldness in the faith which is in Christ Jesus."
+      },
+      {
+        "source": "Gospel",
+        "display": "Luke 18.31-34",
+        "short_display": "Luke 18.31-34",
+        "text": "Then he took unto him the twelve, and said unto them, Behold, we go up to Jerusalem, and all things that are written by the prophets concerning the Son of man shall be accomplished. For he shall be delivered unto the Gentiles, and shall be mocked, and spitefully entreated, and spitted on: And they shall scourge him, and put him to death: and the third day he shall rise again. And they understood none of these things: and this saying was hid from them, neither knew they the things which were spoken."
+      }
+    ]
+  },
+  "events": []
+}

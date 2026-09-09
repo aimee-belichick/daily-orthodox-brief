@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-17",
+  "liturgical": {
+    "status": "ok",
+    "titles": [
+      "Saturday of the 20th week after Pentecost"
+    ],
+    "summary_title": "Prophet Hosea; Monastic Martyr Andrew of Crete; Holy Martyrs Cosmas and Damian, the Unmercenaries of Cilicia (4th c.)",
+    "feasts": null,
+    "saints": [
+      {
+        "name": "Prophet Hosea",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Prophet%20Hosea"
+      },
+      {
+        "name": "Monastic Martyr Andrew of Crete",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Monastic%20Martyr%20Andrew%20of%20Crete"
+      },
+      {
+        "name": "Holy Martyrs Cosmas and Damian, the Unmercenaries of Cilicia (4th c.)",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Holy%20Martyrs%20Cosmas%20and%20Damian%2C%20the%20Unmercenaries%20of%20Cilicia%20%284th%20c.%29"
+      }
+    ],
+    "fasting": null,
+    "readings": [
+      {
+        "source": "Epistle",
+        "display": "2 Corinthians 1.8-11",
+        "short_display": "2 Cor 1.8-11",
+        "text": "For we would not, brethren, have you ignorant of our trouble which came to us in Asia, that we were pressed out of measure, above strength, insomuch that we despaired even of life: But we had the sentence of death in ourselves, that we should not trust in ourselves, but in God which raiseth the dead: Who delivered us from so great a death, and doth deliver: in whom we trust that he will yet deliver us; Ye also helping together by prayer for us, that for the gift bestowed upon us by the means of many persons thanks may be given by many on our behalf."
+      },
+      {
+        "source": "Epistle",
+        "display": "Romans 9.18-33",
+        "short_display": "Rom 9.18-33",
+        "text": "Therefore hath he mercy on whom he will have mercy, and whom he will he hardeneth. Thou wilt say then unto me, Why doth he yet find fault? For who hath resisted his will? Nay but, O man, who art thou that repliest against God? Shall the thing formed say to him that formed it, Why hast thou made me thus? Hath not the potter power over the clay, of the same lump to make one vessel unto honour, and another unto dishonour? What if God, willing to shew his wrath, and to make his power known, endured with much longsuffering the vessels of wrath fitted to destruction: And that he might make known the riches of his glory on the vessels of mercy, which he had afore prepared unto glory, Even us, whom he hath called, not of the Jews only, but also of the Gentiles? As he saith also in Osee, I will call them my people, which were not my people; and her beloved, which was not beloved. And it shall come to pass, that in the place where it was said unto them, Ye are not my people; there shall they be called the children of the living God. Esaias also crieth concerning Israel, Though the number of the children of Israel be as the sand of the sea, a remnant shall be saved: For he will finish the work, and cut it short in righteousness: because a short work will the Lord make upon the earth. And as Esaias said before, Except the Lord of Sabaoth had left us a seed, we had been as Sodoma, and been made like unto Gomorrha. What shall we say then? That the Gentiles, which followed not after righteousness, have attained to righteousness, even the righteousness which is of faith. But Israel, which followed after the law of righteousness, hath not attained to the law of righteousness. Wherefore? Because they sought it not by faith, but as it were by the works of the law. For they stumbled at that stumblingstone; As it is written, Behold, I lay in Sion a stumblingstone and rock of offence: and whosoever believeth on him shall not be ashamed."
+      },
+      {
+        "source": "Gospel",
+        "display": "Luke 6.1-10",
+        "short_display": "Luke 6.1-10",
+        "text": "And it came to pass on the second sabbath after the first, that he went through the corn fields; and his disciples plucked the ears of corn, and did eat, rubbing them in their hands. And certain of the Pharisees said unto them, Why do ye that which is not lawful to do on the sabbath days? And Jesus answering them said, Have ye not read so much as this, what David did, when himself was an hungred, and they which were with him; How he went into the house of God, and did take and eat the shewbread, and gave also to them that were with him; which it is not lawful to eat but for the priests alone? And he said unto them, That the Son of man is Lord also of the sabbath. And it came to pass also on another sabbath, that he entered into the synagogue and taught: and there was a man whose right hand was withered. And the scribes and Pharisees watched him, whether he would heal on the sabbath day; that they might find an accusation against him. But he knew their thoughts, and said to the man which had the withered hand, Rise up, and stand forth in the midst. And he arose and stood forth. Then said Jesus unto them, I will ask you one thing; Is it lawful on the sabbath days to do good, or to do evil? to save life, or to destroy it? And looking round about upon them all, he said unto the man, Stretch forth thy hand. And he did so: and his hand was restored whole as the other."
+      }
+    ]
+  },
+  "events": [
+    {
+      "title": "Great Vespers & Confessions",
+      "start": "2026-10-17 17:00:00",
+      "end": "2026-10-17 18:30:00",
+      "url": "https://www.constantinehelen.com/event/great-vespers-confessions/2026-10-17/"
+    },
+    {
+      "title": "Great Vespers at Holy Myrrhbearers Outreach",
+      "start": "2026-10-17 18:00:00",
+      "end": "2026-10-17 20:00:00",
+      "url": "https://www.constantinehelen.com/event/great-vespers-at-holy-myrrhbearers-outreach/2026-10-17/"
+    },
+    {
+      "title": "Catechism Class",
+      "start": "2026-10-17 18:00:00",
+      "end": "2026-10-17 19:00:00",
+      "url": "https://www.constantinehelen.com/event/catechism-class-11/"
+    }
+  ]
+}

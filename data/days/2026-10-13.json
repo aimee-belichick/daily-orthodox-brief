@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-13",
+  "liturgical": {
+    "status": "ok",
+    "titles": [
+      "Tuesday of the 20th week after Pentecost"
+    ],
+    "summary_title": "Martyrs Carpus, Papylus, Agathodorus and Agathonica, at Pergamus; Benjamin the Deacon; Meletios of Pegas, Patriarch of Alexandria",
+    "feasts": null,
+    "saints": [
+      {
+        "name": "Martyrs Carpus, Papylus, Agathodorus and Agathonica, at Pergamus",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Martyrs%20Carpus%2C%20Papylus%2C%20Agathodorus%20and%20Agathonica%2C%20at%20Pergamus"
+      },
+      {
+        "name": "Benjamin the Deacon",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Benjamin%20the%20Deacon"
+      },
+      {
+        "name": "Meletios of Pegas, Patriarch of Alexandria",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Meletios%20of%20Pegas%2C%20Patriarch%20of%20Alexandria"
+      },
+      {
+        "name": "Florentios the Martyr of Thessaloniki",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Florentios%20the%20Martyr%20of%20Thessaloniki"
+      },
+      {
+        "name": "Hieromartyr Jacob of Hamatoura",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Hieromartyr%20Jacob%20of%20Hamatoura"
+      },
+      {
+        "name": "Holy Martyr Zlata (Chryse) (1796)",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Holy%20Martyr%20Zlata%20%28Chryse%29%20%281796%29"
+      }
+    ],
+    "fasting": null,
+    "readings": [
+      {
+        "source": "Epistle",
+        "display": "Philippians 2.16-23",
+        "short_display": "Phil 2.16-23",
+        "text": "Holding forth the word of life; that I may rejoice in the day of Christ, that I have not run in vain, neither laboured in vain. Yea, and if I be offered upon the sacrifice and service of your faith, I joy, and rejoice with you all. For the same cause also do ye joy, and rejoice with me. But I trust in the Lord Jesus to send Timotheus shortly unto you, that I also may be of good comfort, when I know your state. For I have no man likeminded, who will naturally care for your state. For all seek their own, not the things which are Jesus Christ\u2019s. But ye know the proof of him, that, as a son with the father, he hath served with me in the gospel. Him therefore I hope to send presently, so soon as I shall see how it will go with me."
+      },
+      {
+        "source": "Gospel",
+        "display": "Luke 8.1-3",
+        "short_display": "Luke 8.1-3",
+        "text": "And it came to pass afterward, that he went throughout every city and village, preaching and shewing the glad tidings of the kingdom of God: and the twelve were with him, And certain women, which had been healed of evil spirits and infirmities, Mary called Magdalene, out of whom went seven devils, And Joanna the wife of Chuza Herod\u2019s steward, and Susanna, and many others, which ministered unto him of their substance."
+      }
+    ]
+  },
+  "events": [
+    {
+      "title": "Tuesday Liturgy",
+      "start": "2026-10-13 09:30:00",
+      "end": "2026-10-13 11:00:00",
+      "url": "https://www.constantinehelen.com/event/tuesday-liturgy/2026-10-13/"
+    },
+    {
+      "title": "Daily Vespers at Holy Myrrhbearers Outreach",
+      "start": "2026-10-13 18:00:00",
+      "end": "2026-10-13 20:00:00",
+      "url": "https://www.constantinehelen.com/event/daily-vespers-at-holy-myrrhbearers-outreach/2026-10-13/"
+    }
+  ]
+}

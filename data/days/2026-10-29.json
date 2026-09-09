@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-29",
+  "liturgical": {
+    "status": "ok",
+    "titles": [
+      "Thursday of the 22nd week after Pentecost"
+    ],
+    "summary_title": "Martyr Anastasia the Roman; Ven. Avram of Rostov; Our Holy Father Abramius (366) and his niece Mary (371) of Mesopotamia",
+    "feasts": null,
+    "saints": [
+      {
+        "name": "Martyr Anastasia the Roman",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Martyr%20Anastasia%20the%20Roman"
+      },
+      {
+        "name": "Ven. Avram of Rostov",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Ven.%20Avram%20of%20Rostov"
+      },
+      {
+        "name": "Our Holy Father Abramius (366) and his niece Mary (371) of Mesopotamia",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Our%20Holy%20Father%20Abramius%20%28366%29%20and%20his%20niece%20Mary%20%28371%29%20of%20Mesopotamia"
+      }
+    ],
+    "fasting": null,
+    "readings": [
+      {
+        "source": "Epistle",
+        "display": "Colossians 4.2-9",
+        "short_display": "Col 4.2-9",
+        "text": "Continue in prayer, and watch in the same with thanksgiving; Withal praying also for us, that God would open unto us a door of utterance, to speak the mystery of Christ, for which I am also in bonds: That I may make it manifest, as I ought to speak. Walk in wisdom toward them that are without, redeeming the time. Let your speech be alway with grace, seasoned with salt, that ye may know how ye ought to answer every man. All my state shall Tychicus declare unto you, who is a beloved brother, and a faithful minister and fellowservant in the Lord: Whom I have sent unto you for the same purpose, that he might know your estate, and comfort your hearts; With Onesimus, a faithful and beloved brother, who is one of you. They shall make known unto you all things which are done here."
+      },
+      {
+        "source": "Gospel",
+        "display": "Luke 11.14-23",
+        "short_display": "Luke 11.14-23",
+        "text": "And he was casting out a devil, and it was dumb. And it came to pass, when the devil was gone out, the dumb spake; and the people wondered. But some of them said, He casteth out devils through Beelzebub the chief of the devils. And others, tempting him, sought of him a sign from heaven. But he, knowing their thoughts, said unto them, Every kingdom divided against itself is brought to desolation; and a house divided against a house falleth. If Satan also be divided against himself, how shall his kingdom stand? because ye say that I cast out devils through Beelzebub. And if I by Beelzebub cast out devils, by whom do your sons cast them out? therefore shall they be your judges. But if I with the finger of God cast out devils, no doubt the kingdom of God is come upon you. When a strong man armed keepeth his palace, his goods are in peace: But when a stronger than he shall come upon him, and overcome him, he taketh from him all his armour wherein he trusted, and divideth his spoils. He that is not with me is against me: and he that gathereth not with me scattereth."
+      }
+    ]
+  },
+  "events": []
+}

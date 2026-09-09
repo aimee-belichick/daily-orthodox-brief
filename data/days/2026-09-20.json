@@ -1,0 +1,90 @@
+{
+  "date": "2026-09-20",
+  "liturgical": {
+    "status": "ok",
+    "titles": [
+      "16th Sunday after Pentecost"
+    ],
+    "summary_title": "16th Sunday after Pentecost",
+    "feasts": [
+      "Sunday after Elevation"
+    ],
+    "saints": [
+      {
+        "name": "Greatmartyr Eustathius and Martyr Theopistes",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Greatmartyr%20Eustathius%20and%20Martyr%20Theopistes"
+      },
+      {
+        "name": "Martyrs Michael and Theodore of Chernigov",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Martyrs%20Michael%20and%20Theodore%20of%20Chernigov"
+      },
+      {
+        "name": "Our Righteous Father Eustathius, Archbishop of Thessolonica",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Our%20Righteous%20Father%20Eustathius%2C%20Archbishop%20of%20Thessolonica"
+      },
+      {
+        "name": "John the Foreigner",
+        "link": "https://orthodoxwiki.org/Special:Search?search=John%20the%20Foreigner"
+      },
+      {
+        "name": "Hilarion the New Martyr of Crete",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Hilarion%20the%20New%20Martyr%20of%20Crete"
+      },
+      {
+        "name": "Holy Martyrs Hypatius and Andrew, Confessors of the Holy Icons (8th c.)",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Holy%20Martyrs%20Hypatius%20and%20Andrew%2C%20Confessors%20of%20the%20Holy%20Icons%20%288th%20c.%29"
+      },
+      {
+        "name": "Sts Anastasius, Theodore, Euprepius and Anastasius the Younger, confessors and disciples of St Maximos the Confessor (7th c.)",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Sts%20Anastasius%2C%20Theodore%2C%20Euprepius%20and%20Anastasius%20the%20Younger%2C%20confessors%20and%20disciples%20of%20St%20Maximos%20the%20Confessor%20%287th%20c.%29"
+      }
+    ],
+    "fasting": null,
+    "readings": [
+      {
+        "source": "5th Matins Gospel",
+        "display": "Luke 24.12-35",
+        "short_display": "Luke 24.12-35",
+        "text": "Then arose Peter, and ran unto the sepulchre; and stooping down, he beheld the linen clothes laid by themselves, and departed, wondering in himself at that which was come to pass. And, behold, two of them went that same day to a village called Emmaus, which was from Jerusalem about threescore furlongs. And they talked together of all these things which had happened. And it came to pass, that, while they communed together and reasoned, Jesus himself drew near, and went with them. But their eyes were holden that they should not know him. And he said unto them, What manner of communications are these that ye have one to another, as ye walk, and are sad? And the one of them, whose name was Cleopas, answering said unto him, Art thou only a stranger in Jerusalem, and hast not known the things which are come to pass there in these days? And he said unto them, What things? And they said unto him, Concerning Jesus of Nazareth, which was a prophet mighty in deed and word before God and all the people: And how the chief priests and our rulers delivered him to be condemned to death, and have crucified him. But we trusted that it had been he which should have redeemed Israel: and beside all this, to day is the third day since these things were done. Yea, and certain women also of our company made us astonished, which were early at the sepulchre; And when they found not his body, they came, saying, that they had also seen a vision of angels, which said that he was alive. And certain of them which were with us went to the sepulchre, and found it even so as the women had said: but him they saw not. Then he said unto them, O fools, and slow of heart to believe all that the prophets have spoken: Ought not Christ to have suffered these things, and to enter into his glory? And beginning at Moses and all the prophets, he expounded unto them in all the scriptures the things concerning himself. And they drew nigh unto the village, whither they went: and he made as though he would have gone further. But they constrained him, saying, Abide with us: for it is toward evening, and the day is far spent. And he went in to tarry with them. And it came to pass, as he sat at meat with them, he took bread, and blessed it, and brake, and gave to them. And their eyes were opened, and they knew him; and he vanished out of their sight. And they said one to another, Did not our heart burn within us, while he talked with us by the way, and while he opened to us the scriptures? And they rose up the same hour, and returned to Jerusalem, and found the eleven gathered together, and them that were with them, Saying, The Lord is risen indeed, and hath appeared to Simon. And they told what things were done in the way, and how he was known of them in breaking of bread."
+      },
+      {
+        "source": "Epistle",
+        "display": "Galatians 2.16-20",
+        "short_display": "Gal 2.16-20",
+        "text": "Knowing that a man is not justified by the works of the law, but by the faith of Jesus Christ, even we have believed in Jesus Christ, that we might be justified by the faith of Christ, and not by the works of the law: for by the works of the law shall no flesh be justified. But if, while we seek to be justified by Christ, we ourselves also are found sinners, is therefore Christ the minister of sin? God forbid. For if I build again the things which I destroyed, I make myself a transgressor. For I through the law am dead to the law, that I might live unto God. I am crucified with Christ: nevertheless I live; yet not I, but Christ liveth in me: and the life which I now live in the flesh I live by the faith of the Son of God, who loved me, and gave himself for me."
+      },
+      {
+        "source": "Epistle",
+        "display": "2 Corinthians 6.1-10",
+        "short_display": "2 Cor 6.1-10",
+        "text": "We then, as workers together with him, beseech you also that ye receive not the grace of God in vain. (For he saith, I have heard thee in a time accepted, and in the day of salvation have I succoured thee: behold, now is the accepted time; behold, now is the day of salvation.) Giving no offence in any thing, that the ministry be not blamed: But in all things approving ourselves as the ministers of God, in much patience, in afflictions, in necessities, in distresses, In stripes, in imprisonments, in tumults, in labours, in watchings, in fastings; By pureness, by knowledge, by longsuffering, by kindness, by the Holy Ghost, by love unfeigned, By the word of truth, by the power of God, by the armour of righteousness on the right hand and on the left, By honour and dishonour, by evil report and good report: as deceivers, and yet true; As unknown, and yet well known; as dying, and, behold, we live; as chastened, and not killed; As sorrowful, yet alway rejoicing; as poor, yet making many rich; as having nothing, and yet possessing all things."
+      },
+      {
+        "source": "Gospel",
+        "display": "Mark 8.34-9.1",
+        "short_display": "Mark 8.34-9.1",
+        "text": "And when he had called the people unto him with his disciples also, he said unto them, Whosoever will come after me, let him deny himself, and take up his cross, and follow me. For whosoever will save his life shall lose it; but whosoever shall lose his life for my sake and the gospel\u2019s, the same shall save it. For what shall it profit a man, if he shall gain the whole world, and lose his own soul? Or what shall a man give in exchange for his soul? Whosoever therefore shall be ashamed of me and of my words in this adulterous and sinful generation; of him also shall the Son of man be ashamed, when he cometh in the glory of his Father with the holy angels. And he said unto them, Verily I say unto you, That there be some of them that stand here, which shall not taste of death, till they have seen the kingdom of God come with power."
+      },
+      {
+        "source": "Gospel",
+        "display": "Matthew 25.14-30",
+        "short_display": "Matt 25.14-30",
+        "text": "For the kingdom of heaven is as a man travelling into a far country, who called his own servants, and delivered unto them his goods. And unto one he gave five talents, to another two, and to another one; to every man according to his several ability; and straightway took his journey. Then he that had received the five talents went and traded with the same, and made them other five talents. And likewise he that had received two, he also gained other two. But he that had received one went and digged in the earth, and hid his lord\u2019s money. After a long time the lord of those servants cometh, and reckoneth with them. And so he that had received five talents came and brought other five talents, saying, Lord, thou deliveredst unto me five talents: behold, I have gained beside them five talents more. His lord said unto him, Well done, thou good and faithful servant: thou hast been faithful over a few things, I will make thee ruler over many things: enter thou into the joy of thy lord. He also that had received two talents came and said, Lord, thou deliveredst unto me two talents: behold, I have gained two other talents beside them. His lord said unto him, Well done, good and faithful servant; thou hast been faithful over a few things, I will make thee ruler over many things: enter thou into the joy of thy lord. Then he which had received the one talent came and said, Lord, I knew thee that thou art an hard man, reaping where thou hast not sown, and gathering where thou hast not strawed: And I was afraid, and went and hid thy talent in the earth: lo, there thou hast that is thine. His lord answered and said unto him, Thou wicked and slothful servant, thou knewest that I reap where I sowed not, and gather where I have not strawed: Thou oughtest therefore to have put my money to the exchangers, and then at my coming I should have received mine own with usury. Take therefore the talent from him, and give it unto him which hath ten talents. For unto every one that hath shall be given, and he shall have abundance: but from him that hath not shall be taken away even that which he hath. And cast ye the unprofitable servant into outer darkness: there shall be weeping and gnashing of teeth."
+      }
+    ]
+  },
+  "events": [
+    {
+      "title": "Matins (Orthros)",
+      "start": "2026-09-20 09:00:00",
+      "end": "2026-09-20 10:00:00",
+      "url": "https://www.constantinehelen.com/event/matins-orthros-29/2026-09-20/"
+    },
+    {
+      "title": "Divine Liturgy",
+      "start": "2026-09-20 10:00:00",
+      "end": "2026-09-20 11:30:00",
+      "url": "https://www.constantinehelen.com/event/divine-liturgy-39-2/2026-09-20/"
+    }
+  ]
+}

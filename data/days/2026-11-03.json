@@ -1,0 +1,66 @@
+{
+  "date": "2026-11-03",
+  "liturgical": {
+    "status": "ok",
+    "titles": [
+      "Tuesday of the 23rd week after Pentecost"
+    ],
+    "summary_title": "Martyrs Acepsimus, Joseph, Aithalas; Dedication of the Temple of the Holy Great Martyr George in Lydda; George of Neapolis the New Martyr",
+    "feasts": null,
+    "saints": [
+      {
+        "name": "Martyrs Acepsimus, Joseph, Aithalas",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Martyrs%20Acepsimus%2C%20Joseph%2C%20Aithalas"
+      },
+      {
+        "name": "Dedication of the Temple of the Holy Great Martyr George in Lydda",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Dedication%20of%20the%20Temple%20of%20the%20Holy%20Great%20Martyr%20George%20in%20Lydda"
+      },
+      {
+        "name": "George of Neapolis the New Martyr",
+        "link": "https://orthodoxwiki.org/Special:Search?search=George%20of%20Neapolis%20the%20New%20Martyr"
+      },
+      {
+        "name": "Holy Father and New Hieromartyr Gregory of Neapolis",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Holy%20Father%20and%20New%20Hieromartyr%20Gregory%20of%20Neapolis"
+      },
+      {
+        "name": "Theodore the Confessor, Bishop of Ancyra",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Theodore%20the%20Confessor%2C%20Bishop%20of%20Ancyra"
+      },
+      {
+        "name": "Holy Virgin Martyr Winefride of Treffynnon (Holywell), Wales (7th c.)",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Holy%20Virgin%20Martyr%20Winefride%20of%20Treffynnon%20%28Holywell%29%2C%20Wales%20%287th%20c.%29"
+      }
+    ],
+    "fasting": null,
+    "readings": [
+      {
+        "source": "Epistle",
+        "display": "1 Thessalonians 1.6-10",
+        "short_display": "1 Thess 1.6-10",
+        "text": "And ye became followers of us, and of the Lord, having received the word in much affliction, with joy of the Holy Ghost: So that ye were ensamples to all that believe in Macedonia and Achaia. For from you sounded out the word of the Lord not only in Macedonia and Achaia, but also in every place your faith to God-ward is spread abroad; so that we need not to speak any thing. For they themselves shew of us what manner of entering in we had unto you, and how ye turned to God from idols to serve the living and true God; And to wait for his Son from heaven, whom he raised from the dead, even Jesus, which delivered us from the wrath to come."
+      },
+      {
+        "source": "Gospel",
+        "display": "Luke 11.34-41",
+        "short_display": "Luke 11.34-41",
+        "text": "The light of the body is the eye: therefore when thine eye is single, thy whole body also is full of light; but when thine eye is evil, thy body also is full of darkness. Take heed therefore that the light which is in thee be not darkness. If thy whole body therefore be full of light, having no part dark, the whole shall be full of light, as when the bright shining of a candle doth give thee light. And as he spake, a certain Pharisee besought him to dine with him: and he went in, and sat down to meat. And when the Pharisee saw it, he marvelled that he had not first washed before dinner. And the Lord said unto him, Now do ye Pharisees make clean the outside of the cup and the platter; but your inward part is full of ravening and wickedness. Ye fools, did not he that made that which is without make that which is within also? But rather give alms of such things as ye have; and, behold, all things are clean unto you."
+      }
+    ]
+  },
+  "events": [
+    {
+      "title": "Tuesday Liturgy",
+      "start": "2026-11-03 09:30:00",
+      "end": "2026-11-03 11:00:00",
+      "url": "https://www.constantinehelen.com/event/tuesday-liturgy/2026-11-03/"
+    },
+    {
+      "title": "Daily Vespers at Holy Myrrhbearers Outreach",
+      "start": "2026-11-03 18:00:00",
+      "end": "2026-11-03 20:00:00",
+      "url": "https://www.constantinehelen.com/event/daily-vespers-at-holy-myrrhbearers-outreach/2026-11-03/"
+    }
+  ]
+}

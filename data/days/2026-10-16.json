@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-16",
+  "liturgical": {
+    "status": "ok",
+    "titles": [
+      "Friday of the 20th week after Pentecost"
+    ],
+    "summary_title": "Martyr Longinus the Centurion; The Two Soldiers martyred with Saint Longinus; Our Venerable Father Gall, Enlightener of Switzerland (640)",
+    "feasts": null,
+    "saints": [
+      {
+        "name": "Martyr Longinus the Centurion",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Martyr%20Longinus%20the%20Centurion"
+      },
+      {
+        "name": "The Two Soldiers martyred with Saint Longinus",
+        "link": "https://orthodoxwiki.org/Special:Search?search=The%20Two%20Soldiers%20martyred%20with%20Saint%20Longinus"
+      },
+      {
+        "name": "Our Venerable Father Gall, Enlightener of Switzerland (640)",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Our%20Venerable%20Father%20Gall%2C%20Enlightener%20of%20Switzerland%20%28640%29"
+      }
+    ],
+    "fasting": {
+      "level": 1,
+      "description": "Fast",
+      "abstentions": [
+        "meat",
+        "fish",
+        "dairy",
+        "eggs",
+        "wine",
+        "oil"
+      ]
+    },
+    "readings": [
+      {
+        "source": "Epistle",
+        "display": "Philippians 3.8-19",
+        "short_display": "Phil 3.8-19",
+        "text": "Yea doubtless, and I count all things but loss for the excellency of the knowledge of Christ Jesus my Lord: for whom I have suffered the loss of all things, and do count them but dung, that I may win Christ, And be found in him, not having mine own righteousness, which is of the law, but that which is through the faith of Christ, the righteousness which is of God by faith: That I may know him, and the power of his resurrection, and the fellowship of his sufferings, being made conformable unto his death; If by any means I might attain unto the resurrection of the dead. Not as though I had already attained, either were already perfect: but I follow after, if that I may apprehend that for which also I am apprehended of Christ Jesus. Brethren, I count not myself to have apprehended: but this one thing I do, forgetting those things which are behind, and reaching forth unto those things which are before, I press toward the mark for the prize of the high calling of God in Christ Jesus. Let us therefore, as many as be perfect, be thus minded: and if in any thing ye be otherwise minded, God shall reveal even this unto you. Nevertheless, whereto we have already attained, let us walk by the same rule, let us mind the same thing. Brethren, be followers together of me, and mark them which walk so as ye have us for an ensample. (For many walk, of whom I have told you often, and now tell you even weeping, that they are the enemies of the cross of Christ: Whose end is destruction, whose God is their belly, and whose glory is in their shame, who mind earthly things.)"
+      },
+      {
+        "source": "Gospel",
+        "display": "Luke 9.12-18",
+        "short_display": "Luke 9.12-18",
+        "text": "And when the day began to wear away, then came the twelve, and said unto him, Send the multitude away, that they may go into the towns and country round about, and lodge, and get victuals: for we are here in a desert place. But he said unto them, Give ye them to eat. And they said, We have no more but five loaves and two fishes; except we should go and buy meat for all this people. For they were about five thousand men. And he said to his disciples, Make them sit down by fifties in a company. And they did so, and made them all sit down. Then he took the five loaves and the two fishes, and looking up to heaven, he blessed them, and brake, and gave to the disciples to set before the multitude. And they did eat, and were all filled: and there was taken up of fragments that remained to them twelve baskets. And it came to pass, as he was alone praying, his disciples were with him: and he asked them, saying, Whom say the people that I am?"
+      },
+      {
+        "source": "Gospel",
+        "display": "Matthew 27.33-54",
+        "short_display": "Matt 27.33-54",
+        "text": "And when they were come unto a place called Golgotha, that is to say, a place of a skull, They gave him vinegar to drink mingled with gall: and when he had tasted thereof, he would not drink. And they crucified him, and parted his garments, casting lots: that it might be fulfilled which was spoken by the prophet, They parted my garments among them, and upon my vesture did they cast lots. And sitting down they watched him there; And set up over his head his accusation written, THIS IS JESUS THE KING OF THE JEWS. Then were there two thieves crucified with him, one on the right hand, and another on the left. And they that passed by reviled him, wagging their heads, And saying, Thou that destroyest the temple, and buildest it in three days, save thyself. If thou be the Son of God, come down from the cross. Likewise also the chief priests mocking him, with the scribes and elders, said, He saved others; himself he cannot save. If he be the King of Israel, let him now come down from the cross, and we will believe him. He trusted in God; let him deliver him now, if he will have him: for he said, I am the Son of God. The thieves also, which were crucified with him, cast the same in his teeth. Now from the sixth hour there was darkness over all the land unto the ninth hour. And about the ninth hour Jesus cried with a loud voice, saying, Eli, Eli, lama sabachthani? that is to say, My God, my God, why hast thou forsaken me? Some of them that stood there, when they heard that, said, This man calleth for Elias. And straightway one of them ran, and took a spunge, and filled it with vinegar, and put it on a reed, and gave him to drink. The rest said, Let be, let us see whether Elias will come to save him. Jesus, when he had cried again with a loud voice, yielded up the ghost. And, behold, the veil of the temple was rent in twain from the top to the bottom; and the earth did quake, and the rocks rent; And the graves were opened; and many bodies of the saints which slept arose, And came out of the graves after his resurrection, and went into the holy city, and appeared unto many. Now when the centurion, and they that were with him, watching Jesus, saw the earthquake, and those things that were done, they feared greatly, saying, Truly this was the Son of God."
+      }
+    ]
+  },
+  "events": []
+}

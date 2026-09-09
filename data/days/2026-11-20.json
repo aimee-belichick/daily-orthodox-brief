@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-20",
+  "liturgical": {
+    "status": "ok",
+    "titles": [
+      "Friday of the 25th week after Pentecost"
+    ],
+    "summary_title": "Forefeast of Entry",
+    "feasts": [
+      "Forefeast of Entry"
+    ],
+    "saints": [
+      {
+        "name": "Ven. Gregory Decapolites",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Ven.%20Gregory%20Decapolites"
+      },
+      {
+        "name": "Our Holy Father Proclus, Archbishop of Constantinople (447)",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Our%20Holy%20Father%20Proclus%2C%20Archbishop%20of%20Constantinople%20%28447%29"
+      }
+    ],
+    "fasting": {
+      "level": 5,
+      "description": "Nativity Fast",
+      "abstentions": [
+        "meat",
+        "fish",
+        "dairy",
+        "eggs",
+        "wine",
+        "oil"
+      ]
+    },
+    "readings": [
+      {
+        "source": "Epistle",
+        "display": "2 Thessalonians 3.6-18",
+        "short_display": "2 Thess 3.6-18",
+        "text": "Now we command you, brethren, in the name of our Lord Jesus Christ, that ye withdraw yourselves from every brother that walketh disorderly, and not after the tradition which he received of us. For yourselves know how ye ought to follow us: for we behaved not ourselves disorderly among you; Neither did we eat any man\u2019s bread for nought; but wrought with labour and travail night and day, that we might not be chargeable to any of you: Not because we have not power, but to make ourselves an ensample unto you to follow us. For even when we were with you, this we commanded you, that if any would not work, neither should he eat. For we hear that there are some which walk among you disorderly, working not at all, but are busybodies. Now them that are such we command and exhort by our Lord Jesus Christ, that with quietness they work, and eat their own bread. But ye, brethren, be not weary in well doing. And if any man obey not our word by this epistle, note that man, and have no company with him, that he may be ashamed. Yet count him not as an enemy, but admonish him as a brother. Now the Lord of peace himself give you peace always by all means. The Lord be with you all. The salutation of Paul with mine own hand, which is the token in every epistle: so I write. The grace of our Lord Jesus Christ be with you all. Amen."
+      },
+      {
+        "source": "Gospel",
+        "display": "Luke 16.15-18, 17.1-4",
+        "short_display": "Luke 16.15-18, 17.1-4",
+        "text": "And he said unto them, Ye are they which justify yourselves before men; but God knoweth your hearts: for that which is highly esteemed among men is abomination in the sight of God. The law and the prophets were until John: since that time the kingdom of God is preached, and every man presseth into it. And it is easier for heaven and earth to pass, than one tittle of the law to fail. Whosoever putteth away his wife, and marrieth another, committeth adultery: and whosoever marrieth her that is put away from her husband committeth adultery. Then said he unto the disciples, It is impossible but that offences will come: but woe unto him, through whom they come! It were better for him that a millstone were hanged about his neck, and he cast into the sea, than that he should offend one of these little ones. Take heed to yourselves: If thy brother trespass against thee, rebuke him; and if he repent, forgive him. And if he trespass against thee seven times in a day, and seven times in a day turn again to thee, saying, I repent; thou shalt forgive him."
+      }
+    ]
+  },
+  "events": []
+}

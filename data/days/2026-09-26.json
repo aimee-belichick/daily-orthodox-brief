@@ -1,0 +1,60 @@
+{
+  "date": "2026-09-26",
+  "liturgical": {
+    "status": "ok",
+    "titles": [
+      "Saturday of the 17th week after Pentecost"
+    ],
+    "summary_title": "Repose of St John the Theologian",
+    "feasts": [
+      "Repose of St John the Theologian"
+    ],
+    "saints": [
+      {
+        "name": "Removal of the Honorable Head of Apostle Andrew the First-Called",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Removal%20of%20the%20Honorable%20Head%20of%20Apostle%20Andrew%20the%20First-Called"
+      }
+    ],
+    "fasting": null,
+    "readings": [
+      {
+        "source": "Epistle",
+        "display": "1 Corinthians 14.20-25",
+        "short_display": "1 Cor 14.20-25",
+        "text": "Brethren, be not children in understanding: howbeit in malice be ye children, but in understanding be men. In the law it is written, With men of other tongues and other lips will I speak unto this people; and yet for all that will they not hear me, saith the Lord. Wherefore tongues are for a sign, not to them that believe, but to them that believe not: but prophesying serveth not for them that believe not, but for them which believe. If therefore the whole church be come together into one place, and all speak with tongues, and there come in those that are unlearned, or unbelievers, will they not say that ye are mad? But if all prophesy, and there come in one that believeth not, or one unlearned, he is convinced of all, he is judged of all: And thus are the secrets of his heart made manifest; and so falling down on his face he will worship God, and report that God is in you of a truth."
+      },
+      {
+        "source": "Gospel",
+        "display": "Luke 4.31-36",
+        "short_display": "Luke 4.31-36",
+        "text": "And came down to Capernaum, a city of Galilee, and taught them on the sabbath days. And they were astonished at his doctrine: for his word was with power. And in the synagogue there was a man, which had a spirit of an unclean devil, and cried out with a loud voice, Saying, Let us alone; what have we to do with thee, thou Jesus of Nazareth? art thou come to destroy us? I know thee who thou art; the Holy One of God. And Jesus rebuked him, saying, Hold thy peace, and come out of him. And when the devil had thrown him in the midst, he came out of him, and hurt him not. And they were all amazed, and spake among themselves, saying, What a word is this! for with authority and power he commandeth the unclean spirits, and they come out."
+      }
+    ]
+  },
+  "events": [
+    {
+      "title": "Fundraising Concert for St. George Patriarchal Monastery",
+      "start": "2026-09-26 00:00:00",
+      "end": "2026-09-26 23:59:59",
+      "url": "https://www.constantinehelen.com/event/fundraising-concert-for-st-george-patriarchal-monastery/"
+    },
+    {
+      "title": "No Catechism Class",
+      "start": "2026-09-26 00:00:00",
+      "end": "2026-09-26 23:59:59",
+      "url": "https://www.constantinehelen.com/event/no-catechism-class-5/"
+    },
+    {
+      "title": "Great Vespers & Confessions",
+      "start": "2026-09-26 17:00:00",
+      "end": "2026-09-26 18:30:00",
+      "url": "https://www.constantinehelen.com/event/great-vespers-confessions/2026-09-26/"
+    },
+    {
+      "title": "Great Vespers at Holy Myrrhbearers Outreach",
+      "start": "2026-09-26 18:00:00",
+      "end": "2026-09-26 20:00:00",
+      "url": "https://www.constantinehelen.com/event/great-vespers-at-holy-myrrhbearers-outreach/2026-09-26/"
+    }
+  ]
+}

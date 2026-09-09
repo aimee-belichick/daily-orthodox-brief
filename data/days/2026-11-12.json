@@ -1,0 +1,61 @@
+{
+  "date": "2026-11-12",
+  "liturgical": {
+    "status": "ok",
+    "titles": [
+      "Thursday of the 24th week after Pentecost"
+    ],
+    "summary_title": "St John the Merciful, Patriarch of Alexandria; Leondos Styppi, Patriarch of Constantinople; Our Father among the Saints Martin, Bishop of Tours (397)",
+    "feasts": null,
+    "saints": [
+      {
+        "name": "St John the Merciful, Patriarch of Alexandria",
+        "link": "https://orthodoxwiki.org/Special:Search?search=St%20John%20the%20Merciful%2C%20Patriarch%20of%20Alexandria"
+      },
+      {
+        "name": "Leondos Styppi, Patriarch of Constantinople",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Leondos%20Styppi%2C%20Patriarch%20of%20Constantinople"
+      },
+      {
+        "name": "Our Father among the Saints Martin, Bishop of Tours (397)",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Our%20Father%20among%20the%20Saints%20Martin%2C%20Bishop%20of%20Tours%20%28397%29"
+      },
+      {
+        "name": "Our Holy Father Nilus the Ascetic of Sinai (430)",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Our%20Holy%20Father%20Nilus%20the%20Ascetic%20of%20Sinai%20%28430%29"
+      },
+      {
+        "name": "St Nilus the Myrrh-Gusher of Mt Athos (1651)",
+        "link": "https://orthodoxwiki.org/Special:Search?search=St%20Nilus%20the%20Myrrh-Gusher%20of%20Mt%20Athos%20%281651%29"
+      }
+    ],
+    "fasting": null,
+    "readings": [
+      {
+        "source": "Epistle",
+        "display": "1 Thessalonians 5.1-8",
+        "short_display": "1 Thess 5.1-8",
+        "text": "But of the times and the seasons, brethren, ye have no need that I write unto you. For yourselves know perfectly that the day of the Lord so cometh as a thief in the night. For when they shall say, Peace and safety; then sudden destruction cometh upon them, as travail upon a woman with child; and they shall not escape. But ye, brethren, are not in darkness, that that day should overtake you as a thief. Ye are all the children of light, and the children of the day: we are not of the night, nor of darkness. Therefore let us not sleep, as do others; but let us watch and be sober. For they that sleep sleep in the night; and they that be drunken are drunken in the night. But let us, who are of the day, be sober, putting on the breastplate of faith and love; and for an helmet, the hope of salvation."
+      },
+      {
+        "source": "Epistle",
+        "display": "2 Corinthians 9.6-11",
+        "short_display": "2 Cor 9.6-11",
+        "text": "But this I say, He which soweth sparingly shall reap also sparingly; and he which soweth bountifully shall reap also bountifully. Every man according as he purposeth in his heart, so let him give; not grudgingly, or of necessity: for God loveth a cheerful giver. And God is able to make all grace abound toward you; that ye, always having all sufficiency in all things, may abound to every good work: (As it is written, He hath dispersed abroad; he hath given to the poor: his righteousness remaineth for ever. Now he that ministereth seed to the sower both minister bread for your food, and multiply your seed sown, and increase the fruits of your righteousness;) Being enriched in every thing to all bountifulness, which causeth through us thanksgiving to God."
+      },
+      {
+        "source": "Gospel",
+        "display": "Luke 13.1-9",
+        "short_display": "Luke 13.1-9",
+        "text": "There were present at that season some that told him of the Galil\u00e6ans, whose blood Pilate had mingled with their sacrifices. And Jesus answering said unto them, Suppose ye that these Galil\u00e6ans were sinners above all the Galil\u00e6ans, because they suffered such things? I tell you, Nay: but, except ye repent, ye shall all likewise perish. Or those eighteen, upon whom the tower in Siloam fell, and slew them, think ye that they were sinners above all men that dwelt in Jerusalem? I tell you, Nay: but, except ye repent, ye shall all likewise perish. He spake also this parable; A certain man had a fig tree planted in his vineyard; and he came and sought fruit thereon, and found none. Then said he unto the dresser of his vineyard, Behold, these three years I come seeking fruit on this fig tree, and find none: cut it down; why cumbereth it the ground? And he answering said unto him, Lord, let it alone this year also, till I shall dig about it, and dung it: And if it bear fruit, well: and if not, then after that thou shalt cut it down."
+      },
+      {
+        "source": "Gospel",
+        "display": "Matthew 5.14-19",
+        "short_display": "Matt 5.14-19",
+        "text": "Ye are the light of the world. A city that is set on an hill cannot be hid. Neither do men light a candle, and put it under a bushel, but on a candlestick; and it giveth light unto all that are in the house. Let your light so shine before men, that they may see your good works, and glorify your Father which is in heaven. Think not that I am come to destroy the law, or the prophets: I am not come to destroy, but to fulfil. For verily I say unto you, Till heaven and earth pass, one jot or one tittle shall in no wise pass from the law, till all be fulfilled. Whosoever therefore shall break one of these least commandments, and shall teach men so, he shall be called the least in the kingdom of heaven: but whosoever shall do and teach them, the same shall be called great in the kingdom of heaven."
+      }
+    ]
+  },
+  "events": []
+}

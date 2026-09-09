@@ -1,0 +1,88 @@
+{
+  "date": "2026-12-04",
+  "liturgical": {
+    "status": "ok",
+    "titles": [
+      "Friday of the 27th week after Pentecost"
+    ],
+    "summary_title": "New Hieromartyr Seraphim, Bishop of the Phanar in Greece; Juliana the Martyr of Heliopolis; Holy Great Martyr Barbara (290)",
+    "feasts": null,
+    "saints": [
+      {
+        "name": "New Hieromartyr Seraphim, Bishop of the Phanar in Greece",
+        "link": "https://orthodoxwiki.org/Special:Search?search=New%20Hieromartyr%20Seraphim%2C%20Bishop%20of%20the%20Phanar%20in%20Greece"
+      },
+      {
+        "name": "Juliana the Martyr of Heliopolis",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Juliana%20the%20Martyr%20of%20Heliopolis"
+      },
+      {
+        "name": "Holy Great Martyr Barbara (290)",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Holy%20Great%20Martyr%20Barbara%20%28290%29"
+      },
+      {
+        "name": "Hieromartyr Alexander Hotovitzky, Missionary to America (1937)",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Hieromartyr%20Alexander%20Hotovitzky%2C%20Missionary%20to%20America%20%281937%29"
+      },
+      {
+        "name": "Our Righteous Father John of Damascus (760)",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Our%20Righteous%20Father%20John%20of%20Damascus%20%28760%29"
+      },
+      {
+        "name": "Saint Gennadius, Archbishop of Novgorod (1505)",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Saint%20Gennadius%2C%20Archbishop%20of%20Novgorod%20%281505%29"
+      }
+    ],
+    "fasting": {
+      "level": 5,
+      "description": "Nativity Fast",
+      "abstentions": [
+        "meat",
+        "fish",
+        "dairy",
+        "eggs",
+        "wine",
+        "oil"
+      ]
+    },
+    "readings": [
+      {
+        "source": "Epistle",
+        "display": "2 Timothy 1.1-2, 8-18",
+        "short_display": "2 Tim 1.1-2, 8-18",
+        "text": "Paul, an apostle of Jesus Christ by the will of God, according to the promise of life which is in Christ Jesus, To Timothy, my dearly beloved son: Grace, mercy, and peace, from God the Father and Christ Jesus our Lord. Be not thou therefore ashamed of the testimony of our Lord, nor of me his prisoner: but be thou partaker of the afflictions of the gospel according to the power of God; Who hath saved us, and called us with an holy calling, not according to our works, but according to his own purpose and grace, which was given us in Christ Jesus before the world began, But is now made manifest by the appearing of our Saviour Jesus Christ, who hath abolished death, and hath brought life and immortality to light through the gospel: Whereunto I am appointed a preacher, and an apostle, and a teacher of the Gentiles. For the which cause I also suffer these things: nevertheless I am not ashamed: for I know whom I have believed, and am persuaded that he is able to keep that which I have committed unto him against that day. Hold fast the form of sound words, which thou hast heard of me, in faith and love which is in Christ Jesus. That good thing which was committed unto thee keep by the Holy Ghost which dwelleth in us. This thou knowest, that all they which are in Asia be turned away from me; of whom are Phygellus and Hermogenes. The Lord give mercy unto the house of Onesiphorus; for he oft refreshed me, and was not ashamed of my chain: But, when he was in Rome, he sought me out very diligently, and found me. The Lord grant unto him that he may find mercy of the Lord in that day: and in how many things he ministered unto me at Ephesus, thou knowest very well."
+      },
+      {
+        "source": "Epistle",
+        "display": "Hebrews 13.7-16",
+        "short_display": "Heb 13.7-16",
+        "text": "Remember them which have the rule over you, who have spoken unto you the word of God: whose faith follow, considering the end of their conversation. Jesus Christ the same yesterday, and to day, and for ever. Be not carried about with divers and strange doctrines. For it is a good thing that the heart be established with grace; not with meats, which have not profited them that have been occupied therein. We have an altar, whereof they have no right to eat which serve the tabernacle. For the bodies of those beasts, whose blood is brought into the sanctuary by the high priest for sin, are burned without the camp. Wherefore Jesus also, that he might sanctify the people with his own blood, suffered without the gate. Let us go forth therefore unto him without the camp, bearing his reproach. For here have we no continuing city, but we seek one to come. By him therefore let us offer the sacrifice of praise to God continually, that is, the fruit of our lips giving thanks to his name. But to do good and to communicate forget not: for with such sacrifices God is well pleased."
+      },
+      {
+        "source": "Epistle",
+        "display": "Galatians 3.23-4.5",
+        "short_display": "Gal 3.23-4.5",
+        "text": "But before faith came, we were kept under the law, shut up unto the faith which should afterwards be revealed. Wherefore the law was our schoolmaster to bring us unto Christ, that we might be justified by faith. But after that faith is come, we are no longer under a schoolmaster. For ye are all the children of God by faith in Christ Jesus. For as many of you as have been baptized into Christ have put on Christ. There is neither Jew nor Greek, there is neither bond nor free, there is neither male nor female: for ye are all one in Christ Jesus. And if ye be Christ\u2019s, then are ye Abraham\u2019s seed, and heirs according to the promise. Now I say, That the heir, as long as he is a child, differeth nothing from a servant, though he be lord of all; But is under tutors and governors until the time appointed of the father. Even so we, when we were children, were in bondage under the elements of the world: But when the fulness of the time was come, God sent forth his Son, made of a woman, made under the law, To redeem them that were under the law, that we might receive the adoption of sons."
+      },
+      {
+        "source": "Gospel",
+        "display": "Luke 20.19-26",
+        "short_display": "Luke 20.19-26",
+        "text": "And the chief priests and the scribes the same hour sought to lay hands on him; and they feared the people: for they perceived that he had spoken this parable against them. And they watched him, and sent forth spies, which should feign themselves just men, that they might take hold of his words, that so they might deliver him unto the power and authority of the governor. And they asked him, saying, Master, we know that thou sayest and teachest rightly, neither acceptest thou the person of any, but teachest the way of God truly: Is it lawful for us to give tribute unto C\u00e6sar, or no? But he perceived their craftiness, and said unto them, Why tempt ye me? Shew me a penny. Whose image and superscription hath it? They answered and said, C\u00e6sar\u2019s. And he said unto them, Render therefore unto C\u00e6sar the things which be C\u00e6sar\u2019s, and unto God the things which be God\u2019s. And they could not take hold of his words before the people: and they marvelled at his answer, and held their peace."
+      },
+      {
+        "source": "Gospel",
+        "display": "Luke 12.32-40",
+        "short_display": "Luke 12.32-40",
+        "text": "Fear not, little flock; for it is your Father\u2019s good pleasure to give you the kingdom. Sell that ye have, and give alms; provide yourselves bags which wax not old, a treasure in the heavens that faileth not, where no thief approacheth, neither moth corrupteth. For where your treasure is, there will your heart be also. Let your loins be girded about, and your lights burning; And ye yourselves like unto men that wait for their lord, when he will return from the wedding; that when he cometh and knocketh, they may open unto him immediately. Blessed are those servants, whom the lord when he cometh shall find watching: verily I say unto you, that he shall gird himself, and make them to sit down to meat, and will come forth and serve them. And if he shall come in the second watch, or come in the third watch, and find them so, blessed are those servants. And this know, that if the goodman of the house had known what hour the thief would come, he would have watched, and not have suffered his house to be broken through. Be ye therefore ready also: for the Son of man cometh at an hour when ye think not."
+      },
+      {
+        "source": "Gospel",
+        "display": "Mark 5.24-34",
+        "short_display": "Mark 5.24-34",
+        "text": "And Jesus went with him; and much people followed him, and thronged him. And a certain woman, which had an issue of blood twelve years, And had suffered many things of many physicians, and had spent all that she had, and was nothing bettered, but rather grew worse, When she had heard of Jesus, came in the press behind, and touched his garment. For she said, If I may touch but his clothes, I shall be whole. And straightway the fountain of her blood was dried up; and she felt in her body that she was healed of that plague. And Jesus, immediately knowing in himself that virtue had gone out of him, turned him about in the press, and said, Who touched my clothes? And his disciples said unto him, Thou seest the multitude thronging thee, and sayest thou, Who touched me? And he looked round about to see her that had done this thing. But the woman fearing and trembling, knowing what was done in her, came and fell down before him, and told him all the truth. And he said unto her, Daughter, thy faith hath made thee whole; go in peace, and be whole of thy plague."
+      }
+    ]
+  },
+  "events": []
+}

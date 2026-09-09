@@ -1,0 +1,43 @@
+{
+  "date": "2026-09-10",
+  "liturgical": {
+    "status": "ok",
+    "titles": [
+      "Thursday of the 15th week after Pentecost"
+    ],
+    "summary_title": "Martyrs Menodora, Metrodora, Nymphodora; Poulcheria the Empress",
+    "feasts": null,
+    "saints": [
+      {
+        "name": "Martyrs Menodora, Metrodora, Nymphodora",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Martyrs%20Menodora%2C%20Metrodora%2C%20Nymphodora"
+      },
+      {
+        "name": "Poulcheria the Empress",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Poulcheria%20the%20Empress"
+      }
+    ],
+    "fasting": null,
+    "readings": [
+      {
+        "source": "Epistle",
+        "display": "Galatians 3.23-4.5",
+        "short_display": "Gal 3.23-4.5",
+        "text": "But before faith came, we were kept under the law, shut up unto the faith which should afterwards be revealed. Wherefore the law was our schoolmaster to bring us unto Christ, that we might be justified by faith. But after that faith is come, we are no longer under a schoolmaster. For ye are all the children of God by faith in Christ Jesus. For as many of you as have been baptized into Christ have put on Christ. There is neither Jew nor Greek, there is neither bond nor free, there is neither male nor female: for ye are all one in Christ Jesus. And if ye be Christ\u2019s, then are ye Abraham\u2019s seed, and heirs according to the promise. Now I say, That the heir, as long as he is a child, differeth nothing from a servant, though he be lord of all; But is under tutors and governors until the time appointed of the father. Even so we, when we were children, were in bondage under the elements of the world: But when the fulness of the time was come, God sent forth his Son, made of a woman, made under the law, To redeem them that were under the law, that we might receive the adoption of sons."
+      },
+      {
+        "source": "Gospel",
+        "display": "Mark 6.30-45",
+        "short_display": "Mark 6.30-45",
+        "text": "And the apostles gathered themselves together unto Jesus, and told him all things, both what they had done, and what they had taught. And he said unto them, Come ye yourselves apart into a desert place, and rest a while: for there were many coming and going, and they had no leisure so much as to eat. And they departed into a desert place by ship privately. And the people saw them departing, and many knew him, and ran afoot thither out of all cities, and outwent them, and came together unto him. And Jesus, when he came out, saw much people, and was moved with compassion toward them, because they were as sheep not having a shepherd: and he began to teach them many things. And when the day was now far spent, his disciples came unto him, and said, This is a desert place, and now the time is far passed: Send them away, that they may go into the country round about, and into the villages, and buy themselves bread: for they have nothing to eat. He answered and said unto them, Give ye them to eat. And they say unto him, Shall we go and buy two hundred pennyworth of bread, and give them to eat? He saith unto them, How many loaves have ye? go and see. And when they knew, they say, Five, and two fishes. And he commanded them to make all sit down by companies upon the green grass. And they sat down in ranks, by hundreds, and by fifties. And when he had taken the five loaves and the two fishes, he looked up to heaven, and blessed, and brake the loaves, and gave them to his disciples to set before them; and the two fishes divided he among them all. And they did all eat, and were filled. And they took up twelve baskets full of the fragments, and of the fishes. And they that did eat of the loaves were about five thousand men. And straightway he constrained his disciples to get into the ship, and to go to the other side before unto Bethsaida, while he sent away the people."
+      },
+      {
+        "source": "Gospel",
+        "display": "John 3.16-21",
+        "short_display": "John 3.16-21",
+        "text": "For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life. For God sent not his Son into the world to condemn the world; but that the world through him might be saved. He that believeth on him is not condemned: but he that believeth not is condemned already, because he hath not believed in the name of the only begotten Son of God. And this is the condemnation, that light is come into the world, and men loved darkness rather than light, because their deeds were evil. For every one that doeth evil hateth the light, neither cometh to the light, lest his deeds should be reproved. But he that doeth truth cometh to the light, that his deeds may be made manifest, that they are wrought in God."
+      }
+    ]
+  },
+  "events": []
+}

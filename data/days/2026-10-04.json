@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-04",
+  "liturgical": {
+    "status": "ok",
+    "titles": [
+      "18th Sunday after Pentecost"
+    ],
+    "summary_title": "18th Sunday after Pentecost",
+    "feasts": null,
+    "saints": [
+      {
+        "name": "Hieromartyr Hierotheus, Bishop of Athens",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Hieromartyr%20Hierotheus%2C%20Bishop%20of%20Athens"
+      },
+      {
+        "name": "Unc. Rel. Gurias of Kazan and Varsanuphy of Tver",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Unc.%20Rel.%20Gurias%20of%20Kazan%20and%20Varsanuphy%20of%20Tver"
+      },
+      {
+        "name": "Domnina the Martyr and her daughters",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Domnina%20the%20Martyr%20and%20her%20daughters"
+      },
+      {
+        "name": "John the Hermit",
+        "link": "https://orthodoxwiki.org/Special:Search?search=John%20the%20Hermit"
+      },
+      {
+        "name": "Our Holy Father Ammon of Egypt (4th c)",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Our%20Holy%20Father%20Ammon%20of%20Egypt%20%284th%20c%29"
+      }
+    ],
+    "fasting": null,
+    "readings": [
+      {
+        "source": "7th Matins Gospel",
+        "display": "John 20.1-10",
+        "short_display": "John 20.1-10",
+        "text": "The first day of the week cometh Mary Magdalene early, when it was yet dark, unto the sepulchre, and seeth the stone taken away from the sepulchre. Then she runneth, and cometh to Simon Peter, and to the other disciple, whom Jesus loved, and saith unto them, They have taken away the Lord out of the sepulchre, and we know not where they have laid him. Peter therefore went forth, and that other disciple, and came to the sepulchre. So they ran both together: and the other disciple did outrun Peter, and came first to the sepulchre. And he stooping down, and looking in, saw the linen clothes lying; yet went he not in. Then cometh Simon Peter following him, and went into the sepulchre, and seeth the linen clothes lie, And the napkin, that was about his head, not lying with the linen clothes, but wrapped together in a place by itself. Then went in also that other disciple, which came first to the sepulchre, and he saw, and believed. For as yet they knew not the scripture, that he must rise again from the dead. Then the disciples went away again unto their own home."
+      },
+      {
+        "source": "Epistle",
+        "display": "2 Corinthians 9.6-11",
+        "short_display": "2 Cor 9.6-11",
+        "text": "But this I say, He which soweth sparingly shall reap also sparingly; and he which soweth bountifully shall reap also bountifully. Every man according as he purposeth in his heart, so let him give; not grudgingly, or of necessity: for God loveth a cheerful giver. And God is able to make all grace abound toward you; that ye, always having all sufficiency in all things, may abound to every good work: (As it is written, He hath dispersed abroad; he hath given to the poor: his righteousness remaineth for ever. Now he that ministereth seed to the sower both minister bread for your food, and multiply your seed sown, and increase the fruits of your righteousness;) Being enriched in every thing to all bountifulness, which causeth through us thanksgiving to God."
+      },
+      {
+        "source": "Gospel",
+        "display": "Luke 6.31-36",
+        "short_display": "Luke 6.31-36",
+        "text": "And as ye would that men should do to you, do ye also to them likewise. For if ye love them which love you, what thank have ye? for sinners also love those that love them. And if ye do good to them which do good to you, what thank have ye? for sinners also do even the same. And if ye lend to them of whom ye hope to receive, what thank have ye? for sinners also lend to sinners, to receive as much again. But love ye your enemies, and do good, and lend, hoping for nothing again; and your reward shall be great, and ye shall be the children of the Highest: for he is kind unto the unthankful and to the evil. Be ye therefore merciful, as your Father also is merciful."
+      }
+    ]
+  },
+  "events": [
+    {
+      "title": "Matins (Orthros)",
+      "start": "2026-10-04 09:00:00",
+      "end": "2026-10-04 10:00:00",
+      "url": "https://www.constantinehelen.com/event/matins-orthros-29/2026-10-04/"
+    },
+    {
+      "title": "Divine Liturgy",
+      "start": "2026-10-04 10:00:00",
+      "end": "2026-10-04 11:30:00",
+      "url": "https://www.constantinehelen.com/event/divine-liturgy-39-2/2026-10-04/"
+    }
+  ]
+}

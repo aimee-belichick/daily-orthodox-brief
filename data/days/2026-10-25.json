@@ -1,0 +1,64 @@
+{
+  "date": "2026-10-25",
+  "liturgical": {
+    "status": "ok",
+    "titles": [
+      "21st Sunday after Pentecost"
+    ],
+    "summary_title": "21st Sunday after Pentecost",
+    "feasts": null,
+    "saints": [
+      {
+        "name": "Martyrs Marcian and Martyrius the Notaries",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Martyrs%20Marcian%20and%20Martyrius%20the%20Notaries"
+      },
+      {
+        "name": "Chrysaphios (or Chrysaphos) the Martyr",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Chrysaphios%20%28or%20Chrysaphos%29%20the%20Martyr"
+      },
+      {
+        "name": "Martyr Chrysanthe",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Martyr%20Chrysanthe"
+      },
+      {
+        "name": "St Tabitha of Joppa",
+        "link": "https://orthodoxwiki.org/Special:Search?search=St%20Tabitha%20of%20Joppa"
+      }
+    ],
+    "fasting": null,
+    "readings": [
+      {
+        "source": "10th Matins Gospel",
+        "display": "John 21.1-14",
+        "short_display": "John 21.1-14",
+        "text": "After these things Jesus shewed himself again to the disciples at the sea of Tiberias; and on this wise shewed he himself. There were together Simon Peter, and Thomas called Didymus, and Nathanael of Cana in Galilee, and the sons of Zebedee, and two other of his disciples. Simon Peter saith unto them, I go a fishing. They say unto him, We also go with thee. They went forth, and entered into a ship immediately; and that night they caught nothing. But when the morning was now come, Jesus stood on the shore: but the disciples knew not that it was Jesus. Then Jesus saith unto them, Children, have ye any meat? They answered him, No. And he said unto them, Cast the net on the right side of the ship, and ye shall find. They cast therefore, and now they were not able to draw it for the multitude of fishes. Therefore that disciple whom Jesus loved saith unto Peter, It is the Lord. Now when Simon Peter heard that it was the Lord, he girt his fisher\u2019s coat unto him, (for he was naked,) and did cast himself into the sea. And the other disciples came in a little ship; (for they were not far from land, but as it were two hundred cubits,) dragging the net with fishes. As soon then as they were come to land, they saw a fire of coals there, and fish laid thereon, and bread. Jesus saith unto them, Bring of the fish which ye have now caught. Simon Peter went up, and drew the net to land full of great fishes, an hundred and fifty and three: and for all there were so many, yet was not the net broken. Jesus saith unto them, Come and dine. And none of the disciples durst ask him, Who art thou? knowing that it was the Lord. Jesus then cometh, and taketh bread, and giveth them, and fish likewise. This is now the third time that Jesus shewed himself to his disciples, after that he was risen from the dead."
+      },
+      {
+        "source": "Epistle",
+        "display": "Galatians 2.16-20",
+        "short_display": "Gal 2.16-20",
+        "text": "Knowing that a man is not justified by the works of the law, but by the faith of Jesus Christ, even we have believed in Jesus Christ, that we might be justified by the faith of Christ, and not by the works of the law: for by the works of the law shall no flesh be justified. But if, while we seek to be justified by Christ, we ourselves also are found sinners, is therefore Christ the minister of sin? God forbid. For if I build again the things which I destroyed, I make myself a transgressor. For I through the law am dead to the law, that I might live unto God. I am crucified with Christ: nevertheless I live; yet not I, but Christ liveth in me: and the life which I now live in the flesh I live by the faith of the Son of God, who loved me, and gave himself for me."
+      },
+      {
+        "source": "Gospel",
+        "display": "Luke 8.26-39",
+        "short_display": "Luke 8.26-39",
+        "text": "And they arrived at the country of the Gadarenes, which is over against Galilee. And when he went forth to land, there met him out of the city a certain man, which had devils long time, and ware no clothes, neither abode in any house, but in the tombs. When he saw Jesus, he cried out, and fell down before him, and with a loud voice said, What have I to do with thee, Jesus, thou Son of God most high? I beseech thee, torment me not. (For he had commanded the unclean spirit to come out of the man. For oftentimes it had caught him: and he was kept bound with chains and in fetters; and he brake the bands, and was driven of the devil into the wilderness.) And Jesus asked him, saying, What is thy name? And he said, Legion: because many devils were entered into him. And they besought him that he would not command them to go out into the deep. And there was there an herd of many swine feeding on the mountain: and they besought him that he would suffer them to enter into them. And he suffered them. Then went the devils out of the man, and entered into the swine: and the herd ran violently down a steep place into the lake, and were choked. When they that fed them saw what was done, they fled, and went and told it in the city and in the country. Then they went out to see what was done; and came to Jesus, and found the man, out of whom the devils were departed, sitting at the feet of Jesus, clothed, and in his right mind: and they were afraid. They also which saw it told them by what means he that was possessed of the devils was healed. Then the whole multitude of the country of the Gadarenes round about besought him to depart from them; for they were taken with great fear: and he went up into the ship, and returned back again. Now the man out of whom the devils were departed besought him that he might be with him: but Jesus sent him away, saying, Return to thine own house, and shew how great things God hath done unto thee. And he went his way, and published throughout the whole city how great things Jesus had done unto him."
+      }
+    ]
+  },
+  "events": [
+    {
+      "title": "Matins (Orthros)",
+      "start": "2026-10-25 09:00:00",
+      "end": "2026-10-25 10:00:00",
+      "url": "https://www.constantinehelen.com/event/matins-orthros-29/2026-10-25/"
+    },
+    {
+      "title": "Divine Liturgy",
+      "start": "2026-10-25 10:00:00",
+      "end": "2026-10-25 11:30:00",
+      "url": "https://www.constantinehelen.com/event/divine-liturgy-39-2/2026-10-25/"
+    }
+  ]
+}

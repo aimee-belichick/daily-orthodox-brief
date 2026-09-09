@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-21",
+  "liturgical": {
+    "status": "ok",
+    "titles": [
+      "Wednesday of the 21st week after Pentecost"
+    ],
+    "summary_title": "Ven. Hilarion the Great; Martyrs Theodote and Socrates; Righteous Philotheus",
+    "feasts": null,
+    "saints": [
+      {
+        "name": "Ven. Hilarion the Great",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Ven.%20Hilarion%20the%20Great"
+      },
+      {
+        "name": "Martyrs Theodote and Socrates",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Martyrs%20Theodote%20and%20Socrates"
+      },
+      {
+        "name": "Righteous Philotheus",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Righteous%20Philotheus"
+      },
+      {
+        "name": "Holy New Martyr John of Monembasia (1773)",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Holy%20New%20Martyr%20John%20of%20Monembasia%20%281773%29"
+      }
+    ],
+    "fasting": {
+      "level": 1,
+      "description": "Fast",
+      "abstentions": [
+        "meat",
+        "fish",
+        "dairy",
+        "eggs",
+        "wine",
+        "oil"
+      ]
+    },
+    "readings": [
+      {
+        "source": "Epistle",
+        "display": "Colossians 1.18-23",
+        "short_display": "Col 1.18-23",
+        "text": "And he is the head of the body, the church: who is the beginning, the firstborn from the dead; that in all things he might have the preeminence. For it pleased the Father that in him should all fulness dwell; And, having made peace through the blood of his cross, by him to reconcile all things unto himself; by him, I say, whether they be things in earth, or things in heaven. And you, that were sometime alienated and enemies in your mind by wicked works, yet now hath he reconciled In the body of his flesh through death, to present you holy and unblameable and unreproveable in his sight: If ye continue in the faith grounded and settled, and be not moved away from the hope of the gospel, which ye have heard, and which was preached to every creature which is under heaven; whereof I Paul am made a minister;"
+      },
+      {
+        "source": "Epistle",
+        "display": "2 Corinthians 9.6-11",
+        "short_display": "2 Cor 9.6-11",
+        "text": "But this I say, He which soweth sparingly shall reap also sparingly; and he which soweth bountifully shall reap also bountifully. Every man according as he purposeth in his heart, so let him give; not grudgingly, or of necessity: for God loveth a cheerful giver. And God is able to make all grace abound toward you; that ye, always having all sufficiency in all things, may abound to every good work: (As it is written, He hath dispersed abroad; he hath given to the poor: his righteousness remaineth for ever. Now he that ministereth seed to the sower both minister bread for your food, and multiply your seed sown, and increase the fruits of your righteousness;) Being enriched in every thing to all bountifulness, which causeth through us thanksgiving to God."
+      },
+      {
+        "source": "Gospel",
+        "display": "Luke 9.44-50",
+        "short_display": "Luke 9.44-50",
+        "text": "Let these sayings sink down into your ears: for the Son of man shall be delivered into the hands of men. But they understood not this saying, and it was hid from them, that they perceived it not: and they feared to ask him of that saying. Then there arose a reasoning among them, which of them should be greatest. And Jesus, perceiving the thought of their heart, took a child, and set him by him, And said unto them, Whosoever shall receive this child in my name receiveth me: and whosoever shall receive me receiveth him that sent me: for he that is least among you all, the same shall be great. And John answered and said, Master, we saw one casting out devils in thy name; and we forbad him, because he followeth not with us. And Jesus said unto him, Forbid him not: for he that is not against us is for us."
+      }
+    ]
+  },
+  "events": [
+    {
+      "title": "Daily Vespers",
+      "start": "2026-10-21 18:00:00",
+      "end": "2026-10-21 19:00:00",
+      "url": "https://www.constantinehelen.com/event/daily-vespers-15/2026-10-21/"
+    },
+    {
+      "title": "Book Study",
+      "start": "2026-10-21 18:45:00",
+      "end": "2026-10-21 20:00:00",
+      "url": "https://www.constantinehelen.com/event/book-study-2-2/2026-10-21/"
+    }
+  ]
+}

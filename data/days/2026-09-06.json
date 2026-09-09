@@ -1,0 +1,76 @@
+{
+  "date": "2026-09-06",
+  "liturgical": {
+    "status": "ok",
+    "titles": [
+      "14th Sunday after Pentecost"
+    ],
+    "summary_title": "14th Sunday after Pentecost",
+    "feasts": null,
+    "saints": [
+      {
+        "name": "Miracle of Archangel Michael at Colossae",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Miracle%20of%20Archangel%20Michael%20at%20Colossae"
+      },
+      {
+        "name": "Holy Martyr Calodote",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Holy%20Martyr%20Calodote"
+      },
+      {
+        "name": "Holy Prophet Zacharias and Righteous Elizabeth (1st c.), parents of St John the Forerunner.",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Holy%20Prophet%20Zacharias%20and%20Righteous%20Elizabeth%20%281st%20c.%29%2C%20parents%20of%20St%20John%20the%20Forerunner."
+      },
+      {
+        "name": "St Maxim (Sandovich), martyr of Lemkos, Czechoslovakia (1914) (August 24 OC)",
+        "link": "https://orthodoxwiki.org/Special:Search?search=St%20Maxim%20%28Sandovich%29%2C%20martyr%20of%20Lemkos%2C%20Czechoslovakia%20%281914%29%20%28August%2024%20OC%29"
+      }
+    ],
+    "fasting": null,
+    "readings": [
+      {
+        "source": "3rd Matins Gospel",
+        "display": "Mark 16.9-20",
+        "short_display": "Mark 16.9-20",
+        "text": "Now when Jesus was risen early the first day of the week, he appeared first to Mary Magdalene, out of whom he had cast seven devils. And she went and told them that had been with him, as they mourned and wept. And they, when they had heard that he was alive, and had been seen of her, believed not. After that he appeared in another form unto two of them, as they walked, and went into the country. And they went and told it unto the residue: neither believed they them. Afterward he appeared unto the eleven as they sat at meat, and upbraided them with their unbelief and hardness of heart, because they believed not them which had seen him after he was risen. And he said unto them, Go ye into all the world, and preach the gospel to every creature. He that believeth and is baptized shall be saved; but he that believeth not shall be damned. And these signs shall follow them that believe; In my name shall they cast out devils; they shall speak with new tongues; They shall take up serpents; and if they drink any deadly thing, it shall not hurt them; they shall lay hands on the sick, and they shall recover. So then after the Lord had spoken unto them, he was received up into heaven, and sat on the right hand of God. And they went forth, and preached every where, the Lord working with them, and confirming the word with signs following. Amen."
+      },
+      {
+        "source": "Epistle",
+        "display": "2 Corinthians 1.21-2.4",
+        "short_display": "2 Cor 1.21-2.4",
+        "text": "Now he which stablisheth us with you in Christ, and hath anointed us, is God; Who hath also sealed us, and given the earnest of the Spirit in our hearts. Moreover I call God for a record upon my soul, that to spare you I came not as yet unto Corinth. Not for that we have dominion over your faith, but are helpers of your joy: for by faith ye stand. But I determined this with myself, that I would not come again to you in heaviness. For if I make you sorry, who is he then that maketh me glad, but the same which is made sorry by me? And I wrote this same unto you, lest, when I came, I should have sorrow from them of whom I ought to rejoice; having confidence in you all, that my joy is the joy of you all. For out of much affliction and anguish of heart I wrote unto you with many tears; not that ye should be grieved, but that ye might know the love which I have more abundantly unto you."
+      },
+      {
+        "source": "Gospel",
+        "display": "Matthew 22.1-14",
+        "short_display": "Matt 22.1-14",
+        "text": "And Jesus answered and spake unto them again by parables, and said, The kingdom of heaven is like unto a certain king, which made a marriage for his son, And sent forth his servants to call them that were bidden to the wedding: and they would not come. Again, he sent forth other servants, saying, Tell them which are bidden, Behold, I have prepared my dinner: my oxen and my fatlings are killed, and all things are ready: come unto the marriage. But they made light of it, and went their ways, one to his farm, another to his merchandise: And the remnant took his servants, and entreated them spitefully, and slew them. But when the king heard thereof, he was wroth: and he sent forth his armies, and destroyed those murderers, and burned up their city. Then saith he to his servants, The wedding is ready, but they which were bidden were not worthy. Go ye therefore into the highways, and as many as ye shall find, bid to the marriage. So those servants went out into the highways, and gathered together all as many as they found, both bad and good: and the wedding was furnished with guests. And when the king came in to see the guests, he saw there a man which had not on a wedding garment: And he saith unto him, Friend, how camest thou in hither not having a wedding garment? And he was speechless. Then said the king to the servants, Bind him hand and foot, and take him away, and cast him into outer darkness; there shall be weeping and gnashing of teeth. For many are called, but few are chosen."
+      }
+    ]
+  },
+  "events": [
+    {
+      "title": "Sunday School Meet & Greet",
+      "start": "2026-09-06 00:00:00",
+      "end": "2026-09-06 23:59:59",
+      "url": "https://www.constantinehelen.com/event/sunday-school-meet-greet/"
+    },
+    {
+      "title": "Matins (Orthros)",
+      "start": "2026-09-06 09:00:00",
+      "end": "2026-09-06 10:00:00",
+      "url": "https://www.constantinehelen.com/event/matins-orthros-29/2026-09-06/"
+    },
+    {
+      "title": "Divine Liturgy",
+      "start": "2026-09-06 10:00:00",
+      "end": "2026-09-06 11:30:00",
+      "url": "https://www.constantinehelen.com/event/divine-liturgy-39-2/2026-09-06/"
+    },
+    {
+      "title": "Irish School of Music",
+      "start": "2026-09-06 14:00:00",
+      "end": "2026-09-06 17:00:00",
+      "url": "https://www.constantinehelen.com/event/irish-school-of-music-9/"
+    }
+  ]
+}

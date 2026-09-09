@@ -1,0 +1,58 @@
+{
+  "date": "2026-12-08",
+  "liturgical": {
+    "status": "ok",
+    "titles": [
+      "Tuesday of the 28th week after Pentecost"
+    ],
+    "summary_title": "Ven. Patapius of Thebes; Holy Apostles Sosthenes, Apollos, Tychicus and Epaphroditus, Cephas and Caesar",
+    "feasts": null,
+    "saints": [
+      {
+        "name": "Ven. Patapius of Thebes",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Ven.%20Patapius%20of%20Thebes"
+      },
+      {
+        "name": "Holy Apostles Sosthenes, Apollos, Tychicus and Epaphroditus, Cephas and Caesar",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Holy%20Apostles%20Sosthenes%2C%20Apollos%2C%20Tychicus%20and%20Epaphroditus%2C%20Cephas%20and%20Caesar"
+      }
+    ],
+    "fasting": {
+      "level": 5,
+      "description": "Nativity Fast",
+      "abstentions": [
+        "meat",
+        "dairy",
+        "eggs"
+      ]
+    },
+    "readings": [
+      {
+        "source": "Epistle",
+        "display": "2 Timothy 3.16-4.4",
+        "short_display": "2 Tim 3.16-4.4",
+        "text": "All scripture is given by inspiration of God, and is profitable for doctrine, for reproof, for correction, for instruction in righteousness: That the man of God may be perfect, throughly furnished unto all good works. I charge thee therefore before God, and the Lord Jesus Christ, who shall judge the quick and the dead at his appearing and his kingdom; Preach the word; be instant in season, out of season; reprove, rebuke, exhort with all longsuffering and doctrine. For the time will come when they will not endure sound doctrine; but after their own lusts shall they heap to themselves teachers, having itching ears; And they shall turn away their ears from the truth, and shall be turned unto fables."
+      },
+      {
+        "source": "Gospel",
+        "display": "Luke 21.12-19",
+        "short_display": "Luke 21.12-19",
+        "text": "But before all these, they shall lay their hands on you, and persecute you, delivering you up to the synagogues, and into prisons, being brought before kings and rulers for my name\u2019s sake. And it shall turn to you for a testimony. Settle it therefore in your hearts, not to meditate before what ye shall answer: For I will give you a mouth and wisdom, which all your adversaries shall not be able to gainsay nor resist. And ye shall be betrayed both by parents, and brethren, and kinsfolks, and friends; and some of you shall they cause to be put to death. And ye shall be hated of all men for my name\u2019s sake. But there shall not an hair of your head perish. In your patience possess ye your souls."
+      }
+    ]
+  },
+  "events": [
+    {
+      "title": "Tuesday Liturgy",
+      "start": "2026-12-08 09:30:00",
+      "end": "2026-12-08 11:00:00",
+      "url": "https://www.constantinehelen.com/event/tuesday-liturgy-2/2026-12-08/"
+    },
+    {
+      "title": "Daily Vespers at Holy Myrrhbearers Outreach",
+      "start": "2026-12-08 18:00:00",
+      "end": "2026-12-08 20:00:00",
+      "url": "https://www.constantinehelen.com/event/daily-vespers-at-holy-myrrhbearers-outreach/2026-12-08/"
+    }
+  ]
+}

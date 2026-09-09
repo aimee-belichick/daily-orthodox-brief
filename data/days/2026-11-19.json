@@ -1,0 +1,61 @@
+{
+  "date": "2026-11-19",
+  "liturgical": {
+    "status": "ok",
+    "titles": [
+      "Thursday of the 25th week after Pentecost"
+    ],
+    "summary_title": "Prophet Obadiah; Ven. Barlaam and Joasaph; Martyr Heliodorus",
+    "feasts": null,
+    "saints": [
+      {
+        "name": "Prophet Obadiah",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Prophet%20Obadiah"
+      },
+      {
+        "name": "Ven. Barlaam and Joasaph",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Ven.%20Barlaam%20and%20Joasaph"
+      },
+      {
+        "name": "Martyr Heliodorus",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Martyr%20Heliodorus"
+      },
+      {
+        "name": "Anthimos, Thallalaeos, Christopher, Euphemia & her children, the Martyrs",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Anthimos%2C%20Thallalaeos%2C%20Christopher%2C%20Euphemia%20%26%20her%20children%2C%20the%20Martyrs"
+      },
+      {
+        "name": "Our Holy Father Philaret, Metropolitan of Moscow (1867)",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Our%20Holy%20Father%20Philaret%2C%20Metropolitan%20of%20Moscow%20%281867%29"
+      },
+      {
+        "name": "Holy Martyr Barlaam of Antioch (304)",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Holy%20Martyr%20Barlaam%20of%20Antioch%20%28304%29"
+      }
+    ],
+    "fasting": {
+      "level": 5,
+      "description": "Nativity Fast",
+      "abstentions": [
+        "meat",
+        "dairy",
+        "eggs"
+      ]
+    },
+    "readings": [
+      {
+        "source": "Epistle",
+        "display": "2 Thessalonians 2.13-3.5",
+        "short_display": "2 Thess 2.13-3.5",
+        "text": "But we are bound to give thanks alway to God for you, brethren beloved of the Lord, because God hath from the beginning chosen you to salvation through sanctification of the Spirit and belief of the truth: Whereunto he called you by our gospel, to the obtaining of the glory of our Lord Jesus Christ. Therefore, brethren, stand fast, and hold the traditions which ye have been taught, whether by word, or our epistle. Now our Lord Jesus Christ himself, and God, even our Father, which hath loved us, and hath given us everlasting consolation and good hope through grace, Comfort your hearts, and stablish you in every good word and work. Finally, brethren, pray for us, that the word of the Lord may have free course, and be glorified, even as it is with you: And that we may be delivered from unreasonable and wicked men: for all men have not faith. But the Lord is faithful, who shall stablish you, and keep you from evil. And we have confidence in the Lord touching you, that ye both do and will do the things which we command you. And the Lord direct your hearts into the love of God, and into the patient waiting for Christ."
+      },
+      {
+        "source": "Gospel",
+        "display": "Luke 16.1-9",
+        "short_display": "Luke 16.1-9",
+        "text": "And he said also unto his disciples, There was a certain rich man, which had a steward; and the same was accused unto him that he had wasted his goods. And he called him, and said unto him, How is it that I hear this of thee? give an account of thy stewardship; for thou mayest be no longer steward. Then the steward said within himself, What shall I do? for my lord taketh away from me the stewardship: I cannot dig; to beg I am ashamed. I am resolved what to do, that, when I am put out of the stewardship, they may receive me into their houses. So he called every one of his lord\u2019s debtors unto him, and said unto the first, How much owest thou unto my lord? And he said, An hundred measures of oil. And he said unto him, Take thy bill, and sit down quickly, and write fifty. Then said he to another, And how much owest thou? And he said, An hundred measures of wheat. And he said unto him, Take thy bill, and write fourscore. And the lord commended the unjust steward, because he had done wisely: for the children of this world are in their generation wiser than the children of light. And I say unto you, Make to yourselves friends of the mammon of unrighteousness; that, when ye fail, they may receive you into everlasting habitations."
+      }
+    ]
+  },
+  "events": []
+}

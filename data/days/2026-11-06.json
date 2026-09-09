@@ -1,0 +1,64 @@
+{
+  "date": "2026-11-06",
+  "liturgical": {
+    "status": "ok",
+    "titles": [
+      "Friday of the 23rd week after Pentecost"
+    ],
+    "summary_title": "St Paul the Confessor of Constantinople; Ven. Luke of Sicily (Taormina); Rep. St Herman, Archbishop of Kazan",
+    "feasts": null,
+    "saints": [
+      {
+        "name": "St Paul the Confessor of Constantinople",
+        "link": "https://orthodoxwiki.org/Special:Search?search=St%20Paul%20the%20Confessor%20of%20Constantinople"
+      },
+      {
+        "name": "Ven. Luke of Sicily (Taormina)",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Ven.%20Luke%20of%20Sicily%20%28Taormina%29"
+      },
+      {
+        "name": "Rep. St Herman, Archbishop of Kazan",
+        "link": "https://orthodoxwiki.org/Special:Search?search=Rep.%20St%20Herman%2C%20Archbishop%20of%20Kazan"
+      }
+    ],
+    "fasting": {
+      "level": 1,
+      "description": "Fast",
+      "abstentions": [
+        "meat",
+        "fish",
+        "dairy",
+        "eggs",
+        "wine",
+        "oil"
+      ]
+    },
+    "readings": [
+      {
+        "source": "Epistle",
+        "display": "1 Thessalonians 2.14-19",
+        "short_display": "1 Thess 2.14-19",
+        "text": "For ye, brethren, became followers of the churches of God which in Judaea are in Christ Jesus: for ye also have suffered like things of your own countrymen, even as they have of the Jews: Who both killed the Lord Jesus, and their own prophets, and have persecuted us; and they please not God, and are contrary to all men: Forbidding us to speak to the Gentiles that they might be saved, to fill up their sins alway: for the wrath is come upon them to the uttermost. But we, brethren, being taken from you for a short time in presence, not in heart, endeavoured the more abundantly to see your face with great desire. Wherefore we would have come unto you, even I Paul, once and again; but Satan hindered us. For what is our hope, or joy, or crown of rejoicing? Are not even ye in the presence of our Lord Jesus Christ at his coming?"
+      },
+      {
+        "source": "Epistle",
+        "display": "Hebrews 8.1-6",
+        "short_display": "Heb 8.1-6",
+        "text": "Now of the things which we have spoken this is the sum: We have such an high priest, who is set on the right hand of the throne of the Majesty in the heavens; A minister of the sanctuary, and of the true tabernacle, which the Lord pitched, and not man. For every high priest is ordained to offer gifts and sacrifices: wherefore it is of necessity that this man have somewhat also to offer. For if he were on earth, he should not be a priest, seeing that there are priests that offer gifts according to the law: Who serve unto the example and shadow of heavenly things, as Moses was admonished of God when he was about to make the tabernacle: for, See, saith he, that thou make all things according to the pattern shewed to thee in the mount. But now hath he obtained a more excellent ministry, by how much also he is the mediator of a better covenant, which was established upon better promises."
+      },
+      {
+        "source": "Gospel",
+        "display": "Luke 12.2-12",
+        "short_display": "Luke 12.2-12",
+        "text": "For there is nothing covered, that shall not be revealed; neither hid, that shall not be known. Therefore whatsoever ye have spoken in darkness shall be heard in the light; and that which ye have spoken in the ear in closets shall be proclaimed upon the housetops. And I say unto you my friends, Be not afraid of them that kill the body, and after that have no more that they can do. But I will forewarn you whom ye shall fear: Fear him, which after he hath killed hath power to cast into hell; yea, I say unto you, Fear him. Are not five sparrows sold for two farthings, and not one of them is forgotten before God? But even the very hairs of your head are all numbered. Fear not therefore: ye are of more value than many sparrows. Also I say unto you, Whosoever shall confess me before men, him shall the Son of man also confess before the angels of God: But he that denieth me before men shall be denied before the angels of God. And whosoever shall speak a word against the Son of man, it shall be forgiven him: but unto him that blasphemeth against the Holy Ghost it shall not be forgiven. And when they bring you unto the synagogues, and unto magistrates, and powers, take ye no thought how or what thing ye shall answer, or what ye shall say: For the Holy Ghost shall teach you in the same hour what ye ought to say."
+      },
+      {
+        "source": "Gospel",
+        "display": "Luke 12.8-12",
+        "short_display": "Luke 12.8-12",
+        "text": "Also I say unto you, Whosoever shall confess me before men, him shall the Son of man also confess before the angels of God: But he that denieth me before men shall be denied before the angels of God. And whosoever shall speak a word against the Son of man, it shall be forgiven him: but unto him that blasphemeth against the Holy Ghost it shall not be forgiven. And when they bring you unto the synagogues, and unto magistrates, and powers, take ye no thought how or what thing ye shall answer, or what ye shall say: For the Holy Ghost shall teach you in the same hour what ye ought to say."
+      }
+    ]
+  },
+  "events": []
+}
