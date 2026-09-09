@@ -58,7 +58,11 @@
         "label": "Divine Liturgy Variables",
         "url": "https://www.antiochian.org/servicetexts/Sept%2014%20READ.pdf"
       }
-    ]
+    ],
+    "great_feast": {
+      "name": "Exaltation of the Holy Cross",
+      "is_pascha": false
+    }
   },
   "events": [
     {

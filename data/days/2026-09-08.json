@@ -45,7 +45,11 @@
         "label": "Divine Liturgy Variables",
         "url": "https://www.antiochian.org/servicetexts/Sept%2008%20READ.pdf"
       }
-    ]
+    ],
+    "great_feast": {
+      "name": "Nativity of the Theotokos",
+      "is_pascha": false
+    }
   },
   "events": [
     {

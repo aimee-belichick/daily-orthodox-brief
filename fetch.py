@@ -4,6 +4,8 @@
 Each source fails independently and soft. If a fetch fails, we fall back to
 the last good cached value rather than overwriting it with an empty result.
 """
+from __future__ import annotations
+
 import html
 import io
 import json
@@ -41,6 +43,61 @@ STATIC_LINKS = {
 
 def today_central() -> date:
     return datetime.now(CENTRAL).date()
+
+
+# ---------------------------------------------------------------------------
+# The Twelve Great Feasts + Pascha
+#
+# antiochian.org's page doesn't flag which commemorations are Great Feasts,
+# so we identify them by matching known feast names against the actual
+# scraped title/commemoration text for that day (whichever source produced
+# it), rather than computing dates independently.
+# ---------------------------------------------------------------------------
+
+# Each entry: (canonical name, is_pascha, [word-groups; any group matching is a hit]).
+# Word groups include known naming variants across Orthodox jurisdictions/sources
+# (e.g. antiochian.org says "Elevation" where others say "Exaltation").
+GREAT_FEAST_PATTERNS = [
+    ("Pascha", True, [["pascha"], ["resurrection", "christ"]]),
+    ("Entry of the Lord into Jerusalem (Palm Sunday)", False, [["palm", "sunday"], ["entry", "jerusalem"]]),
+    ("Ascension", False, [["ascension"]]),
+    ("Pentecost", False, [["pentecost"]]),
+    ("Theophany", False, [["theophany"], ["epiphany"], ["baptism", "christ"]]),
+    ("Nativity of the Theotokos", False, [["nativity", "theotokos"], ["birth", "theotokos"]]),
+    ("Exaltation of the Holy Cross", False, [["exaltation", "cross"], ["elevation", "cross"]]),
+    ("Presentation of the Theotokos in the Temple", False, [
+        ["entrance", "theotokos", "temple"],
+        ["presentation", "theotokos", "temple"],
+    ]),
+    ("Nativity of Christ", False, [["nativity", "christ"], ["birth", "christ"], ["christmas"]]),
+    ("Presentation of Christ in the Temple", False, [["presentation", "temple"], ["meeting", "lord"]]),
+    ("Annunciation", False, [["annunciation"]]),
+    ("Transfiguration", False, [["transfiguration"]]),
+    ("Dormition of the Theotokos", False, [["dormition"], ["falling", "asleep", "theotokos"]]),
+]
+
+
+FEAST_PERIOD_REFERENCE_PATTERN = re.compile(
+    r"(fore|after)feast of [^,;]*|leave-?taking of [^,;]*|apodosis of [^,;]*",
+    re.IGNORECASE,
+)
+# "Nth Sunday/week/etc. after Pentecost" is the routine way antiochian.org labels
+# ordinary weeks, not a reference to the Feast of Pentecost itself.
+ORDINARY_TIME_PATTERN = re.compile(r"after pentecost", re.IGNORECASE)
+
+
+def identify_great_feast(text_blob: str) -> dict | None:
+    # Strip "afterfeast of X" / "forefeast of X" / "leave-taking of X" / "apodosis of X"
+    # clauses first, so a day within a feast's surrounding period isn't mistaken for
+    # the feast itself, and strip routine "N weeks after Pentecost" week-numbering.
+    text = FEAST_PERIOD_REFERENCE_PATTERN.sub("", text_blob or "")
+    text = ORDINARY_TIME_PATTERN.sub("", text).lower()
+    for name, is_pascha, groups in GREAT_FEAST_PATTERNS:
+        if name == "Presentation of Christ in the Temple" and "theotokos" in text:
+            continue  # avoid clashing with the Theotokos presentation/entrance feast
+        if any(all(word in text for word in group) for group in groups):
+            return {"name": name, "is_pascha": is_pascha}
+    return None
 
 
 def date_range(start: date, end: date):
@@ -435,6 +492,10 @@ def build_day_files(window_start: date, window_end: date) -> tuple[str, bool, bo
             any_liturgical_ok = True
         else:
             liturgical = (existing or {}).get("liturgical") or {"status": "error"}
+
+        if liturgical.get("status") == "ok":
+            text_blob = " ".join(filter(None, [liturgical.get("summary_title")] + (liturgical.get("feasts") or [])))
+            liturgical["great_feast"] = identify_great_feast(text_blob)
 
         if events_ok:
             events = events_by_date.get(d.isoformat(), [])
