@@ -179,6 +179,25 @@
     font-size: 0.95rem;
   }
 
+  .service-select {
+    width: 100%;
+    background: var(--bg);
+    color: var(--ink);
+    border: 1px solid var(--rule);
+    border-radius: 8px;
+    padding: 0.6rem 0.7rem;
+    font-size: 1rem;
+    font-family: var(--sans);
+  }
+  .service-text-scroll { margin-top: 0.5rem; }
+  .service-text-panel { max-height: 50vh; overflow-y: auto; -webkit-overflow-scrolling: touch; }
+  .service-text-body {
+    font-family: var(--serif);
+    font-size: 1.05rem;
+    line-height: 1.6;
+    white-space: pre-wrap;
+  }
+
   .event-list { margin: 0; padding: 0; list-style: none; }
   .event-item { padding: 0.5rem 0; border-bottom: 1px solid var(--rule); }
   .event-item:last-child { border-bottom: none; }
@@ -401,12 +420,27 @@
 
   function renderServiceLinksSection(lit) {
     if (!lit || !lit.service_texts || !lit.service_texts.length) return "";
-    var items = lit.service_texts
-      .map(function (s) {
-        return '<a href="' + esc(s.url) + '" target="_blank" rel="noopener">' + esc(s.label) + " &rarr;</a>";
+    var options = '<option value="">Choose a text to view&hellip;</option>' +
+      lit.service_texts
+        .map(function (s, i) { return '<option value="' + i + '">' + esc(s.label) + "</option>"; })
+        .join("");
+    var panels = lit.service_texts
+      .map(function (s, i) {
+        var body = s.text
+          ? '<div class="service-text-body">' + esc(s.text) + "</div>"
+          : '<div class="service-text-body">' +
+            '<p>Text isn&rsquo;t available inline for this one.</p>' +
+            (s.pdf_url ? '<a href="' + esc(s.pdf_url) + '" target="_blank" rel="noopener">Open PDF &rarr;</a>' : "") +
+            "</div>";
+        return '<div class="service-text-panel" data-index="' + i + '" hidden>' + body + "</div>";
       })
       .join("");
-    return '<section class="card"><h2>Service Texts</h2><div class="link-row">' + items + "</div></section>";
+    return (
+      '<section class="card"><h2>Service Texts</h2>' +
+      '<select class="service-select" id="serviceTextSelect">' + options + "</select>" +
+      '<div class="service-text-scroll" id="serviceTextScroll">' + panels + "</div>" +
+      "</section>"
+    );
   }
 
   function renderEventsSection(day) {
@@ -507,6 +541,19 @@
     if (todayBtn) todayBtn.addEventListener("click", function () { goTo(index.today); });
   }
 
+  function wireServiceSelect() {
+    var select = document.getElementById("serviceTextSelect");
+    if (!select) return;
+    select.addEventListener("change", function () {
+      var panels = document.querySelectorAll(".service-text-panel");
+      panels.forEach(function (p) { p.hidden = true; });
+      if (select.value !== "") {
+        var target = document.querySelector('.service-text-panel[data-index="' + select.value + '"]');
+        if (target) target.hidden = false;
+      }
+    });
+  }
+
   function render(dateStr, day) {
     var lit = day.liturgical && day.liturgical.status === "ok" ? day.liturgical : null;
 
@@ -540,6 +587,7 @@
     app.innerHTML = html;
     currentDate = dateStr;
     wireNavBar(dateStr);
+    wireServiceSelect();
   }
 
   function goTo(dateStr) {
@@ -553,17 +601,6 @@
         wireNavBar(dateStr);
       });
   }
-
-  var touchStartX = null;
-  document.addEventListener("touchstart", function (e) { touchStartX = e.touches[0].clientX; }, { passive: true });
-  document.addEventListener("touchend", function (e) {
-    if (touchStartX == null) return;
-    var dx = e.changedTouches[0].clientX - touchStartX;
-    touchStartX = null;
-    if (Math.abs(dx) < 60 || !currentDate) return;
-    if (dx < 0 && canGoForward(currentDate)) goTo(addDays(currentDate, 1));
-    if (dx > 0 && canGoBack(currentDate)) goTo(addDays(currentDate, -1));
-  }, { passive: true });
 
   loadIndex()
     .then(function () { return loadDay(index.today); })

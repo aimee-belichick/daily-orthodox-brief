@@ -36,27 +36,27 @@
     "service_texts": [
       {
         "label": "Abbreviated Rubrics",
-        "url": "https://www.antiochian.org/servicetexts/Sept%2014%20Abbr.pdf"
+        "pdf_url": "https://www.antiochian.org/servicetexts/Sept%2014%20Abbr.pdf"
       },
       {
         "label": "Bilingual - Festal Orthros",
-        "url": "https://www.antiochian.org/servicetexts/Sept%2014%20Bilingual%20ORTHROS.pdf"
+        "pdf_url": "https://www.antiochian.org/servicetexts/Sept%2014%20Bilingual%20ORTHROS.pdf"
       },
       {
         "label": "Bilingual - Divine Liturgy Variables",
-        "url": "https://www.antiochian.org/servicetexts/Sept%2014%20Bilingual%20READ.pdf"
+        "pdf_url": "https://www.antiochian.org/servicetexts/Sept%2014%20Bilingual%20READ.pdf"
       },
       {
         "label": "Festal Orthros",
-        "url": "https://www.antiochian.org/servicetexts/Sept%2014%20ORTHROS.pdf"
+        "pdf_url": "https://www.antiochian.org/servicetexts/Sept%2014%20ORTHROS.pdf"
       },
       {
         "label": "Procession of the Cross",
-        "url": "https://www.antiochian.org/servicetexts/Sept%2014%20PROCESS.pdf"
+        "pdf_url": "https://www.antiochian.org/servicetexts/Sept%2014%20PROCESS.pdf"
       },
       {
         "label": "Divine Liturgy Variables",
-        "url": "https://www.antiochian.org/servicetexts/Sept%2014%20READ.pdf"
+        "pdf_url": "https://www.antiochian.org/servicetexts/Sept%2014%20READ.pdf"
       }
     ],
     "great_feast": {

@@ -18,6 +18,7 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 import pdfplumber
+from striprtf.striprtf import rtf_to_text
 from playwright.sync_api import sync_playwright
 
 CENTRAL = ZoneInfo("America/Chicago")
@@ -117,6 +118,14 @@ def http_get_json(url: str):
     return json.loads(http_get(url))
 
 
+def fetch_rtf_text(url: str) -> str:
+    raw = http_get(url).decode("cp1252", errors="replace")
+    text = rtf_to_text(raw).strip()
+    if not text:
+        raise ValueError("RTF converted to empty text")
+    return text
+
+
 # ---------------------------------------------------------------------------
 # Source: antiochian.org (primary liturgical data, via headless browser)
 #
@@ -198,16 +207,22 @@ def antiochian_parse_liturgicday(page, id_: int, expected_date: date) -> dict:
         "a.dailyLiturgicalTextUrl",
         "els => els.map(e => ({text: e.innerText.trim(), href: e.href}))",
     )
-    seen_urls = set()
-    service_texts = []
+    by_label = {}
     for link in service_links_raw:
-        if "(PDF)" not in link["text"] or link["href"] in seen_urls:
-            continue
-        seen_urls.add(link["href"])
-        service_texts.append({
-            "label": link["text"].replace(" (PDF)", ""),
-            "url": link["href"],
-        })
+        if link["text"].endswith("(PDF)"):
+            by_label.setdefault(link["text"][:-len("(PDF)")].strip(), {})["pdf_url"] = link["href"]
+        elif link["text"].endswith("(RTF)"):
+            by_label.setdefault(link["text"][:-len("(RTF)")].strip(), {})["rtf_url"] = link["href"]
+
+    service_texts = []
+    for label, urls in by_label.items():
+        entry = {"label": label, "pdf_url": urls.get("pdf_url")}
+        if urls.get("rtf_url"):
+            try:
+                entry["text"] = fetch_rtf_text(urls["rtf_url"])
+            except Exception as exc:
+                print(f"[warn] RTF fetch failed for {label!r} ({urls['rtf_url']}): {exc}", file=sys.stderr)
+        service_texts.append(entry)
 
     commemorations = [titlecase(c.strip()) for c in (feast_item["desc"] or "").split(",") if c.strip()]
 
