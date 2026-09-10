@@ -1,0 +1,55 @@
+{
+  "date": "2026-12-09",
+  "liturgical": {
+    "status": "ok",
+    "source": "antiochian",
+    "feasts": [
+      "The Conception by St. Anna of the Most Holy Theotokos"
+    ],
+    "saints": [
+      "The Conception by St. Anna of the Most Holy Theotokos",
+      "Hannah the Righteous",
+      "Mother of Samuel the Prophet",
+      "Narses the Martyr of Persia",
+      "The Consecration of the Church of the Resurrection (Holy Sepulchre) in the Holy City of Jerusalem"
+    ],
+    "summary_title": "The Conception by St. Anna of the Most Holy Theotokos, Hannah the Righteous, Mother of Samuel the Prophet, Narses the Martyr of Persia, The Consecration of the Church of the Resurrection (Holy Sepulchre) in the Holy City of Jerusalem",
+    "stories": [],
+    "fasting": {
+      "description": "Abstain From Meat, Fish, Dairy, Eggs",
+      "abstentions": [
+        "meat",
+        "fish",
+        "dairy",
+        "eggs"
+      ]
+    },
+    "readings": [
+      {
+        "display": "St. Paul's Letter to the Galatians 4:22-27",
+        "text": "Brethren, Abraham had two sons, one by a slave and one by a free woman. But the son of the slave was born according to the flesh, the son of the free woman through promise. Now this is an allegory: these women are two covenants. One is from Mount Sinai, bearing children for slavery; she is Hagar. Now Hagar is Mount Sinai in Arabia; she corresponds to the present Jerusalem, for she is in slavery with her children. But the Jerusalem above is free, and she is our mother. For it is written, \"Rejoice, O barren one who does not bear; break forth and shout, you who are not in travail; for the children of the desolate one are many more than the children of her that is married.\""
+      },
+      {
+        "display": "Luke 8:16-21",
+        "text": "The Lord said, \"No one after lighting a lamp covers it with a vessel, or puts it under a bed, but puts it on a stand, that those who enter may see the light. For nothing is hid that shall not be made manifest, nor anything secret that shall not be known and come to light. Take heed then how you hear; for to him who has will more be given, and from him who has not, even what he thinks that he has will be taken away. Then his mother and his brothers came to him, but they could not reach him for the crowd. And he was told, \"Your mother and your brothers are standing outside, desiring to see you.\" But he said to them, \"My mother and my brothers are those who hear the word of God and do it."
+      }
+    ],
+    "service_texts": [],
+    "synaxarion": null,
+    "great_feast": null
+  },
+  "events": [
+    {
+      "title": "Daily Vespers",
+      "start": "2026-12-09 18:00:00",
+      "end": "2026-12-09 19:00:00",
+      "url": "https://www.constantinehelen.com/event/daily-vespers-15/2026-12-09/"
+    },
+    {
+      "title": "Book Study",
+      "start": "2026-12-09 18:45:00",
+      "end": "2026-12-09 20:00:00",
+      "url": "https://www.constantinehelen.com/event/book-study-2-2/2026-12-09/"
+    }
+  ]
+}

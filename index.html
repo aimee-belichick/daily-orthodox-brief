@@ -166,12 +166,17 @@
     color: var(--ink-soft);
     margin: 0 0 0.4rem;
   }
+  .reading-source {
+    font-weight: 400;
+    font-style: italic;
+    color: var(--ink-faint);
+    margin-left: 0.5rem;
+  }
   .reading-text {
     font-family: var(--serif);
     font-size: 1.15rem;
     line-height: 1.6;
     margin: 0;
-    max-width: 34em;
   }
 
   .link-row {
@@ -431,9 +436,11 @@
     if (!lit || !lit.readings || !lit.readings.length) return "";
     var blocks = lit.readings
       .map(function (r) {
+        var source = r.source_label ? '<span class="reading-source">from ' + esc(r.source_label) + "</span>" : "";
         return (
           '<div class="reading-block"><p class="reading-label">' +
           esc(r.display) +
+          source +
           '</p><p class="reading-text">' +
           esc(r.text) +
           "</p></div>"

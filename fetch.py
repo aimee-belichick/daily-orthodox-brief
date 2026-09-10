@@ -250,6 +250,40 @@ def extract_synaxarion(service_texts: list) -> str | None:
     return None
 
 
+# The Orthros/Matins Gospel is a separate reading from the Divine Liturgy's
+# Epistle/Gospel (which duplicate what's already on the daily lectionary page)
+# and isn't shown anywhere else, so it's worth surfacing. The citation and
+# text are separated by a block of sung/spoken liturgical dialogue that isn't
+# part of the reading itself.
+ORTHROS_GOSPEL_PATTERN = re.compile(
+    r"THE (?:[A-Z]+ )?(?:ORTHROS|EOTHINON) GOSPEL.*?"
+    r"reading from the holy gospel according to (?:Saint |St\.?\s*)?([A-Za-z]+)\s*\(([^)]+)\)\.?.*?"
+    r"Let us attend\.\s*\n+"
+    r"(?:\*\*[^\n]*\*\*\s*\n+)?"
+    r"(?:Priest:\s*)?"
+    r"(.*?)"
+    r"(?=\n\s*Choir:[^\n]*Glory to thee|\n[A-Z][A-Z0-9 ,.:'-]{4,}\n|\Z)",
+    re.DOTALL | re.IGNORECASE,
+)
+
+
+def extract_orthros_gospel(service_texts: list) -> dict | None:
+    for entry in service_texts:
+        if "orthros" not in entry["label"].lower() or not entry.get("text"):
+            continue
+        m = ORTHROS_GOSPEL_PATTERN.search(entry["text"])
+        if m:
+            book, verses, passage = m.groups()
+            passage = re.sub(r"\s*\n\s*", " ", passage).strip()
+            if passage:
+                return {
+                    "display": f"{book.strip()} {verses.strip()}",
+                    "text": passage,
+                    "source_label": entry["label"],
+                }
+    return None
+
+
 def antiochian_parse_readings(page, id_: int) -> list:
     page.goto(f"{ANTIOCHIAN_BASE}/epistleliturgicday/{id_}", wait_until="networkidle", timeout=30000)
     page.wait_for_timeout(1200)
@@ -268,6 +302,10 @@ def fetch_antiochian_day(page, id_: int, expected_date: date) -> dict:
     readings = antiochian_parse_readings(page, id_)
     if not readings:
         raise ValueError(f"antiochian.org id {id_}: no readings found")
+
+    orthros_gospel = extract_orthros_gospel(day_info["service_texts"])
+    if orthros_gospel:
+        readings.append(orthros_gospel)
 
     return {
         "status": "ok",
