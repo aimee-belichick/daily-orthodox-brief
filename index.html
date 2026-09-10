@@ -56,6 +56,9 @@
     margin: 0 auto;
     padding: 1.75rem 1.25rem 4rem;
   }
+  @media (orientation: landscape) {
+    main { max-width: 94vw; }
+  }
 
   .nav-bar {
     display: flex;
@@ -142,8 +145,7 @@
     margin: 0 0 0.75rem;
   }
 
-  .saints-list { margin: 0; padding: 0; list-style: none; }
-  .saints-list li { margin-bottom: 0.35rem; font-size: 0.98rem; }
+  .synaxarion-panel { margin-top: 0.5rem; }
 
   .story-block { margin-bottom: 1.1rem; }
   .story-block:last-child { margin-bottom: 0; }
@@ -378,17 +380,13 @@
 
   function renderSaintsSection(lit) {
     if (!lit || !lit.saints || !lit.saints.length) return "";
-    var items = lit.saints.map(function (name) { return "<li>" + esc(name) + "</li>"; }).join("");
     var summary = lit.summary_title ? '<p class="summary-title">' + esc(lit.summary_title) + "</p>" : "";
     var synaxarion = lit.synaxarion
-      ? renderTextChooser("synaxarion", [{ label: "Synaxarion", text: lit.synaxarion }])
+      ? '<div class="service-text-panel synaxarion-panel"><div class="service-text-body">' + esc(lit.synaxarion) + "</div></div>"
       : "";
     return (
       '<section class="card"><h2>Saints Commemorated</h2>' +
       summary +
-      '<ul class="saints-list">' +
-      items +
-      "</ul>" +
       synaxarion +
       "</section>"
     );
@@ -471,7 +469,7 @@
   }
 
   function renderCheckableBody(text, storageKey) {
-    var paragraphs = text.split(/\n{2,}/).map(function (p) { return p.trim(); }).filter(Boolean);
+    var paragraphs = text.split(/\n+/).map(function (p) { return p.trim(); }).filter(Boolean);
     var rows = paragraphs
       .map(function (p, i) {
         return (
