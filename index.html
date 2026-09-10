@@ -190,13 +190,35 @@
     font-family: var(--sans);
   }
   .service-text-scroll { margin-top: 0.5rem; }
-  .service-text-panel { max-height: 50vh; overflow-y: auto; -webkit-overflow-scrolling: touch; }
+  .service-text-panel { max-height: calc(50vh + 96px); overflow-y: auto; -webkit-overflow-scrolling: touch; }
   .service-text-body {
     font-family: var(--serif);
     font-size: 1.05rem;
     line-height: 1.6;
     white-space: pre-wrap;
   }
+
+  .checkable-line {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.65rem;
+    margin-bottom: 0.85rem;
+    cursor: pointer;
+  }
+  .line-check {
+    flex-shrink: 0;
+    width: 1.15rem;
+    height: 1.15rem;
+    margin-top: 0.25rem;
+    accent-color: var(--accent);
+  }
+  .line-text {
+    font-family: var(--serif);
+    font-size: 1.05rem;
+    line-height: 1.5;
+    white-space: pre-wrap;
+  }
+  .checkable-line:has(.line-check:checked) .line-text { opacity: 0.4; }
 
   .event-list { margin: 0; padding: 0; list-style: none; }
   .event-item { padding: 0.5rem 0; border-bottom: 1px solid var(--rule); }
@@ -358,12 +380,17 @@
     if (!lit || !lit.saints || !lit.saints.length) return "";
     var items = lit.saints.map(function (name) { return "<li>" + esc(name) + "</li>"; }).join("");
     var summary = lit.summary_title ? '<p class="summary-title">' + esc(lit.summary_title) + "</p>" : "";
+    var synaxarion = lit.synaxarion
+      ? renderTextChooser("synaxarion", [{ label: "Synaxarion", text: lit.synaxarion }])
+      : "";
     return (
       '<section class="card"><h2>Saints Commemorated</h2>' +
       summary +
       '<ul class="saints-list">' +
       items +
-      "</ul></section>"
+      "</ul>" +
+      synaxarion +
+      "</section>"
     );
   }
 
@@ -418,29 +445,54 @@
     return '<section class="card"><h2>Reading</h2>' + blocks + "</section>";
   }
 
-  function renderServiceLinksSection(lit) {
-    if (!lit || !lit.service_texts || !lit.service_texts.length) return "";
+  function renderTextChooser(groupId, items) {
+    if (!items || !items.length) return "";
     var options = '<option value="">Choose a text to view&hellip;</option>' +
-      lit.service_texts
-        .map(function (s, i) { return '<option value="' + i + '">' + esc(s.label) + "</option>"; })
+      items
+        .map(function (it, i) { return '<option value="' + i + '">' + esc(it.label) + "</option>"; })
         .join("");
-    var panels = lit.service_texts
-      .map(function (s, i) {
-        var body = s.text
-          ? '<div class="service-text-body">' + esc(s.text) + "</div>"
+    var panels = items
+      .map(function (it, i) {
+        var body = it.html
+          ? it.html
+          : it.text
+          ? '<div class="service-text-body">' + esc(it.text) + "</div>"
           : '<div class="service-text-body">' +
             '<p>Text isn&rsquo;t available inline for this one.</p>' +
-            (s.pdf_url ? '<a href="' + esc(s.pdf_url) + '" target="_blank" rel="noopener">Open PDF &rarr;</a>' : "") +
+            (it.pdf_url ? '<a href="' + esc(it.pdf_url) + '" target="_blank" rel="noopener">Open PDF &rarr;</a>' : "") +
             "</div>";
-        return '<div class="service-text-panel" data-index="' + i + '" hidden>' + body + "</div>";
+        return '<div class="service-text-panel" data-group="' + esc(groupId) + '" data-index="' + i + '" hidden>' + body + "</div>";
       })
       .join("");
     return (
-      '<section class="card"><h2>Service Texts</h2>' +
-      '<select class="service-select" id="serviceTextSelect">' + options + "</select>" +
-      '<div class="service-text-scroll" id="serviceTextScroll">' + panels + "</div>" +
-      "</section>"
+      '<select class="service-select text-select" data-group="' + esc(groupId) + '">' + options + "</select>" +
+      '<div class="service-text-scroll">' + panels + "</div>"
     );
+  }
+
+  function renderCheckableBody(text, storageKey) {
+    var paragraphs = text.split(/\n{2,}/).map(function (p) { return p.trim(); }).filter(Boolean);
+    var rows = paragraphs
+      .map(function (p, i) {
+        return (
+          '<label class="checkable-line">' +
+          '<input type="checkbox" class="line-check" data-index="' + i + '">' +
+          '<span class="line-text">' + esc(p) + "</span>" +
+          "</label>"
+        );
+      })
+      .join("");
+    return '<div class="checkable-body" data-storage-key="' + esc(storageKey) + '">' + rows + "</div>";
+  }
+
+  function renderServiceLinksSection(lit, dateStr) {
+    if (!lit || !lit.service_texts || !lit.service_texts.length) return "";
+    var items = lit.service_texts.map(function (s) {
+      if (!s.text) return s;
+      var storageKey = "serviceProgress:" + dateStr + ":" + s.label;
+      return { label: s.label, html: renderCheckableBody(s.text, storageKey) };
+    });
+    return '<section class="card"><h2>Service Texts</h2>' + renderTextChooser("service", items) + "</section>";
   }
 
   function renderEventsSection(day) {
@@ -541,16 +593,37 @@
     if (todayBtn) todayBtn.addEventListener("click", function () { goTo(index.today); });
   }
 
-  function wireServiceSelect() {
-    var select = document.getElementById("serviceTextSelect");
-    if (!select) return;
-    select.addEventListener("change", function () {
-      var panels = document.querySelectorAll(".service-text-panel");
-      panels.forEach(function (p) { p.hidden = true; });
-      if (select.value !== "") {
-        var target = document.querySelector('.service-text-panel[data-index="' + select.value + '"]');
-        if (target) target.hidden = false;
-      }
+  function wireTextChoosers() {
+    document.querySelectorAll(".text-select").forEach(function (select) {
+      var group = select.getAttribute("data-group");
+      select.addEventListener("change", function () {
+        document.querySelectorAll('.service-text-panel[data-group="' + group + '"]').forEach(function (p) { p.hidden = true; });
+        if (select.value !== "") {
+          var target = document.querySelector('.service-text-panel[data-group="' + group + '"][data-index="' + select.value + '"]');
+          if (target) target.hidden = false;
+        }
+      });
+    });
+  }
+
+  function applyProgress(container, n) {
+    container.querySelectorAll(".line-check").forEach(function (cb) {
+      cb.checked = parseInt(cb.getAttribute("data-index"), 10) < n;
+    });
+  }
+
+  function wireCheckableBodies() {
+    document.querySelectorAll(".checkable-body").forEach(function (container) {
+      var key = container.getAttribute("data-storage-key");
+      var saved = parseInt(localStorage.getItem(key) || "0", 10);
+      applyProgress(container, saved);
+      container.addEventListener("change", function (e) {
+        if (!e.target.classList.contains("line-check")) return;
+        var idx = parseInt(e.target.getAttribute("data-index"), 10);
+        var n = e.target.checked ? idx + 1 : idx;
+        applyProgress(container, n);
+        localStorage.setItem(key, String(n));
+      });
     });
   }
 
@@ -569,7 +642,7 @@
     html += renderFastingSection(lit);
     html += renderSaintsSection(lit);
     html += renderStoriesSection(lit);
-    html += renderServiceLinksSection(lit);
+    html += renderServiceLinksSection(lit, dateStr);
     html += renderEventsSection(day);
     html += renderPrayerListSection();
     html += renderReadingSection(lit);
@@ -587,7 +660,8 @@
     app.innerHTML = html;
     currentDate = dateStr;
     wireNavBar(dateStr);
-    wireServiceSelect();
+    wireTextChoosers();
+    wireCheckableBodies();
   }
 
   function goTo(dateStr) {

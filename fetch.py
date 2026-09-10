@@ -231,7 +231,23 @@ def antiochian_parse_liturgicday(page, id_: int, expected_date: date) -> dict:
         "commemorations": commemorations,
         "fasting": fasting,
         "service_texts": service_texts,
+        "synaxarion": extract_synaxarion(service_texts),
     }
+
+
+# The Synaxarion (a short reading on the saints/feast of the day) is read at
+# Orthros/Matins, so it only ever appears in that service text, never Vespers
+# or the Divine Liturgy readings. Not every day has an Orthros text at all.
+SYNAXARION_PATTERN = re.compile(r"THE SYNAXARION[^\n]*\n(.*?)(?=\n[A-Z][A-Z ,'-]{4,}\n|\Z)", re.DOTALL)
+
+
+def extract_synaxarion(service_texts: list) -> str | None:
+    for entry in service_texts:
+        if "orthros" in entry["label"].lower() and entry.get("text"):
+            m = SYNAXARION_PATTERN.search(entry["text"])
+            if m:
+                return m.group(1).strip()
+    return None
 
 
 def antiochian_parse_readings(page, id_: int) -> list:
@@ -263,6 +279,7 @@ def fetch_antiochian_day(page, id_: int, expected_date: date) -> dict:
         "fasting": day_info["fasting"],
         "readings": readings,
         "service_texts": day_info["service_texts"],
+        "synaxarion": day_info["synaxarion"],
     }
 
 
@@ -309,6 +326,7 @@ def fetch_orthocal_day(d: date) -> dict:
         "fasting": fasting,
         "readings": readings,
         "service_texts": [],
+        "synaxarion": None,
     }
 
 
