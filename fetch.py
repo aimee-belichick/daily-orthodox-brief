@@ -243,45 +243,121 @@ SYNAXARION_PATTERN = re.compile(r"THE SYNAXARION[^\n]*\n(.*?)(?=\n[A-Z][A-Z ,'-]
 
 def extract_synaxarion(service_texts: list) -> str | None:
     for entry in service_texts:
-        if "orthros" in entry["label"].lower() and entry.get("text"):
+        label = entry["label"].lower()
+        if "orthros" in label and "bilingual" not in label and entry.get("text"):
             m = SYNAXARION_PATTERN.search(entry["text"])
             if m:
-                return m.group(1).strip()
+                text = m.group(1).strip()
+                # Sanity cap: a genuine Synaxarion reading is a paragraph or two.
+                # A much longer match means the boundary heading wasn't found
+                # (e.g. an unexpected format) and it ran to the end of the file.
+                if 0 < len(text) <= 4000:
+                    return text
     return None
 
 
-# The Orthros/Matins Gospel is a separate reading from the Divine Liturgy's
-# Epistle/Gospel (which duplicate what's already on the daily lectionary page)
-# and isn't shown anywhere else, so it's worth surfacing. The citation and
-# text are separated by a block of sung/spoken liturgical dialogue that isn't
-# part of the reading itself.
-ORTHROS_GOSPEL_PATTERN = re.compile(
-    r"THE (?:[A-Z]+ )?(?:ORTHROS|EOTHINON) GOSPEL.*?"
-    r"reading from the holy gospel according to (?:Saint |St\.?\s*)?([A-Za-z]+)\s*\(([^)]+)\)\.?.*?"
-    r"Let us attend\.\s*\n+"
-    r"(?:\*\*[^\n]*\*\*\s*\n+)?"
-    r"(?:Priest:\s*)?"
-    r"(.*?)"
-    r"(?=\n\s*Choir:[^\n]*Glory to thee|\n[A-Z][A-Z0-9 ,.:'-]{4,}\n|\Z)",
-    re.DOTALL | re.IGNORECASE,
+# Any service text (Vespers, Orthros, Divine Liturgy Variables, ...) may lay
+# out one or more Scripture readings verbatim -- Old Testament paremias at a
+# vigil, the Orthros/Matins Gospel, the Liturgy's Epistle and Gospel. Each is
+# introduced by a citation sentence like "The reading from the holy gospel
+# according to Saint John (12:28-36)" or "The Reading from the Book of
+# Proverbs. (9:1-11)", sometimes followed by a block of sung/spoken dialogue
+# that isn't part of the reading itself. "Bilingual" texts interleave Arabic
+# and English per line and aren't worth parsing since the plain English
+# version of the same text is always also present.
+CITATION_PATTERN = re.compile(
+    r"The\s+[Rr]eading\b[^\n(]*?(?:according to|is from|from)\s+"
+    r"(?P<source>[^\n(]+?)\s*\n?\s*"
+    r"\((?P<verses>[0-9][0-9:,;\-–\s]*)\)\.?",
+    re.IGNORECASE,
+)
+LET_US_ATTEND_PATTERN = re.compile(r"Let us attend\.?\s*", re.IGNORECASE)
+NEXT_READING_HEADING_PATTERN = re.compile(r"\n[A-Z][A-Z0-9 ,.:'’()&-]{4,}\n")
+LEADING_SPEAKER_TAG_PATTERN = re.compile(r"^(?:\*\*[^\n]*\*\*\s*\n+)?(?:Priest|Reader|Deacon):?\s*", re.IGNORECASE)
+TRAILING_SPEAKER_TAG_PATTERN = re.compile(r"\s*(?:The\s+\w+\s+Reading\s*)?(?:Reader|Priest|Deacon):\s*$", re.IGNORECASE)
+
+ORDINAL_WORDS = {"first": "1", "second": "2", "third": "3"}
+BOOK_NAME_FILLER_PATTERN = re.compile(
+    r"\b(the|book|prophecy|of|epistle|general|catholic|prophet|first|second|third|st\.?|paul|apostle)\b\.?",
+    re.IGNORECASE,
 )
 
 
-def extract_orthros_gospel(service_texts: list) -> dict | None:
-    for entry in service_texts:
-        if "orthros" not in entry["label"].lower() or not entry.get("text"):
-            continue
-        m = ORTHROS_GOSPEL_PATTERN.search(entry["text"])
+def simplify_book_name(source_desc: str) -> str:
+    """Turn a verbose citation description into a short book name, e.g.
+    "the holy gospel according to Saint Mark" -> "Mark", or
+    "the Third Book of Kings" -> "3 Kings"."""
+    d = source_desc.strip().rstrip(".")
+    m = re.search(r"gospel according to (?:saint |st\.?\s*)?([A-Za-z]+)", d, re.IGNORECASE)
+    if m:
+        return m.group(1).strip()
+    if re.search(r"acts of the apostles", d, re.IGNORECASE):
+        return "Acts"
+    ordinal = ""
+    om = re.search(r"\b(first|second|third)\b", d, re.IGNORECASE)
+    if om:
+        ordinal = ORDINAL_WORDS[om.group(1).lower()]
+    if "epistle" in d.lower():
+        m = re.search(r"to (?:the )?([A-Za-z]+)$", d, re.IGNORECASE)
         if m:
-            book, verses, passage = m.groups()
+            return f"{ordinal} {m.group(1)}".strip()
+    remaining = BOOK_NAME_FILLER_PATTERN.sub("", d)
+    remaining = re.sub(r"\s+", " ", remaining).strip()
+    if ordinal:
+        remaining = f"{ordinal} {remaining}".strip()
+    return remaining or d
+
+
+def verse_signature(s: str) -> str:
+    """Identifies a reading by its starting chapter:verse, since antiochian.org
+    and the RTF service texts format multi-chapter ranges completely
+    differently (e.g. "1:21-24; 2:1-4" vs "1:21-2:4" for the same passage)."""
+    m = re.search(r"[0-9]+:[0-9]+", s)
+    return m.group() if m else re.sub(r"\s+", "", s)
+
+
+def extract_service_text_readings(service_texts: list, existing_readings: list) -> list:
+    seen_signatures = {verse_signature(r["display"]) for r in existing_readings}
+    results = []
+    for entry in service_texts:
+        if "bilingual" in entry["label"].lower() or not entry.get("text"):
+            continue
+        text = entry["text"]
+        matches = list(CITATION_PATTERN.finditer(text))
+        for i, m in enumerate(matches):
+            window_end = matches[i + 1].start() if i + 1 < len(matches) else len(text)
+            after = text[m.end():window_end]
+
+            attend_match = LET_US_ATTEND_PATTERN.search(after[:400])
+            body = after[attend_match.end():] if attend_match else after
+            body = LEADING_SPEAKER_TAG_PATTERN.sub("", body)
+
+            heading_match = NEXT_READING_HEADING_PATTERN.search(body)
+            passage = body[: heading_match.start()] if heading_match else body
+
+            glory_match = re.search(r"\n?\s*Choir:[^\n]*Glory to thee", passage, re.IGNORECASE)
+            if glory_match:
+                passage = passage[: glory_match.start()]
+            bullet_idx = passage.find("·")  # "·" marks admin/rubric notes, never Scripture
+            if bullet_idx != -1:
+                passage = passage[:bullet_idx]
+
             passage = re.sub(r"\s*\n\s*", " ", passage).strip()
-            if passage:
-                return {
-                    "display": f"{book.strip()} {verses.strip()}",
-                    "text": passage,
-                    "source_label": entry["label"],
-                }
-    return None
+            passage = TRAILING_SPEAKER_TAG_PATTERN.sub("", passage).strip()
+
+            if len(passage) < 30:
+                continue
+            verses = m.group("verses").strip()
+            sig = verse_signature(verses)
+            if sig in seen_signatures:
+                continue
+            seen_signatures.add(sig)
+            results.append({
+                "display": f"{simplify_book_name(m.group('source'))} {verses}",
+                "text": passage,
+                "source_label": entry["label"],
+            })
+    return results
 
 
 def antiochian_parse_readings(page, id_: int) -> list:
@@ -303,9 +379,7 @@ def fetch_antiochian_day(page, id_: int, expected_date: date) -> dict:
     if not readings:
         raise ValueError(f"antiochian.org id {id_}: no readings found")
 
-    orthros_gospel = extract_orthros_gospel(day_info["service_texts"])
-    if orthros_gospel:
-        readings.append(orthros_gospel)
+    readings.extend(extract_service_text_readings(day_info["service_texts"], readings))
 
     return {
         "status": "ok",
