@@ -1,8 +1,7 @@
 {
-  "generated_at": "2026-09-10T23:54:52.219838-05:00",
-  "today": "2026-09-10",
+  "generated_at": "2026-09-11T09:55:46.794692-05:00",
+  "today": "2026-09-11",
   "available_dates": [
-    "2026-09-03",
     "2026-09-04",
     "2026-09-05",
     "2026-09-06",
@@ -99,14 +98,15 @@
     "2026-12-06",
     "2026-12-07",
     "2026-12-08",
-    "2026-12-09"
+    "2026-12-09",
+    "2026-12-10"
   ],
   "last_successful": {
-    "liturgical": "2026-09-10T23:54:52.219838-05:00",
-    "parish_events": "2026-09-10T21:58:35.908618-05:00",
-    "bulletin": "2026-09-10T21:58:35.908618-05:00",
-    "fasting_calendar": "2026-09-10T21:58:35.908618-05:00",
-    "prayer_list": "2026-09-10T23:54:52.219838-05:00"
+    "liturgical": "2026-09-11T09:55:46.794692-05:00",
+    "parish_events": "2026-09-11T09:55:46.794692-05:00",
+    "bulletin": "2026-09-11T09:55:46.794692-05:00",
+    "fasting_calendar": "2026-09-11T09:55:46.794692-05:00",
+    "prayer_list": "2026-09-11T09:55:46.794692-05:00"
   },
   "links": {
     "parish_calendar": "https://www.constantinehelen.com/calendar/",
@@ -180,9 +180,9 @@
   },
   "status": {
     "liturgical_ok": true,
-    "parish_events_ok": false,
-    "bulletin_ok": false,
-    "fasting_calendar_ok": false,
+    "parish_events_ok": true,
+    "bulletin_ok": true,
+    "fasting_calendar_ok": true,
     "prayer_list_ok": true
   }
 }
