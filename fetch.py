@@ -273,8 +273,14 @@ CITATION_PATTERN = re.compile(
 )
 LET_US_ATTEND_PATTERN = re.compile(r"Let us attend\.?\s*", re.IGNORECASE)
 NEXT_READING_HEADING_PATTERN = re.compile(r"\n[A-Z][A-Z0-9 ,.:'’()&-]{4,}\n")
-LEADING_SPEAKER_TAG_PATTERN = re.compile(r"^(?:\*\*[^\n]*\*\*\s*\n+)?(?:Priest|Reader|Deacon):?\s*", re.IGNORECASE)
+LEADING_SPEAKER_TAG_PATTERN = re.compile(r"^\s*(?:\*\*[^\n]*\*\*\s*\n+)?(?:Priest|Reader|Deacon):?\s*", re.IGNORECASE)
 TRAILING_SPEAKER_TAG_PATTERN = re.compile(r"\s*(?:The\s+\w+\s+Reading\s*)?(?:Reader|Priest|Deacon):\s*$", re.IGNORECASE)
+
+# Named, purposeful Psalm headings (e.g. Vespers' opening Psalm 103) are worth
+# surfacing; the bare "PSALM 3" / "PSALM 37" section markers used for things
+# like the Six Psalms at Orthros are not -- they're repetitive structural
+# boilerplate, not a specific reading laid out for the day.
+PSALM_INTRO_PATTERN = re.compile(r"(?:THE\s+)?PSALM\s+OF\s+INTRODUCTION\D{0,10}?([0-9]+)", re.IGNORECASE)
 
 ORDINAL_WORDS = {"first": "1", "second": "2", "third": "3"}
 BOOK_NAME_FILLER_PATTERN = re.compile(
@@ -354,6 +360,23 @@ def extract_service_text_readings(service_texts: list, existing_readings: list) 
             seen_signatures.add(sig)
             results.append({
                 "display": f"{simplify_book_name(m.group('source'))} {verses}",
+                "text": passage,
+                "source_label": entry["label"],
+            })
+
+        for m in PSALM_INTRO_PATTERN.finditer(text):
+            sig = f"psalm{m.group(1)}"
+            if sig in seen_signatures:
+                continue
+            body = LEADING_SPEAKER_TAG_PATTERN.sub("", text[m.end():])
+            heading_match = NEXT_READING_HEADING_PATTERN.search(body)
+            passage = body[: heading_match.start()] if heading_match else body
+            passage = re.sub(r"\s*\n\s*", " ", passage).strip()
+            if len(passage) < 30:
+                continue
+            seen_signatures.add(sig)
+            results.append({
+                "display": f"Psalm {m.group(1)}",
                 "text": passage,
                 "source_label": entry["label"],
             })
