@@ -1,8 +1,7 @@
 {
-  "generated_at": "2026-09-11T09:55:46.794692-05:00",
-  "today": "2026-09-11",
+  "generated_at": "2026-09-12T08:55:49.616670-05:00",
+  "today": "2026-09-12",
   "available_dates": [
-    "2026-09-04",
     "2026-09-05",
     "2026-09-06",
     "2026-09-07",
@@ -99,32 +98,29 @@
     "2026-12-07",
     "2026-12-08",
     "2026-12-09",
-    "2026-12-10"
+    "2026-12-10",
+    "2026-12-11"
   ],
   "last_successful": {
-    "liturgical": "2026-09-11T09:55:46.794692-05:00",
-    "parish_events": "2026-09-11T09:55:46.794692-05:00",
-    "bulletin": "2026-09-11T09:55:46.794692-05:00",
-    "fasting_calendar": "2026-09-11T09:55:46.794692-05:00",
-    "prayer_list": "2026-09-11T09:55:46.794692-05:00"
+    "liturgical": "2026-09-12T08:55:49.616670-05:00",
+    "parish_events": "2026-09-12T08:55:49.616670-05:00",
+    "bulletin": "2026-09-12T08:55:49.616670-05:00",
+    "fasting_calendar": "2026-09-12T08:55:49.616670-05:00",
+    "prayer_list": "2026-09-12T08:55:49.616670-05:00"
   },
   "links": {
     "parish_calendar": "https://www.constantinehelen.com/calendar/",
-    "bulletin_pdf": "https://www.constantinehelen.com/wp-content/uploads/2026/08/SCH-BW-Bulletin-8-30-2026-2.pdf",
-    "bulletin_posted": "2026-08-28T16:25:50",
+    "bulletin_pdf": "https://www.constantinehelen.com/wp-content/uploads/2026/09/SCH-BW-Bulletin-9-13-2026-1.pdf",
+    "bulletin_posted": "2026-09-11T17:35:30",
     "fasting_calendar_pdf": "https://antiochianprodsa.blob.core.windows.net/liturgicalinstructions/2026%20Fasting%20Calendar.pdf"
   },
   "prayer_list": {
     "sick": [
-      "Christenette",
-      "Linda",
       "Joseph",
       "Mary Katherine",
       "Ekaterina and child",
       "Zoe",
       "Najib",
-      "Maha",
-      "Bassam",
       "Tamam",
       "Akram",
       "Benjamin"
@@ -174,9 +170,16 @@
       "Jacob",
       "Daxton",
       "Marina",
-      "Marie"
+      "Marie",
+      "Viane",
+      "Seriah",
+      "Elleyna",
+      "Alsie",
+      "Masina",
+      "Ananias",
+      "Niamke"
     ],
-    "source_bulletin_url": "https://www.constantinehelen.com/wp-content/uploads/2026/08/SCH-BW-Bulletin-8-30-2026-2.pdf"
+    "source_bulletin_url": "https://www.constantinehelen.com/wp-content/uploads/2026/09/SCH-BW-Bulletin-9-13-2026-1.pdf"
   },
   "status": {
     "liturgical_ok": true,
