@@ -227,6 +227,59 @@
   }
   .checkable-line:has(.line-check:checked) .line-text { opacity: 0.4; }
 
+  .text-search-bar {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: var(--card-bg);
+    padding: 0.5rem 0 0.75rem;
+    margin-bottom: 0.25rem;
+    border-bottom: 1px solid var(--rule);
+  }
+  .text-search-input {
+    flex: 1;
+    min-width: 0;
+    background: var(--bg);
+    color: var(--ink);
+    border: 1px solid var(--rule);
+    border-radius: 8px;
+    padding: 0.5rem 0.7rem;
+    font-size: 0.95rem;
+    font-family: var(--sans);
+  }
+  .text-search-count {
+    font-size: 0.78rem;
+    color: var(--ink-faint);
+    white-space: nowrap;
+    min-width: 3.5em;
+    text-align: center;
+  }
+  .text-search-nav {
+    appearance: none;
+    background: none;
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    color: var(--ink);
+    padding: 0.35rem 0.55rem;
+    font-size: 0.9rem;
+    line-height: 1;
+    cursor: pointer;
+  }
+  .text-search-nav:active { background: var(--rule); }
+  .line-text mark {
+    background: var(--accent);
+    color: var(--bg);
+    border-radius: 3px;
+    padding: 0 1px;
+  }
+  .checkable-line.search-current {
+    outline: 2px solid var(--accent);
+    border-radius: 8px;
+  }
+
   .event-list { margin: 0; padding: 0; list-style: none; }
   .event-item { padding: 0.5rem 0; border-bottom: 1px solid var(--rule); }
   .event-item:last-child { border-bottom: none; }
@@ -487,7 +540,17 @@
         );
       })
       .join("");
-    return '<div class="checkable-body" data-storage-key="' + esc(storageKey) + '">' + rows + "</div>";
+    return (
+      '<div class="checkable-body" data-storage-key="' + esc(storageKey) + '">' +
+      '<div class="text-search-bar">' +
+      '<input type="text" class="text-search-input" placeholder="Search this text&hellip;" autocomplete="off" autocapitalize="off">' +
+      '<span class="text-search-count"></span>' +
+      '<button type="button" class="text-search-nav" data-dir="-1" aria-label="Previous match">&uarr;</button>' +
+      '<button type="button" class="text-search-nav" data-dir="1" aria-label="Next match">&darr;</button>' +
+      "</div>" +
+      '<div class="checkable-rows">' + rows + "</div>" +
+      "</div>"
+    );
   }
 
   function renderServiceLinksSection(lit, dateStr) {
@@ -632,6 +695,62 @@
     });
   }
 
+  function wireTextSearch() {
+    document.querySelectorAll(".checkable-body").forEach(function (container) {
+      var input = container.querySelector(".text-search-input");
+      var countEl = container.querySelector(".text-search-count");
+      var lineEls = container.querySelectorAll(".line-text");
+      var matches = [];
+      var currentIndex = -1;
+
+      function goToMatch(i) {
+        if (!matches.length) return;
+        currentIndex = ((i % matches.length) + matches.length) % matches.length;
+        matches.forEach(function (el) { el.parentElement.classList.remove("search-current"); });
+        var target = matches[currentIndex];
+        target.parentElement.classList.add("search-current");
+        target.scrollIntoView({ block: "center" });
+        countEl.textContent = (currentIndex + 1) + " of " + matches.length;
+      }
+
+      function runSearch() {
+        var query = input.value.trim().toLowerCase();
+        matches = [];
+        currentIndex = -1;
+        lineEls.forEach(function (el) {
+          el.parentElement.classList.remove("search-current");
+          var text = el.textContent;
+          if (!query) {
+            el.textContent = text;
+            return;
+          }
+          var idx = text.toLowerCase().indexOf(query);
+          if (idx === -1) {
+            el.textContent = text;
+            return;
+          }
+          el.innerHTML =
+            esc(text.slice(0, idx)) +
+            "<mark>" + esc(text.slice(idx, idx + query.length)) + "</mark>" +
+            esc(text.slice(idx + query.length));
+          matches.push(el);
+        });
+        if (matches.length) {
+          goToMatch(0);
+        } else {
+          countEl.textContent = query ? "No matches" : "";
+        }
+      }
+
+      input.addEventListener("input", runSearch);
+      container.querySelectorAll(".text-search-nav").forEach(function (btn) {
+        btn.addEventListener("click", function () {
+          goToMatch(currentIndex + parseInt(btn.getAttribute("data-dir"), 10));
+        });
+      });
+    });
+  }
+
   function render(dateStr, day) {
     var lit = day.liturgical && day.liturgical.status === "ok" ? day.liturgical : null;
 
@@ -667,6 +786,7 @@
     wireNavBar(dateStr);
     wireTextChoosers();
     wireCheckableBodies();
+    wireTextSearch();
   }
 
   function goTo(dateStr) {
