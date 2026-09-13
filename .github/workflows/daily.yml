@@ -6,6 +6,10 @@ on:
     # GitHub cron does not observe DST and runs can be delayed under load,
     # so this lands "early morning Central" rather than at an exact time.
     - cron: "0 11 * * *"
+    # Health-check/retry: every 2 hours, only actually does anything if a
+    # source was left down after the last run (see the skip check below) --
+    # otherwise it's a no-op that never touches any external site.
+    - cron: "0 */2 * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -18,17 +22,33 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Skip if this is just a health-recheck and everything's already fine
+        id: healthcheck
+        run: |
+          if [ "${{ github.event.schedule }}" = "0 */2 * * *" ] && \
+             python3 -c "import json,sys; d=json.load(open('data/index.json')); sys.exit(0 if all(d['status'].values()) else 1)"; then
+            echo "All sources were healthy as of the last run -- skipping."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - uses: actions/setup-python@v5
+        if: steps.healthcheck.outputs.skip != 'true'
         with:
           python-version: "3.12"
 
       - run: pip install -r requirements.txt
+        if: steps.healthcheck.outputs.skip != 'true'
 
       - run: playwright install --with-deps chromium
+        if: steps.healthcheck.outputs.skip != 'true'
 
       - run: python fetch.py
+        if: steps.healthcheck.outputs.skip != 'true'
 
       - name: Commit and push updated data
+        if: steps.healthcheck.outputs.skip != 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
