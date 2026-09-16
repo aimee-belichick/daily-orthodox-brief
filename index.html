@@ -226,6 +226,14 @@
     white-space: pre-wrap;
   }
   .checkable-line:has(.line-check:checked) .line-text { opacity: 0.4; }
+  .checkable-line.heading-line {
+    cursor: default;
+    margin-top: 1.1rem;
+  }
+  .checkable-line.heading-line .line-text {
+    font-weight: 600;
+    letter-spacing: 0.02em;
+  }
 
   .text-search-bar {
     position: sticky;
@@ -528,10 +536,17 @@
     );
   }
 
+  function isHeadingLine(p) {
+    return !/[a-z]/.test(p) && /[A-Z]/.test(p);
+  }
+
   function renderCheckableBody(text, storageKey) {
     var paragraphs = text.split(/\n+/).map(function (p) { return p.trim(); }).filter(Boolean);
     var rows = paragraphs
       .map(function (p, i) {
+        if (isHeadingLine(p)) {
+          return '<div class="checkable-line heading-line"><span class="line-text">' + esc(p) + "</span></div>";
+        }
         return (
           '<label class="checkable-line">' +
           '<input type="checkbox" class="line-check" data-index="' + i + '">' +
