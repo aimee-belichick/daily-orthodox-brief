@@ -1,0 +1,52 @@
+{
+  "date": "2026-12-14",
+  "liturgical": {
+    "status": "ok",
+    "source": "antiochian",
+    "feasts": [
+      "Monday of the 13Th Week"
+    ],
+    "saints": [
+      "Martyrs Thyrsus",
+      "Leucius",
+      "And Callinicus of Asia Minor",
+      "And Philemon",
+      "Apollonius",
+      "And Arian of Alexandria"
+    ],
+    "summary_title": "Martyrs Thyrsus, Leucius, And Callinicus of Asia Minor, And Philemon, Apollonius, And Arian of Alexandria",
+    "stories": [],
+    "fasting": {
+      "description": "Abstain From Meat, Fish, Dairy, Eggs, Wine, Olive Oil",
+      "abstentions": [
+        "meat",
+        "fish",
+        "dairy",
+        "eggs",
+        "wine",
+        "olive oil"
+      ]
+    },
+    "readings": [
+      {
+        "display": "St. Paul's Letter to the Hebrews 3:5-11, 17-19",
+        "text": "Brethren, Moses was faithful in all God's house as a servant, to testify to the things that were to be spoken later, but Christ was faithful over his house as a son. And we are his house if we hold fast our confidence and pride in our hope firm to the end. Therefore, as the Holy Spirit says, \"Today, when you hear his voice, do not harden your hearts as in the rebellion, on the day of testing in the wilderness, where your fathers put me to the test and saw my works for forty years. Therefore I was provoked with that generation, and said, 'They always go astray in their hearts; they have not known my ways.' As I swore in my wrath, 'They shall never enter my rest.'\" And with whom was he provoked forty years? Was it not with those who sinned, whose bodies fell in the wilderness? And to whom did he swear that they should never enter his rest, but to those who were disobedient? So we see that they were unable to enter because of unbelief."
+      },
+      {
+        "display": "Mark 8:11-21",
+        "text": "At that time, the Pharisees came to Jesus and began to argue with him, seeking from him a sign from heaven, to test him. And he sighed deeply in his spirit, and said, \"Why does this generation seek a sign? Truly, I say to you, no sign shall be given to this generation.\" And he left them, and getting into the boat again he departed to the other side. Now they had forgotten to bring bread; and they had only one loaf with them in the boat. And he cautioned them, saying, \"Take heed, beware of the leaven of the Pharisees and the leaven of Herod.\" And they discussed it with one another, saying, \"We have no bread.\" And being aware of it, Jesus said to them, \"Why do you discuss the fact that you have no bread? Do you not yet perceive or understand? Are your hearts hardened? Having eyes do you not see, and having ears do you not hear? And do you not remember? When I broke the five loaves for the five thousand, how many baskets full of broken pieces did you take up?\" They said to him, \"Twelve.\" \"And the seven for the four thousand, how many baskets full of broken pieces did you take up?\" And they said to him, \"Seven.\" And he said to them, \"Do you not yet understand?\""
+      }
+    ],
+    "service_texts": [],
+    "synaxarion": null,
+    "great_feast": null
+  },
+  "events": [
+    {
+      "title": "AA Meeting",
+      "start": "2026-12-14 18:00:00",
+      "end": "2026-12-14 19:30:00",
+      "url": "https://www.constantinehelen.com/event/aa-meeting-10-2025-11-10-2/2026-12-14/"
+    }
+  ]
+}

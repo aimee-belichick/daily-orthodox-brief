@@ -1,0 +1,60 @@
+{
+  "date": "2026-12-12",
+  "liturgical": {
+    "status": "ok",
+    "source": "antiochian",
+    "feasts": [
+      "Spyridon the Wonderworker of Trymithous"
+    ],
+    "saints": [
+      "Spyridon the Wonderworker of Trymithous",
+      "Holy New Martyr Peter the Aleut",
+      "John (Or Joachim)",
+      "Bishop of Zichni"
+    ],
+    "summary_title": "Spyridon the Wonderworker of Trymithous, Holy New Martyr Peter the Aleut, John (Or Joachim), Bishop of Zichni",
+    "stories": [],
+    "fasting": {
+      "description": "Abstain From Meat, Fish, Dairy, Eggs",
+      "abstentions": [
+        "meat",
+        "fish",
+        "dairy",
+        "eggs"
+      ]
+    },
+    "readings": [
+      {
+        "display": "St. Paul's Letter to the Ephesians 5:8-19",
+        "text": "Brethren, walk as children of light (for the fruit of light is found in all that is good and right and true), and try to learn what is pleasing to the Lord. Take no part in the unfruitful works of darkness, but instead expose them. For it is a shame even to speak of the things that they do in secret; but when anything is exposed by the light it becomes visible, for anything that becomes visible is light. Therefore it is said, \"Awake, O sleeper, and arise from the dead, and Christ shall give you light.\" Look carefully then how you walk, not as unwise men but as wise, making the most of the time, because the days are evil. Therefore do not be foolish, but understand what the will of the Lord is. And do not get drunk with wine, for that is debauchery; but be filled with the Spirit, addressing one another in psalms and hymns and spiritual songs, singing and making melody to the Lord with all your heart."
+      },
+      {
+        "display": "John 10:9-16",
+        "text": "The Lord said, \"I am the door; if any one enters by me, he will be saved, and will go in and out and find pasture. The thief comes only to steal and kill and destroy; I came that they may have life, and have it abundantly. I am the good shepherd. The good shepherd lays down his life for the sheep. He who is a hireling and not a shepherd, whose own the sheep are not, sees the wolf coming and leaves the sheep and flees; and the wolf snatches them and scatters them. He flees because he is a hireling and cares nothing for the sheep. I am the good shepherd; I know my own and my own know me, as the Father knows me and I know the Father; and I lay down my life for the sheep. And I have other sheep, that are not of this fold; I must bring them also, and they will heed my voice. So there shall be one flock, one shepherd."
+      }
+    ],
+    "service_texts": [],
+    "synaxarion": null,
+    "great_feast": null
+  },
+  "events": [
+    {
+      "title": "Great Vespers & Confessions",
+      "start": "2026-12-12 17:00:00",
+      "end": "2026-12-12 18:30:00",
+      "url": "https://www.constantinehelen.com/event/great-vespers-confessions/2026-12-12/"
+    },
+    {
+      "title": "Great Vespers at Holy Myrrhbearers Outreach",
+      "start": "2026-12-12 18:00:00",
+      "end": "2026-12-12 20:00:00",
+      "url": "https://www.constantinehelen.com/event/great-vespers-at-holy-myrrhbearers-outreach/2026-12-12/"
+    },
+    {
+      "title": "Catechism Class",
+      "start": "2026-12-12 18:00:00",
+      "end": "2026-12-12 19:00:00",
+      "url": "https://www.constantinehelen.com/event/catechism-class-19/"
+    }
+  ]
+}

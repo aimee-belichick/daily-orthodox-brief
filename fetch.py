@@ -30,6 +30,7 @@ REQUEST_TIMEOUT = 15
 BASE_DIR = Path(__file__).resolve().parent
 DATA_DIR = BASE_DIR / "data"
 DAYS_DIR = DATA_DIR / "days"
+LITURGY_OUTLINE_PATH = BASE_DIR / "liturgy_outline.txt"
 
 ORTHOCAL_URL = "https://orthocal.info/api/greek/gregorian/{year}/{month}/{day}/"
 ANTIOCHIAN_BASE = "https://www.antiochian.org"
@@ -161,7 +162,12 @@ def parse_date_heading(body_text: str) -> date:
     return date(int(m.group(4)), month, int(m.group(3)))
 
 
-def antiochian_find_today_id(page) -> int:
+def antiochian_find_today_id(page) -> tuple:
+    """Returns (id, date) for whatever antiochian.org currently reports as
+    "today". Callers should anchor their own date-to-id offsets to the
+    returned date rather than assume it matches today_central() -- a
+    long-running batch (e.g. a full backfill) can straddle midnight between
+    when today_central() was computed and when this actually runs."""
     page.goto(f"{ANTIOCHIAN_BASE}/liturgicday", wait_until="networkidle", timeout=30000)
     page.wait_for_timeout(1200)
     href = page.eval_on_selector("a[href*='/epistleliturgicday/']", "el => el.getAttribute('href')")
@@ -169,9 +175,7 @@ def antiochian_find_today_id(page) -> int:
     if not m:
         raise ValueError("could not find today's antiochian.org id")
     found_date = parse_date_heading(page.inner_text("body"))
-    if found_date != today_central():
-        raise ValueError(f"antiochian.org today mismatch: page says {found_date}")
-    return int(m.group(1))
+    return int(m.group(1)), found_date
 
 
 def antiochian_parse_liturgicday(page, id_: int, expected_date: date) -> dict:
@@ -209,6 +213,8 @@ def antiochian_parse_liturgicday(page, id_: int, expected_date: date) -> dict:
     )
     by_label = {}
     for link in service_links_raw:
+        if "bilingual" in link["text"].lower():
+            continue
         if link["text"].endswith("(PDF)"):
             by_label.setdefault(link["text"][:-len("(PDF)")].strip(), {})["pdf_url"] = link["href"]
         elif link["text"].endswith("(RTF)"):
@@ -322,6 +328,43 @@ def verse_signature(s: str) -> str:
     return m.group() if m else re.sub(r"\s+", "", s)
 
 
+def extract_citations(text: str) -> list:
+    """Returns [{'source': str, 'verses': str, 'text': str}, ...] for every
+    citation-introduced reading found in a service text's RTF-derived text,
+    in document order, with no deduping."""
+    results = []
+    matches = list(CITATION_PATTERN.finditer(text))
+    for i, m in enumerate(matches):
+        window_end = matches[i + 1].start() if i + 1 < len(matches) else len(text)
+        after = text[m.end():window_end]
+
+        attend_match = LET_US_ATTEND_PATTERN.search(after[:400])
+        body = after[attend_match.end():] if attend_match else after
+        body = LEADING_SPEAKER_TAG_PATTERN.sub("", body)
+
+        heading_match = NEXT_READING_HEADING_PATTERN.search(body)
+        passage = body[: heading_match.start()] if heading_match else body
+
+        glory_match = re.search(r"\n?\s*Choir:[^\n]*Glory to thee", passage, re.IGNORECASE)
+        if glory_match:
+            passage = passage[: glory_match.start()]
+        bullet_idx = passage.find("·")  # "·" marks admin/rubric notes, never Scripture
+        if bullet_idx != -1:
+            passage = passage[:bullet_idx]
+
+        passage = re.sub(r"\s*\n\s*", " ", passage).strip()
+        passage = TRAILING_SPEAKER_TAG_PATTERN.sub("", passage).strip()
+
+        if len(passage) < 30:
+            continue
+        results.append({
+            "source": m.group("source").strip(),
+            "verses": m.group("verses").strip(),
+            "text": passage,
+        })
+    return results
+
+
 def extract_service_text_readings(service_texts: list, existing_readings: list) -> list:
     seen_signatures = {verse_signature(r["display"]) for r in existing_readings}
     results = []
@@ -329,38 +372,15 @@ def extract_service_text_readings(service_texts: list, existing_readings: list) 
         if "bilingual" in entry["label"].lower() or not entry.get("text"):
             continue
         text = entry["text"]
-        matches = list(CITATION_PATTERN.finditer(text))
-        for i, m in enumerate(matches):
-            window_end = matches[i + 1].start() if i + 1 < len(matches) else len(text)
-            after = text[m.end():window_end]
-
-            attend_match = LET_US_ATTEND_PATTERN.search(after[:400])
-            body = after[attend_match.end():] if attend_match else after
-            body = LEADING_SPEAKER_TAG_PATTERN.sub("", body)
-
-            heading_match = NEXT_READING_HEADING_PATTERN.search(body)
-            passage = body[: heading_match.start()] if heading_match else body
-
-            glory_match = re.search(r"\n?\s*Choir:[^\n]*Glory to thee", passage, re.IGNORECASE)
-            if glory_match:
-                passage = passage[: glory_match.start()]
-            bullet_idx = passage.find("·")  # "·" marks admin/rubric notes, never Scripture
-            if bullet_idx != -1:
-                passage = passage[:bullet_idx]
-
-            passage = re.sub(r"\s*\n\s*", " ", passage).strip()
-            passage = TRAILING_SPEAKER_TAG_PATTERN.sub("", passage).strip()
-
-            if len(passage) < 30:
-                continue
-            verses = m.group("verses").strip()
+        for citation in extract_citations(text):
+            verses = citation["verses"]
             sig = verse_signature(verses)
             if sig in seen_signatures:
                 continue
             seen_signatures.add(sig)
             results.append({
-                "display": f"{simplify_book_name(m.group('source'))} {verses}",
-                "text": passage,
+                "display": f"{simplify_book_name(citation['source'])} {verses}",
+                "text": citation["text"],
                 "source_label": entry["label"],
             })
 
@@ -381,6 +401,105 @@ def extract_service_text_readings(service_texts: list, existing_readings: list) 
                 "source_label": entry["label"],
             })
     return results
+
+
+# ---------------------------------------------------------------------------
+# Divine Liturgy outline (liturgy_outline.txt), filled in with the day's
+# variable parts from "Divine Liturgy Variables". Anything not confidently
+# found (parish-specific names, rare feast-only replacements) is left as a
+# "see bulletin" note rather than guessed.
+# ---------------------------------------------------------------------------
+
+def find_heading_blocks(text: str, heading_pattern: str, ignorecase: bool = True) -> list:
+    flags = re.IGNORECASE if ignorecase else 0
+    blocks = []
+    for m in re.finditer(heading_pattern, text, flags):
+        after = text[m.end():]
+        heading_match = NEXT_READING_HEADING_PATTERN.search(after)
+        block = after[: heading_match.start()] if heading_match else after
+        bullet_idx = block.find("·")  # "·" marks admin/rubric notes, not the hymn text
+        if bullet_idx != -1:
+            block = block[:bullet_idx]
+        block = re.sub(r"\s*\n\s*", " ", block).strip()
+        if block:
+            blocks.append(block)
+    return blocks
+
+
+def build_divine_liturgy_text(service_texts: list, liturgical: dict) -> str | None:
+    if not LITURGY_OUTLINE_PATH.exists():
+        return None
+    entry = next(
+        (e for e in service_texts if "divine liturgy" in e["label"].lower() and "bilingual" not in e["label"].lower() and e.get("text")),
+        None,
+    )
+    if not entry:
+        return None
+    text = entry["text"]
+    fallback = "(See the parish bulletin for this.)"
+    tokens = {}
+
+    apolytikia = find_heading_blocks(text, r"[A-Z0-9 ,.'’-]*\bAPOLYTIKION\b[A-Z0-9 ,.'’-]*", ignorecase=False)
+    tokens["HYMN_OF_DAY"] = "\n\n".join(apolytikia) if apolytikia else fallback
+    tokens["TROPARIA"] = "\n\n".join(apolytikia) if apolytikia else fallback
+
+    kontakia = find_heading_blocks(text, r"KONTAKION OF [^\n]+")
+    tokens["KONTAKION"] = "\n\n".join(kontakia) if kontakia else fallback
+
+    megalynaria = find_heading_blocks(text, r"MEGALYNARION OF [^\n]+")
+    tokens["MEGALYNARION"] = "\n\n".join(megalynaria) if megalynaria else fallback
+
+    koinonika = find_heading_blocks(text, r"KOINONIKON[^\n]*")
+    tokens["COMMUNION_HYMN"] = "\n\n".join(koinonika) if koinonika else fallback
+
+    thrice_holy = find_heading_blocks(text, r"REPLACEMENT FOR THE THRICE-HOLY[^\n]*")
+    tokens["THRICE_HOLY_REPLACEMENT"] = "\n\n".join(thrice_holy) if thrice_holy else fallback
+
+    true_light = find_heading_blocks(text, r"REPLACEMENT FOR[^\n]*TRUE LIGHT[^\n]*")
+    tokens["TRUE_LIGHT_REPLACEMENT"] = "\n\n".join(true_light) if true_light else fallback
+
+    tokens["NAMES"] = fallback
+    tokens["ALLELUIA"] = fallback
+
+    citation_matches = list(CITATION_PATTERN.finditer(text))
+    epistle_heading = re.search(r"THE EPISTLE\s*\n", text, re.IGNORECASE)
+    if epistle_heading and citation_matches:
+        prokeimenon = text[epistle_heading.end():citation_matches[0].start()]
+        prokeimenon = re.sub(r"(?i)^\s*\([^)]*\)\s*\n?", "", prokeimenon)  # drop "(For the Sunday...)" rubric
+        prokeimenon = re.sub(r"\s*\n\s*", " ", prokeimenon).strip()
+        tokens["PROKEIMENON"] = prokeimenon or fallback
+    else:
+        tokens["PROKEIMENON"] = fallback
+
+    citations = extract_citations(text)
+    tokens["EPISTLE"] = (
+        f"{simplify_book_name(citations[0]['source'])} {citations[0]['verses']}\n\n{citations[0]['text']}"
+        if len(citations) >= 1 else fallback
+    )
+    tokens["GOSPEL"] = (
+        f"{simplify_book_name(citations[1]['source'])} {citations[1]['verses']}\n\n{citations[1]['text']}"
+        if len(citations) >= 2 else fallback
+    )
+
+    saints = liturgical.get("feasts") or liturgical.get("saints") or []
+    tokens["SAINT_OF_DAY"] = ", ".join(saints) if saints else fallback
+
+    dismissal_heading = re.search(r"THE DISMISSAL\s*\n", text, re.IGNORECASE)
+    if dismissal_heading:
+        after = text[dismissal_heading.end():]
+        stop_match = re.search(
+            r"Priest:\s*Through the prayers of our holy fathers|Pronunciation Guide|Portions of the Archdiocesan",
+            after, re.IGNORECASE,
+        )
+        block = after[:stop_match.start()] if stop_match else after
+        tokens["DISMISSAL"] = re.sub(r"\s*\n\s*", " ", block).strip() or fallback
+    else:
+        tokens["DISMISSAL"] = fallback
+
+    outline = LITURGY_OUTLINE_PATH.read_text()
+    for key, value in tokens.items():
+        outline = outline.replace("{{" + key + "}}", value)
+    return outline
 
 
 def antiochian_parse_readings(page, id_: int) -> list:
@@ -404,6 +523,17 @@ def fetch_antiochian_day(page, id_: int, expected_date: date) -> dict:
 
     readings.extend(extract_service_text_readings(day_info["service_texts"], readings))
 
+    service_texts = day_info["service_texts"]
+    divine_liturgy_text = build_divine_liturgy_text(
+        service_texts, {"feasts": [day_info["title"]], "saints": day_info["commemorations"]}
+    )
+    if divine_liturgy_text:
+        service_texts = service_texts + [{
+            "label": "Divine Liturgy (Full Outline)",
+            "pdf_url": None,
+            "text": divine_liturgy_text,
+        }]
+
     return {
         "status": "ok",
         "source": "antiochian",
@@ -413,7 +543,7 @@ def fetch_antiochian_day(page, id_: int, expected_date: date) -> dict:
         "stories": [],
         "fasting": day_info["fasting"],
         "readings": readings,
-        "service_texts": day_info["service_texts"],
+        "service_texts": service_texts,
         "synaxarion": day_info["synaxarion"],
     }
 
@@ -635,9 +765,10 @@ def build_day_files(window_start: date, window_end: date) -> tuple[str, bool, bo
             browser = p.chromium.launch()
             page = browser.new_page(user_agent=USER_AGENT)
             try:
-                today_id = antiochian_find_today_id(page)
-                today = today_central()
-                id_map = {d: today_id + (d - today).days for d in dates_needing_liturgical}
+                anchor_id, anchor_date = antiochian_find_today_id(page)
+                if abs((anchor_date - today_central()).days) > 2:
+                    raise ValueError(f"antiochian.org reports {anchor_date}, too far from expected today")
+                id_map = {d: anchor_id + (d - anchor_date).days for d in dates_needing_liturgical}
             except Exception as exc:
                 print(f"[warn] antiochian.org unavailable this run: {exc}", file=sys.stderr)
                 id_map = {}
