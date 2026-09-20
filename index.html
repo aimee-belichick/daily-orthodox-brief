@@ -197,7 +197,18 @@
     font-family: var(--sans);
   }
   .service-text-scroll { margin-top: 0.5rem; }
-  .service-text-panel { max-height: calc(50vh + 192px); overflow-y: auto; -webkit-overflow-scrolling: touch; }
+  .service-text-panel {
+    max-height: calc(50vh + 192px);
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-color: #ffffff transparent;
+  }
+  .service-text-panel::-webkit-scrollbar { width: 8px; }
+  .service-text-panel::-webkit-scrollbar-track { background: transparent; }
+  .service-text-panel::-webkit-scrollbar-thumb {
+    background-color: #ffffff;
+    border-radius: 8px;
+  }
   .service-text-body {
     font-family: var(--serif);
     font-size: 1.05rem;
@@ -234,18 +245,43 @@
     font-weight: 600;
     letter-spacing: 0.02em;
   }
+  .checkable-line.meta-line {
+    cursor: default;
+  }
+  .checkable-line.meta-line .line-text {
+    color: var(--ink-faint);
+    font-size: 0.95rem;
+  }
 
-  .text-search-bar {
+  .checkable-header {
     position: sticky;
     top: 0;
     z-index: 2;
+    background: var(--card-bg);
+    padding-bottom: 0.25rem;
+    border-bottom: 1px solid var(--rule);
+  }
+  .jump-to-progress {
+    appearance: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+    background: none;
+    border: 1px solid var(--rule);
+    border-radius: 8px;
+    color: var(--accent);
+    padding: 0.45rem 0.7rem;
+    margin: 0.5rem 0 0.5rem;
+    font-size: 0.85rem;
+    font-family: var(--sans);
+    cursor: pointer;
+  }
+  .jump-to-progress:active { background: var(--rule); }
+  .text-search-bar {
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    background: var(--card-bg);
-    padding: 0.5rem 0 0.75rem;
-    margin-bottom: 0.25rem;
-    border-bottom: 1px solid var(--rule);
+    padding-bottom: 0.5rem;
   }
   .text-search-input {
     flex: 1;
@@ -277,6 +313,20 @@
     cursor: pointer;
   }
   .text-search-nav:active { background: var(--rule); }
+  .text-search-clear {
+    appearance: none;
+    background: none;
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    color: var(--ink);
+    width: 1.9rem;
+    height: 1.9rem;
+    font-size: 1.1rem;
+    line-height: 1;
+    cursor: pointer;
+    flex-shrink: 0;
+  }
+  .text-search-clear:active { background: var(--rule); }
   .line-text mark {
     background: var(--accent);
     color: var(--bg);
@@ -540,10 +590,27 @@
     return !/[a-z]/.test(p) && /[A-Z]/.test(p);
   }
 
+  var SPEAKER_TAG_PATTERN = /^(priest|deacon|reader|people|choir|all|bishop|subdeacon|metropolitan)\s*:/i;
+
+  // The first few lines of a service text are usually a title/date/commemorations
+  // preamble, not anything actually said in the service. That preamble ends at
+  // the first heading or the first line spoken by someone.
+  function countPreambleLines(paragraphs) {
+    var cap = Math.min(paragraphs.length, 8);
+    for (var i = 0; i < cap; i++) {
+      if (isHeadingLine(paragraphs[i]) || SPEAKER_TAG_PATTERN.test(paragraphs[i])) return i;
+    }
+    return 0;
+  }
+
   function renderCheckableBody(text, storageKey) {
     var paragraphs = text.split(/\n+/).map(function (p) { return p.trim(); }).filter(Boolean);
+    var preambleCount = countPreambleLines(paragraphs);
     var rows = paragraphs
       .map(function (p, i) {
+        if (i < preambleCount) {
+          return '<div class="checkable-line meta-line"><span class="line-text">' + esc(p) + "</span></div>";
+        }
         if (isHeadingLine(p)) {
           return '<div class="checkable-line heading-line"><span class="line-text">' + esc(p) + "</span></div>";
         }
@@ -557,11 +624,15 @@
       .join("");
     return (
       '<div class="checkable-body" data-storage-key="' + esc(storageKey) + '">' +
+      '<div class="checkable-header">' +
+      '<button type="button" class="jump-to-progress" aria-label="Jump to last checked line">&#8617; Resume where I left off</button>' +
       '<div class="text-search-bar">' +
       '<input type="text" class="text-search-input" placeholder="Search this text&hellip;" autocomplete="off" autocapitalize="off">' +
+      '<button type="button" class="text-search-clear" aria-label="Clear search" hidden>&times;</button>' +
       '<span class="text-search-count"></span>' +
       '<button type="button" class="text-search-nav" data-dir="-1" aria-label="Previous match">&uarr;</button>' +
       '<button type="button" class="text-search-nav" data-dir="1" aria-label="Next match">&darr;</button>' +
+      "</div>" +
       "</div>" +
       '<div class="checkable-rows">' + rows + "</div>" +
       "</div>"
@@ -710,9 +781,28 @@
     });
   }
 
+  function wireJumpButtons() {
+    document.querySelectorAll(".checkable-body").forEach(function (container) {
+      var btn = container.querySelector(".jump-to-progress");
+      if (!btn) return;
+      btn.addEventListener("click", function () {
+        var key = container.getAttribute("data-storage-key");
+        var n = parseInt(localStorage.getItem(key) || "0", 10);
+        if (n <= 0) return;
+        var lastChecked = container.querySelector('.line-check[data-index="' + (n - 1) + '"]');
+        if (!lastChecked) return;
+        var line = lastChecked.closest(".checkable-line");
+        line.scrollIntoView({ block: "center" });
+        line.classList.add("search-current");
+        setTimeout(function () { line.classList.remove("search-current"); }, 1500);
+      });
+    });
+  }
+
   function wireTextSearch() {
     document.querySelectorAll(".checkable-body").forEach(function (container) {
       var input = container.querySelector(".text-search-input");
+      var clearBtn = container.querySelector(".text-search-clear");
       var countEl = container.querySelector(".text-search-count");
       var lineEls = container.querySelectorAll(".line-text");
       var matches = [];
@@ -730,6 +820,7 @@
 
       function runSearch() {
         var query = input.value.trim().toLowerCase();
+        clearBtn.hidden = !input.value;
         matches = [];
         currentIndex = -1;
         lineEls.forEach(function (el) {
@@ -758,6 +849,11 @@
       }
 
       input.addEventListener("input", runSearch);
+      clearBtn.addEventListener("click", function () {
+        input.value = "";
+        runSearch();
+        input.focus();
+      });
       container.querySelectorAll(".text-search-nav").forEach(function (btn) {
         btn.addEventListener("click", function () {
           goToMatch(currentIndex + parseInt(btn.getAttribute("data-dir"), 10));
@@ -802,6 +898,7 @@
     wireTextChoosers();
     wireCheckableBodies();
     wireTextSearch();
+    wireJumpButtons();
   }
 
   function goTo(dateStr) {
