@@ -37,5 +37,12 @@
     "synaxarion": null,
     "great_feast": null
   },
-  "events": []
+  "events": [
+    {
+      "title": "Teen SOYO Basketball Tournament",
+      "start": "2026-10-02 00:00:00",
+      "end": "2026-10-04 23:59:59",
+      "url": "https://www.constantinehelen.com/event/teen-soyo-basketball-tournament/"
+    }
+  ]
 }
