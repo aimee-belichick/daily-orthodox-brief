@@ -1,0 +1,45 @@
+{
+  "date": "2026-12-25",
+  "liturgical": {
+    "status": "ok",
+    "source": "antiochian",
+    "feasts": [
+      "The Nativity of Our Lord and Savior, Jesus Christ"
+    ],
+    "saints": [
+      "The Nativity of Our Lord and Savior",
+      "Jesus Christ",
+      "The Adoration of the Magi: Melchior",
+      "Gaspar",
+      "& Balthasar",
+      "The Commemoration of the Shepherds in Bethlehem Who Were Watching Their Flocks and Came to See the Lord"
+    ],
+    "summary_title": "The Nativity of Our Lord and Savior, Jesus Christ, The Adoration of the Magi: Melchior, Gaspar, & Balthasar, The Commemoration of the Shepherds in Bethlehem Who Were Watching Their Flocks and Came to See the Lord",
+    "stories": [],
+    "fasting": null,
+    "readings": [
+      {
+        "display": "St. Paul's Letter to the Galatians 4:4-7",
+        "text": "BRETHREN, when the time had fully come, God sent forth his Son, born of woman, born under the law, to redeem those who were under the law, so that we might receive adoption as sons. And because you are sons, God has sent the Spirit of his Son into our hearts, crying, 'Abba! Father!' So you are no longer a slave but a son, and if a son then also an heir of God through Christ."
+      },
+      {
+        "display": "Matthew 2:1-12",
+        "text": "When Jesus was born in Bethlehem of Judea in the days of Herod the king, behold, wise men from the East came to Jerusalem, saying, \"Where is he who has been born king of the Jews? For we have seen his star in the East, and have come to worship him.\" When Herod the king heard this, he was troubled, and all Jerusalem with him; and assembling all the chief priests and scribes of the people, he inquired of them where the Christ was to be born. They told him, \"In Bethlehem of Judea; for so it is written by the prophet: 'And you, O Bethlehem, in the land of Judah, are by no means least among the rulers of Judah; for from you shall come a ruler who will govern my people Israel.' Then Herod summoned the wise men secretly and ascertained from them what time the star appeared; and he sent them to Bethlehem, saying, \"Go and search diligently for the child, and when you have found him bring me word, that I too may come and worship him.\" When they had heard the king they went their way; and lo the star which they had seen in the East went before them, till it came to rest over the place where the child was. When they saw the star, they rejoiced exceedingly with great joy; and going into the house they saw the child with Mary his mother, and they fell down and worshiped him. Then, opening their treasures, they offered him gifts, gold and frankincense and myrrh. And being warned in a dream not to return to Herod, they departed to their own country by another way."
+      }
+    ],
+    "service_texts": [],
+    "synaxarion": null,
+    "great_feast": {
+      "name": "Nativity of Christ",
+      "is_pascha": false
+    }
+  },
+  "events": [
+    {
+      "title": "Nativity of Christ",
+      "start": "2026-12-25 00:00:00",
+      "end": "2026-12-25 23:59:59",
+      "url": "https://www.constantinehelen.com/event/nativity-of-christ-2/"
+    }
+  ]
+}
