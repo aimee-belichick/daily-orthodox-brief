@@ -1,0 +1,53 @@
+{
+  "date": "2026-12-29",
+  "liturgical": {
+    "status": "ok",
+    "source": "antiochian",
+    "feasts": [
+      "14, 000 Infants (Holy Innocents) Slain by Herod in Bethlehem"
+    ],
+    "saints": [
+      "14",
+      "000 Infants (Holy Innocents) Slain by Herod in Bethlehem",
+      "Our Righteous Father Marcellus",
+      "Abbot of the Monastery of the Unsleeping Ones",
+      "Our Righteous Father Thaddeus the Confessor",
+      "Afterfeast of the Nativity",
+      "George",
+      "Bishop of Nicomedia",
+      "Poet of Asmatikons",
+      "Kanons",
+      "And Troparia"
+    ],
+    "summary_title": "14, 000 Infants (Holy Innocents) Slain by Herod in Bethlehem, Our Righteous Father Marcellus, Abbot of the Monastery of the Unsleeping Ones, Our Righteous Father Thaddeus the Confessor, Afterfeast of the Nativity, George, Bishop of Nicomedia, Poet of Asmatikons, Kanons, And Troparia",
+    "stories": [],
+    "fasting": null,
+    "readings": [
+      {
+        "display": "St. Paul's Letter to the Hebrews 2:11-18",
+        "text": "BRETHREN, he who sanctifies and those who are sanctified have all one origin. That is why he is not ashamed to call them brethren, saying, 'I will proclaim thy name to my brethren, in the midst of the congregation I will praise thee.' And again, 'I will put my trust in him.' And again, 'Here am I, and the children God has given me. Since therefore the children share in flesh and blood, he himself likewise partook of the same nature, that through death he might destroy him who has the power of death, that is, the devil, and deliver all those who through fear of death were subject to lifelong bondage. For surely it is not with angels that he is concerned but with the descendants of Abraham. Therefore he had to be made like his brethren in every respect, so that he might become a merciful and faithful high priest in the service of God, to make expiation for the sins of the people. For because he himself has suffered and been tempted, he is able to help those who are tempted."
+      },
+      {
+        "display": "Matthew 2:13-23",
+        "text": "When the wise men departed, behold, an angel of the Lord appeared to Joseph in a dream and said, \"Rise, take the child and his mother, and flee to Egypt, and remain there till I tell you; for Herod is about to search for the child, to destroy him.\" And he rose and took the child and his mother by night, and departed to Egypt, and remained there until the death of Herod. This was to fulfill what the Lord had spoken by the prophet, \"Out of Egypt have I called my son. Then Herod, when he saw that he had been tricked by the wise men, was in a furious rage, and he sent and killed all the male children in Bethlehem and in all that region who were two years old or under, according to the time which he had ascertained from the wise men. Then was fulfilled what was spoken by the prophet Jeremiah: \"A voice was heard in Ramah, wailing and loud lamentation, Rachel weeping for her children; she refused to be consoled, because they were no more.\" But when Herod died, behold, an angel of the Lord appeared in a dream to Joseph in Egypt, saying, \"Rise, take the child and his mother, and go to the land of Israel, for those who sought the child's life are dead.\" And he rose and took the child and his mother, and went to the land of Israel. But when he heard that Archelaos reigned over Judea in place of his father Herod, he was afraid to go there, and being warned in a dream he withdrew to the district of Galilee. And he went and dwelt in a city called Nazareth, that what was spoken by the prophets might be fulfilled, \"He shall be called a Nazarene."
+      }
+    ],
+    "service_texts": [],
+    "synaxarion": null,
+    "great_feast": null
+  },
+  "events": [
+    {
+      "title": "No Tuesday Liturgy",
+      "start": "2026-12-29 00:00:00",
+      "end": "2026-12-29 23:59:59",
+      "url": "https://www.constantinehelen.com/event/no-tuesday-liturgy-2/2026-12-29/"
+    },
+    {
+      "title": "Daily Vespers at Holy Myrrhbearers Outreach",
+      "start": "2026-12-29 18:00:00",
+      "end": "2026-12-29 20:00:00",
+      "url": "https://www.constantinehelen.com/event/daily-vespers-at-holy-myrrhbearers-outreach/2026-12-29/"
+    }
+  ]
+}
