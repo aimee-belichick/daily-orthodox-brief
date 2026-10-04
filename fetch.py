@@ -24,6 +24,11 @@ from playwright.sync_api import sync_playwright
 CENTRAL = ZoneInfo("America/Chicago")
 WINDOW_BACK_DAYS = 7
 WINDOW_FORWARD_DAYS = 90
+# A day can legitimately have no service texts (an ordinary weekday), or it can
+# have none because a transient scrape glitch found no links that one time. We
+# can't tell those apart, so keep retrying empty-service-text days while they're
+# within this many days of today, instead of trusting the first result forever.
+SERVICE_TEXT_RETRY_DAYS = 21
 USER_AGENT = "DailyOrthodoxBrief/1.0 (personal use; contact aimee)"
 REQUEST_TIMEOUT = 15
 
@@ -743,6 +748,8 @@ def day_file_path(d: date) -> Path:
 def build_day_files(window_start: date, window_end: date) -> tuple[str, bool, bool]:
     """Returns (generated_at timestamp, any_liturgical_ok, any_events_ok)."""
     now_iso = datetime.now(CENTRAL).isoformat()
+    today = window_start + timedelta(days=WINDOW_BACK_DAYS)
+    service_text_retry_cutoff = today + timedelta(days=SERVICE_TEXT_RETRY_DAYS)
 
     events_by_date = None
     events_ok = False
@@ -755,7 +762,10 @@ def build_day_files(window_start: date, window_end: date) -> tuple[str, bool, bo
     dates_needing_liturgical = []
     for d in date_range(window_start, window_end):
         existing = load_json(day_file_path(d))
-        if not (existing and existing.get("liturgical", {}).get("status") == "ok"):
+        existing_liturgical = (existing or {}).get("liturgical") or {}
+        status_ok = existing_liturgical.get("status") == "ok"
+        missing_service_texts = status_ok and not existing_liturgical.get("service_texts")
+        if not status_ok or (missing_service_texts and d <= service_text_retry_cutoff):
             dates_needing_liturgical.append(d)
 
     liturgical_by_date = {}
