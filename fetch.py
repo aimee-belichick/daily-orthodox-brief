@@ -25,9 +25,10 @@ CENTRAL = ZoneInfo("America/Chicago")
 WINDOW_BACK_DAYS = 7
 WINDOW_FORWARD_DAYS = 90
 # A day can legitimately have no service texts (an ordinary weekday), or it can
-# have none because a transient scrape glitch found no links that one time. We
-# can't tell those apart, so keep retrying empty-service-text days while they're
-# within this many days of today, instead of trusting the first result forever.
+# have none, or have some with missing text, because a transient scrape glitch
+# found no links (or failed to fetch a link's RTF text) that one time. We can't
+# tell those apart, so keep retrying incomplete days while they're within this
+# many days of today, instead of trusting the first result forever.
 SERVICE_TEXT_RETRY_DAYS = 21
 USER_AGENT = "DailyOrthodoxBrief/1.0 (personal use; contact aimee)"
 REQUEST_TIMEOUT = 15
@@ -227,7 +228,7 @@ def antiochian_parse_liturgicday(page, id_: int, expected_date: date) -> dict:
 
     service_texts = []
     for label, urls in by_label.items():
-        entry = {"label": label, "pdf_url": urls.get("pdf_url")}
+        entry = {"label": label, "pdf_url": urls.get("pdf_url"), "rtf_url": urls.get("rtf_url")}
         if urls.get("rtf_url"):
             try:
                 entry["text"] = fetch_rtf_text(urls["rtf_url"])
@@ -745,6 +746,15 @@ def day_file_path(d: date) -> Path:
     return DAYS_DIR / f"{d.isoformat()}.json"
 
 
+def service_texts_incomplete(service_texts) -> bool:
+    """True if no service-text links were found at all, or a link was found
+    but its RTF text never actually got fetched (a transient glitch), either
+    of which is worth retrying rather than trusting forever."""
+    if not service_texts:
+        return True
+    return any(e.get("rtf_url") and not e.get("text") for e in service_texts)
+
+
 def build_day_files(window_start: date, window_end: date) -> tuple[str, bool, bool]:
     """Returns (generated_at timestamp, any_liturgical_ok, any_events_ok)."""
     now_iso = datetime.now(CENTRAL).isoformat()
@@ -764,7 +774,7 @@ def build_day_files(window_start: date, window_end: date) -> tuple[str, bool, bo
         existing = load_json(day_file_path(d))
         existing_liturgical = (existing or {}).get("liturgical") or {}
         status_ok = existing_liturgical.get("status") == "ok"
-        missing_service_texts = status_ok and not existing_liturgical.get("service_texts")
+        missing_service_texts = status_ok and service_texts_incomplete(existing_liturgical.get("service_texts"))
         if not status_ok or (missing_service_texts and d <= service_text_retry_cutoff):
             dates_needing_liturgical.append(d)
 
