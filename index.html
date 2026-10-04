@@ -339,11 +339,6 @@
     border-radius: 8px;
   }
 
-  .notes-hint {
-    font-size: 0.85rem;
-    color: var(--ink-faint);
-    margin: 0 0 0.6rem;
-  }
   .notes-textarea {
     display: block;
     width: 100%;
@@ -370,16 +365,20 @@
     border: 1px solid var(--rule);
     border-radius: 8px;
     color: var(--accent);
-    padding: 0.45rem 0.7rem;
+    padding: 0.55rem 0.7rem;
     font-size: 0.85rem;
     font-family: var(--sans);
     text-decoration: none;
     cursor: pointer;
+    flex: 1;
   }
   .notes-copy:active, .notes-text-link:active { background: var(--rule); }
   .notes-copy-status {
+    display: block;
     font-size: 0.8rem;
     color: var(--ink-faint);
+    margin-top: 0.4rem;
+    min-height: 1.2em;
   }
 
   .event-list { margin: 0; padding: 0; list-style: none; }
@@ -699,13 +698,12 @@
     return (
       '<section class="card notes-card">' +
       "<h2>Liturgy Notes</h2>" +
-      '<p class="notes-hint">Jot down anything that stands out &mdash; especially what&rsquo;s different from usual.</p>' +
       '<textarea class="notes-textarea" data-storage-key="' + esc(storageKey) + '" autocapitalize="sentences"></textarea>' +
       '<div class="notes-actions">' +
       '<button type="button" class="notes-copy">Copy notes</button>' +
       '<button type="button" class="notes-text-link">Text to myself</button>' +
-      '<span class="notes-copy-status" aria-live="polite"></span>' +
       "</div>" +
+      '<span class="notes-copy-status" aria-live="polite"></span>' +
       "</section>"
     );
   }
