@@ -339,6 +339,49 @@
     border-radius: 8px;
   }
 
+  .notes-hint {
+    font-size: 0.85rem;
+    color: var(--ink-faint);
+    margin: 0 0 0.6rem;
+  }
+  .notes-textarea {
+    display: block;
+    width: 100%;
+    min-height: 9rem;
+    resize: vertical;
+    background: var(--bg);
+    color: var(--ink);
+    border: 1px solid var(--rule);
+    border-radius: 8px;
+    padding: 0.6rem 0.7rem;
+    font-family: var(--serif);
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  .notes-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin-top: 0.6rem;
+  }
+  .notes-copy, .notes-text-link {
+    appearance: none;
+    background: none;
+    border: 1px solid var(--rule);
+    border-radius: 8px;
+    color: var(--accent);
+    padding: 0.45rem 0.7rem;
+    font-size: 0.85rem;
+    font-family: var(--sans);
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .notes-copy:active, .notes-text-link:active { background: var(--rule); }
+  .notes-copy-status {
+    font-size: 0.8rem;
+    color: var(--ink-faint);
+  }
+
   .event-list { margin: 0; padding: 0; list-style: none; }
   .event-item { padding: 0.5rem 0; border-bottom: 1px solid var(--rule); }
   .event-item:last-child { border-bottom: none; }
@@ -650,6 +693,23 @@
     return '<section class="card"><h2>Service Texts</h2>' + renderTextChooser("service", items) + "</section>";
   }
 
+  function renderNotesSection(dateStr) {
+    if (parseISODate(dateStr).getDay() !== 0) return "";
+    var storageKey = "liturgyNotes:" + dateStr;
+    return (
+      '<section class="card notes-card">' +
+      "<h2>Liturgy Notes</h2>" +
+      '<p class="notes-hint">Jot down anything that stands out &mdash; especially what&rsquo;s different from usual.</p>' +
+      '<textarea class="notes-textarea" data-storage-key="' + esc(storageKey) + '" autocapitalize="sentences"></textarea>' +
+      '<div class="notes-actions">' +
+      '<button type="button" class="notes-copy">Copy notes</button>' +
+      '<button type="button" class="notes-text-link">Text to myself</button>' +
+      '<span class="notes-copy-status" aria-live="polite"></span>' +
+      "</div>" +
+      "</section>"
+    );
+  }
+
   function renderEventsSection(day) {
     if (!day.events || !day.events.length) return "";
     var items = day.events
@@ -863,6 +923,60 @@
     });
   }
 
+  function fallbackCopy(textarea, done) {
+    var selStart = textarea.selectionStart;
+    var selEnd = textarea.selectionEnd;
+    textarea.select();
+    try { document.execCommand("copy"); done(); } catch (e) { /* ignore */ }
+    textarea.setSelectionRange(selStart, selEnd);
+  }
+
+  function wireNotes() {
+    document.querySelectorAll(".notes-textarea").forEach(function (textarea) {
+      var key = textarea.getAttribute("data-storage-key");
+      var saved = localStorage.getItem(key);
+      textarea.value = saved !== null ? saved : "• ";
+
+      textarea.addEventListener("input", function () {
+        localStorage.setItem(key, textarea.value);
+      });
+
+      textarea.addEventListener("keydown", function (e) {
+        if (e.key !== "Enter" || e.shiftKey) return;
+        e.preventDefault();
+        var start = textarea.selectionStart;
+        var end = textarea.selectionEnd;
+        var insert = "\n• ";
+        textarea.value = textarea.value.slice(0, start) + insert + textarea.value.slice(end);
+        var pos = start + insert.length;
+        textarea.setSelectionRange(pos, pos);
+        localStorage.setItem(key, textarea.value);
+      });
+
+      var card = textarea.closest(".notes-card");
+      var status = card.querySelector(".notes-copy-status");
+      var showStatus = function (msg) {
+        status.textContent = msg;
+        setTimeout(function () { status.textContent = ""; }, 1500);
+      };
+
+      card.querySelector(".notes-copy").addEventListener("click", function () {
+        var text = textarea.value;
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(text)
+            .then(function () { showStatus("Copied!"); })
+            .catch(function () { fallbackCopy(textarea, function () { showStatus("Copied!"); }); });
+        } else {
+          fallbackCopy(textarea, function () { showStatus("Copied!"); });
+        }
+      });
+
+      card.querySelector(".notes-text-link").addEventListener("click", function () {
+        window.location.href = "sms:&body=" + encodeURIComponent(textarea.value);
+      });
+    });
+  }
+
   function render(dateStr, day) {
     var lit = day.liturgical && day.liturgical.status === "ok" ? day.liturgical : null;
 
@@ -879,6 +993,7 @@
     html += renderSaintsSection(lit);
     html += renderStoriesSection(lit);
     html += renderServiceLinksSection(lit, dateStr);
+    html += renderNotesSection(dateStr);
     html += renderEventsSection(day);
     html += renderPrayerListSection();
     html += renderReadingSection(lit);
@@ -888,6 +1003,7 @@
       html =
         renderNavBar(dateStr) +
         '<div class="banner">Couldn&rsquo;t reach the liturgical calendar for this day.</div>' +
+        renderNotesSection(dateStr) +
         renderEventsSection(day) +
         renderPrayerListSection() +
         renderFooter();
@@ -897,6 +1013,7 @@
     currentDate = dateStr;
     wireNavBar(dateStr);
     wireTextChoosers();
+    wireNotes();
     wireCheckableBodies();
     wireTextSearch();
     wireJumpButtons();
