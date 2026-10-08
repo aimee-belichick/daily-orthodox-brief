@@ -34,6 +34,12 @@
   },
   "events": [
     {
+      "title": "Sunday School",
+      "start": "2026-11-08 00:00:00",
+      "end": "2026-11-08 23:59:59",
+      "url": "https://www.constantinehelen.com/event/sunday-school-10/2026-11-08/"
+    },
+    {
       "title": "Matins (Orthros)",
       "start": "2026-11-08 09:00:00",
       "end": "2026-11-08 10:00:00",
