@@ -1,0 +1,52 @@
+{
+  "date": "2027-01-07",
+  "liturgical": {
+    "status": "ok",
+    "source": "orthocal",
+    "feasts": [
+      "Synaxis of St John the Baptist"
+    ],
+    "saints": [
+      "New Martyr Athanasius of Attalia (1700)",
+      "Our Venerable Father Cedd, Bishop of Essex and Abbot of Lastingham (664)"
+    ],
+    "summary_title": "Synaxis of St John the Baptist",
+    "stories": [
+      {
+        "title": "The Synaxis of the Venerable and Illustrious Prophet, Forerunner and Baptist of the Lord, John.",
+        "html": "<p>On the day after a great Feast we usually honor the servant of the Mystery; today we honor him who baptized the Lord: the blessed Forerunner, \u201cgreatest of the Prophets, most noble of those born of women, voice of the Word, herald of Grace, swallow presaging the spiritual spring, torch and beacon of the divine Light, spiritual dawn announcing the Sun of Righteousness, and as terrestrial angel and celestial man, stationed at the border of heaven and earth, uniting the Old and the New Testaments\u201d (<i>Synaxarion</i>).</p>"
+      },
+      {
+        "title": "New Martyr Athanasius of Attalia (1700)",
+        "html": "<p>A native of Attalia, he lived in Smyrna. Once he unguardedly spoke the opening words of the Muslim confession of faith, \u201cThere is no god but God.\u201d Hearing this, some Turks immediately surrounded him and took him to the court, claiming that he had embraced Islam. This he vehemently denied, assuring them that he was a Christian and that the words he had spoken would be unremarkable to any Christian. He was thrown into prison as an apostate and, after a sham trial, beheaded. His body was thrown to the dogs, but the usually voracious animals refused to touch his body, and it was removed by some pious Christians and given honorable burial.</p>"
+      },
+      {
+        "title": "Our Venerable Father Cedd, Bishop of Essex and Abbot of Lastingham (664)",
+        "html": "<p>He and his brother Chad (Mar. 2) were from an English family, educated under Saint Aidan (Aug. 31) of Lindisfarne. Both brothers entered monastic life at Lindisfarne and later became bishops. Cedd travelled as an evangelist among the people of Essex, where Saint Finan (Feb. 17) consecrated him to be their first bishop. He founded two monasteries in Essex, one of whose churches still stands; he built yet another monastery at Lastingham in Yorkshire, where he lived until his repose. He spoke both Irish and Anglo-Saxon, and served as a translator for the Irish at the Synod of Whitby in 664. He reposed at Lastingham not long after the Synod.</p>"
+      }
+    ],
+    "fasting": null,
+    "readings": [
+      {
+        "display": "Acts 19.1-8",
+        "text": "And it came to pass, that, while Apollos was at Corinth, Paul having passed through the upper coasts came to Ephesus: and finding certain disciples, He said unto them, Have ye received the Holy Ghost since ye believed? And they said unto him, We have not so much as heard whether there be any Holy Ghost. And he said unto them, Unto what then were ye baptized? And they said, Unto John\u2019s baptism. Then said Paul, John verily baptized with the baptism of repentance, saying unto the people, that they should believe on him which should come after him, that is, on Christ Jesus. When they heard this, they were baptized in the name of the Lord Jesus. And when Paul had laid his hands upon them, the Holy Ghost came on them; and they spake with tongues, and prophesied. And all the men were about twelve. And he went into the synagogue, and spake boldly for the space of three months, disputing and persuading the things concerning the kingdom of God."
+      },
+      {
+        "display": "James 4.7-5.9",
+        "text": "Submit yourselves therefore to God. Resist the devil, and he will flee from you. Draw nigh to God, and he will draw nigh to you. Cleanse your hands, ye sinners; and purify your hearts, ye double minded. Be afflicted, and mourn, and weep: let your laughter be turned to mourning, and your joy to heaviness. Humble yourselves in the sight of the Lord, and he shall lift you up. Speak not evil one of another, brethren. He that speaketh evil of his brother, and judgeth his brother, speaketh evil of the law, and judgeth the law: but if thou judge the law, thou art not a doer of the law, but a judge. There is one lawgiver, who is able to save and to destroy: who art thou that judgest another? Go to now, ye that say, To day or to morrow we will go into such a city, and continue there a year, and buy and sell, and get gain: Whereas ye know not what shall be on the morrow. For what is your life? It is even a vapour, that appeareth for a little time, and then vanisheth away. For that ye ought to say, If the Lord will, we shall live, and do this, or that. But now ye rejoice in your boastings: all such rejoicing is evil. Therefore to him that knoweth to do good, and doeth it not, to him it is sin. Go to now, ye rich men, weep and howl for your miseries that shall come upon you. Your riches are corrupted, and your garments are motheaten. Your gold and silver is cankered; and the rust of them shall be a witness against you, and shall eat your flesh as it were fire. Ye have heaped treasure together for the last days. Behold, the hire of the labourers who have reaped down your fields, which is of you kept back by fraud, crieth: and the cries of them which have reaped are entered into the ears of the Lord of sabaoth. Ye have lived in pleasure on the earth, and been wanton; ye have nourished your hearts, as in a day of slaughter. Ye have condemned and killed the just; and he doth not resist you. Be patient therefore, brethren, unto the coming of the Lord. Behold, the husbandman waiteth for the precious fruit of the earth, and hath long patience for it, until he receive the early and latter rain. Be ye also patient; stablish your hearts: for the coming of the Lord draweth nigh. Grudge not one against another, brethren, lest ye be condemned: behold, the judge standeth before the door."
+      },
+      {
+        "display": "John 1.29-34",
+        "text": "The next day John seeth Jesus coming unto him, and saith, Behold the Lamb of God, which taketh away the sin of the world. This is he of whom I said, After me cometh a man which is preferred before me: for he was before me. And I knew him not: but that he should be made manifest to Israel, therefore am I come baptizing with water. And John bare record, saying, I saw the Spirit descending from heaven like a dove, and it abode upon him. And I knew him not: but he that sent me to baptize with water, the same said unto me, Upon whom thou shalt see the Spirit descending, and remaining on him, the same is he which baptizeth with the Holy Ghost. And I saw, and bare record that this is the Son of God."
+      },
+      {
+        "display": "Luke 18.31-34",
+        "text": "Then he took unto him the twelve, and said unto them, Behold, we go up to Jerusalem, and all things that are written by the prophets concerning the Son of man shall be accomplished. For he shall be delivered unto the Gentiles, and shall be mocked, and spitefully entreated, and spitted on: And they shall scourge him, and put him to death: and the third day he shall rise again. And they understood none of these things: and this saying was hid from them, neither knew they the things which were spoken."
+      }
+    ],
+    "service_texts": [],
+    "synaxarion": null,
+    "great_feast": null
+  },
+  "events": []
+}
