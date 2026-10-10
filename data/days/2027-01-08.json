@@ -1,0 +1,65 @@
+{
+  "date": "2027-01-08",
+  "liturgical": {
+    "status": "ok",
+    "source": "orthocal",
+    "feasts": null,
+    "saints": [
+      "Ven. George the Chozebite",
+      "Gregory of the Kiev Caves",
+      "Emilianos the Confessor, Bishop of Cyzikos",
+      "Pega the Virgin, Hermitess of Peakirk",
+      "Our Venerable Mother Domnica (Domnina) (ca. 474)",
+      "Saint Atticus, Patriarch of Constantinople (425)",
+      "Saint Severinus (482)"
+    ],
+    "summary_title": "Our Venerable Mother Domnica (Domnina) (ca. 474); Saint Atticus, Patriarch of Constantinople (425); Saint Severinus (482)",
+    "stories": [
+      {
+        "title": "Our Venerable Mother Domnica (Domnina) (ca. 474)",
+        "html": "<p>She was born in Rome and reared in the love of Christ. She secretly left her parents\u2019 house and traveled by ship to Alexandria, where she found lodging with four virtuous pagan maidens. By her example and counsel these four were in time led to abandon idolatry and embrace Domnica\u2019s faith. The five then sailed to Constantinople, where it is said that the Patriarch Nectarius (October 11) was notified of their coming by an angel and met them at the dock. The Patriarch baptized the four maidens himself, giving them the names Dorothea, Evanthia, Nonna and Timothea, then settled them and Domnica in a monastery.</p>\n<p>Soon the fame of Domnica\u2019s pure life, wise teaching, and wondrous healings spread throughout the city, and even the Emperor Theodosius, with the Empress and his court, came to see her. Soon the crowds made it impossible for her and her sisters to live the heavenly life for which they had entered the monastery; so they relocated the monastery to a remote, demon-haunted location where executions had once commonly been performed, since everyone avoided the area. Here a new monastery was built by order of the Emperor, and the sisters found peace.</p>\n<p>Saint Domnica\u2019s fame continued, and she became not only a healer but an oracle for the city of Constantinople, prophesying the death of the Emperor Theodosius and the unrest which followed it. She reposed in peace, having first entrusted the care of the monastery to Dorothea. At the moment of her death, the whole monastery was shaken, and those present saw Saint Domnica dressed as a bride, being borne heavenward escorted by a company of white-clad monks and nuns.</p>"
+      },
+      {
+        "title": "Saint Atticus, Patriarch of Constantinople (425)",
+        "html": "<p>Born in Sebaste in Armenia, he was reared by monks who held to the heresy of Macedonius, which denied the uncreated divinity of the Holy Spirit; but when he came of age he rejected this error and embraced the Orthodox faith. He settled in Constantinople and became a priest in the Great Church. Though he had little formal education, his amazing memory, his zeal for Christ, and his powerful sermons recommended him to all, and he was elected Patriarch in 406, during the reign of the Emperor Arcadius. He served as shepherd to the Church for twenty years, ruling always with wisdom and moderation. Though he was unbending in upholding the Faith exactly, he took a conciliatory, persuasive approach to heretics and schismatics; in this way he was able to restore many to the Church rather than driving them away. His best-known single act is his restoration of the name of St John Chrysostom to the diptychs. Saint John had been unjustly denied commemoration in the Patriarchate since his exile, which had led to a schism; restoration of his commemoration not only corrected a grave injustice but healed a schism. Saint Atticus also presided over the rededication of the Agia Sophia, which had been burned in 404 in the rioting that followed St John Chrysostom\u2019s exile. He reposed in peace in 425.</p>"
+      },
+      {
+        "title": "Saint Severinus (482)",
+        "html": "<p>St. Severinus came to the borderland of present-day Gemany and Austria from the east \u2014 possibly the Egyptian desert \u2014 to care for the Roman Christians who were endangered by invading barbarians during the collapse of the Roman Empire. He remained there until the end of his life. While he was there he advised both common people and kings to put eternal life first, and taught them to be generous to one another and to lead a true Christian life. He built a monastery and protected from harm those who gathered around him. As he foretold, the monks and other Christians who had followed him escaped to safety in Italy, taking St. Severinus\u2019 incorrupt relics with them. His relics are still honored in Frattamaggiore, Italy (near Naples).</p>\n<p>\u2014from the 2006 <i>Saint Herman Calendar</i></p>"
+      }
+    ],
+    "fasting": {
+      "description": "Fast",
+      "abstentions": [
+        "meat",
+        "fish",
+        "dairy",
+        "eggs",
+        "wine",
+        "oil"
+      ]
+    },
+    "readings": [
+      {
+        "display": "1 Peter 1.1-2, 10-12, 2.6-10",
+        "text": "Peter, an apostle of Jesus Christ, to the strangers scattered throughout Pontus, Galatia, Cappadocia, Asia, and Bithynia, Elect according to the foreknowledge of God the Father, through sanctification of the Spirit, unto obedience and sprinkling of the blood of Jesus Christ: Grace unto you, and peace, be multiplied. Of which salvation the prophets have enquired and searched diligently, who prophesied of the grace that should come unto you: Searching what, or what manner of time the Spirit of Christ which was in them did signify, when it testified beforehand the sufferings of Christ, and the glory that should follow. Unto whom it was revealed, that not unto themselves, but unto us they did minister the things, which are now reported unto you by them that have preached the gospel unto you with the Holy Ghost sent down from heaven; which things the angels desire to look into. Wherefore also it is contained in the scripture, Behold, I lay in Sion a chief corner stone, elect, precious: and he that believeth on him shall not be confounded. Unto you therefore which believe he is precious: but unto them which be disobedient, the stone which the builders disallowed, the same is made the head of the corner, And a stone of stumbling, and a rock of offence, even to them which stumble at the word, being disobedient: whereunto also they were appointed. But ye are a chosen generation, a royal priesthood, an holy nation, a peculiar people; that ye should shew forth the praises of him who hath called you out of darkness into his marvellous light: Which in time past were not a people, but are now the people of God: which had not obtained mercy, but now have obtained mercy."
+      },
+      {
+        "display": "Romans 6.3-11",
+        "text": "Know ye not, that so many of us as were baptized into Jesus Christ were baptized into his death? Therefore we are buried with him by baptism into death: that like as Christ was raised up from the dead by the glory of the Father, even so we also should walk in newness of life. For if we have been planted together in the likeness of his death, we shall be also in the likeness of his resurrection: Knowing this, that our old man is crucified with him, that the body of sin might be destroyed, that henceforth we should not serve sin. For he that is dead is freed from sin. Now if we be dead with Christ, we believe that we shall also live with him: Knowing that Christ being raised from the dead dieth no more; death hath no more dominion over him. For in that he died, he died unto sin once: but in that he liveth, he liveth unto God. Likewise reckon ye also yourselves to be dead indeed unto sin, but alive unto God through Jesus Christ our Lord."
+      },
+      {
+        "display": "Luke 19.12-28",
+        "text": "He said therefore, A certain nobleman went into a far country to receive for himself a kingdom, and to return. And he called his ten servants, and delivered them ten pounds, and said unto them, Occupy till I come. But his citizens hated him, and sent a message after him, saying, We will not have this man to reign over us. And it came to pass, that when he was returned, having received the kingdom, then he commanded these servants to be called unto him, to whom he had given the money, that he might know how much every man had gained by trading. Then came the first, saying, Lord, thy pound hath gained ten pounds. And he said unto him, Well, thou good servant: because thou hast been faithful in a very little, have thou authority over ten cities. And the second came, saying, Lord, thy pound hath gained five pounds. And he said likewise to him, Be thou also over five cities. And another came, saying, Lord, behold, here is thy pound, which I have kept laid up in a napkin: For I feared thee, because thou art an austere man: thou takest up that thou layedst not down, and reapest that thou didst not sow. And he saith unto him, Out of thine own mouth will I judge thee, thou wicked servant. Thou knewest that I was an austere man, taking up that I laid not down, and reaping that I did not sow: Wherefore then gavest not thou my money into the bank, that at my coming I might have required mine own with usury? And he said unto them that stood by, Take from him the pound, and give it to him that hath ten pounds. (And they said unto him, Lord, he hath ten pounds.) For I say unto you, That unto every one which hath shall be given; and from him that hath not, even that he hath shall be taken away from him. But those mine enemies, which would not that I should reign over them, bring hither, and slay them before me. And when he had thus spoken, he went before, ascending up to Jerusalem."
+      },
+      {
+        "display": "John 3.22-33",
+        "text": "After these things came Jesus and his disciples into the land of Jud\u00e6a; and there he tarried with them, and baptized. And John also was baptizing in \u00c6non near to Salim, because there was much water there: and they came, and were baptized. For John was not yet cast into prison. Then there arose a question between some of John\u2019s disciples and the Jews about purifying. And they came unto John, and said unto him, Rabbi, he that was with thee beyond Jordan, to whom thou barest witness, behold, the same baptizeth, and all men come to him. John answered and said, A man can receive nothing, except it be given him from heaven. Ye yourselves bear me witness, that I said, I am not the Christ, but that I am sent before him. He that hath the bride is the bridegroom: but the friend of the bridegroom, which standeth and heareth him, rejoiceth greatly because of the bridegroom\u2019s voice: this my joy therefore is fulfilled. He must increase, but I must decrease. He that cometh from above is above all: he that is of the earth is earthly, and speaketh of the earth: he that cometh from heaven is above all. And what he hath seen and heard, that he testifieth; and no man receiveth his testimony. He that hath received his testimony hath set to his seal that God is true."
+      }
+    ],
+    "service_texts": [],
+    "synaxarion": null,
+    "great_feast": null
+  },
+  "events": []
+}
