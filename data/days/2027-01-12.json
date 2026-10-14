@@ -1,0 +1,58 @@
+{
+  "date": "2027-01-12",
+  "liturgical": {
+    "status": "ok",
+    "source": "orthocal",
+    "feasts": null,
+    "saints": [
+      "St Sava, Archbishop of Serbia",
+      "Basil and John the Hieromartyrs",
+      "Martyr Mertios",
+      "Euthasia the Virgin-Martyr",
+      "Peter of Absalom",
+      "Holy Martyr Tatiana (ca. 230)",
+      "Venerable Benedict Biscop, Abbot of Wearmouth (689-690)"
+    ],
+    "summary_title": "St Sava, Archbishop of Serbia; Holy Martyr Tatiana (ca. 230); Venerable Benedict Biscop, Abbot of Wearmouth (689-690)",
+    "stories": [
+      {
+        "title": "Holy Martyr Tatiana (ca. 230)",
+        "html": "<p>She was the daughter of a wealthy Roman consul. She became a deaconess in Rome, and was seized as a Christian during the reign of Alexander Severus. Before the tribunal she fearlessly confessed Christ and, when she was taken to the temple in an effort to force her to make sacrifice, she cast down the idols by the power of her prayer. At this, the soldiers seized her and subjected her to many indignities and tortures, finally throwing her into a raging furnace. When this did not harm her, she was thrown to the wild beasts, but they refused to harm her. At last she was beheaded and thus gained her crown.</p>"
+      },
+      {
+        "title": "Venerable Benedict Biscop, Abbot of Wearmouth (689-690)",
+        "html": "<p>He came from a noble Northumbrian family in Britain, and was tonsured a monk in 653 at Lerins in Gaul. In 669 he was made Abbot of the Monastery of Saints Peter and Paul in Canterbury. He traveled to Rome in 671 to be instructed in monastic practice according to the <i>Rule of Saint Benedict</i> (of Nursia). Returning to Northumbria he established two new monasteries, the first to follow St Benedict\u2019s <i>Rule</i> in the British Isles. He went to Rome once again in 678-679, this time bringing back the archcantor of St Peter\u2019s, who taught the monks of St Benedict\u2019s monasteries the chant and liturgical practices used in Rome.</p>\n<p>Under the holy abbot\u2019s guidance, these monasteries became flourishing centers of Christian worship, scholarship and art. The Venerable Bede (May 26) was one of his disciples. Saint Benedict reposed in peace in 689 or 690, having greatly strengthened the Church and the Christian faith in Britain.</p>"
+      }
+    ],
+    "fasting": null,
+    "readings": [
+      {
+        "display": "2 Timothy 3.16-4.4",
+        "text": "All scripture is given by inspiration of God, and is profitable for doctrine, for reproof, for correction, for instruction in righteousness: That the man of God may be perfect, throughly furnished unto all good works. I charge thee therefore before God, and the Lord Jesus Christ, who shall judge the quick and the dead at his appearing and his kingdom; Preach the word; be instant in season, out of season; reprove, rebuke, exhort with all longsuffering and doctrine. For the time will come when they will not endure sound doctrine; but after their own lusts shall they heap to themselves teachers, having itching ears; And they shall turn away their ears from the truth, and shall be turned unto fables."
+      },
+      {
+        "display": "Acts 18.22-28",
+        "text": "And when he had landed at C\u00e6sarea, and gone up, and saluted the church, he went down to Antioch. And after he had spent some time there, he departed, and went over all the country of Galatia and Phrygia in order, strengthening all the disciples. And a certain Jew named Apollos, born at Alexandria, an eloquent man, and mighty in the scriptures, came to Ephesus. This man was instructed in the way of the Lord; and being fervent in the spirit, he spake and taught diligently the things of the Lord, knowing only the baptism of John. And he began to speak boldly in the synagogue: whom when Aquila and Priscilla had heard, they took him unto them, and expounded unto him the way of God more perfectly. And when he was disposed to pass into Achaia, the brethren wrote, exhorting the disciples to receive him: who, when he was come, helped them much which had believed through grace: For he mightily convinced the Jews, and that publickly, shewing by the scriptures that Jesus was Christ."
+      },
+      {
+        "display": "Luke 19.45-48",
+        "text": "And he went into the temple, and began to cast out them that sold therein, and them that bought; Saying unto them, It is written, My house is the house of prayer: but ye have made it a den of thieves. And he taught daily in the temple. But the chief priests and the scribes and the chief of the people sought to destroy him, And could not find what they might do: for all the people were very attentive to hear him."
+      },
+      {
+        "display": "John 10.39-42",
+        "text": "Therefore they sought again to take him: but he escaped out of their hand, And went away again beyond Jordan into the place where John at first baptized; and there he abode. And many resorted unto him, and said, John did no miracle: but all things that John spake of this man were true. And many believed on him there."
+      }
+    ],
+    "service_texts": [],
+    "synaxarion": null,
+    "great_feast": null
+  },
+  "events": [
+    {
+      "title": "Divine Liturgy",
+      "start": "2027-01-12 09:30:00",
+      "end": "2027-01-12 11:00:00",
+      "url": "https://www.constantinehelen.com/event/tuesday-liturgy-2/2027-01-12/"
+    }
+  ]
+}
