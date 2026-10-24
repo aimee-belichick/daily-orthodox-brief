@@ -1,0 +1,55 @@
+{
+  "date": "2027-01-22",
+  "liturgical": {
+    "status": "ok",
+    "source": "orthocal",
+    "feasts": null,
+    "saints": [
+      "Apostle Timothy of the Seventy",
+      "Joseph the Sanctified",
+      "Holy Martyr Anastasius of Persia (628)"
+    ],
+    "summary_title": "Apostle Timothy of the Seventy; Holy Martyr Anastasius of Persia (628); Joseph the Sanctified",
+    "stories": [
+      {
+        "title": "Apostle Timothy of the Seventy",
+        "html": "<p>This is the Apostle to whom two of St Paul\u2019s Epistles are addressed. He was from Lystra in Lycaonia, born to a pagan Greek father and a Jewish mother. His mother, whose name was Eunice, and his grandmother, Lois, brought him up in piety and love of the Scriptures. The Apostle Paul converted the two women during his first missionary visit to Lystra; returning seven years later, he found Timothy full of zeal for Christ, and baptized him. Timothy became his closest disciple: in his epistles, St Paul calls calls him \u201cmy dearly beloved son.\u201d So that Timothy would be able to preach the Gospel in the synagogues, St Paul personally circumcised him.</p>\n<p>The Apostle Paul consecrated Timothy as the first bishop of Ephesus. As such, he became a disciple and exarch of St John the Evangelist, who supervised all the churches in Asia. In AD 97, he attempted to oppose the celebration of a festival to Artemis; the pagans, enraged, mobbed him and beat him to death. He was buried near the tomb of St John. In 356 his precious relics were translated (along with those of Sts Andrew and Luke) to Constantinople and enshrined in the Church of the Holy Apostles. In 1204 they were stolen by the Latin Crusaders when they pillaged the city.</p>"
+      },
+      {
+        "title": "Holy Martyr Anastasius of Persia (628)",
+        "html": "<p>He was a Persian, the son of a Magus, a soldier in the Persian army under Chosroes II, who at that time was making inroads into the Christian Empire. His Persian name was Magundat. Chosroes captured Jerusalem in 614, and carried away the Precious Cross as a trophy. Magundat heard of this, and of all the miracles worked by the Cross; and he wondered why the ruins of an instrument of torture were so revered by the Christians. Seeking out Christian elders to answer his questions, he learned of the Incarnation, life, Crucifixion and Resurrection of the Christ, and with joy embraced the Christian Faith as Truth. He was baptized by St Modestus, Patriarch of Jerusalem, and given the name of Anastasius. At the same time, he took monastic vows. For a time he lived in a monastery in Jerusalem, but then went forth, found some Persian Magi at Caesarea, and chastised them for embracing delusions. Since he was in Persian territory (as he well knew), he was taken to the Persian governor, interrogated, imprisoned, and finally taken with other captives to Persia. There, despite many severe tortures, he refused to return to his former error, and was hanged by one hand, strangled, then beheaded.</p>"
+      }
+    ],
+    "fasting": {
+      "description": "Fast",
+      "abstentions": [
+        "meat",
+        "fish",
+        "dairy",
+        "eggs"
+      ]
+    },
+    "readings": [
+      {
+        "display": "Hebrews 7.18-25",
+        "text": "For there is verily a disannulling of the commandment going before for the weakness and unprofitableness thereof. For the law made nothing perfect, but the bringing in of a better hope did; by the which we draw nigh unto God. And inasmuch as not without an oath he was made priest: (For those priests were made without an oath; but this with an oath by him that said unto him, The Lord sware and will not repent, Thou art a priest for ever after the order of Melchisedec:) By so much was Jesus made a surety of a better testament. And they truly were many priests, because they were not suffered to continue by reason of death: But this man, because he continueth ever, hath an unchangeable priesthood. Wherefore he is able also to save them to the uttermost that come unto God by him, seeing he ever liveth to make intercession for them."
+      },
+      {
+        "display": "2 Timothy 1.3-8",
+        "text": "I thank God, whom I serve from my forefathers with pure conscience, that without ceasing I have remembrance of thee in my prayers night and day; Greatly desiring to see thee, being mindful of thy tears, that I may be filled with joy; When I call to remembrance the unfeigned faith that is in thee, which dwelt first in thy grandmother Lois, and thy mother Eunice; and I am persuaded that in thee also. Wherefore I put thee in remembrance that thou stir up the gift of God, which is in thee by the putting on of my hands. For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind. Be not thou therefore ashamed of the testimony of our Lord, nor of me his prisoner: but be thou partaker of the afflictions of the gospel according to the power of God;"
+      },
+      {
+        "display": "Luke 21.37-22.8",
+        "text": "And in the day time he was teaching in the temple; and at night he went out, and abode in the mount that is called the mount of Olives. And all the people came early in the morning to him in the temple, for to hear him. Now the feast of unleavened bread drew nigh, which is called the Passover. And the chief priests and scribes sought how they might kill him; for they feared the people. Then entered Satan into Judas surnamed Iscariot, being of the number of the twelve. And he went his way, and communed with the chief priests and captains, how he might betray him unto them. And they were glad, and covenanted to give him money. And he promised, and sought opportunity to betray him unto them in the absence of the multitude. Then came the day of unleavened bread, when the passover must be killed. And he sent Peter and John, saying, Go and prepare us the passover, that we may eat."
+      },
+      {
+        "display": "Matthew 10.32-33, 37-38, 19.27-30",
+        "text": "Whosoever therefore shall confess me before men, him will I confess also before my Father which is in heaven. But whosoever shall deny me before men, him will I also deny before my Father which is in heaven. He that loveth father or mother more than me is not worthy of me: and he that loveth son or daughter more than me is not worthy of me. And he that taketh not his cross, and followeth after me, is not worthy of me. Then answered Peter and said unto him, Behold, we have forsaken all, and followed thee; what shall we have therefore? And Jesus said unto them, Verily I say unto you, That ye which have followed me, in the regeneration when the Son of man shall sit in the throne of his glory, ye also shall sit upon twelve thrones, judging the twelve tribes of Israel. And every one that hath forsaken houses, or brethren, or sisters, or father, or mother, or wife, or children, or lands, for my name\u2019s sake, shall receive an hundredfold, and shall inherit everlasting life. But many that are first shall be last; and the last shall be first."
+      }
+    ],
+    "service_texts": [],
+    "synaxarion": null,
+    "great_feast": null
+  },
+  "events": []
+}
