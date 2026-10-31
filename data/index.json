@@ -1,8 +1,7 @@
 {
-  "generated_at": "2026-10-30T11:58:05.856539-05:00",
-  "today": "2026-10-30",
+  "generated_at": "2026-10-31T10:59:15.452879-05:00",
+  "today": "2026-10-31",
   "available_dates": [
-    "2026-10-23",
     "2026-10-24",
     "2026-10-25",
     "2026-10-26",
@@ -99,19 +98,20 @@
     "2027-01-25",
     "2027-01-26",
     "2027-01-27",
-    "2027-01-28"
+    "2027-01-28",
+    "2027-01-29"
   ],
   "last_successful": {
-    "liturgical": "2026-10-30T11:58:05.856539-05:00",
-    "parish_events": "2026-10-30T11:58:05.856539-05:00",
-    "bulletin": "2026-10-30T11:58:05.856539-05:00",
-    "fasting_calendar": "2026-10-30T11:58:05.856539-05:00",
-    "prayer_list": "2026-10-30T11:58:05.856539-05:00"
+    "liturgical": "2026-10-31T10:59:15.452879-05:00",
+    "parish_events": "2026-10-31T10:59:15.452879-05:00",
+    "bulletin": "2026-10-31T10:59:15.452879-05:00",
+    "fasting_calendar": "2026-10-31T10:59:15.452879-05:00",
+    "prayer_list": "2026-10-31T10:59:15.452879-05:00"
   },
   "links": {
     "parish_calendar": "https://www.constantinehelen.com/calendar/",
-    "bulletin_pdf": "https://www.constantinehelen.com/wp-content/uploads/2026/10/SCH-BW-Bulletin-10-25-2026-3.pdf",
-    "bulletin_posted": "2026-10-23T15:09:37",
+    "bulletin_pdf": "https://www.constantinehelen.com/wp-content/uploads/2026/10/SCH-BW-Bulletin-11-1-2026-2.pdf",
+    "bulletin_posted": "2026-10-30T17:53:54",
     "fasting_calendar_pdf": "https://antiochianprodsa.blob.core.windows.net/liturgicalinstructions/2026%20Fasting%20Calendar.pdf"
   },
   "prayer_list": {
@@ -183,9 +183,12 @@
       "Christian",
       "Rachel",
       "Allison",
-      "Neel"
+      "Neel",
+      "Lourdes",
+      "Scout",
+      "Haley"
     ],
-    "source_bulletin_url": "https://www.constantinehelen.com/wp-content/uploads/2026/10/SCH-BW-Bulletin-10-25-2026-3.pdf"
+    "source_bulletin_url": "https://www.constantinehelen.com/wp-content/uploads/2026/10/SCH-BW-Bulletin-11-1-2026-2.pdf"
   },
   "status": {
     "liturgical_ok": true,
