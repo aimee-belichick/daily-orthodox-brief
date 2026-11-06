@@ -44,6 +44,12 @@
   },
   "events": [
     {
+      "title": "No Sunday School",
+      "start": "2026-11-29 00:00:00",
+      "end": "2026-11-29 23:59:59",
+      "url": "https://www.constantinehelen.com/event/no-sunday-school-6/"
+    },
+    {
       "title": "Matins (Orthros)",
       "start": "2026-11-29 09:00:00",
       "end": "2026-11-29 10:00:00",
