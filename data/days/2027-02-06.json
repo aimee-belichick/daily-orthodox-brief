@@ -1,0 +1,48 @@
+{
+  "date": "2027-02-06",
+  "liturgical": {
+    "status": "ok",
+    "source": "orthocal",
+    "feasts": null,
+    "saints": [
+      "St Bucolus, Bishop of Smyrna",
+      "The Martyr and Healer Julian (Ilyan) of Homs",
+      "St Photios, patriarch of Constantinople (891)",
+      "Sts Barsanuphius and John the Prophet, monks of Palestine (6th c.)"
+    ],
+    "summary_title": "St Photios, patriarch of Constantinople (891); Sts Barsanuphius and John the Prophet, monks of Palestine (6th c.); St Bucolus, Bishop of Smyrna",
+    "stories": [
+      {
+        "title": "St Photios, patriarch of Constantinople (891)",
+        "html": "<p>St Photios, along with St Mark of Ephesus and St Gregory Palamas, is counted as one of the Three Pillars of Orthodoxy, who stood against Latinizing influences on the Orthodox Church.</p>\n<p>He was born in Constantinople in 810, son of pious parents belonging to one of the prominent families of the City. Both his parents were martyred during the Iconoclast persecution, leaving their son an example of adherence to the True Faith even unto death. He received a superb education, and was widely considered the single most learned person of his time. He was elevated to the Patriarchal throne in 858, after being raised through all the degrees of the priesthood in six days.</p>\n<p>Throughout his Patriarchal reign he was troubled by the usual political battles and intrigues and, more importantly, by various threats to the Faith in the form of Manicheans and Iconoclasts.</p>\n<p>Photios showed a special concern for the spread of the Gospel of Jesus Christ throughout the world: it was he who commissioned Sts Cyril and Methodius to embark on their mission to the Slavs.</p>\n<p>Most memorably, it was the Patriarch\u2019s lot to stand against the arrogant, uncanonical and heretical claims of Pope Nicholas I of Rome, who openly asserted for the first time the Pope\u2019s pretensions to universal jurisdiction over the Church. When the Patriarch opposed these claims, Pope Nicholas summoned a council of western bishops, which \u201cdeposed\u201d Photios and excommunicated all clergy whom he had ordained. In 867 the Emperor Michael III was assassinated, and his successor Basil I deposed Photios, had him imprisoned, and reinstated his predecessor Ignatius. To gain legitimacy for this widely-opposed move, he submitted it to the Pope for approval. Delighted, the Pope ratified the Emperor\u2019s decision and used it to advance the claims of the Papacy. When the eastern bishops realized what was happening they prevailed on the Emperor to release Photios from his three-year imprisonment; and when Ignatius died, the Church unanimously returned Photios to the Patriarchal throne. A Council in Constantinople in 879-880, at which Photios presided, restored communion between the Eastern and Western Churches but at the same time anathematized the heretical addition of the <i>filioque</i> to the Creed, which the Papacy had been promoting.</p>\n<p>When Leo VI succeeded Basil I as Emperor, the Patriarch was once again deposed, and was imprisoned in the Monastery of the Armenians for five years. During this time he wrote the Mystagogy of the Holy Spirit, a learned and eloquent refutation of the <i>filioque</i> heresy. The Saint, still imprisoned, reposed in peace in 893.</p>"
+      },
+      {
+        "title": "Sts Barsanuphius and John the Prophet, monks of Palestine (6th c.)",
+        "html": "<p>\u2018Saint Barsanuphius the Great, who was from Egypt, and his disciple, Saint John the Prophet, struggled in very strict reclusion during the sixth century at the monastery of Abba Seridus at Gaza of Palestine, and were endowed with amazing gifts of prophecy and spiritual discernment. They are mentioned by Saint Dorotheus of Gaza, their disciple, in his writings. Many of the counsels they sent to Christians who wrote to them are preserved in the book which bears their names. Once certain of the Fathers besought Saint Barsanuphius to pray that God stay His wrath and spare the world. Saint Barsanuphius wrote back that there were \u201cthree men perfect before God,\u201d whose prayers met at the throne of God and protected the whole world; to them it had been revealed that the wrath of God would not last long. These three, he said, were \u201cJohn of Rome, Elias of Corinth, and another in the diocese of Jerusalem,\u201d concealing the name of the last, since it was himself.\u2019 (<i>Great Horologion</i>)</p>\n<p>Saint Barsanuphius lived in such reclusion that only Abbot Seridus ever saw him: once a week the Abbot would bring him three loaves and some water, and would write down the Saint\u2019s counsels. Some of the brethren came to suspect that Barsanuphius was an invention of the Abbot, and to relieve their minds he came out of his cell for the only time, greeted them, washed their feet, and withdrew again.</p>\n<p>It is unknown when St Barsanuphius reposed. When it was suspected that he had died in his cell, the Patriarch of Jerusalem ordered that it be opened, but fire blasted forth from the door, preventing any from entering.</p>"
+      }
+    ],
+    "fasting": null,
+    "readings": [
+      {
+        "display": "Colossians 1.3-6",
+        "text": "We give thanks to God and the Father of our Lord Jesus Christ, praying always for you, Since we heard of your faith in Christ Jesus, and of the love which ye have to all the saints, For the hope which is laid up for you in heaven, whereof ye heard before in the word of the truth of the gospel; Which is come unto you, as it is in all the world; and bringeth forth fruit, as it doth also in you, since the day ye heard of it, and knew the grace of God in truth:"
+      },
+      {
+        "display": "Hebrews 7.26-8.2",
+        "text": "For such an high priest became us, who is holy, harmless, undefiled, separate from sinners, and made higher than the heavens; Who needeth not daily, as those high priests, to offer up sacrifice, first for his own sins, and then for the people\u2019s: for this he did once, when he offered up himself. For the law maketh men high priests which have infirmity; but the word of the oath, which was since the law, maketh the Son, who is consecrated for evermore. Now of the things which we have spoken this is the sum: We have such an high priest, who is set on the right hand of the throne of the Majesty in the heavens; A minister of the sanctuary, and of the true tabernacle, which the Lord pitched, and not man."
+      },
+      {
+        "display": "Luke 16.10-15",
+        "text": "He that is faithful in that which is least is faithful also in much: and he that is unjust in the least is unjust also in much. If therefore ye have not been faithful in the unrighteous mammon, who will commit to your trust the true riches? And if ye have not been faithful in that which is another man\u2019s, who shall give you that which is your own? No servant can serve two masters: for either he will hate the one, and love the other; or else he will hold to the one, and despise the other. Ye cannot serve God and mammon. And the Pharisees also, who were covetous, heard all these things: and they derided him. And he said unto them, Ye are they which justify yourselves before men; but God knoweth your hearts: for that which is highly esteemed among men is abomination in the sight of God."
+      },
+      {
+        "display": "John 10.9-16",
+        "text": "I am the door: by me if any man enter in, he shall be saved, and shall go in and out, and find pasture. The thief cometh not, but for to steal, and to kill, and to destroy: I am come that they might have life, and that they might have it more abundantly. I am the good shepherd: the good shepherd giveth his life for the sheep. But he that is an hireling, and not the shepherd, whose own the sheep are not, seeth the wolf coming, and leaveth the sheep, and fleeth: and the wolf catcheth them, and scattereth the sheep. The hireling fleeth, because he is an hireling, and careth not for the sheep. I am the good shepherd, and know my sheep, and am known of mine. As the Father knoweth me, even so know I the Father: and I lay down my life for the sheep. And other sheep I have, which are not of this fold: them also I must bring, and they shall hear my voice; and there shall be one fold, and one shepherd."
+      }
+    ],
+    "service_texts": [],
+    "synaxarion": null,
+    "great_feast": null
+  },
+  "events": []
+}
