@@ -1,0 +1,44 @@
+{
+  "date": "2027-02-13",
+  "liturgical": {
+    "status": "ok",
+    "source": "orthocal",
+    "feasts": null,
+    "saints": [
+      "Ven. Martinian of Caesarea",
+      "Eulogios, Patriarch of Alexandria",
+      "Holy Apostles and Martyrs Priscilla and Aquila",
+      "St Symeon the Myrrh-streamer, founder of the Chilandar Monastery (1200)"
+    ],
+    "summary_title": "Ven. Martinian of Caesarea; Holy Apostles and Martyrs Priscilla and Aquila; St Symeon the Myrrh-streamer, founder of the Chilandar Monastery (1200)",
+    "stories": [
+      {
+        "title": "Ven. Martinian of Caesarea",
+        "html": "<p>\u201cThe life of this saint is wonderful beyond measure and is worth reading in full. What did he not endure to fulfil the Law of God? At the age of eighteen, he went off into a mountain in Cappadocia called the Ark and spent 25 years in fasting, vigils and prayer, and struggling with manifold temptations. When a woman came to tempt him and he saw that he would fall into sin with her, he leapt barefoot into the fire and stood in it until the pain brought forth tears from his eyes and he had killed all lust within himself. When other temptations arose, he fled to a lonely rock in the sea and lived there. When, though, in a shipwreck, a woman swam to the rock, he leapt into the sea intending to drown himself. But a dolphin took him upon its back and brought him, by God\u2019s providence, to the shore. He then decided to make nowhere his permanent home but to travel incessantly. Thus he passed through 164 towns in two years, exhorting and advising the people. He finally arrived in Athens, where he died in 422.\u201d (<i>Prologue</i>)</p>"
+      },
+      {
+        "title": "Holy Apostles and Martyrs Priscilla and Aquila",
+        "html": "<p>Aquila and his wife Priscilla (or Prisca) were Jews from Pontus who settled in Rome, where they worked as tent-makers. When the Emperor Claudius expelled all Jews from Rome in 49-50, they moved to Corinth. (They may already have been Christians; at that time the Empire made no distinction between Christians and Jews.) In Corinth they hosted the Apostle Paul, who lived and worked with them for awhile (Acts 18:1-3). They worked diligently with the Apostle, traveled with him, and were considered worthy to bring Apollos (December 8) to a full knowledge of the Faith (Acts 18:26)</p>\n<p>Priscilla and Aquila returned to Rome around 58, and later went to Ephesus; they were living there when St Paul asked his disciple Timothy, Bishop of Ephesus, to greet them (2 Tim. 4:19). It was probably in Ephesus that they were martyred by the pagans.</p>"
+      },
+      {
+        "title": "St Symeon the Myrrh-streamer, founder of the Chilandar Monastery (1200)",
+        "html": "<p>He was born in 1114. In the world, he ruled the kingdom of Serbia as Stephen Nemanja; after ruling wisely and mercifully for many years, he renounced all worldly wealth and glory in 1196 to become a monk. Traveling to the Holy Mountain, he took for his spiritual father his own son Sava, who had preceded him in renouncing royal honor for a life of prayer. Together Symeon (as he was named in monastic life) and his son founded Hilandar monastery. His wife Anna became a nun, taking the name Anastasia; she is also commemorated as a saint of the Church. After his repose, St Symeon\u2019s relics exuded a fragrant and healing myrrh. Saint Sava brought his father\u2019s holy relics back to Serbia. The <i>Synaxarion</i> says \u201cFrom Saint Symeon\u2019s empty tomb at Chilandar, a vine miraculously sprang up whose dried grape seeds are to this day sent all over the world as a blessing for childless married couples.\u201d</p>"
+      }
+    ],
+    "fasting": null,
+    "readings": [
+      {
+        "display": "1 Thessalonians 5.14-23",
+        "text": "Now we exhort you, brethren, warn them that are unruly, comfort the feebleminded, support the weak, be patient toward all men. See that none render evil for evil unto any man; but ever follow that which is good, both among yourselves, and to all men. Rejoice evermore. Pray without ceasing. In every thing give thanks: for this is the will of God in Christ Jesus concerning you. Quench not the Spirit. Despise not prophesyings. Prove all things; hold fast that which is good. Abstain from all appearance of evil. And the very God of peace sanctify you wholly; and I pray God your whole spirit and soul and body be preserved blameless unto the coming of our Lord Jesus Christ."
+      },
+      {
+        "display": "Luke 17.3-10",
+        "text": "Take heed to yourselves: If thy brother trespass against thee, rebuke him; and if he repent, forgive him. And if he trespass against thee seven times in a day, and seven times in a day turn again to thee, saying, I repent; thou shalt forgive him. And the apostles said unto the Lord, Increase our faith. And the Lord said, If ye had faith as a grain of mustard seed, ye might say unto this sycamine tree, Be thou plucked up by the root, and be thou planted in the sea; and it should obey you. But which of you, having a servant plowing or feeding cattle, will say unto him by and by, when he is come from the field, Go and sit down to meat? And will not rather say unto him, Make ready wherewith I may sup, and gird thyself, and serve me, till I have eaten and drunken; and afterward thou shalt eat and drink? Doth he thank that servant because he did the things that were commanded him? I trow not. So likewise ye, when ye shall have done all those things which are commanded you, say, We are unprofitable servants: we have done that which was our duty to do."
+      }
+    ],
+    "service_texts": [],
+    "synaxarion": null,
+    "great_feast": null
+  },
+  "events": []
+}
