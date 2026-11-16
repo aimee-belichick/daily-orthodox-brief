@@ -1,0 +1,54 @@
+{
+  "date": "2027-02-14",
+  "liturgical": {
+    "status": "ok",
+    "source": "orthocal",
+    "feasts": null,
+    "saints": [
+      "St Cyril, Teacher of the Slavs",
+      "Nicholas the New Martyr of Corinth",
+      "Abraham, Bishop of Carrhes in Mesopotamia",
+      "Our Holy Father Auxentius (470)",
+      "What Happened to Valentine's Day?",
+      "Venerable Maron the Hermit of Syria (ca. 423)"
+    ],
+    "summary_title": "Sunday of the Canaanite Woman",
+    "stories": [
+      {
+        "title": "St Cyril, Teacher of the Slavs",
+        "html": "<p>See the joint commemoration of Sts Cyril and Methodius on May 11.</p>"
+      },
+      {
+        "title": "Our Holy Father Auxentius (470)",
+        "html": "<p>He was of Persian origin, born in Syria. As a young man, he distinguished himself as a member of the court of the Emperor Theodosius the Younger. Seeing the vanity of the world\u2019s honors and pleasures, he became a monk in Constantinople; but when the people began to praise his holiness, he fled to Mount Oxeia near Chalcedon, which later became known as Auxentius\u2019 Mountain. There he built a small hut and lived in reclusion; but in time he was discovered by some shepherds, and the faithful began to come in increasing numbers for his teaching, blessing, prayers and healing. He performed countless miracles, but such was his humility that he always sought to avoid their being attributed to him. When he was asked to pray for someone\u2019s healing, he would try to refuse, saying \u201cI too am a sinful man.\u201d But, when he was prevailed on by the pleas of the people, he would call on all of them to pray together for the healing; or he would remind them that God would give according to <i>their</i> faith; or he would say to the sick person \u201cThe Lord Jesus Christ heals you.\u201d When the Emperor Marcian summoned the Fourth Ecumenical Council to Chalcedon, he ordered that the hermit join the assembly of holy Fathers. Auxentius refused, saying that doctrinal teaching was the province of bishops, not monks. The Emperor\u2019s envoys took him by force. He was greeted with honor by the Emperor, and affirmed all the decisions of the Council.</p>\n<p>He never returned to Mount Oxeia, but settled in an even wilder and more remote spot on Mount Skopa, which later came to be called Mount St Auxentius. His disciples built him a tiny wooden hut with one small window through which he could converse with his steady stream of visitors. He reposed in peace in 470. A great crowd gathered for his funeral, and his holy relics were taken into the care of a women\u2019s monastery whose spiritual Father he had been.</p>\n<p>Mount St Auxentius soon became a center of hesychastic life, with seven monasteries.</p>"
+      },
+      {
+        "title": "What Happened to Valentine's Day?",
+        "html": "<p>On February 14 the Roman church commemorates two Saints named Valentinus, both martyred in Rome at different times (one was a bishop in Italy). Both are also saints of the Orthodox Church, but are commemorated on July 30 and October 24. As for chocolates, flowers, cards, etc., the <i>Encyclopedia Britannica</i> says: \u201cSt Valentine\u2019s day as a lovers\u2019 festival\u2026 has no relation to the saint or to any incident in his life. These customs seem rather to be connected either with the pagan Roman festival of the Lupercalia which took place in the middle of February, or with the spring season in general.\u201d</p>"
+      },
+      {
+        "title": "Venerable Maron the Hermit of Syria (ca. 423)",
+        "html": "<p>This ascetic and wonderworker was a friend of St John Chrysostom. Read his life here.</p>"
+      }
+    ],
+    "fasting": null,
+    "readings": [
+      {
+        "display": "Luke 24.1-12",
+        "text": "Now upon the first day of the week, very early in the morning, they came unto the sepulchre, bringing the spices which they had prepared, and certain others with them. And they found the stone rolled away from the sepulchre. And they entered in, and found not the body of the Lord Jesus. And it came to pass, as they were much perplexed thereabout, behold, two men stood by them in shining garments: And as they were afraid, and bowed down their faces to the earth, they said unto them, Why seek ye the living among the dead? He is not here, but is risen: remember how he spake unto you when he was yet in Galilee, Saying, The Son of man must be delivered into the hands of sinful men, and be crucified, and the third day rise again. And they remembered his words, And returned from the sepulchre, and told all these things unto the eleven, and to all the rest. It was Mary Magdalene, and Joanna, and Mary the mother of James, and other women that were with them, which told these things unto the apostles. And their words seemed to them as idle tales, and they believed them not. Then arose Peter, and ran unto the sepulchre; and stooping down, he beheld the linen clothes laid by themselves, and departed, wondering in himself at that which was come to pass."
+      },
+      {
+        "display": "2 Corinthians 6.16-7.1",
+        "text": "And what agreement hath the temple of God with idols? for ye are the temple of the living God; as God hath said, I will dwell in them, and walk in them; and I will be their God, and they shall be my people. Wherefore come out from among them, and be ye separate, saith the Lord, and touch not the unclean thing; and I will receive you, And will be a Father unto you, and ye shall be my sons and daughters, saith the Lord Almighty. Having therefore these promises, dearly beloved, let us cleanse ourselves from all filthiness of the flesh and spirit, perfecting holiness in the fear of God."
+      },
+      {
+        "display": "Matthew 15.21-28",
+        "text": "Then Jesus went thence, and departed into the coasts of Tyre and Sidon. And, behold, a woman of Canaan came out of the same coasts, and cried unto him, saying, Have mercy on me, O Lord, thou Son of David; my daughter is grievously vexed with a devil. But he answered her not a word. And his disciples came and besought him, saying, Send her away; for she crieth after us. But he answered and said, I am not sent but unto the lost sheep of the house of Israel. Then came she and worshipped him, saying, Lord, help me. But he answered and said, It is not meet to take the children\u2019s bread, and to cast it to dogs. And she said, Truth, Lord: yet the dogs eat of the crumbs which fall from their masters\u2019 table. Then Jesus answered and said unto her, O woman, great is thy faith: be it unto thee even as thou wilt. And her daughter was made whole from that very hour."
+      }
+    ],
+    "service_texts": [],
+    "synaxarion": null,
+    "great_feast": null
+  },
+  "events": []
+}
