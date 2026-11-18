@@ -1,0 +1,41 @@
+{
+  "date": "2027-02-16",
+  "liturgical": {
+    "status": "ok",
+    "source": "orthocal",
+    "feasts": null,
+    "saints": [
+      "Martyr Pamphylius and His Companions",
+      "Romanos the Younger"
+    ],
+    "summary_title": "Martyr Pamphylius and His Companions; Romanos the Younger",
+    "stories": [
+      {
+        "title": "Martyr Pamphylius and His Companions",
+        "html": "<p>These twelve holy Martyrs suffered in the reign of Diocletian.</p>\n<p>\u201cThe first of these, Pamphilius, was priest in the church at Caesarea in Palestine; a learned and devout man, he corrected the mistakes of various copiers in the text of the New Testament. He himself copied this saving Book and gave it to any who desired it. The second was a deacon, Valentine, old in years and white with wisdom. He was a great expert in the Holy Scriptures, knowing them by heart. The third was Paul, a respected and eminent man, who had on a previous occasion been cast into the fire for the sake of Christ. With them were five Egyptians, brothers both in blood and soul, who were returning to their native land from serving a sentence in the mines of Cilicia. As they reached the gate of the town of Caesarea they said that they were Christians, and were therefore brought to trial. When asked their names, they replied: \u2018We have cast away the pagan names given us by our mother, and are called Elias, Isaiah, Jeremiah, Samuel and Daniel.\u2019 when asked where they were from, they replied: \u2018From Jerusalem that is above.\u2019 They were all beheaded, and a young man called Porphyrius, who had searched for their bodies to give them burial, suffered soon afterwards. Him they burned. An officer, Seleucus, who had come up to the martyrs and embraced them before the sword descended on their heads, was also burned, and an old man, Theodulus, a servant of the Roman judge, who had embraced one of the martyrs while they were under escort. Lastly Julian, who had kissed the dead bodies of the martyrs and honoured them, followed them in death. So they exchanged the small for the greater, the tawdry for the precious and death for immortality, and went to the Lord in 308.\u201d (<i>Prologue</i>)</p>\n<p>The <i>Synaxarion</i> concludes, \u201cAfter the martyrdom of Pamphilius, the leader of the glorious cohort, the impious governor gave orders that his body and those of his companions should be left where they lay as food for carnivorous animals. However by God\u2019s Providence, no animal came near their holy relics, which the Christians were able to lay to rest with due honour.\u201d The account of these Martyrs was written by Eusebius of Caeserea, Pamphilius\u2019 disciple.</p>"
+      }
+    ],
+    "fasting": null,
+    "readings": [
+      {
+        "display": "1 Peter 3.10-22",
+        "text": "For he that will love life, and see good days, let him refrain his tongue from evil, and his lips that they speak no guile: Let him eschew evil, and do good; let him seek peace, and ensue it. For the eyes of the Lord are over the righteous, and his ears are open unto their prayers: but the face of the Lord is against them that do evil. And who is he that will harm you, if ye be followers of that which is good? But and if ye suffer for righteousness\u2019 sake, happy are ye: and be not afraid of their terror, neither be troubled; But sanctify the Lord God in your hearts: and be ready always to give an answer to every man that asketh you a reason of the hope that is in you with meekness and fear: Having a good conscience; that, whereas they speak evil of you, as of evildoers, they may be ashamed that falsely accuse your good conversation in Christ. For it is better, if the will of God be so, that ye suffer for well doing, than for evil doing. For Christ also hath once suffered for sins, the just for the unjust, that he might bring us to God, being put to death in the flesh, but quickened by the Spirit: By which also he went and preached unto the spirits in prison; Which sometime were disobedient, when once the longsuffering of God waited in the days of Noah, while the ark was a preparing, wherein few, that is, eight souls were saved by water. The like figure whereunto even baptism doth also now save us (not the putting away of the filth of the flesh, but the answer of a good conscience toward God,) by the resurrection of Jesus Christ: Who is gone into heaven, and is on the right hand of God; angels and authorities and powers being made subject unto him."
+      },
+      {
+        "display": "Mark 12.18-27",
+        "text": "Then come unto him the Sadducees, which say there is no resurrection; and they asked him, saying, Master, Moses wrote unto us, If a man\u2019s brother die, and leave his wife behind him, and leave no children, that his brother should take his wife, and raise up seed unto his brother. Now there were seven brethren: and the first took a wife, and dying left no seed. And the second took her, and died, neither left he any seed: and the third likewise. And the seven had her, and left no seed: last of all the woman died also. In the resurrection therefore, when they shall rise, whose wife shall she be of them? for the seven had her to wife. And Jesus answering said unto them, Do ye not therefore err, because ye know not the scriptures, neither the power of God? For when they shall rise from the dead, they neither marry, nor are given in marriage; but are as the angels which are in heaven. And as touching the dead, that they rise: have ye not read in the book of Moses, how in the bush God spake unto him, saying, I am the God of Abraham, and the God of Isaac, and the God of Jacob? He is not the God of the dead, but the God of the living: ye therefore do greatly err."
+      }
+    ],
+    "service_texts": [],
+    "synaxarion": null,
+    "great_feast": null
+  },
+  "events": [
+    {
+      "title": "Divine Liturgy",
+      "start": "2027-02-16 09:30:00",
+      "end": "2027-02-16 11:00:00",
+      "url": "https://www.constantinehelen.com/event/tuesday-liturgy-2/2027-02-16/"
+    }
+  ]
+}
