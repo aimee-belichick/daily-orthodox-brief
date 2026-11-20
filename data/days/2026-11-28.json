@@ -50,6 +50,12 @@
   },
   "events": [
     {
+      "title": "No Catechism Class",
+      "start": "2026-11-28 00:00:00",
+      "end": "2026-11-28 23:59:59",
+      "url": "https://www.constantinehelen.com/event/catechism-class-17/"
+    },
+    {
       "title": "Great Vespers & Confessions",
       "start": "2026-11-28 17:00:00",
       "end": "2026-11-28 18:30:00",
@@ -60,12 +66,6 @@
       "start": "2026-11-28 18:00:00",
       "end": "2026-11-28 20:00:00",
       "url": "https://www.constantinehelen.com/event/great-vespers-at-holy-myrrhbearers-outreach/2026-11-28/"
-    },
-    {
-      "title": "Catechism Class",
-      "start": "2026-11-28 18:00:00",
-      "end": "2026-11-28 19:00:00",
-      "url": "https://www.constantinehelen.com/event/catechism-class-17/"
     }
   ]
 }

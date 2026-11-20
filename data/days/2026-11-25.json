@@ -61,22 +61,22 @@
   },
   "events": [
     {
+      "title": "No Teen SOYO Meeting",
+      "start": "2026-11-25 00:00:00",
+      "end": "2026-11-25 23:59:59",
+      "url": "https://www.constantinehelen.com/event/teen-soyo-meeting-2/"
+    },
+    {
+      "title": "No Book Study",
+      "start": "2026-11-25 00:00:00",
+      "end": "2026-11-25 23:59:59",
+      "url": "https://www.constantinehelen.com/event/book-study-2-2-2/"
+    },
+    {
       "title": "Daily Vespers",
       "start": "2026-11-25 18:00:00",
       "end": "2026-11-25 19:00:00",
       "url": "https://www.constantinehelen.com/event/daily-vespers-15/2026-11-25/"
-    },
-    {
-      "title": "Book Study",
-      "start": "2026-11-25 18:45:00",
-      "end": "2026-11-25 20:00:00",
-      "url": "https://www.constantinehelen.com/event/book-study-2-2/2026-11-25/"
-    },
-    {
-      "title": "No Teen SOYO Meeting",
-      "start": "2026-11-25 19:00:00",
-      "end": "2026-11-25 20:30:00",
-      "url": "https://www.constantinehelen.com/event/teen-soyo-meeting-2/"
     }
   ]
 }
