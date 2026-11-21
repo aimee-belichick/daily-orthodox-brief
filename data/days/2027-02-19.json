@@ -1,0 +1,49 @@
+{
+  "date": "2027-02-19",
+  "liturgical": {
+    "status": "ok",
+    "source": "orthocal",
+    "feasts": null,
+    "saints": [
+      "Apostles of the Seventy Archippus and Philemon",
+      "Niketas the Younger",
+      "Our Venerable Mother Philothea of Athens (1589)"
+    ],
+    "summary_title": "Apostles of the Seventy Archippus and Philemon; Our Venerable Mother Philothea of Athens (1589); Niketas the Younger",
+    "stories": [
+      {
+        "title": "Apostles of the Seventy Archippus and Philemon",
+        "html": "<p>Archippus was the son of Saints Philemon (Nov. 22) and Apphia (Feb. 15), and, like them, was a disciple of the Apostle Paul, who calls him \u201cour fellow soldier\u201d (Philm. 2). He and his father preached the Gospel at Colossae, and Archippus probably served as a priest for the church that gathered there at his family\u2019s house (Col. 4:17). Archippus\u2019 fervor in preaching the Gospel of Christ so angered the pagans that they seized him and brought him before the governor Androcles. When the Saint refused to sacrifice to Artemis, he was stripped, beaten, tormented in various ways, and finally stoned to death.</p>"
+      },
+      {
+        "title": "Our Venerable Mother Philothea of Athens (1589)",
+        "html": "<p>\u201cThis bright star of compassion arose in the dark days of the Turkish occupation to shed God\u2019s mercy upon the oppressed people of Athens and to guide many endangered souls onto the path of righteousness.\u201d (<i>Synaxarion</i>)</p>\n<p>She was born in 1528 to the prominent Venizelou family, miraculously answering her mother\u2019s prayer of many years. Though even in childhood she showed a love for ascesis and prayer, she was much sought-after as a wealthy heiress, and was married at the age of twelve to a rough, violent man. She endured his ill-treatment nobly, and prayed daily for his conversion. After three years, the brutal husband died, and Philothea gave herself entirely to a life of prayer and fasting, living like a hermitess though still in her parents\u2019 house. When her parents died ten years later, she used her entire fortune to found a convent. Its design had been given her in a vision by the Apostle Andrew, and it was dedicated to him. Alongside the monastery, she founded a hospital, a hospice for the poor, and schools where boys and girls could receive a Christian education, something obviously not provided by the Turkish rulers.</p>\n<p>As soon as the monastery was begun, she took monastic vows under the name of Philothea, and she, her own maidservants, and many young women of the city, became the first nuns there. Philothea continued in her boundless compassion for the poor and infirm, whom she visited and tended. She was so free in her almsgiving that more than once the monastery was left without food or other necessities of life, and the sisters began to complain about her. But each time, large donations appeared unexpectedly and saved the community from starvation.</p>\n<p>Philothea offered asylum and refuge to Christian slave women who had fled their masters to preserve their faith and chastity. This angered the Turks, who surrounded the monastery, seized Philothea, and brought her before the judge. She was told to deny Christ or die, and when she refused was sentenced to death; but some influential Athenian Greeks were able to intervene on her behalf and to obtain her release.</p>\n<p>Immediately upon her release she redoubled her prayers, her apostolic labors and her works of mercy, and was soon granted the gift of working miracles and healings. So many disciples came to join her that she established a second monastery. Her growing influence aroused the hatred of some of the Turks, who broke into the monastery one night and beat her violently, leaving her half-dead. She bore the effects of her injuries patiently, and after a short time gave back her soul to God in 1589.</p>\n<p>Twenty years after her repose, a beautiful scent began to issue from her tomb. Her precious relics, venerated at the Cathedral in Athens, remain incorrupt to this day.</p>"
+      }
+    ],
+    "fasting": {
+      "description": "Fast",
+      "abstentions": [
+        "meat",
+        "fish",
+        "dairy",
+        "eggs",
+        "wine",
+        "oil"
+      ]
+    },
+    "readings": [
+      {
+        "display": "2 Peter 1.1-10",
+        "text": "Simon Peter, a servant and an apostle of Jesus Christ, to them that have obtained like precious faith with us through the righteousness of God and our Saviour Jesus Christ: Grace and peace be multiplied unto you through the knowledge of God, and of Jesus our Lord, According as his divine power hath given unto us all things that pertain unto life and godliness, through the knowledge of him that hath called us to glory and virtue: Whereby are given unto us exceeding great and precious promises: that by these ye might be partakers of the divine nature, having escaped the corruption that is in the world through lust. And beside this, giving all diligence, add to your faith virtue; and to virtue knowledge; And to knowledge temperance; and to temperance patience; and to patience godliness; And to godliness brotherly kindness; and to brotherly kindness charity. For if these things be in you, and abound, they make you that ye shall neither be barren nor unfruitful in the knowledge of our Lord Jesus Christ. But he that lacketh these things is blind, and cannot see afar off, and hath forgotten that he was purged from his old sins. Wherefore the rather, brethren, give diligence to make your calling and election sure: for if ye do these things, ye shall never fall:"
+      },
+      {
+        "display": "Mark 13.1-8",
+        "text": "And as he went out of the temple, one of his disciples saith unto him, Master, see what manner of stones and what buildings are here! And Jesus answering said unto him, Seest thou these great buildings? there shall not be left one stone upon another, that shall not be thrown down. And as he sat upon the mount of Olives over against the temple, Peter and James and John and Andrew asked him privately, Tell us, when shall these things be? and what shall be the sign when all these things shall be fulfilled? And Jesus answering them began to say, Take heed lest any man deceive you: For many shall come in my name, saying, I am Christ; and shall deceive many. And when ye shall hear of wars and rumours of wars, be ye not troubled: for such things must needs be; but the end shall not be yet. For nation shall rise against nation, and kingdom against kingdom: and there shall be earthquakes in divers places, and there shall be famines and troubles: these are the beginnings of sorrows."
+      }
+    ],
+    "service_texts": [],
+    "synaxarion": null,
+    "great_feast": null
+  },
+  "events": []
+}
