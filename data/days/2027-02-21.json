@@ -1,0 +1,37 @@
+{
+  "date": "2027-02-21",
+  "liturgical": {
+    "status": "ok",
+    "source": "antiochian",
+    "feasts": [
+      "Sunday of the Publican and Pharisee: Triodion Begins Today"
+    ],
+    "saints": [
+      "Sunday of the Publican and Pharisee: Triodion Begins Today",
+      "Timothy the Righteous",
+      "John Iii",
+      "Patriarch of Constantinople",
+      "Eustathius",
+      "Bishop of Antioch",
+      "Zachariah",
+      "Patriarch of Jerusalem"
+    ],
+    "summary_title": "Sunday of the Publican and Pharisee: Triodion Begins Today, Timothy the Righteous, John Iii, Patriarch of Constantinople, Eustathius, Bishop of Antioch, Zachariah, Patriarch of Jerusalem",
+    "stories": [],
+    "fasting": null,
+    "readings": [
+      {
+        "display": "St. Paul's Second Letter to Timothy 3:10-15",
+        "text": "TIMOTHY, my son, you have observed my teaching, my conduct, my aim in life, my faith, my patience, my love, my steadfastness, my persecutions, my sufferings, what befell me at Antioch, at lconion, and at Lystra, what persecutions I endured; yet from them all the Lord rescued me. Indeed all who desire to live a godly life in Christ Jesus will be persecuted, while evil men and impostors will go on from bad to worse, deceivers and deceived. But as for you, continue in what you have learned and have firmly believed, knowing from whom you learned it and how from childhood you have been acquainted with the sacred writings which are able to instruct you for salvation through faith in Christ Jesus."
+      },
+      {
+        "display": "Luke 18:10-14",
+        "text": "The Lord said this parable, \"Two men went up into the temple to pray, one a Pharisee and the other a tax collector. The Pharisee stood and prayed thus with himself, 'God, I thank you that I am not like other men, extortioners, unjust, adulterers, or even like this tax collector. I fast twice a week, I give tithes of all that I get.' But the tax collector, standing far off, would not even lift up his eyes to heaven, but beat his breast, saying, 'God, be merciful to me a sinner!' I tell you, this man went down to his house justified rather than the other; for everyone who exalts himself will be humbled, but he who humbles himself will be exalted.\""
+      }
+    ],
+    "service_texts": [],
+    "synaxarion": null,
+    "great_feast": null
+  },
+  "events": []
+}
