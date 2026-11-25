@@ -1,8 +1,7 @@
 {
-  "generated_at": "2026-11-24T15:02:11.778620-06:00",
-  "today": "2026-11-24",
+  "generated_at": "2026-11-25T14:24:56.811486-06:00",
+  "today": "2026-11-25",
   "available_dates": [
-    "2026-11-17",
     "2026-11-18",
     "2026-11-19",
     "2026-11-20",
@@ -99,30 +98,31 @@
     "2027-02-19",
     "2027-02-20",
     "2027-02-21",
-    "2027-02-22"
+    "2027-02-22",
+    "2027-02-23"
   ],
   "last_successful": {
-    "liturgical": "2026-11-24T15:02:11.778620-06:00",
-    "parish_events": "2026-11-24T15:02:11.778620-06:00",
-    "bulletin": "2026-11-24T15:02:11.778620-06:00",
-    "fasting_calendar": "2026-11-24T15:02:11.778620-06:00",
-    "prayer_list": "2026-11-24T15:02:11.778620-06:00"
+    "liturgical": "2026-11-25T14:24:56.811486-06:00",
+    "parish_events": "2026-11-25T14:24:56.811486-06:00",
+    "bulletin": "2026-11-25T14:24:56.811486-06:00",
+    "fasting_calendar": "2026-11-25T14:24:56.811486-06:00",
+    "prayer_list": "2026-11-25T14:24:56.811486-06:00"
   },
   "links": {
     "parish_calendar": "https://www.constantinehelen.com/calendar/",
-    "bulletin_pdf": "https://www.constantinehelen.com/wp-content/uploads/2026/11/SCH-BW-Bulletin-11-8-2026-5.pdf",
-    "bulletin_posted": "2026-11-06T14:42:09",
+    "bulletin_pdf": "https://www.constantinehelen.com/wp-content/uploads/2026/11/SCH-BW-Bulletin-11-29-2026-1.pdf",
+    "bulletin_posted": "2026-11-24T16:35:29",
     "fasting_calendar_pdf": "https://antiochianprodsa.blob.core.windows.net/liturgicalinstructions/2026%20Fasting%20Calendar.pdf"
   },
   "prayer_list": {
     "sick": [
-      "Najib",
       "Tamam",
       "Akram",
       "Benjamin",
       "Maram",
       "Thomas",
-      "Mary"
+      "Mary",
+      "Jordan"
     ],
     "military": [
       "Jack",
@@ -133,7 +133,8 @@
       "Ryan",
       "Spencer",
       "Jordan",
-      "Brett"
+      "Brett",
+      "Hailey"
     ],
     "catechumens": [
       "Charity",
@@ -186,7 +187,7 @@
       "Scout",
       "Haley"
     ],
-    "source_bulletin_url": "https://www.constantinehelen.com/wp-content/uploads/2026/11/SCH-BW-Bulletin-11-8-2026-5.pdf"
+    "source_bulletin_url": "https://www.constantinehelen.com/wp-content/uploads/2026/11/SCH-BW-Bulletin-11-29-2026-1.pdf"
   },
   "status": {
     "liturgical_ok": true,
